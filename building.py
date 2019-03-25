@@ -317,13 +317,6 @@ with onto:
     class Operations(Present): pass # SURGICAL
     class Dates(Present): pass
 
-################## relations
-'''
-with onto:
-    class trains(Trainer >> Pokemon): pass
-    class belongs_to(ObjectProperty):
-        domain = [Pokemon]
-        range = [Trainer]
-        inverse_property = trains
-'''  
+##################
+
 onto.save()
