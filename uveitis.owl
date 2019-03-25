@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="taxon_eye_inflamm.owl"
+         xmlns="taxon_eye_inflamm.owl#">
+
+<owl:Ontology rdf:about="taxon_eye_inflamm.owl"/>
+
+<owl:Class rdf:about="#Uveitis">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Signs_Symptoms">
+  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Infectious">
+  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Non_Infectious">
+  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Masquerade">
+  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Undifferentiated">
+  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bacterial">
+  <rdfs:subClassOf rdf:resource="#Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mycobacterium_Tuberculosis">
+  <rdfs:subClassOf rdf:resource="#Bacterial"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ocular_ONLY">
+  <rdfs:subClassOf rdf:resource="#Mycobacterium_Tuberculosis"/>
+  <rdfs:subClassOf rdf:resource="#Treponema_Pallidum"/>
+  <rdfs:subClassOf rdf:resource="#Bartonella_Henselae"/>
+  <rdfs:subClassOf rdf:resource="#Borrelia_Burgdorferi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#With_Extraocular_Involvement">
+  <rdfs:subClassOf rdf:resource="#Mycobacterium_Tuberculosis"/>
+  <rdfs:subClassOf rdf:resource="#Treponema_Pallidum"/>
+  <rdfs:subClassOf rdf:resource="#Bartonella_Henselae"/>
+  <rdfs:subClassOf rdf:resource="#Borrelia_Burgdorferi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Treponema_Pallidum">
+  <rdfs:subClassOf rdf:resource="#Bacterial"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Bartonella_Henselae">
+  <rdfs:subClassOf rdf:resource="#Bacterial"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Borrelia_Burgdorferi">
+  <rdfs:subClassOf rdf:resource="#Bacterial"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Bacterial">
+  <rdfs:subClassOf rdf:resource="#Bacterial"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Specify">
+  <rdfs:subClassOf rdf:resource="#Other_Bacterial"/>
+  <rdfs:subClassOf rdf:resource="#Other_Viral"/>
+  <rdfs:subClassOf rdf:resource="#Other_Fungal"/>
+  <rdfs:subClassOf rdf:resource="#Other_Parasitic"/>
+  <rdfs:subClassOf rdf:resource="#Other"/>
+  <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_No_Systemic_Disease"/>
+  <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_Systemic_Disease"/>
+  <rdfs:subClassOf rdf:resource="#Neoplastic"/>
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Viral">
+  <rdfs:subClassOf rdf:resource="#Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HSV1">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anterior_Uveitis">
+  <rdfs:subClassOf rdf:resource="#HSV1"/>
+  <rdfs:subClassOf rdf:resource="#HSV2"/>
+  <rdfs:subClassOf rdf:resource="#VZV"/>
+  <rdfs:subClassOf rdf:resource="#CMV"/>
+  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Keratouveitis">
+  <rdfs:subClassOf rdf:resource="#HSV1"/>
+  <rdfs:subClassOf rdf:resource="#HSV2"/>
+  <rdfs:subClassOf rdf:resource="#VZV"/>
+  <rdfs:subClassOf rdf:resource="#CMV"/>
+  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Acute_Retinal_Necrosis">
+  <rdfs:subClassOf rdf:resource="#HSV1"/>
+  <rdfs:subClassOf rdf:resource="#HSV2"/>
+  <rdfs:subClassOf rdf:resource="#VZV"/>
+  <rdfs:subClassOf rdf:resource="#CMV"/>
+  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Progressive_Outer">
+  <rdfs:subClassOf rdf:resource="#HSV1"/>
+  <rdfs:subClassOf rdf:resource="#HSV2"/>
+  <rdfs:subClassOf rdf:resource="#VZV"/>
+  <rdfs:subClassOf rdf:resource="#CMV"/>
+  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Retinal_Necrosis">
+  <rdfs:subClassOf rdf:resource="#HSV1"/>
+  <rdfs:subClassOf rdf:resource="#HSV2"/>
+  <rdfs:subClassOf rdf:resource="#VZV"/>
+  <rdfs:subClassOf rdf:resource="#CMV"/>
+  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HSV2">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#VZV">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CMV">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Viral_Syndrome_UNDIFFERENTIATED">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Viral">
+  <rdfs:subClassOf rdf:resource="#Viral"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fungal">
+  <rdfs:subClassOf rdf:resource="#Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Candida_sp">
+  <rdfs:subClassOf rdf:resource="#Fungal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Aspergillus_sp">
+  <rdfs:subClassOf rdf:resource="#Fungal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Fungal">
+  <rdfs:subClassOf rdf:resource="#Fungal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Parasitic">
+  <rdfs:subClassOf rdf:resource="#Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Toxoplasma_Gondil">
+  <rdfs:subClassOf rdf:resource="#Parasitic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Toxoplasma_Canis">
+  <rdfs:subClassOf rdf:resource="#Parasitic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Onchocerca_Volvulus">
+  <rdfs:subClassOf rdf:resource="#Parasitic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Diffuse_Unilateral_Subacute_Necrosis">
+  <rdfs:subClassOf rdf:resource="#Parasitic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Parasitic">
+  <rdfs:subClassOf rdf:resource="#Parasitic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other">
+  <rdfs:subClassOf rdf:resource="#Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#No_Systemic_Disease">
+  <rdfs:subClassOf rdf:resource="#Non_Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Acute_OR_Recurrant_Anterior_Uveitis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLA_B27_positive">
+  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLA_B27_negative">
+  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLA_B27_unknown">
+  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chronic_Anterior_Uveitis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fuchs_Uveitis_Syndrome">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Intermediate_Uveitis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pars_Planitis">
+  <rdfs:subClassOf rdf:resource="#Intermediate_Uveitis"/>
+  <rdfs:subClassOf rdf:resource="#Vitreous"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Non_Pars_Planitis">
+  <rdfs:subClassOf rdf:resource="#Intermediate_Uveitis"/>
+  <rdfs:subClassOf rdf:resource="#Vitreous"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Acute_Posterior_Multifocal_Placoid_Pigment_Epitheliopathy">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Multiple_Evanescent_White_Dot_Syndrome">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Multifocal_Choroiditis_WITH_Panuveitis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Punctate_Inner_Choroidopathy">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ampiginous_Choroiditis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Birdshot_Chorioretinopathy">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Serpiginous_Choroiditis">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Non_Infectious_AND_No_Systemic_Disease">
+  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Systemic">
+  <rdfs:subClassOf rdf:resource="#Non_Infectious"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ankylosing_Spondylitis">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sarcoidosis">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Multiple_Sclerosis">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Behcet_Disease">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sympathetic_Ophthalmia">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vogt_Koyanagi_Harada_Disease">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tubulointerstitial_Nephritis_AND_Uveitis">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Juvenile_Idiopathic_Arthritis">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Non_Infectious_AND_Systemic_Disease">
+  <rdfs:subClassOf rdf:resource="#Systemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Neoplastic">
+  <rdfs:subClassOf rdf:resource="#Masquerade"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Non_Neoplastic">
+  <rdfs:subClassOf rdf:resource="#Masquerade"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Location">
+  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anterior">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anterior_Chamber">
+  <rdfs:subClassOf rdf:resource="#Anterior"/>
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Immediate">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vitreous">
+  <rdfs:subClassOf rdf:resource="#Immediate"/>
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Posterior">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Choroid_OR_Retina">
+  <rdfs:subClassOf rdf:resource="#Posterior"/>
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Choroiditis">
+  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chorioretinitis">
+  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Retinochoroiditis">
+  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Retinitis">
+  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Neuroretinitis">
+  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Panuveitis">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Complications">
+  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cataract">
+  <rdfs:subClassOf rdf:resource="#Complications"/>
+  <rdfs:subClassOf rdf:resource="#Surgical"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Present">
+  <rdfs:subClassOf rdf:resource="#Cataract"/>
+  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
+  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
+  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
+  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
+  <rdfs:subClassOf rdf:resource="#Topical_Corticosteroid_Therapy"/>
+  <rdfs:subClassOf rdf:resource="#Local_Therapy_within_last2yrs"/>
+  <rdfs:subClassOf rdf:resource="#Oral_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Intravenous_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Intramuscular_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Other_Immunosuppressant"/>
+  <rdfs:subClassOf rdf:resource="#Glaucoma"/>
+  <rdfs:subClassOf rdf:resource="#Vitreo_Retinal"/>
+  <rdfs:subClassOf rdf:resource="#Other_Ocular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Previous">
+  <rdfs:subClassOf rdf:resource="#Cataract"/>
+  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
+  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
+  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
+  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Absent">
+  <rdfs:subClassOf rdf:resource="#Cataract"/>
+  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
+  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
+  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
+  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
+  <rdfs:subClassOf rdf:resource="#Topical_Corticosteroid_Therapy"/>
+  <rdfs:subClassOf rdf:resource="#Local_Therapy_within_last2yrs"/>
+  <rdfs:subClassOf rdf:resource="#Oral_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Intravenous_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Intramuscular_Corticosteroid"/>
+  <rdfs:subClassOf rdf:resource="#Other_Immunosuppressant"/>
+  <rdfs:subClassOf rdf:resource="#Glaucoma"/>
+  <rdfs:subClassOf rdf:resource="#Vitreo_Retinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Glaucoma_OR_OHT">
+  <rdfs:subClassOf rdf:resource="#Complications"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Macular_Oedema">
+  <rdfs:subClassOf rdf:resource="#Complications"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Epiretinal_Membrane">
+  <rdfs:subClassOf rdf:resource="#Complications"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Visual_Significant_Complication">
+  <rdfs:subClassOf rdf:resource="#Complications"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Visually_Significant">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Visually_Insignificant">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Therapy">
+  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Each_Eye">
+  <rdfs:subClassOf rdf:resource="#Therapy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Topical_Corticosteroid_Therapy">
+  <rdfs:subClassOf rdf:resource="#Each_Eye"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Local_Therapy_within_last2yrs">
+  <rdfs:subClassOf rdf:resource="#Each_Eye"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Patient">
+  <rdfs:subClassOf rdf:resource="#Therapy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Oral_Corticosteroid">
+  <rdfs:subClassOf rdf:resource="#Patient"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Intravenous_Corticosteroid">
+  <rdfs:subClassOf rdf:resource="#Patient"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Intramuscular_Corticosteroid">
+  <rdfs:subClassOf rdf:resource="#Patient"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Immunosuppressant">
+  <rdfs:subClassOf rdf:resource="#Patient"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dose">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Frequency">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Surgical">
+  <rdfs:subClassOf rdf:resource="#Therapy"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Glaucoma">
+  <rdfs:subClassOf rdf:resource="#Surgical"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vitreo_Retinal">
+  <rdfs:subClassOf rdf:resource="#Surgical"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Other_Ocular">
+  <rdfs:subClassOf rdf:resource="#Surgical"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Operations">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dates">
+  <rdfs:subClassOf rdf:resource="#Present"/>
+</owl:Class>
+
+
+</rdf:RDF>
