@@ -7,20 +7,23 @@ Created on Tue Jan 29 16:21:04 2019
 from owlready2 import *
 import owlready2
 
-#onto_path.append(DIRECTORY HERE) # uncomment when first load, then comment again
+#directory = input("Paste directory:\t") 
+#onto_path.append(directory) # uncomment when first load, then comment again
+
+
 onto = get_ontology("uveitis.owl")
 onto.load()
 
 ################## CLASSES
-with onto:
-    class Uveitis(Thing): pass
+#with onto:
+#    class Uveitis(Thing): pass
 
 ##################
 ##################
 ##################
 
 with onto:
-    class Signs_Symptoms(Uveitis): pass
+    class Signs_Symptoms(Thing): pass
     class Infectious(Signs_Symptoms): pass
     class Non_Infectious(Signs_Symptoms): pass
     class Masquerade(Signs_Symptoms): pass
@@ -188,7 +191,7 @@ with onto:
 ##################
 
 with onto:
-    class Location(Uveitis): pass
+    class Location(Thing): pass
 with onto:
     class Anterior(Location): pass
     class Anterior_Chamber(Anterior): pass
@@ -220,36 +223,26 @@ with onto:
 ##################
 
 with onto:
-    class Complications(Uveitis): pass
+    class Complications(Thing): pass
 with onto:
     class Cataract(Complications): pass
-    class Present(Cataract): pass
-    class Previous(Cataract): pass
-    class Absent(Cataract): pass
+    class Status(Cataract): pass
 with onto:
     class Glaucoma_OR_OHT(Complications): pass
-    class Present(Glaucoma_OR_OHT): pass
-    class Previous(Glaucoma_OR_OHT): pass
-    class Absent(Glaucoma_OR_OHT): pass
+    class Status(Glaucoma_OR_OHT): pass
 with onto:
     class Macular_Oedema(Complications): pass
-    class Present(Macular_Oedema): pass
-    class Previous(Macular_Oedema): pass
-    class Absent(Macular_Oedema): pass
+    class Status(Macular_Oedema): pass
 with onto:
     class Epiretinal_Membrane(Complications): pass
-    class Present(Epiretinal_Membrane): pass
-    class Previous(Epiretinal_Membrane): pass
-    class Absent(Epiretinal_Membrane): pass
+    class Status(Epiretinal_Membrane): pass
 with onto:
     class Other_Visual_Significant_Complication(Complications): pass
-    class Present(Other_Visual_Significant_Complication): pass
-    class Previous(Other_Visual_Significant_Complication): pass
-    class Absent(Other_Visual_Significant_Complication): pass
+    class Status(Other_Visual_Significant_Complication): pass
 
 with onto:
-    class Visually_Significant(Present): pass
-    class Visually_Insignificant(Present): pass
+    class Visually_Significant(Status): pass
+    class Visually_Insignificant(Status): pass
 
 ##################
 ##################
@@ -260,62 +253,53 @@ with onto:
 ##################
 
 with onto:
-    class Therapy(Uveitis): pass
+    class Therapy(Thing): pass
 with onto:
     class Each_Eye(Therapy): pass
 with onto:
     class Topical_Corticosteroid_Therapy(Each_Eye): pass
-    class Present(Topical_Corticosteroid_Therapy): pass
-    class Absent(Topical_Corticosteroid_Therapy): pass
+    class Status(Topical_Corticosteroid_Therapy): pass
 with onto:
     class Local_Therapy_within_last2yrs(Each_Eye): pass
-    class Present(Local_Therapy_within_last2yrs): pass
-    class Absent(Local_Therapy_within_last2yrs): pass
+    class Status(Local_Therapy_within_last2yrs): pass
 ############
 with onto:
     class Patient(Therapy): pass
 with onto:
     class Oral_Corticosteroid(Patient): pass
-    class Present(Oral_Corticosteroid): pass
-    class Absent(Oral_Corticosteroid): pass
+    class Status(Oral_Corticosteroid): pass
 with onto:
     class Intravenous_Corticosteroid(Patient): pass
-    class Present(Intravenous_Corticosteroid): pass
-    class Absent(Intravenous_Corticosteroid): pass
+    class Status(Intravenous_Corticosteroid): pass
 with onto:
     class Intramuscular_Corticosteroid(Patient): pass
-    class Present(Intramuscular_Corticosteroid): pass
-    class Absent(Intramuscular_Corticosteroid): pass
+    class Status(Intramuscular_Corticosteroid): pass
 with onto:
     class Other_Immunosuppressant(Patient): pass
-    class Present(Other_Immunosuppressant): pass
-    class Absent(Other_Immunosuppressant): pass
+    class Status(Other_Immunosuppressant): pass
 ############
 with onto:
     class Surgical(Therapy): pass
 with onto:
     class Cataract(Surgical): pass
-    class Present(Cataract): pass
-    class Absent(Cataract): pass
+    class Status(Cataract): pass
 with onto:
     class Glaucoma(Surgical): pass
-    class Present(Glaucoma): pass
-    class Absent(Glaucoma): pass
+    class Status(Glaucoma): pass
 with onto:
     class Vitreo_Retinal(Surgical): pass
-    class Present(Vitreo_Retinal): pass
-    class Absent(Vitreo_Retinal): pass
+    class Status(Vitreo_Retinal): pass
 with onto: 
     class Other_Ocular(Surgical): pass
-    class Present(Other_Ocular): pass
+    class Status(Other_Ocular): pass
 
 ############
 with onto:
-    class Specify(Present): pass
-    class Dose(Present): pass
-    class Frequency(Present): pass
-    class Operations(Present): pass # SURGICAL
-    class Dates(Present): pass
+    class Specify(Status): pass
+    class Dose(Status): pass
+    class Frequency(Status): pass
+    class Operations(Status): pass # SURGICAL
+    class Dates(Status): pass
 
 ##################
 

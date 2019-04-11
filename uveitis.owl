@@ -3,17 +3,13 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="taxon_eye_inflamm.owl"
-         xmlns="taxon_eye_inflamm.owl#">
+         xml:base="uveitis.owl"
+         xmlns="uveitis.owl#">
 
-<owl:Ontology rdf:about="taxon_eye_inflamm.owl"/>
-
-<owl:Class rdf:about="#Uveitis">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
+<owl:Ontology rdf:about="uveitis.owl"/>
 
 <owl:Class rdf:about="#Signs_Symptoms">
-  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Infectious">
@@ -79,7 +75,7 @@
   <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_No_Systemic_Disease"/>
   <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_Systemic_Disease"/>
   <rdfs:subClassOf rdf:resource="#Neoplastic"/>
-  <rdfs:subClassOf rdf:resource="#Present"/>
+  <rdfs:subClassOf rdf:resource="#Status"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Viral">
@@ -317,7 +313,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Location">
-  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Anterior">
@@ -372,7 +368,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Complications">
-  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Cataract">
@@ -380,7 +376,7 @@
   <rdfs:subClassOf rdf:resource="#Surgical"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Present">
+<owl:Class rdf:about="#Status">
   <rdfs:subClassOf rdf:resource="#Cataract"/>
   <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
   <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
@@ -395,30 +391,6 @@
   <rdfs:subClassOf rdf:resource="#Glaucoma"/>
   <rdfs:subClassOf rdf:resource="#Vitreo_Retinal"/>
   <rdfs:subClassOf rdf:resource="#Other_Ocular"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Previous">
-  <rdfs:subClassOf rdf:resource="#Cataract"/>
-  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
-  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
-  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
-  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Absent">
-  <rdfs:subClassOf rdf:resource="#Cataract"/>
-  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
-  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
-  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
-  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
-  <rdfs:subClassOf rdf:resource="#Topical_Corticosteroid_Therapy"/>
-  <rdfs:subClassOf rdf:resource="#Local_Therapy_within_last2yrs"/>
-  <rdfs:subClassOf rdf:resource="#Oral_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Intravenous_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Intramuscular_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Other_Immunosuppressant"/>
-  <rdfs:subClassOf rdf:resource="#Glaucoma"/>
-  <rdfs:subClassOf rdf:resource="#Vitreo_Retinal"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Glaucoma_OR_OHT">
@@ -438,15 +410,15 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Visually_Significant">
-  <rdfs:subClassOf rdf:resource="#Present"/>
+  <rdfs:subClassOf rdf:resource="#Status"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Visually_Insignificant">
-  <rdfs:subClassOf rdf:resource="#Present"/>
+  <rdfs:subClassOf rdf:resource="#Status"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Therapy">
-  <rdfs:subClassOf rdf:resource="#Uveitis"/>
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Each_Eye">
@@ -481,14 +453,6 @@
   <rdfs:subClassOf rdf:resource="#Patient"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Dose">
-  <rdfs:subClassOf rdf:resource="#Present"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Frequency">
-  <rdfs:subClassOf rdf:resource="#Present"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Surgical">
   <rdfs:subClassOf rdf:resource="#Therapy"/>
 </owl:Class>
@@ -505,12 +469,20 @@
   <rdfs:subClassOf rdf:resource="#Surgical"/>
 </owl:Class>
 
+<owl:Class rdf:about="#Dose">
+  <rdfs:subClassOf rdf:resource="#Status"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Frequency">
+  <rdfs:subClassOf rdf:resource="#Status"/>
+</owl:Class>
+
 <owl:Class rdf:about="#Operations">
-  <rdfs:subClassOf rdf:resource="#Present"/>
+  <rdfs:subClassOf rdf:resource="#Status"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Dates">
-  <rdfs:subClassOf rdf:resource="#Present"/>
+  <rdfs:subClassOf rdf:resource="#Status"/>
 </owl:Class>
 
 
