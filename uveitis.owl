@@ -224,6 +224,7 @@
 
 <owl:Class rdf:about="#Pars_Planitis">
   <rdfs:subClassOf rdf:resource="#Intermediate_Uveitis"/>
+  <rdfs:subClassOf rdf:resource="#Chorioretinitis"/>
   <rdfs:subClassOf rdf:resource="#Vitreous"/>
 </owl:Class>
 
@@ -254,6 +255,7 @@
 
 <owl:Class rdf:about="#Birdshot_Chorioretinopathy">
   <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
+  <rdfs:subClassOf rdf:resource="#Posterior_Chamber"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Serpiginous_Choroiditis">
@@ -320,9 +322,54 @@
   <rdfs:subClassOf rdf:resource="#Location"/>
 </owl:Class>
 
+<owl:Class rdf:about="#Acute_Anterior">
+  <rdfs:subClassOf rdf:resource="#Anterior"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Idiopathic">
+  <rdfs:subClassOf rdf:resource="#Anterior"/>
+</owl:Class>
+
 <owl:Class rdf:about="#Anterior_Chamber">
   <rdfs:subClassOf rdf:resource="#Anterior"/>
   <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Iridocyclitis">
+  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chronic_Iridocyclitis">
+  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Lens_Induced">
+  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Glaucomatocyclitic">
+  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Infectious_Iridocyclitis">
+  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Gonococcal_Iridocyclitis">
+  <rdfs:subClassOf rdf:resource="#Infectious_Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hypopyon">
+  <rdfs:subClassOf rdf:resource="#Infectious_Iridocyclitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hypopyon_Ulcer">
+  <rdfs:subClassOf rdf:resource="#Hypopyon"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Chorioretinitis">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+  <rdfs:subClassOf rdf:resource="#Choroiditis"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Immediate">
@@ -338,32 +385,68 @@
   <rdfs:subClassOf rdf:resource="#Location"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Choroid_OR_Retina">
-  <rdfs:subClassOf rdf:resource="#Posterior"/>
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Choroiditis">
-  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Chorioretinitis">
-  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Retinochoroiditis">
-  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+  <rdfs:subClassOf rdf:resource="#Posterior"/>
+  <rdfs:subClassOf rdf:resource="#Posterior_Chamber"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Retinitis">
-  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+  <rdfs:subClassOf rdf:resource="#Posterior"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Retinochoroiditis">
+  <rdfs:subClassOf rdf:resource="#Retinitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Optic_Papillitis">
+  <rdfs:subClassOf rdf:resource="#Retinitis"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Neuroretinitis">
-  <rdfs:subClassOf rdf:resource="#Choroid_OR_Retina"/>
+  <rdfs:subClassOf rdf:resource="#Optic_Papillitis"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Panuveitis">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Behcet_Syndrome">
+  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Iritis">
+  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Posterior_Chamber">
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pars_Plantis">
+  <rdfs:subClassOf rdf:resource="#Choroiditis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Choroid_OR_Retina">
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ophthalmia_Sympathetic">
+  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Suppurative">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Panophthalmitis">
+  <rdfs:subClassOf rdf:resource="#Suppurative"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Uveomeningoencephalitic_Syndrome">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Nongranulomatous">
   <rdfs:subClassOf rdf:resource="#Location"/>
 </owl:Class>
 

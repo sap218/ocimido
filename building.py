@@ -7,9 +7,11 @@ Created on Tue Jan 29 16:21:04 2019
 from owlready2 import *
 import owlready2
 
-#directory = input("Paste directory:\t") 
-#onto_path.append(directory) # uncomment when first load, then comment again
-
+option = input("Do you need to load in path?\t(y/n)\t")
+if option == "y":
+    directory = input("Paste directory:\t") 
+    onto_path.append(directory) # uncomment when first load, then comment again
+    pass
 
 onto = get_ontology("uveitis.owl")
 onto.load()
@@ -194,7 +196,20 @@ with onto:
     class Location(Thing): pass
 with onto:
     class Anterior(Location): pass
+    class Acute_Anterior(Anterior): pass
+    class Idiopathic(Anterior): pass
     class Anterior_Chamber(Anterior): pass
+    class Iridocyclitis(Anterior_Chamber): pass
+    class Chronic_Iridocyclitis(Iridocyclitis): pass
+    class Lens_Induced(Iridocyclitis): pass
+    class Glaucomatocyclitic(Iridocyclitis): pass
+    class Infectious_Iridocyclitis(Iridocyclitis): pass
+    class Gonococcal_Iridocyclitis(Infectious_Iridocyclitis): pass
+    class Hypopyon(Infectious_Iridocyclitis): pass
+    class Hypopyon_Ulcer(Hypopyon): pass
+with onto:
+    class Chorioretinitis(Location): pass
+    class Pars_Planitis(Chorioretinitis): pass
 with onto:
     class Immediate(Location): pass
     class Vitreous(Immediate): pass
@@ -202,17 +217,40 @@ with onto:
     class Non_Pars_Planitis(Vitreous): pass
 with onto:
     class Posterior(Location): pass
-    class Choroid_OR_Retina(Posterior): pass
-    class Choroiditis(Choroid_OR_Retina): pass
-    class Chorioretinitis(Choroid_OR_Retina): pass
-    class Retinochoroiditis(Choroid_OR_Retina): pass
-    class Retinitis(Choroid_OR_Retina): pass
-    class Neuroretinitis(Choroid_OR_Retina): pass
+
+    class Choroiditis(Posterior): pass
+    class Chorioretinitis(Choroiditis): pass
+
+    class Retinitis(Posterior): pass
+    class Retinochoroiditis(Retinitis): pass
+    class Optic_Papillitis(Retinitis): pass
+    class Neuroretinitis(Optic_Papillitis): pass
 with onto:
     class Panuveitis(Location): pass
     class Anterior_Chamber(Panuveitis): pass
+    class Iridocyclitis(Anterior_Chamber): pass
+    class Lens_Induced(Iridocyclitis): pass
+    class Glaucomatocyclitic(Iridocyclitis): pass
+    class Infectious_Iridocyclitis(Iridocyclitis): pass
+    class Gonococcal_Iridocyclitis(Infectious_Iridocyclitis): pass
+    class Hypopyon(Infectious_Iridocyclitis): pass
+    class Hypopyon_Ulcer(Hypopyon): pass
+    class Behcet_Syndrome(Anterior_Chamber): pass
+    class Iritis(Anterior_Chamber): pass
+    class Posterior_Chamber(Panuveitis): pass
+    class Birdshot_Chorioretinopathy(Posterior_Chamber): pass
+    class Choroiditis(Posterior_Chamber): pass
+    class Chorioretinitis(Choroiditis): pass
+    class Pars_Plantis(Choroiditis): pass
     class Vitreous(Panuveitis): pass
     class Choroid_OR_Retina(Panuveitis): pass
+    class Ophthalmia_Sympathetic(Panuveitis): pass
+with onto:
+    class Suppurative(Location): pass
+    class Panophthalmitis(Suppurative): pass
+with onto:
+    class Uveomeningoencephalitic_Syndrome(Location): pass
+    class Nongranulomatous(Location): pass
 
 ##################
 ##################
