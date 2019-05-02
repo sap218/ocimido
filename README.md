@@ -1,18 +1,19 @@
-# Uveitis Ontology
+# Uveitis
+
+**Components**
+* text forum mining
+* ontology
 
 **GitClone**
 
 `$ git clone https://github.com/sap218/uveitis.git`
 
 **Set Up**
-```
-from owlready2 import *
-import owlready2
-```
 
-## Thanks :eyes:
+`$ pip3 install owlready2`
+
+## Thanks :pill:
 
 ###### Todo List
-- [x] Basics set-up
-- [ ] Have checked
+- [ ] Basics set-up
 - [ ] Axioms/relationships
