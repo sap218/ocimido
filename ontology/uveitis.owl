@@ -1,572 +1,641 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="uveitis.owl"
-         xmlns="uveitis.owl#">
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"
+     versionIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
+    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Uveitis Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ACE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anatomical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anterior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AqueousHumour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CTThorax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CXR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cataract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CataractSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalSyndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CurrentStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrugAdverseAffects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpiretinalMembrane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GenotypicData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlaucomaOROcularHypertension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlaucomaSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLA-A29"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLA-B27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLA-B51"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLA-DR4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InflammationActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterferonGammaReleaseAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intermediate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntramuscularCorticosteriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntravenousCorticosteriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investigations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MRIBrain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MacularOedema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mantoux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masquerade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neoplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoSystemticDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonInfectious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonNeoplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OralCorticosteriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherImmunosuppressant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherInvestigations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherOcularSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherRelevantInvestigations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherRelevantTherapies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTopical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panuveitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parasitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posterior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerialAssessments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SyphilisSerology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemticDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TherapeuticInterventions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopicalCorticosteriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undifferentiated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisualAcuity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitreoRetinalSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitreousHumour"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ACE"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Active"/>
+        <Class IRI="#InflammationActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acute"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anatomical"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anterior"/>
+        <Class IRI="#Anatomical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AqueousHumour"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacterial"/>
+        <Class IRI="#Infectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CTThorax"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CXR"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cataract"/>
+        <Class IRI="#Complications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CataractSurgery"/>
+        <Class IRI="#SurgicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class IRI="#Classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrugAdverseAffects"/>
+        <Class IRI="#TherapeuticInterventions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EpiretinalMembrane"/>
+        <Class IRI="#Complications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungal"/>
+        <Class IRI="#Infectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GenotypicData"/>
+        <Class IRI="#Investigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlaucomaOROcularHypertension"/>
+        <Class IRI="#Complications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlaucomaSurgery"/>
+        <Class IRI="#SurgicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLA-A29"/>
+        <Class IRI="#GenotypicData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLA-B27"/>
+        <Class IRI="#GenotypicData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLA-B51"/>
+        <Class IRI="#GenotypicData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLA-DR4"/>
+        <Class IRI="#GenotypicData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infectious"/>
+        <Class IRI="#ClinicalSyndrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InflammationActivity"/>
+        <Class IRI="#CurrentStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterferonGammaReleaseAssay"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intermediate"/>
+        <Class IRI="#Anatomical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntramuscularCorticosteriod"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntravenousCorticosteriod"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalTherapy"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MRIBrain"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MacularOedema"/>
+        <Class IRI="#Complications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mantoux"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masquerade"/>
+        <Class IRI="#ClinicalSyndrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#TherapeuticInterventions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#HLA-A29"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#HLA-B27"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#HLA-B51"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#HLA-DR4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neoplastic"/>
+        <Class IRI="#Masquerade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoSystemticDisease"/>
+        <Class IRI="#NonInfectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonInfectious"/>
+        <Class IRI="#ClinicalSyndrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonNeoplastic"/>
+        <Class IRI="#Masquerade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OralCorticosteriod"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherImmunosuppressant"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#Investigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherOcularSurgery"/>
+        <Class IRI="#SurgicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherRelevantInvestigations"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherRelevantTherapies"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTopical"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panuveitis"/>
+        <Class IRI="#Anatomical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parasitic"/>
+        <Class IRI="#Infectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#HLA-A29"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#HLA-B27"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#HLA-B51"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#HLA-DR4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posterior"/>
+        <Class IRI="#Anatomical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#CurrentStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiescent"/>
+        <Class IRI="#InflammationActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrent"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SerialAssessments"/>
+        <Class IRI="#Investigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#Cataract"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#EpiretinalMembrane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#GlaucomaOROcularHypertension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#MacularOedema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#TherapeuticInterventions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SyphilisSerology"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemticDisease"/>
+        <Class IRI="#NonInfectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopicalCorticosteriod"/>
+        <Class IRI="#MedicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undifferentiated"/>
+        <Class IRI="#ClinicalSyndrome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viral"/>
+        <Class IRI="#Infectious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisualAcuity"/>
+        <Class IRI="#CurrentStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VitreoRetinalSurgery"/>
+        <Class IRI="#SurgicalTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VitreousHumour"/>
+        <Class IRI="#OtherInvestigations"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ACE"/>
+        <Class IRI="#AqueousHumour"/>
+        <Class IRI="#CTThorax"/>
+        <Class IRI="#CXR"/>
+        <Class IRI="#InterferonGammaReleaseAssay"/>
+        <Class IRI="#MRIBrain"/>
+        <Class IRI="#Mantoux"/>
+        <Class IRI="#OtherRelevantInvestigations"/>
+        <Class IRI="#SyphilisSerology"/>
+        <Class IRI="#VitreousHumour"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Active"/>
+        <Class IRI="#Quiescent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Acute"/>
+        <Class IRI="#Chronic"/>
+        <Class IRI="#Recurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anatomical"/>
+        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#Course"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anterior"/>
+        <Class IRI="#Intermediate"/>
+        <Class IRI="#Panuveitis"/>
+        <Class IRI="#Posterior"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bacterial"/>
+        <Class IRI="#Fungal"/>
+        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#Parasitic"/>
+        <Class IRI="#Viral"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cataract"/>
+        <Class IRI="#EpiretinalMembrane"/>
+        <Class IRI="#GlaucomaOROcularHypertension"/>
+        <Class IRI="#MacularOedema"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CataractSurgery"/>
+        <Class IRI="#GlaucomaSurgery"/>
+        <Class IRI="#OtherOcularSurgery"/>
+        <Class IRI="#VitreoRetinalSurgery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Complications"/>
+        <Class IRI="#CurrentStatus"/>
+        <Class IRI="#Investigations"/>
+        <Class IRI="#TherapeuticInterventions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DrugAdverseAffects"/>
+        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#SurgicalTherapy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GenotypicData"/>
+        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#SerialAssessments"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HLA-A29"/>
+        <Class IRI="#HLA-B27"/>
+        <Class IRI="#HLA-B51"/>
+        <Class IRI="#HLA-DR4"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Infectious"/>
+        <Class IRI="#Masquerade"/>
+        <Class IRI="#NonInfectious"/>
+        <Class IRI="#Undifferentiated"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#InflammationActivity"/>
+        <Class IRI="#Pressure"/>
+        <Class IRI="#VisualAcuity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IntramuscularCorticosteriod"/>
+        <Class IRI="#IntravenousCorticosteriod"/>
+        <Class IRI="#LocalTherapy"/>
+        <Class IRI="#OralCorticosteriod"/>
+        <Class IRI="#OtherImmunosuppressant"/>
+        <Class IRI="#OtherRelevantTherapies"/>
+        <Class IRI="#OtherTopical"/>
+        <Class IRI="#TopicalCorticosteriod"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Neoplastic"/>
+        <Class IRI="#NonNeoplastic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NoSystemticDisease"/>
+        <Class IRI="#SystemticDisease"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
 
-<owl:Ontology rdf:about="uveitis.owl"/>
-
-<owl:Class rdf:about="#Signs_Symptoms">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Infectious">
-  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Non_Infectious">
-  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Masquerade">
-  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Undifferentiated">
-  <rdfs:subClassOf rdf:resource="#Signs_Symptoms"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Bacterial">
-  <rdfs:subClassOf rdf:resource="#Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Mycobacterium_Tuberculosis">
-  <rdfs:subClassOf rdf:resource="#Bacterial"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ocular_ONLY">
-  <rdfs:subClassOf rdf:resource="#Mycobacterium_Tuberculosis"/>
-  <rdfs:subClassOf rdf:resource="#Treponema_Pallidum"/>
-  <rdfs:subClassOf rdf:resource="#Bartonella_Henselae"/>
-  <rdfs:subClassOf rdf:resource="#Borrelia_Burgdorferi"/>
-</owl:Class>
-
-<owl:Class rdf:about="#With_Extraocular_Involvement">
-  <rdfs:subClassOf rdf:resource="#Mycobacterium_Tuberculosis"/>
-  <rdfs:subClassOf rdf:resource="#Treponema_Pallidum"/>
-  <rdfs:subClassOf rdf:resource="#Bartonella_Henselae"/>
-  <rdfs:subClassOf rdf:resource="#Borrelia_Burgdorferi"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Treponema_Pallidum">
-  <rdfs:subClassOf rdf:resource="#Bacterial"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Bartonella_Henselae">
-  <rdfs:subClassOf rdf:resource="#Bacterial"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Borrelia_Burgdorferi">
-  <rdfs:subClassOf rdf:resource="#Bacterial"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Bacterial">
-  <rdfs:subClassOf rdf:resource="#Bacterial"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Specify">
-  <rdfs:subClassOf rdf:resource="#Other_Bacterial"/>
-  <rdfs:subClassOf rdf:resource="#Other_Viral"/>
-  <rdfs:subClassOf rdf:resource="#Other_Fungal"/>
-  <rdfs:subClassOf rdf:resource="#Other_Parasitic"/>
-  <rdfs:subClassOf rdf:resource="#Other"/>
-  <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_No_Systemic_Disease"/>
-  <rdfs:subClassOf rdf:resource="#Other_Non_Infectious_AND_Systemic_Disease"/>
-  <rdfs:subClassOf rdf:resource="#Neoplastic"/>
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Viral">
-  <rdfs:subClassOf rdf:resource="#Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#HSV1">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Anterior_Uveitis">
-  <rdfs:subClassOf rdf:resource="#HSV1"/>
-  <rdfs:subClassOf rdf:resource="#HSV2"/>
-  <rdfs:subClassOf rdf:resource="#VZV"/>
-  <rdfs:subClassOf rdf:resource="#CMV"/>
-  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Keratouveitis">
-  <rdfs:subClassOf rdf:resource="#HSV1"/>
-  <rdfs:subClassOf rdf:resource="#HSV2"/>
-  <rdfs:subClassOf rdf:resource="#VZV"/>
-  <rdfs:subClassOf rdf:resource="#CMV"/>
-  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Acute_Retinal_Necrosis">
-  <rdfs:subClassOf rdf:resource="#HSV1"/>
-  <rdfs:subClassOf rdf:resource="#HSV2"/>
-  <rdfs:subClassOf rdf:resource="#VZV"/>
-  <rdfs:subClassOf rdf:resource="#CMV"/>
-  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Progressive_Outer">
-  <rdfs:subClassOf rdf:resource="#HSV1"/>
-  <rdfs:subClassOf rdf:resource="#HSV2"/>
-  <rdfs:subClassOf rdf:resource="#VZV"/>
-  <rdfs:subClassOf rdf:resource="#CMV"/>
-  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Retinal_Necrosis">
-  <rdfs:subClassOf rdf:resource="#HSV1"/>
-  <rdfs:subClassOf rdf:resource="#HSV2"/>
-  <rdfs:subClassOf rdf:resource="#VZV"/>
-  <rdfs:subClassOf rdf:resource="#CMV"/>
-  <rdfs:subClassOf rdf:resource="#Viral_Syndrome_UNDIFFERENTIATED"/>
-</owl:Class>
-
-<owl:Class rdf:about="#HSV2">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#VZV">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#CMV">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Viral_Syndrome_UNDIFFERENTIATED">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Viral">
-  <rdfs:subClassOf rdf:resource="#Viral"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Fungal">
-  <rdfs:subClassOf rdf:resource="#Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Candida_sp">
-  <rdfs:subClassOf rdf:resource="#Fungal"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Aspergillus_sp">
-  <rdfs:subClassOf rdf:resource="#Fungal"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Fungal">
-  <rdfs:subClassOf rdf:resource="#Fungal"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Parasitic">
-  <rdfs:subClassOf rdf:resource="#Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Toxoplasma_Gondil">
-  <rdfs:subClassOf rdf:resource="#Parasitic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Toxoplasma_Canis">
-  <rdfs:subClassOf rdf:resource="#Parasitic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Onchocerca_Volvulus">
-  <rdfs:subClassOf rdf:resource="#Parasitic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Diffuse_Unilateral_Subacute_Necrosis">
-  <rdfs:subClassOf rdf:resource="#Parasitic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Parasitic">
-  <rdfs:subClassOf rdf:resource="#Parasitic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other">
-  <rdfs:subClassOf rdf:resource="#Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#No_Systemic_Disease">
-  <rdfs:subClassOf rdf:resource="#Non_Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Acute_OR_Recurrant_Anterior_Uveitis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#HLA_B27_positive">
-  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#HLA_B27_negative">
-  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#HLA_B27_unknown">
-  <rdfs:subClassOf rdf:resource="#Acute_OR_Recurrant_Anterior_Uveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Chronic_Anterior_Uveitis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Fuchs_Uveitis_Syndrome">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Intermediate_Uveitis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pars_Planitis">
-  <rdfs:subClassOf rdf:resource="#Intermediate_Uveitis"/>
-  <rdfs:subClassOf rdf:resource="#Chorioretinitis"/>
-  <rdfs:subClassOf rdf:resource="#Vitreous"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Non_Pars_Planitis">
-  <rdfs:subClassOf rdf:resource="#Intermediate_Uveitis"/>
-  <rdfs:subClassOf rdf:resource="#Vitreous"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Acute_Posterior_Multifocal_Placoid_Pigment_Epitheliopathy">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Multiple_Evanescent_White_Dot_Syndrome">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Multifocal_Choroiditis_WITH_Panuveitis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Punctate_Inner_Choroidopathy">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ampiginous_Choroiditis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Birdshot_Chorioretinopathy">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-  <rdfs:subClassOf rdf:resource="#Posterior_Chamber"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Serpiginous_Choroiditis">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Non_Infectious_AND_No_Systemic_Disease">
-  <rdfs:subClassOf rdf:resource="#No_Systemic_Disease"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Systemic">
-  <rdfs:subClassOf rdf:resource="#Non_Infectious"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ankylosing_Spondylitis">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Sarcoidosis">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Multiple_Sclerosis">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Behcet_Disease">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Sympathetic_Ophthalmia">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Vogt_Koyanagi_Harada_Disease">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Tubulointerstitial_Nephritis_AND_Uveitis">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Juvenile_Idiopathic_Arthritis">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Non_Infectious_AND_Systemic_Disease">
-  <rdfs:subClassOf rdf:resource="#Systemic"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Neoplastic">
-  <rdfs:subClassOf rdf:resource="#Masquerade"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Non_Neoplastic">
-  <rdfs:subClassOf rdf:resource="#Masquerade"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Location">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Anterior">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Acute_Anterior">
-  <rdfs:subClassOf rdf:resource="#Anterior"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Idiopathic">
-  <rdfs:subClassOf rdf:resource="#Anterior"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Anterior_Chamber">
-  <rdfs:subClassOf rdf:resource="#Anterior"/>
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Iridocyclitis">
-  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Chronic_Iridocyclitis">
-  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Lens_Induced">
-  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Glaucomatocyclitic">
-  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Infectious_Iridocyclitis">
-  <rdfs:subClassOf rdf:resource="#Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Gonococcal_Iridocyclitis">
-  <rdfs:subClassOf rdf:resource="#Infectious_Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Hypopyon">
-  <rdfs:subClassOf rdf:resource="#Infectious_Iridocyclitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Hypopyon_Ulcer">
-  <rdfs:subClassOf rdf:resource="#Hypopyon"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Chorioretinitis">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-  <rdfs:subClassOf rdf:resource="#Choroiditis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Immediate">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Vitreous">
-  <rdfs:subClassOf rdf:resource="#Immediate"/>
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Posterior">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Choroiditis">
-  <rdfs:subClassOf rdf:resource="#Posterior"/>
-  <rdfs:subClassOf rdf:resource="#Posterior_Chamber"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Retinitis">
-  <rdfs:subClassOf rdf:resource="#Posterior"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Retinochoroiditis">
-  <rdfs:subClassOf rdf:resource="#Retinitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Optic_Papillitis">
-  <rdfs:subClassOf rdf:resource="#Retinitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Neuroretinitis">
-  <rdfs:subClassOf rdf:resource="#Optic_Papillitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Panuveitis">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Behcet_Syndrome">
-  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Iritis">
-  <rdfs:subClassOf rdf:resource="#Anterior_Chamber"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Posterior_Chamber">
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Pars_Plantis">
-  <rdfs:subClassOf rdf:resource="#Choroiditis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Choroid_OR_Retina">
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ophthalmia_Sympathetic">
-  <rdfs:subClassOf rdf:resource="#Panuveitis"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Suppurative">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Panophthalmitis">
-  <rdfs:subClassOf rdf:resource="#Suppurative"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Uveomeningoencephalitic_Syndrome">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Nongranulomatous">
-  <rdfs:subClassOf rdf:resource="#Location"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Complications">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Cataract">
-  <rdfs:subClassOf rdf:resource="#Complications"/>
-  <rdfs:subClassOf rdf:resource="#Surgical"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Status">
-  <rdfs:subClassOf rdf:resource="#Cataract"/>
-  <rdfs:subClassOf rdf:resource="#Glaucoma_OR_OHT"/>
-  <rdfs:subClassOf rdf:resource="#Macular_Oedema"/>
-  <rdfs:subClassOf rdf:resource="#Epiretinal_Membrane"/>
-  <rdfs:subClassOf rdf:resource="#Other_Visual_Significant_Complication"/>
-  <rdfs:subClassOf rdf:resource="#Topical_Corticosteroid_Therapy"/>
-  <rdfs:subClassOf rdf:resource="#Local_Therapy_within_last2yrs"/>
-  <rdfs:subClassOf rdf:resource="#Oral_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Intravenous_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Intramuscular_Corticosteroid"/>
-  <rdfs:subClassOf rdf:resource="#Other_Immunosuppressant"/>
-  <rdfs:subClassOf rdf:resource="#Glaucoma"/>
-  <rdfs:subClassOf rdf:resource="#Vitreo_Retinal"/>
-  <rdfs:subClassOf rdf:resource="#Other_Ocular"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Glaucoma_OR_OHT">
-  <rdfs:subClassOf rdf:resource="#Complications"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Macular_Oedema">
-  <rdfs:subClassOf rdf:resource="#Complications"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Epiretinal_Membrane">
-  <rdfs:subClassOf rdf:resource="#Complications"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Visual_Significant_Complication">
-  <rdfs:subClassOf rdf:resource="#Complications"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Visually_Significant">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Visually_Insignificant">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Therapy">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Each_Eye">
-  <rdfs:subClassOf rdf:resource="#Therapy"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Topical_Corticosteroid_Therapy">
-  <rdfs:subClassOf rdf:resource="#Each_Eye"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Local_Therapy_within_last2yrs">
-  <rdfs:subClassOf rdf:resource="#Each_Eye"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Patient">
-  <rdfs:subClassOf rdf:resource="#Therapy"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Oral_Corticosteroid">
-  <rdfs:subClassOf rdf:resource="#Patient"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Intravenous_Corticosteroid">
-  <rdfs:subClassOf rdf:resource="#Patient"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Intramuscular_Corticosteroid">
-  <rdfs:subClassOf rdf:resource="#Patient"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Immunosuppressant">
-  <rdfs:subClassOf rdf:resource="#Patient"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Surgical">
-  <rdfs:subClassOf rdf:resource="#Therapy"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Glaucoma">
-  <rdfs:subClassOf rdf:resource="#Surgical"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Vitreo_Retinal">
-  <rdfs:subClassOf rdf:resource="#Surgical"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Other_Ocular">
-  <rdfs:subClassOf rdf:resource="#Surgical"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dose">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Frequency">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Operations">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Dates">
-  <rdfs:subClassOf rdf:resource="#Status"/>
-</owl:Class>
-
-
-</rdf:RDF>
