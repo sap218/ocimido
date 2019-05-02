@@ -10,7 +10,9 @@
 
 **Set Up**
 
-`$ pip3 install owlready2`
+```
+$ pip3 install pandas collections matplotlib seaborn nltk owlready2
+```
 
 ## Thanks :pill:
 
