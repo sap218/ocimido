@@ -5,9 +5,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"
-     versionIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
-    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
+     ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -15,624 +13,978 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>Uveitis Ontology</Literal>
+        <Literal>Ontology for Uveitis Classification</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#ACE"/>
+        <Class IRI="#UVO_00001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Active"/>
+        <Class IRI="#UVO_00002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Acute"/>
+        <Class IRI="#UVO_00003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anatomical"/>
+        <Class IRI="#UVO_00004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anterior"/>
+        <Class IRI="#UVO_00005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#AqueousHumour"/>
+        <Class IRI="#UVO_00006"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bacterial"/>
+        <Class IRI="#UVO_00007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CTThorax"/>
+        <Class IRI="#UVO_00008"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CXR"/>
+        <Class IRI="#UVO_00009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cataract"/>
+        <Class IRI="#UVO_00010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CataractSurgery"/>
+        <Class IRI="#UVO_00011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Chronic"/>
+        <Class IRI="#UVO_00012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Classification"/>
+        <Class IRI="#UVO_00013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#UVO_00014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Complications"/>
+        <Class IRI="#UVO_00015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Course"/>
+        <Class IRI="#UVO_00016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CurrentStatus"/>
+        <Class IRI="#UVO_00017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DrugAdverseAffects"/>
+        <Class IRI="#UVO_00018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EpiretinalMembrane"/>
+        <Class IRI="#UVO_00019"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fungal"/>
+        <Class IRI="#UVO_00020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GenotypicData"/>
+        <Class IRI="#UVO_00021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GlaucomaOROcularHypertension"/>
+        <Class IRI="#UVO_00022"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#GlaucomaSurgery"/>
+        <Class IRI="#UVO_00023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HLA-A29"/>
+        <Class IRI="#UVO_00024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HLA-B27"/>
+        <Class IRI="#UVO_00025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HLA-B51"/>
+        <Class IRI="#UVO_00026"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#HLA-DR4"/>
+        <Class IRI="#UVO_00027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Infectious"/>
+        <Class IRI="#UVO_00028"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InflammationActivity"/>
+        <Class IRI="#UVO_00029"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#InterferonGammaReleaseAssay"/>
+        <Class IRI="#UVO_00030"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Intermediate"/>
+        <Class IRI="#UVO_00031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#IntramuscularCorticosteriod"/>
+        <Class IRI="#UVO_00032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#IntravenousCorticosteriod"/>
+        <Class IRI="#UVO_00033"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Investigations"/>
+        <Class IRI="#UVO_00034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LocalTherapy"/>
+        <Class IRI="#UVO_00035"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MRIBrain"/>
+        <Class IRI="#UVO_00036"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MacularOedema"/>
+        <Class IRI="#UVO_00037"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Mantoux"/>
+        <Class IRI="#UVO_00038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Masquerade"/>
+        <Class IRI="#UVO_00039"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Negative"/>
+        <Class IRI="#UVO_00041"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Neoplastic"/>
+        <Class IRI="#UVO_00042"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NoSystemticDisease"/>
+        <Class IRI="#UVO_00043"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonInfectious"/>
+        <Class IRI="#UVO_00044"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonNeoplastic"/>
+        <Class IRI="#UVO_00045"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OralCorticosteriod"/>
+        <Class IRI="#UVO_00046"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherImmunosuppressant"/>
+        <Class IRI="#UVO_00047"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00048"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherOcularSurgery"/>
+        <Class IRI="#UVO_00049"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherRelevantInvestigations"/>
+        <Class IRI="#UVO_00050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherRelevantTherapies"/>
+        <Class IRI="#UVO_00051"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherTopical"/>
+        <Class IRI="#UVO_00052"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Panuveitis"/>
+        <Class IRI="#UVO_00053"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Parasitic"/>
+        <Class IRI="#UVO_00054"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Positive"/>
+        <Class IRI="#UVO_00055"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Posterior"/>
+        <Class IRI="#UVO_00056"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pressure"/>
+        <Class IRI="#UVO_00057"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Quiescent"/>
+        <Class IRI="#UVO_00058"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Recurrent"/>
+        <Class IRI="#UVO_00059"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SerialAssessments"/>
+        <Class IRI="#UVO_00060"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Status"/>
+        <Class IRI="#UVO_00061"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00062"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SyphilisSerology"/>
+        <Class IRI="#UVO_00063"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SystemticDisease"/>
+        <Class IRI="#UVO_00064"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TherapeuticInterventions"/>
+        <Class IRI="#UVO_00065"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TopicalCorticosteriod"/>
+        <Class IRI="#UVO_00066"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Undifferentiated"/>
+        <Class IRI="#UVO_00067"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Viral"/>
+        <Class IRI="#UVO_00068"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VisualAcuity"/>
+        <Class IRI="#UVO_00069"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VitreoRetinalSurgery"/>
+        <Class IRI="#UVO_00070"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VitreousHumour"/>
+        <Class IRI="#UVO_00071"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#ACE"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00006"/>
+        <Class IRI="#UVO_00001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Active"/>
-        <Class IRI="#InflammationActivity"/>
+        <Class IRI="#UVO_00007"/>
+        <Class IRI="#UVO_00001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Acute"/>
-        <Class IRI="#Course"/>
+        <Class IRI="#UVO_00008"/>
+        <Class IRI="#UVO_00001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anatomical"/>
-        <Class IRI="#Classification"/>
+        <Class IRI="#UVO_00009"/>
+        <Class IRI="#UVO_00003"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anterior"/>
-        <Class IRI="#Anatomical"/>
+        <Class IRI="#UVO_00010"/>
+        <Class IRI="#UVO_00003"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AqueousHumour"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00011"/>
+        <Class IRI="#UVO_00003"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Bacterial"/>
-        <Class IRI="#Infectious"/>
+        <Class IRI="#UVO_00012"/>
+        <Class IRI="#UVO_00003"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CTThorax"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00013"/>
+        <Class IRI="#UVO_00002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CXR"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00014"/>
+        <Class IRI="#UVO_00002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cataract"/>
-        <Class IRI="#Complications"/>
+        <Class IRI="#UVO_00015"/>
+        <Class IRI="#UVO_00002"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CataractSurgery"/>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Chronic"/>
-        <Class IRI="#Course"/>
+        <Class IRI="#UVO_00017"/>
+        <Class IRI="#UVO_00005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ClinicalSyndrome"/>
-        <Class IRI="#Classification"/>
+        <Class IRI="#UVO_00018"/>
+        <Class IRI="#UVO_00005"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Course"/>
-        <Class IRI="#Classification"/>
+        <Class IRI="#UVO_00019"/>
+        <Class IRI="#UVO_00004"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DrugAdverseAffects"/>
-        <Class IRI="#TherapeuticInterventions"/>
+        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00004"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EpiretinalMembrane"/>
-        <Class IRI="#Complications"/>
+        <Class IRI="#UVO_00021"/>
+        <Class IRI="#UVO_00004"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fungal"/>
-        <Class IRI="#Infectious"/>
+        <Class IRI="#UVO_00022"/>
+        <Class IRI="#UVO_00006"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#GenotypicData"/>
-        <Class IRI="#Investigations"/>
+        <Class IRI="#UVO_00023"/>
+        <Class IRI="#UVO_00006"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#GlaucomaOROcularHypertension"/>
-        <Class IRI="#Complications"/>
+        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00006"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#GlaucomaSurgery"/>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00025"/>
+        <Class IRI="#UVO_00006"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HLA-A29"/>
-        <Class IRI="#GenotypicData"/>
+        <Class IRI="#UVO_00026"/>
+        <Class IRI="#UVO_00008"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HLA-B27"/>
-        <Class IRI="#GenotypicData"/>
+        <Class IRI="#UVO_00027"/>
+        <Class IRI="#UVO_00008"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HLA-B51"/>
-        <Class IRI="#GenotypicData"/>
+        <Class IRI="#UVO_00028"/>
+        <Class IRI="#UVO_00008"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HLA-DR4"/>
-        <Class IRI="#GenotypicData"/>
+        <Class IRI="#UVO_00029"/>
+        <Class IRI="#UVO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Infectious"/>
-        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#UVO_00030"/>
+        <Class IRI="#UVO_00029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#InflammationActivity"/>
-        <Class IRI="#CurrentStatus"/>
+        <Class IRI="#UVO_00031"/>
+        <Class IRI="#UVO_00029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#InterferonGammaReleaseAssay"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00032"/>
+        <Class IRI="#UVO_00029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Intermediate"/>
-        <Class IRI="#Anatomical"/>
+        <Class IRI="#UVO_00033"/>
+        <Class IRI="#UVO_00029"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#IntramuscularCorticosteriod"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00034"/>
+        <Class IRI="#UVO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#IntravenousCorticosteriod"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00035"/>
+        <Class IRI="#UVO_00034"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#LocalTherapy"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00036"/>
+        <Class IRI="#UVO_00034"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MRIBrain"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00037"/>
+        <Class IRI="#UVO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MacularOedema"/>
-        <Class IRI="#Complications"/>
+        <Class IRI="#UVO_00038"/>
+        <Class IRI="#UVO_00037"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Mantoux"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00039"/>
+        <Class IRI="#UVO_00037"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Masquerade"/>
-        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#UVO_00040"/>
+        <Class IRI="#UVO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#MedicalTherapy"/>
-        <Class IRI="#TherapeuticInterventions"/>
+        <Class IRI="#UVO_00041"/>
+        <Class IRI="#UVO_00009"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Negative"/>
-        <Class IRI="#HLA-A29"/>
+        <Class IRI="#UVO_00041"/>
+        <Class IRI="#UVO_00010"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Negative"/>
-        <Class IRI="#HLA-B27"/>
+        <Class IRI="#UVO_00041"/>
+        <Class IRI="#UVO_00011"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Negative"/>
-        <Class IRI="#HLA-B51"/>
+        <Class IRI="#UVO_00041"/>
+        <Class IRI="#UVO_00012"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Negative"/>
-        <Class IRI="#HLA-DR4"/>
+        <Class IRI="#UVO_00042"/>
+        <Class IRI="#UVO_00013"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Neoplastic"/>
-        <Class IRI="#Masquerade"/>
+        <Class IRI="#UVO_00043"/>
+        <Class IRI="#UVO_00013"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NoSystemticDisease"/>
-        <Class IRI="#NonInfectious"/>
+        <Class IRI="#UVO_00044"/>
+        <Class IRI="#UVO_00016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NonInfectious"/>
-        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#UVO_00045"/>
+        <Class IRI="#UVO_00016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NonNeoplastic"/>
-        <Class IRI="#Masquerade"/>
+        <Class IRI="#UVO_00046"/>
+        <Class IRI="#UVO_00016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OralCorticosteriod"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00047"/>
+        <Class IRI="#UVO_00016"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherImmunosuppressant"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00048"/>
+        <Class IRI="#UVO_00044"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherInvestigations"/>
-        <Class IRI="#Investigations"/>
+        <Class IRI="#UVO_00048"/>
+        <Class IRI="#UVO_00045"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherOcularSurgery"/>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00048"/>
+        <Class IRI="#UVO_00046"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherRelevantInvestigations"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00048"/>
+        <Class IRI="#UVO_00047"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherRelevantTherapies"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00049"/>
+        <Class IRI="#UVO_00044"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OtherTopical"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00049"/>
+        <Class IRI="#UVO_00045"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Panuveitis"/>
-        <Class IRI="#Anatomical"/>
+        <Class IRI="#UVO_00049"/>
+        <Class IRI="#UVO_00046"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Parasitic"/>
-        <Class IRI="#Infectious"/>
+        <Class IRI="#UVO_00049"/>
+        <Class IRI="#UVO_00047"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Positive"/>
-        <Class IRI="#HLA-A29"/>
+        <Class IRI="#UVO_00050"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Positive"/>
-        <Class IRI="#HLA-B27"/>
+        <Class IRI="#UVO_00051"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Positive"/>
-        <Class IRI="#HLA-B51"/>
+        <Class IRI="#UVO_00052"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Positive"/>
-        <Class IRI="#HLA-DR4"/>
+        <Class IRI="#UVO_00053"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Posterior"/>
-        <Class IRI="#Anatomical"/>
+        <Class IRI="#UVO_00054"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pressure"/>
-        <Class IRI="#CurrentStatus"/>
+        <Class IRI="#UVO_00055"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Quiescent"/>
-        <Class IRI="#InflammationActivity"/>
+        <Class IRI="#UVO_00056"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Recurrent"/>
-        <Class IRI="#Course"/>
+        <Class IRI="#UVO_00057"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SerialAssessments"/>
-        <Class IRI="#Investigations"/>
+        <Class IRI="#UVO_00058"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Status"/>
-        <Class IRI="#Cataract"/>
+        <Class IRI="#UVO_00059"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Status"/>
-        <Class IRI="#EpiretinalMembrane"/>
+        <Class IRI="#UVO_00060"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Status"/>
-        <Class IRI="#GlaucomaOROcularHypertension"/>
+        <Class IRI="#UVO_00061"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Status"/>
-        <Class IRI="#MacularOedema"/>
+        <Class IRI="#UVO_00062"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SurgicalTherapy"/>
-        <Class IRI="#TherapeuticInterventions"/>
+        <Class IRI="#UVO_00063"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SyphilisSerology"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00064"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SystemticDisease"/>
-        <Class IRI="#NonInfectious"/>
+        <Class IRI="#UVO_00065"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TopicalCorticosteriod"/>
-        <Class IRI="#MedicalTherapy"/>
+        <Class IRI="#UVO_00066"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Undifferentiated"/>
-        <Class IRI="#ClinicalSyndrome"/>
+        <Class IRI="#UVO_00067"/>
+        <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Viral"/>
-        <Class IRI="#Infectious"/>
+        <Class IRI="#UVO_00068"/>
+        <Class IRI="#UVO_00021"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VisualAcuity"/>
-        <Class IRI="#CurrentStatus"/>
+        <Class IRI="#UVO_00069"/>
+        <Class IRI="#UVO_00021"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VitreoRetinalSurgery"/>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00070"/>
+        <Class IRI="#UVO_00021"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#VitreousHumour"/>
-        <Class IRI="#OtherInvestigations"/>
+        <Class IRI="#UVO_00071"/>
+        <Class IRI="#UVO_00021"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#ACE"/>
-        <Class IRI="#AqueousHumour"/>
-        <Class IRI="#CTThorax"/>
-        <Class IRI="#CXR"/>
-        <Class IRI="#InterferonGammaReleaseAssay"/>
-        <Class IRI="#MRIBrain"/>
-        <Class IRI="#Mantoux"/>
-        <Class IRI="#OtherRelevantInvestigations"/>
-        <Class IRI="#SyphilisSerology"/>
-        <Class IRI="#VitreousHumour"/>
+        <Class IRI="#UVO_00001"/>
+        <Class IRI="#UVO_00002"/>
+        <Class IRI="#UVO_00003"/>
+        <Class IRI="#UVO_00004"/>
+        <Class IRI="#UVO_00005"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Active"/>
-        <Class IRI="#Quiescent"/>
+        <Class IRI="#UVO_00006"/>
+        <Class IRI="#UVO_00007"/>
+        <Class IRI="#UVO_00008"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Acute"/>
-        <Class IRI="#Chronic"/>
-        <Class IRI="#Recurrent"/>
+        <Class IRI="#UVO_00009"/>
+        <Class IRI="#UVO_00010"/>
+        <Class IRI="#UVO_00011"/>
+        <Class IRI="#UVO_00012"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Anatomical"/>
-        <Class IRI="#ClinicalSyndrome"/>
-        <Class IRI="#Course"/>
+        <Class IRI="#UVO_00013"/>
+        <Class IRI="#UVO_00014"/>
+        <Class IRI="#UVO_00015"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Anterior"/>
-        <Class IRI="#Intermediate"/>
-        <Class IRI="#Panuveitis"/>
-        <Class IRI="#Posterior"/>
+        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00017"/>
+        <Class IRI="#UVO_00018"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Bacterial"/>
-        <Class IRI="#Fungal"/>
-        <Class IRI="#OtherInvestigations"/>
-        <Class IRI="#Parasitic"/>
-        <Class IRI="#Viral"/>
+        <Class IRI="#UVO_00019"/>
+        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00021"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Cataract"/>
-        <Class IRI="#EpiretinalMembrane"/>
-        <Class IRI="#GlaucomaOROcularHypertension"/>
-        <Class IRI="#MacularOedema"/>
+        <Class IRI="#UVO_00022"/>
+        <Class IRI="#UVO_00023"/>
+        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00025"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#CataractSurgery"/>
-        <Class IRI="#GlaucomaSurgery"/>
-        <Class IRI="#OtherOcularSurgery"/>
-        <Class IRI="#VitreoRetinalSurgery"/>
+        <Class IRI="#UVO_00026"/>
+        <Class IRI="#UVO_00027"/>
+        <Class IRI="#UVO_00028"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Classification"/>
-        <Class IRI="#Complications"/>
-        <Class IRI="#CurrentStatus"/>
-        <Class IRI="#Investigations"/>
-        <Class IRI="#TherapeuticInterventions"/>
+        <Class IRI="#UVO_00029"/>
+        <Class IRI="#UVO_00034"/>
+        <Class IRI="#UVO_00037"/>
+        <Class IRI="#UVO_00040"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#DrugAdverseAffects"/>
-        <Class IRI="#MedicalTherapy"/>
-        <Class IRI="#SurgicalTherapy"/>
+        <Class IRI="#UVO_00030"/>
+        <Class IRI="#UVO_00031"/>
+        <Class IRI="#UVO_00032"/>
+        <Class IRI="#UVO_00033"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#GenotypicData"/>
-        <Class IRI="#OtherInvestigations"/>
-        <Class IRI="#SerialAssessments"/>
+        <Class IRI="#UVO_00035"/>
+        <Class IRI="#UVO_00036"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#HLA-A29"/>
-        <Class IRI="#HLA-B27"/>
-        <Class IRI="#HLA-B51"/>
-        <Class IRI="#HLA-DR4"/>
+        <Class IRI="#UVO_00038"/>
+        <Class IRI="#UVO_00039"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Infectious"/>
-        <Class IRI="#Masquerade"/>
-        <Class IRI="#NonInfectious"/>
-        <Class IRI="#Undifferentiated"/>
+        <Class IRI="#UVO_00042"/>
+        <Class IRI="#UVO_00043"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#InflammationActivity"/>
-        <Class IRI="#Pressure"/>
-        <Class IRI="#VisualAcuity"/>
+        <Class IRI="#UVO_00044"/>
+        <Class IRI="#UVO_00045"/>
+        <Class IRI="#UVO_00046"/>
+        <Class IRI="#UVO_00047"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#IntramuscularCorticosteriod"/>
-        <Class IRI="#IntravenousCorticosteriod"/>
-        <Class IRI="#LocalTherapy"/>
-        <Class IRI="#OralCorticosteriod"/>
-        <Class IRI="#OtherImmunosuppressant"/>
-        <Class IRI="#OtherRelevantTherapies"/>
-        <Class IRI="#OtherTopical"/>
-        <Class IRI="#TopicalCorticosteriod"/>
+        <Class IRI="#UVO_00050"/>
+        <Class IRI="#UVO_00051"/>
+        <Class IRI="#UVO_00052"/>
+        <Class IRI="#UVO_00053"/>
+        <Class IRI="#UVO_00054"/>
+        <Class IRI="#UVO_00055"/>
+        <Class IRI="#UVO_00056"/>
+        <Class IRI="#UVO_00057"/>
+        <Class IRI="#UVO_00058"/>
+        <Class IRI="#UVO_00059"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Neoplastic"/>
-        <Class IRI="#NonNeoplastic"/>
+        <Class IRI="#UVO_00060"/>
+        <Class IRI="#UVO_00061"/>
+        <Class IRI="#UVO_00062"/>
+        <Class IRI="#UVO_00063"/>
+        <Class IRI="#UVO_00064"/>
+        <Class IRI="#UVO_00065"/>
+        <Class IRI="#UVO_00066"/>
+        <Class IRI="#UVO_00067"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#NoSystemticDisease"/>
-        <Class IRI="#SystemticDisease"/>
+        <Class IRI="#UVO_00068"/>
+        <Class IRI="#UVO_00069"/>
+        <Class IRI="#UVO_00070"/>
+        <Class IRI="#UVO_00071"/>
     </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00001</IRI>
+        <Literal xml:lang="en">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00002</IRI>
+        <Literal xml:lang="en">CurrentStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00003</IRI>
+        <Literal xml:lang="en">Complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00004</IRI>
+        <Literal xml:lang="en">TherapeuticInterventions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00005</IRI>
+        <Literal xml:lang="en">Investigations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00006</IRI>
+        <Literal xml:lang="en">Anatomical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00007</IRI>
+        <Literal xml:lang="en">ClinicalSyndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00008</IRI>
+        <Literal xml:lang="en">Course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00009</IRI>
+        <Literal xml:lang="en">Cataract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00010</IRI>
+        <Literal xml:lang="en">EpiretinalMembrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00011</IRI>
+        <Literal xml:lang="en">GlaucomaOROcularHypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal xml:lang="en">MacularOedema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00013</IRI>
+        <Literal xml:lang="en">InflammationActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00014</IRI>
+        <Literal xml:lang="en">Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00015</IRI>
+        <Literal xml:lang="en">VisualAcuity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00016</IRI>
+        <Literal xml:lang="en">GenotypicData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00017</IRI>
+        <Literal xml:lang="en">OtherInvestigations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00018</IRI>
+        <Literal xml:lang="en">SerialAssessments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00019</IRI>
+        <Literal xml:lang="en">DrugAdverseAffects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00020</IRI>
+        <Literal xml:lang="en">MedicalTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00021</IRI>
+        <Literal xml:lang="en">SurgicalTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00022</IRI>
+        <Literal xml:lang="en">Anterior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00023</IRI>
+        <Literal xml:lang="en">Intermediate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00024</IRI>
+        <Literal xml:lang="en">Posterior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00025</IRI>
+        <Literal xml:lang="en">Panuveitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00026</IRI>
+        <Literal xml:lang="en">Acute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00027</IRI>
+        <Literal xml:lang="en">Recurrent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00028</IRI>
+        <Literal xml:lang="en">Chronic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00029</IRI>
+        <Literal xml:lang="en">Infectious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00030</IRI>
+        <Literal xml:lang="en">Bacterial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00031</IRI>
+        <Literal xml:lang="en">Fungal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00032</IRI>
+        <Literal xml:lang="en">Parasitic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00033</IRI>
+        <Literal xml:lang="en">Viral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00034</IRI>
+        <Literal xml:lang="en">NonInfectious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00035</IRI>
+        <Literal xml:lang="en">NoSystemicDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00036</IRI>
+        <Literal xml:lang="en">SystemicDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00037</IRI>
+        <Literal xml:lang="en">Masquerade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00038</IRI>
+        <Literal xml:lang="en">Neoplastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00039</IRI>
+        <Literal xml:lang="en">NonNeoplastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00040</IRI>
+        <Literal xml:lang="en">Undifferentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00041</IRI>
+        <Literal xml:lang="en">Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00042</IRI>
+        <Literal xml:lang="en">Active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00043</IRI>
+        <Literal xml:lang="en">Quiescent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00044</IRI>
+        <Literal xml:lang="en">HLA-A29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00045</IRI>
+        <Literal xml:lang="en">HLA-B27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00046</IRI>
+        <Literal xml:lang="en">HLA-B51</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00047</IRI>
+        <Literal xml:lang="en">HLA-DR4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00048</IRI>
+        <Literal xml:lang="en">Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00049</IRI>
+        <Literal xml:lang="en">Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00050</IRI>
+        <Literal xml:lang="en">ACE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00051</IRI>
+        <Literal xml:lang="en">AqueousHumour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00052</IRI>
+        <Literal xml:lang="en">CTThorax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00053</IRI>
+        <Literal xml:lang="en">CXR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00054</IRI>
+        <Literal xml:lang="en">InterferonGammaReleaseAssay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00055</IRI>
+        <Literal xml:lang="en">Mantoux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00056</IRI>
+        <Literal xml:lang="en">MRIBrain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00057</IRI>
+        <Literal xml:lang="en">SyphilisSerology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00058</IRI>
+        <Literal xml:lang="en">VitreousHumour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00059</IRI>
+        <Literal xml:lang="en">OtherRelevantInvestiagtions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00060</IRI>
+        <Literal xml:lang="en">LocalTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00061</IRI>
+        <Literal xml:lang="en">IntramuscularCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00062</IRI>
+        <Literal xml:lang="en">IntravenousCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00063</IRI>
+        <Literal xml:lang="en">OralCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00064</IRI>
+        <Literal xml:lang="en">TopicalCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00065</IRI>
+        <Literal xml:lang="en">OtherTopical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00066</IRI>
+        <Literal xml:lang="en">OtherImmunosuppressant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00067</IRI>
+        <Literal xml:lang="en">OtherRelevantTherapies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00068</IRI>
+        <Literal xml:lang="en">CataractSurgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00069</IRI>
+        <Literal xml:lang="en">GlaucomaSurgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00070</IRI>
+        <Literal xml:lang="en">VitreoRetinalSurgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00071</IRI>
+        <Literal xml:lang="en">OtherOcularSurgery</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
