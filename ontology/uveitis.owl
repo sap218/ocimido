@@ -228,6 +228,186 @@
     <Declaration>
         <Class IRI="#UVO_00071"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00131"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#UVO_00006"/>
         <Class IRI="#UVO_00001"/>
@@ -385,6 +565,10 @@
         <Class IRI="#UVO_00012"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00041"/>
+        <Class IRI="#UVO_00124"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00042"/>
         <Class IRI="#UVO_00013"/>
     </SubClassOf>
@@ -528,6 +712,286 @@
         <Class IRI="#UVO_00071"/>
         <Class IRI="#UVO_00021"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00072"/>
+        <Class IRI="#UVO_00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00073"/>
+        <Class IRI="#UVO_00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00074"/>
+        <Class IRI="#UVO_00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00075"/>
+        <Class IRI="#UVO_00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00076"/>
+        <Class IRI="#UVO_00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00077"/>
+        <Class IRI="#UVO_00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00078"/>
+        <Class IRI="#UVO_00024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00079"/>
+        <Class IRI="#UVO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00080"/>
+        <Class IRI="#UVO_00079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00081"/>
+        <Class IRI="#UVO_00079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00082"/>
+        <Class IRI="#UVO_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00083"/>
+        <Class IRI="#UVO_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00084"/>
+        <Class IRI="#UVO_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00085"/>
+        <Class IRI="#UVO_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00086"/>
+        <Class IRI="#UVO_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00088"/>
+        <Class IRI="#UVO_00082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00088"/>
+        <Class IRI="#UVO_00083"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00088"/>
+        <Class IRI="#UVO_00084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00088"/>
+        <Class IRI="#UVO_00085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00088"/>
+        <Class IRI="#UVO_00086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00089"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00090"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00091"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00092"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00093"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00094"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00095"/>
+        <Class IRI="#UVO_00031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00096"/>
+        <Class IRI="#UVO_00031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00097"/>
+        <Class IRI="#UVO_00031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00098"/>
+        <Class IRI="#UVO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00099"/>
+        <Class IRI="#UVO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00100"/>
+        <Class IRI="#UVO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00101"/>
+        <Class IRI="#UVO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00102"/>
+        <Class IRI="#UVO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00103"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00105"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00106"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00107"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00108"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00109"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00110"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00111"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00112"/>
+        <Class IRI="#UVO_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00113"/>
+        <Class IRI="#UVO_00042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00114"/>
+        <Class IRI="#UVO_00042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00115"/>
+        <Class IRI="#UVO_00042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00116"/>
+        <Class IRI="#UVO_00043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00117"/>
+        <Class IRI="#UVO_00043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00118"/>
+        <Class IRI="#UVO_00043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00119"/>
+        <Class IRI="#UVO_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00120"/>
+        <Class IRI="#UVO_00119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00121"/>
+        <Class IRI="#UVO_00119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00122"/>
+        <Class IRI="#UVO_00119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00123"/>
+        <Class IRI="#UVO_00014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00124"/>
+        <Class IRI="#UVO_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00125"/>
+        <Class IRI="#UVO_00019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00126"/>
+        <Class IRI="#UVO_00125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00126"/>
+        <Class IRI="#UVO_00131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00127"/>
+        <Class IRI="#UVO_00126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00128"/>
+        <Class IRI="#UVO_00126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00129"/>
+        <Class IRI="#UVO_00126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00130"/>
+        <Class IRI="#UVO_00125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00130"/>
+        <Class IRI="#UVO_00131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00131"/>
+        <Class IRI="#UVO_00019"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -539,17 +1003,20 @@
         <Class IRI="#UVO_00006"/>
         <Class IRI="#UVO_00007"/>
         <Class IRI="#UVO_00008"/>
+        <Class IRI="#UVO_00079"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
         <Class IRI="#UVO_00010"/>
         <Class IRI="#UVO_00011"/>
         <Class IRI="#UVO_00012"/>
+        <Class IRI="#UVO_00124"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00013"/>
         <Class IRI="#UVO_00014"/>
         <Class IRI="#UVO_00015"/>
+        <Class IRI="#UVO_00119"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00016"/>
@@ -603,6 +1070,10 @@
         <Class IRI="#UVO_00047"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#UVO_00048"/>
+        <Class IRI="#UVO_00049"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#UVO_00050"/>
         <Class IRI="#UVO_00051"/>
         <Class IRI="#UVO_00052"/>
@@ -630,10 +1101,105 @@
         <Class IRI="#UVO_00070"/>
         <Class IRI="#UVO_00071"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00072"/>
+        <Class IRI="#UVO_00073"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00074"/>
+        <Class IRI="#UVO_00075"/>
+        <Class IRI="#UVO_00076"/>
+        <Class IRI="#UVO_00077"/>
+        <Class IRI="#UVO_00078"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00080"/>
+        <Class IRI="#UVO_00081"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00082"/>
+        <Class IRI="#UVO_00083"/>
+        <Class IRI="#UVO_00084"/>
+        <Class IRI="#UVO_00085"/>
+        <Class IRI="#UVO_00086"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00087"/>
+        <Class IRI="#UVO_00088"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00089"/>
+        <Class IRI="#UVO_00090"/>
+        <Class IRI="#UVO_00091"/>
+        <Class IRI="#UVO_00092"/>
+        <Class IRI="#UVO_00093"/>
+        <Class IRI="#UVO_00094"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00095"/>
+        <Class IRI="#UVO_00096"/>
+        <Class IRI="#UVO_00097"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00098"/>
+        <Class IRI="#UVO_00099"/>
+        <Class IRI="#UVO_00100"/>
+        <Class IRI="#UVO_00101"/>
+        <Class IRI="#UVO_00102"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00103"/>
+        <Class IRI="#UVO_00104"/>
+        <Class IRI="#UVO_00105"/>
+        <Class IRI="#UVO_00106"/>
+        <Class IRI="#UVO_00107"/>
+        <Class IRI="#UVO_00108"/>
+        <Class IRI="#UVO_00109"/>
+        <Class IRI="#UVO_00110"/>
+        <Class IRI="#UVO_00111"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00113"/>
+        <Class IRI="#UVO_00114"/>
+        <Class IRI="#UVO_00115"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00116"/>
+        <Class IRI="#UVO_00117"/>
+        <Class IRI="#UVO_00118"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00120"/>
+        <Class IRI="#UVO_00121"/>
+        <Class IRI="#UVO_00122"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00125"/>
+        <Class IRI="#UVO_00131"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00126"/>
+        <Class IRI="#UVO_00130"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00127"/>
+        <Class IRI="#UVO_00128"/>
+        <Class IRI="#UVO_00129"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00001</IRI>
+        <Literal>Type of Uveitis</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00001</IRI>
         <Literal xml:lang="en">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00002</IRI>
+        <Literal>Current status of Uveitis activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -641,9 +1207,19 @@
         <Literal xml:lang="en">CurrentStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00003</IRI>
+        <Literal>Descriptors of Uveitis complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00003</IRI>
         <Literal xml:lang="en">Complications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00004</IRI>
+        <Literal>Major therapeutic interventions descriptors</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -656,9 +1232,19 @@
         <Literal xml:lang="en">Investigations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00006</IRI>
+        <Literal>Category of located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00006</IRI>
         <Literal xml:lang="en">Anatomical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00007</IRI>
+        <Literal>Reflecting Taxonomic classification - aetiology syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -666,9 +1252,19 @@
         <Literal xml:lang="en">ClinicalSyndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00008</IRI>
+        <Literal>Accoding to SUN descriptors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00008</IRI>
         <Literal xml:lang="en">Course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00009</IRI>
+        <Literal>Clouding of the lens in the eye that affects vision - mostly related to aging</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -676,14 +1272,29 @@
         <Literal xml:lang="en">Cataract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00010</IRI>
+        <Literal>Thin sheet of fibrous tissue that develops on the surface of the macula (a small spot near the center of the retina and the part of the eye needed for sharp, central vision, which lets us see objects that are straight ahead) and can cause problems with central vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00010</IRI>
         <Literal xml:lang="en">EpiretinalMembrane</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00011</IRI>
+        <Literal>An eye condition where your optic nerve is damaged by the pressure of the fluid inside your eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00011</IRI>
-        <Literal xml:lang="en">GlaucomaOROcularHypertension</Literal>
+        <Literal xml:lang="en">Glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal>Macular edema is the build-up of fluid in the macula, an area in the center of the retina (light-sensitive tissue at the back of the eye). The macula is the part of the retina responsible for sharp, straight-ahead vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -691,14 +1302,29 @@
         <Literal xml:lang="en">MacularOedema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00013</IRI>
+        <Literal>Active inflammation described including treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00013</IRI>
         <Literal xml:lang="en">InflammationActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00014</IRI>
+        <Literal>Other quantitative measure of ocular pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00014</IRI>
         <Literal xml:lang="en">Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00015</IRI>
+        <Literal>Clarity of vision test dependent on optical and neural factors</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -721,9 +1347,19 @@
         <Literal xml:lang="en">SerialAssessments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00019</IRI>
+        <Literal>Significant drug-related adverse events affecting future treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00019</IRI>
         <Literal xml:lang="en">DrugAdverseAffects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00020</IRI>
+        <Literal>Current medical therapies for Uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -731,9 +1367,19 @@
         <Literal xml:lang="en">MedicalTherapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00021</IRI>
+        <Literal>Relevant surgical therapy for each eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00021</IRI>
         <Literal xml:lang="en">SurgicalTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00022</IRI>
+        <Literal>Anterior chamber</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -741,9 +1387,19 @@
         <Literal xml:lang="en">Anterior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00023</IRI>
+        <Literal>Vitreous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00023</IRI>
         <Literal xml:lang="en">Intermediate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00024</IRI>
+        <Literal>Choroid or Retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -751,9 +1407,19 @@
         <Literal xml:lang="en">Posterior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00025</IRI>
+        <Literal>Anterior and Posterior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00025</IRI>
         <Literal xml:lang="en">Panuveitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00026</IRI>
+        <Literal>Sudden onset and &lt;3 months duration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -761,9 +1427,19 @@
         <Literal xml:lang="en">Acute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00027</IRI>
+        <Literal>Repeated episodes separated by period of inactivity without treatment of at least 3 months in duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00027</IRI>
         <Literal xml:lang="en">Recurrent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00028</IRI>
+        <Literal>Persistent &gt;3 months duration, with relapse in less than 3 months after discontinuing treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -771,9 +1447,19 @@
         <Literal xml:lang="en">Chronic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00029</IRI>
+        <Literal>Liable to be transmitted through the environment in a rapid manner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00029</IRI>
         <Literal xml:lang="en">Infectious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00030</IRI>
+        <Literal>Biological cells that cause disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -781,14 +1467,29 @@
         <Literal xml:lang="en">Bacterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00031</IRI>
+        <Literal>Invasive fungal takes over if individual has a weakened immune system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00031</IRI>
         <Literal xml:lang="en">Fungal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00032</IRI>
+        <Literal>Disease caused by a parasite, can be can still be transmitted across organisms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00032</IRI>
         <Literal xml:lang="en">Parasitic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00033</IRI>
+        <Literal>Infection caused by the presence of a virus in the body, can infect almost any type of body tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -806,6 +1507,11 @@
         <Literal xml:lang="en">NoSystemicDisease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00036</IRI>
+        <Literal>A systemic disease is one that affects a number of organs and tissues, or affects the body as a whole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00036</IRI>
         <Literal xml:lang="en">SystemicDisease</Literal>
@@ -814,6 +1520,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00037</IRI>
         <Literal xml:lang="en">Masquerade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00038</IRI>
+        <Literal>A neoplasm is a type of abnormal and excessive growth, called neoplasia, of tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -931,9 +1642,19 @@
         <Literal xml:lang="en">LocalTherapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00061</IRI>
+        <Literal>Steroid injections are anti-inflammatory medicines used to treat a range of conditions - such as joint pain, arthritis, sciatica and inflammatory bowel disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00061</IRI>
         <Literal xml:lang="en">IntramuscularCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00062</IRI>
+        <Literal>Steroids may be used to treat relapses in multiple sclerosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -941,9 +1662,19 @@
         <Literal xml:lang="en">IntravenousCorticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00063</IRI>
+        <Literal>Steroids taken via tablets</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00063</IRI>
         <Literal xml:lang="en">OralCorticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00064</IRI>
+        <Literal>Steroids applied directly to the skin to reduce inflammation and irritation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -956,6 +1687,11 @@
         <Literal xml:lang="en">OtherTopical</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00066</IRI>
+        <Literal>Immunosuppressives are drugs that inhibit or prevent activity of the immune system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00066</IRI>
         <Literal xml:lang="en">OtherImmunosuppressant</Literal>
@@ -966,14 +1702,29 @@
         <Literal xml:lang="en">OtherRelevantTherapies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00068</IRI>
+        <Literal>A procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00068</IRI>
         <Literal xml:lang="en">CataractSurgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00069</IRI>
+        <Literal>In rare cases where treatment with eye drops or laser haven&apos;t been effective, surgery for glaucoma involves removing part of the eye-drainage tubes to allow fluid to drain more easily</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00069</IRI>
         <Literal xml:lang="en">GlaucomaSurgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00070</IRI>
+        <Literal>Vitreoretinal eye surgery treats retinal detachments and other conditions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -984,6 +1735,521 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00071</IRI>
         <Literal xml:lang="en">OtherOcularSurgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>Disease of the eye characterized by inflammation of the narrowed area between the iris and the choroid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal xml:lang="en">ParsPlanitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00073</IRI>
+        <Literal xml:lang="en">NonParsPlanitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00074</IRI>
+        <Literal>Inflammation of the choroid (thin pigmented vascular coat of the eye)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00074</IRI>
+        <Literal xml:lang="en">Choroiditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00075</IRI>
+        <Literal>Inflammation of the choroid (thin pigmented vascular coat of the eye) and retina of the eye (light sensitive tissue that lines the back of the eye)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00075</IRI>
+        <Literal xml:lang="en">Chorioretinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00076</IRI>
+        <Literal>A manifestation of T gondii infection. Ocular toxoplasmosis occurs when cysts deposited in or near the retina become active, producing tachyzoites. Focal necrotizing retinitis is the characteristic lesion, but retinal scars from prior reactivation are typically present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00076</IRI>
+        <Literal xml:lang="en">Retinochoroiditis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal>A breakdown and loss of cells in the retina (light sensitive tissue that lines the back of the eye)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal xml:lang="en">Retinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00078</IRI>
+        <Literal>An inflammatory optic neuropathy characterized by optic disc edema and lipid within the fovea in a macular star pattern, often associated with cells in the vitreous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00078</IRI>
+        <Literal xml:lang="en">Neuroretinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00079</IRI>
+        <Literal>Descriptor of Uveitis onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00079</IRI>
+        <Literal xml:lang="en">Onset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00080</IRI>
+        <Literal xml:lang="en">Sudden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00081</IRI>
+        <Literal xml:lang="en">Insidious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00082</IRI>
+        <Literal>TB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00082</IRI>
+        <Literal xml:lang="en">MycobacteriumTuberculosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00083</IRI>
+        <Literal>Syphilis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00083</IRI>
+        <Literal xml:lang="en">TreponemaPallidum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal>Cat-scratch disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal xml:lang="en">BartonellaHenselae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>Lyme disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal xml:lang="en">BorreliaBurgdorferi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00086</IRI>
+        <Literal xml:lang="en">OtherBacterial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00087</IRI>
+        <Literal xml:lang="en">OcularOnly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00088</IRI>
+        <Literal xml:lang="en">WithExtraocularInvolvement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00089</IRI>
+        <Literal>Herpes simplex virus 1 - sores around the mouth and lips (fever blisters or cold sores)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00089</IRI>
+        <Literal xml:lang="en">HSV1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00090</IRI>
+        <Literal>Herpes simplex virus 2 - genital herpes (sores around the genitals or rectum)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00090</IRI>
+        <Literal xml:lang="en">HSV2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00091</IRI>
+        <Literal>Varicella zoster virus - causes chickenpox and shingles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00091</IRI>
+        <Literal xml:lang="en">VZV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00092</IRI>
+        <Literal>Cytomegalovirus - common virus that is usually harmless, sometimes causes problems in babies if caught during pregnancy (congenital CMV)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00092</IRI>
+        <Literal xml:lang="en">CMV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00093</IRI>
+        <Literal xml:lang="en">ViralSyndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00094</IRI>
+        <Literal xml:lang="en">OtherViral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00095</IRI>
+        <Literal>Genus of yeasts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00095</IRI>
+        <Literal xml:lang="en">CandidaSp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00096</IRI>
+        <Literal>Genus of mold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00096</IRI>
+        <Literal xml:lang="en">AspergillusSp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00097</IRI>
+        <Literal xml:lang="en">OtherFungal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00098</IRI>
+        <Literal>An obligate intracellular parasitic one-celled eukaryote that causes the infectious disease toxoplasmosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00098</IRI>
+        <Literal xml:lang="en">ToxoplasmaGondii</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00099</IRI>
+        <Literal>Rare infection caused by roundworm parasites</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00099</IRI>
+        <Literal xml:lang="en">ToxocaraCanis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00100</IRI>
+        <Literal>Roundword that causes onchocerciasis (river blindness)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00100</IRI>
+        <Literal xml:lang="en">OnchocercaVolvus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00101</IRI>
+        <Literal>A progressive parasitic disease affecting the outer retina and retinal pigment epithelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00101</IRI>
+        <Literal xml:lang="en">DiffuseUnilateralSubacuteNecrosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00102</IRI>
+        <Literal xml:lang="en">OtherParasitic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00103</IRI>
+        <Literal>Chronic condition in which the spine and other areas of the body become inflamed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00103</IRI>
+        <Literal xml:lang="en">AnkylosingSpondylitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal>A disease involving abnormal collections of inflammatory cells that form lumps known as granulomas. The disease usually begins in the lungs, skin, or lymph nodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal xml:lang="en">Sarcoidosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00105</IRI>
+        <Literal>A condition that can affect the brain and spinal cord, causing a wide range of potential symptoms, including problems with vision, arm or leg movement, sensation or balance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00105</IRI>
+        <Literal xml:lang="en">MultipleSclerosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal>A rare disorder that causes blood vessel inflammation throughout your body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal xml:lang="en">BehcetDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00107</IRI>
+        <Literal>A diffuse granulomatous inflammation of the uveal layer of both eyes following trauma to one eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00107</IRI>
+        <Literal xml:lang="en">SympatheticOphthalmia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>A rare disease that affects several parts of the body, including the eyes, ears, nervous system, and skin - caused by chronic inflammation of melanocytes (specialised cells that produce a pigment called melanin)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal xml:lang="en">VogtKoyanagiHaradaDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00109</IRI>
+        <Literal>A rare form of bilateral non-granulomatous anterior uveitis found in a sub-population of patients with tubulointerstitial nephritis (inflammation of the area of the kidney known as the interstitium, which consists of a collection of cells, extracellular matrix, and fluid surrounding the renal tubules)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00109</IRI>
+        <Literal xml:lang="en">TubulointerstitialNephritisANDUveitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00110</IRI>
+        <Literal>JIA is inflammation of one or more of your joints, occuring in patients younger than 16 years of age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00110</IRI>
+        <Literal xml:lang="en">JuvenileIdiopathicArthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00111</IRI>
+        <Literal xml:lang="en">OtherNonInfectiousSystemic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00112</IRI>
+        <Literal>Best corrected for each eye (as measured by ETDRS charts)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00112</IRI>
+        <Literal xml:lang="en">LogMAR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00113</IRI>
+        <Literal>Evidence of increase ocular inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00113</IRI>
+        <Literal xml:lang="en">Worsening</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00114</IRI>
+        <Literal>No apparent change in level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00114</IRI>
+        <Literal xml:lang="en">NoChange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00115</IRI>
+        <Literal>Evidence of reduced ocular inflammation but still active</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00115</IRI>
+        <Literal xml:lang="en">Improving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00116</IRI>
+        <Literal>Disease inactive &lt;3 months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00116</IRI>
+        <Literal xml:lang="en">InactivityOfRecentOnset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00117</IRI>
+        <Literal>Disease inactive &gt;3 months but on treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00117</IRI>
+        <Literal xml:lang="en">InRemissionONTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00118</IRI>
+        <Literal>Disease inactive &gt;3 months and off treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00118</IRI>
+        <Literal xml:lang="en">InRemissionOFFTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00119</IRI>
+        <Literal>According to SUN/Nussenblatt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00119</IRI>
+        <Literal xml:lang="en">Grading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00120</IRI>
+        <Literal>Inflammation in the AC causes breakdown of the blood–aqueous barrier and results in an increase in the number of cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00120</IRI>
+        <Literal xml:lang="en">AnteriorChamberCells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00121</IRI>
+        <Literal>Protein that has released through inflammed vasculature inside the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00121</IRI>
+        <Literal xml:lang="en">AnteriorChamberFlare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00122</IRI>
+        <Literal>Obscuration of fundus details by vitreous cells and protein exudation. It impacts vision more profoundly than anterior inflammation and therefore used commonly as an outcome measure for clinical trials involving intermediate, posterior, or panuveitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00122</IRI>
+        <Literal xml:lang="en">VitreousHaze</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00123</IRI>
+        <Literal>Numeric 0-100 (mmHg) - IOP is the fluid pressure inside the eye, evaluation of patients at risk of glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00123</IRI>
+        <Literal xml:lang="en">IntraocularPressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>OHT is generally defined as consistently elevated intraocular pressure (IOP) - greater than 21mmHg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal xml:lang="en">OcularHypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00125</IRI>
+        <Literal>Drug induced OHT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00125</IRI>
+        <Literal xml:lang="en">CorticosteroidInducedOcularHypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00126</IRI>
+        <Literal xml:lang="en">Present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00127</IRI>
+        <Literal xml:lang="en">Definite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00128</IRI>
+        <Literal xml:lang="en">Probable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00129</IRI>
+        <Literal xml:lang="en">Possible</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00130</IRI>
+        <Literal xml:lang="en">Absent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00131</IRI>
+        <Literal xml:lang="en">OtherDrugReactionRequiringCessationOrFutureAvoidance</Literal>
     </AnnotationAssertion>
 </Ontology>
 
