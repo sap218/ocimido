@@ -66,20 +66,20 @@ for item in uids:
     
     #-------------------- type
     
-    if "anter" in string:
+    if "anteri" in string:
         anterior += 1
-    if "immed" in string:
+    if "intermedi" in string:
         immediate += 1
-    if "poster" in string:
+    if "posteri" in string:
         posterior += 1
-    if "panuv" in string:
+    if "panuveit" in string:
         panuveitis += 1
     
 #-------------------- counting
 all_count = len(uids)
 print("Total\tUSERS\t\t%s" % (all_count))
 print("Total\tANTERIOR\t%s\t\t16.585365853658537" % (anterior))
-print("Total\tIMMEDIATE\t%s\t\t9.268292682926829" % (immediate))
+print("Total\tINTERMEDIATE\t%s\t\t9.268292682926829" % (immediate))
 print("Total\tPOSTERIOR\t%s\t\t10.24390243902439" % (posterior))
 print("Total\tPANUVEITIS\t%s\t\t5.365853658536586" % (panuveitis))
 

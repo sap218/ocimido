@@ -110,12 +110,12 @@ else:
 
 #-------------------- type
 
-if "anter" in string:
+if "anteri" in string:
     print("type known: anterior")
-if "immed" in string:
-    print("type known: immediate")
-if "poster" in string:
+if "intermedi" in string:
+    print("type known: intermediate")
+if "posteri" in string:
     print("type known: posterior")
-if "panuv" in string:
+if "panuveit" in string:
     print("type known: panuveitis")
     
