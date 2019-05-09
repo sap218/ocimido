@@ -28,7 +28,7 @@ import json
 def js_r(filename):
    with open(filename) as f_in:
        return(json.load(f_in)) # importing JSON
-posts = js_r('/home/samantha/PhD_ontology/other_json/posts.json')
+posts = js_r('output.json')
 
 #-------------------- post check
 print("Total count of posts\t1-%s" % (len(posts)))
