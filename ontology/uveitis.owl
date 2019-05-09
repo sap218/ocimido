@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
+    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -76,18 +77,6 @@
         <Class IRI="#UVO_00021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00022"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00023"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00025"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00026"/>
     </Declaration>
     <Declaration>
@@ -127,13 +116,7 @@
         <Class IRI="#UVO_00038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00039"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00040"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00041"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00042"/>
@@ -152,12 +135,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00047"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00048"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00049"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00050"/>
@@ -223,13 +200,7 @@
         <Class IRI="#UVO_00070"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00071"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00072"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00073"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00074"/>
@@ -242,9 +213,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00077"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00078"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00079"/>
@@ -268,9 +236,6 @@
         <Class IRI="#UVO_00085"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00086"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00087"/>
     </Declaration>
     <Declaration>
@@ -289,19 +254,10 @@
         <Class IRI="#UVO_00092"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00093"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00094"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00095"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00096"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00097"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00098"/>
@@ -314,9 +270,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00101"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00102"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00103"/>
@@ -453,6 +406,42 @@
     <Declaration>
         <Class IRI="#UVO_00147"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00159"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#UVO_00006"/>
         <Class IRI="#UVO_00001"/>
@@ -514,22 +503,6 @@
         <Class IRI="#UVO_00004"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00022"/>
-        <Class IRI="#UVO_00006"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00023"/>
-        <Class IRI="#UVO_00006"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00024"/>
-        <Class IRI="#UVO_00006"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00025"/>
-        <Class IRI="#UVO_00006"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00026"/>
         <Class IRI="#UVO_00008"/>
     </SubClassOf>
@@ -582,32 +555,8 @@
         <Class IRI="#UVO_00037"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00039"/>
-        <Class IRI="#UVO_00037"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00040"/>
         <Class IRI="#UVO_00007"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00041"/>
-        <Class IRI="#UVO_00009"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00041"/>
-        <Class IRI="#UVO_00010"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00041"/>
-        <Class IRI="#UVO_00011"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00041"/>
-        <Class IRI="#UVO_00012"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00041"/>
-        <Class IRI="#UVO_00124"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00042"/>
@@ -632,38 +581,6 @@
     <SubClassOf>
         <Class IRI="#UVO_00047"/>
         <Class IRI="#UVO_00016"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00048"/>
-        <Class IRI="#UVO_00044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00048"/>
-        <Class IRI="#UVO_00045"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00048"/>
-        <Class IRI="#UVO_00046"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00048"/>
-        <Class IRI="#UVO_00047"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00049"/>
-        <Class IRI="#UVO_00044"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00049"/>
-        <Class IRI="#UVO_00045"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00049"/>
-        <Class IRI="#UVO_00046"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00049"/>
-        <Class IRI="#UVO_00047"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00050"/>
@@ -750,36 +667,28 @@
         <Class IRI="#UVO_00021"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00071"/>
-        <Class IRI="#UVO_00021"/>
+        <Class IRI="#UVO_00072"/>
+        <Class IRI="#UVO_00075"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00072"/>
-        <Class IRI="#UVO_00023"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00073"/>
-        <Class IRI="#UVO_00023"/>
+        <Class IRI="#UVO_00157"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00074"/>
-        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00155"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00075"/>
-        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00076"/>
-        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00150"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00077"/>
-        <Class IRI="#UVO_00024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00078"/>
-        <Class IRI="#UVO_00024"/>
+        <Class IRI="#UVO_00156"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00079"/>
@@ -810,10 +719,6 @@
         <Class IRI="#UVO_00030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00086"/>
-        <Class IRI="#UVO_00030"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00087"/>
         <Class IRI="#UVO_00082"/>
     </SubClassOf>
@@ -830,10 +735,6 @@
         <Class IRI="#UVO_00085"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00087"/>
-        <Class IRI="#UVO_00086"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00088"/>
         <Class IRI="#UVO_00082"/>
     </SubClassOf>
@@ -848,10 +749,6 @@
     <SubClassOf>
         <Class IRI="#UVO_00088"/>
         <Class IRI="#UVO_00085"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00088"/>
-        <Class IRI="#UVO_00086"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00089"/>
@@ -870,23 +767,11 @@
         <Class IRI="#UVO_00033"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00093"/>
-        <Class IRI="#UVO_00033"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00094"/>
-        <Class IRI="#UVO_00033"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00095"/>
         <Class IRI="#UVO_00031"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00096"/>
-        <Class IRI="#UVO_00031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00097"/>
         <Class IRI="#UVO_00031"/>
     </SubClassOf>
     <SubClassOf>
@@ -903,10 +788,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00101"/>
-        <Class IRI="#UVO_00032"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00102"/>
         <Class IRI="#UVO_00032"/>
     </SubClassOf>
     <SubClassOf>
@@ -1105,6 +986,58 @@
         <Class IRI="#UVO_00147"/>
         <Class IRI="#UVO_00139"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00148"/>
+        <Class IRI="#UVO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00149"/>
+        <Class IRI="#UVO_00148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00150"/>
+        <Class IRI="#UVO_00148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00151"/>
+        <Class IRI="#UVO_00148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00152"/>
+        <Class IRI="#UVO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00153"/>
+        <Class IRI="#UVO_00152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00154"/>
+        <Class IRI="#UVO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00155"/>
+        <Class IRI="#UVO_00150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00156"/>
+        <Class IRI="#UVO_00150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00156"/>
+        <Class IRI="#UVO_00151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00157"/>
+        <Class IRI="#UVO_00151"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00158"/>
+        <Class IRI="#UVO_00157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00159"/>
+        <Class IRI="#UVO_00158"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -1137,12 +1070,6 @@
         <Class IRI="#UVO_00021"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00022"/>
-        <Class IRI="#UVO_00023"/>
-        <Class IRI="#UVO_00024"/>
-        <Class IRI="#UVO_00025"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00026"/>
         <Class IRI="#UVO_00027"/>
         <Class IRI="#UVO_00028"/>
@@ -1164,10 +1091,6 @@
         <Class IRI="#UVO_00036"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00038"/>
-        <Class IRI="#UVO_00039"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00042"/>
         <Class IRI="#UVO_00043"/>
     </DisjointClasses>
@@ -1176,10 +1099,6 @@
         <Class IRI="#UVO_00045"/>
         <Class IRI="#UVO_00046"/>
         <Class IRI="#UVO_00047"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00048"/>
-        <Class IRI="#UVO_00049"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00050"/>
@@ -1204,56 +1123,12 @@
         <Class IRI="#UVO_00067"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00068"/>
-        <Class IRI="#UVO_00069"/>
-        <Class IRI="#UVO_00070"/>
-        <Class IRI="#UVO_00071"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00072"/>
-        <Class IRI="#UVO_00073"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00074"/>
-        <Class IRI="#UVO_00075"/>
-        <Class IRI="#UVO_00076"/>
-        <Class IRI="#UVO_00077"/>
-        <Class IRI="#UVO_00078"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00080"/>
         <Class IRI="#UVO_00081"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00082"/>
-        <Class IRI="#UVO_00083"/>
-        <Class IRI="#UVO_00084"/>
-        <Class IRI="#UVO_00085"/>
-        <Class IRI="#UVO_00086"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00087"/>
         <Class IRI="#UVO_00088"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00089"/>
-        <Class IRI="#UVO_00090"/>
-        <Class IRI="#UVO_00091"/>
-        <Class IRI="#UVO_00092"/>
-        <Class IRI="#UVO_00093"/>
-        <Class IRI="#UVO_00094"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00095"/>
-        <Class IRI="#UVO_00096"/>
-        <Class IRI="#UVO_00097"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00098"/>
-        <Class IRI="#UVO_00099"/>
-        <Class IRI="#UVO_00100"/>
-        <Class IRI="#UVO_00101"/>
-        <Class IRI="#UVO_00102"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00103"/>
@@ -1312,6 +1187,23 @@
         <Class IRI="#UVO_00145"/>
         <Class IRI="#UVO_00146"/>
         <Class IRI="#UVO_00147"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00149"/>
+        <Class IRI="#UVO_00150"/>
+        <Class IRI="#UVO_00151"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00152"/>
+        <Class IRI="#UVO_00154"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00155"/>
+        <Class IRI="#UVO_00156"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00156"/>
+        <Class IRI="#UVO_00157"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1321,7 +1213,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00001</IRI>
-        <Literal xml:lang="en">Classification</Literal>
+        <Literal xml:lang="en">classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1341,7 +1233,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00003</IRI>
-        <Literal xml:lang="en">Complications</Literal>
+        <Literal xml:lang="en">complications</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1351,7 +1243,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00004</IRI>
-        <Literal xml:lang="en">TherapeuticInterventions</Literal>
+        <Literal xml:lang="en">therapeutic interventions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1361,7 +1253,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00005</IRI>
-        <Literal xml:lang="en">Investigations</Literal>
+        <Literal xml:lang="en">investigations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1371,7 +1263,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00006</IRI>
-        <Literal xml:lang="en">Anatomical</Literal>
+        <Literal xml:lang="en">anatomical</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1381,7 +1273,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00007</IRI>
-        <Literal xml:lang="en">ClinicalSyndrome</Literal>
+        <Literal xml:lang="en">clinical syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1401,7 +1293,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00009</IRI>
-        <Literal xml:lang="en">Cataract</Literal>
+        <Literal xml:lang="en">cataract</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1411,7 +1303,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00010</IRI>
-        <Literal xml:lang="en">EpiretinalMembrane</Literal>
+        <Literal xml:lang="en">epiretinal membrane</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1421,7 +1313,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00011</IRI>
-        <Literal xml:lang="en">Glaucoma</Literal>
+        <Literal xml:lang="en">glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1431,7 +1323,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00012</IRI>
-        <Literal xml:lang="en">MacularOedema</Literal>
+        <Literal xml:lang="en">macular oedema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1471,7 +1363,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00016</IRI>
-        <Literal xml:lang="en">GenotypicData</Literal>
+        <Literal xml:lang="en">genotypic data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1481,7 +1373,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00017</IRI>
-        <Literal xml:lang="en">OtherInvestigations</Literal>
+        <Literal xml:lang="en">other investigations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1511,47 +1403,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00021</IRI>
-        <Literal xml:lang="en">SurgicalTherapy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00022</IRI>
-        <Literal>Anterior chamber</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00022</IRI>
-        <Literal xml:lang="en">Anterior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00023</IRI>
-        <Literal>Vitreous</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00023</IRI>
-        <Literal xml:lang="en">Intermediate</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00024</IRI>
-        <Literal>Choroid or Retina</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00024</IRI>
-        <Literal xml:lang="en">Posterior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00025</IRI>
-        <Literal>Anterior and Posterior</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00025</IRI>
-        <Literal xml:lang="en">Panuveitis</Literal>
+        <Literal xml:lang="en">surgical therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1591,7 +1443,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00029</IRI>
-        <Literal xml:lang="en">Infectious</Literal>
+        <Literal xml:lang="en">infectious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1601,7 +1453,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00030</IRI>
-        <Literal xml:lang="en">Bacterial</Literal>
+        <Literal xml:lang="en">bacterial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1611,7 +1463,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00031</IRI>
-        <Literal xml:lang="en">Fungal</Literal>
+        <Literal xml:lang="en">fungal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1621,7 +1473,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00032</IRI>
-        <Literal xml:lang="en">Parasitic</Literal>
+        <Literal xml:lang="en">parasitic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1631,12 +1483,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00033</IRI>
-        <Literal xml:lang="en">Viral</Literal>
+        <Literal xml:lang="en">viral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00034</IRI>
-        <Literal xml:lang="en">NonInfectious</Literal>
+        <Literal xml:lang="en">nonInfectious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1651,12 +1503,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00036</IRI>
-        <Literal xml:lang="en">SystemicDisease</Literal>
+        <Literal xml:lang="en">systemic disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00037</IRI>
-        <Literal xml:lang="en">Masquerade</Literal>
+        <Literal xml:lang="en">masquerade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1666,22 +1518,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00038</IRI>
-        <Literal xml:lang="en">Neoplastic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00039</IRI>
-        <Literal xml:lang="en">NonNeoplastic</Literal>
+        <Literal xml:lang="en">neoplastic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00040</IRI>
-        <Literal xml:lang="en">Undifferentiated</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00041</IRI>
-        <Literal xml:lang="en">Status</Literal>
+        <Literal xml:lang="en">undifferentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1732,16 +1574,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00047</IRI>
         <Literal xml:lang="en">HLA-DR4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00048</IRI>
-        <Literal xml:lang="en">Positive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00049</IRI>
-        <Literal xml:lang="en">Negative</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1911,7 +1743,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00068</IRI>
-        <Literal xml:lang="en">CataractSurgery</Literal>
+        <Literal xml:lang="en">cataract surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1921,7 +1753,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00069</IRI>
-        <Literal xml:lang="en">GlaucomaSurgery</Literal>
+        <Literal xml:lang="en">glaucoma surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1931,12 +1763,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00070</IRI>
-        <Literal xml:lang="en">VitreoRetinalSurgery</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00071</IRI>
-        <Literal xml:lang="en">OtherOcularSurgery</Literal>
+        <Literal xml:lang="en">vitreo retinal surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1946,12 +1773,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00072</IRI>
-        <Literal xml:lang="en">ParsPlanitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00073</IRI>
-        <Literal xml:lang="en">NonParsPlanitis</Literal>
+        <Literal xml:lang="en">pars planitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1961,7 +1783,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00074</IRI>
-        <Literal xml:lang="en">Choroiditis</Literal>
+        <Literal xml:lang="en">choroiditis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1971,7 +1793,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00075</IRI>
-        <Literal xml:lang="en">Chorioretinitis</Literal>
+        <Literal xml:lang="en">chorioretinitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1981,7 +1803,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00076</IRI>
-        <Literal xml:lang="en">Retinochoroiditis</Literal>
+        <Literal xml:lang="en">retinochoroiditis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1991,17 +1813,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00077</IRI>
-        <Literal xml:lang="en">Retinitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00078</IRI>
-        <Literal>An inflammatory optic neuropathy characterized by optic disc edema and lipid within the fovea in a macular star pattern, often associated with cells in the vitreous</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00078</IRI>
-        <Literal xml:lang="en">Neuroretinitis</Literal>
+        <Literal xml:lang="en">retinitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2065,11 +1877,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00086</IRI>
-        <Literal xml:lang="en">OtherBacterial</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00087</IRI>
         <Literal xml:lang="en">OcularOnly</Literal>
     </AnnotationAssertion>
@@ -2119,16 +1926,6 @@
         <Literal xml:lang="en">CMV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00093</IRI>
-        <Literal xml:lang="en">ViralSyndrome</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00094</IRI>
-        <Literal xml:lang="en">OtherViral</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00095</IRI>
         <Literal>Genus of yeasts</Literal>
@@ -2147,11 +1944,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00096</IRI>
         <Literal xml:lang="en">AspergillusSp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00097</IRI>
-        <Literal xml:lang="en">OtherFungal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2192,11 +1984,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00101</IRI>
         <Literal xml:lang="en">DiffuseUnilateralSubacuteNecrosis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00102</IRI>
-        <Literal xml:lang="en">OtherParasitic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2411,7 +2198,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00124</IRI>
-        <Literal xml:lang="en">OcularHypertension</Literal>
+        <Literal xml:lang="en">ocular hypertension</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2577,6 +2364,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00147</IRI>
         <Literal xml:lang="en">OtherEyePain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00148</IRI>
+        <Literal xml:lang="en">eyeball of camera-type eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00149</IRI>
+        <Literal xml:lang="en">anterior segment of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00150</IRI>
+        <Literal xml:lang="en">chorioretinal region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00151</IRI>
+        <Literal xml:lang="en">posterior segment of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00152</IRI>
+        <Literal xml:lang="en">anterior chamber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00153</IRI>
+        <Literal xml:lang="en">aqueous humor of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00154</IRI>
+        <Literal xml:lang="en">posterior chamber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00155</IRI>
+        <Literal xml:lang="en">optic choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00156</IRI>
+        <Literal xml:lang="en">retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00157</IRI>
+        <Literal xml:lang="en">vitreous chamber of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00158</IRI>
+        <Literal xml:lang="en">vitreous body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00159</IRI>
+        <Literal xml:lang="en">vitreous humor</Literal>
     </AnnotationAssertion>
 </Ontology>
 
