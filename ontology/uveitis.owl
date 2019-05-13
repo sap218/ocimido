@@ -104,9 +104,6 @@
         <Class IRI="#UVO_00034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00035"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00036"/>
     </Declaration>
     <Declaration>
@@ -164,9 +161,6 @@
         <Class IRI="#UVO_00058"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00059"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00060"/>
     </Declaration>
     <Declaration>
@@ -182,13 +176,7 @@
         <Class IRI="#UVO_00064"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00065"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00066"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00067"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00068"/>
@@ -296,9 +284,6 @@
         <Class IRI="#UVO_00110"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00111"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00112"/>
     </Declaration>
     <Declaration>
@@ -399,12 +384,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00145"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00146"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00147"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00148"/>
@@ -539,10 +518,6 @@
         <Class IRI="#UVO_00007"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00035"/>
-        <Class IRI="#UVO_00034"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00036"/>
         <Class IRI="#UVO_00034"/>
     </SubClassOf>
@@ -619,10 +594,6 @@
         <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00059"/>
-        <Class IRI="#UVO_00017"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00060"/>
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
@@ -643,15 +614,7 @@
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00065"/>
-        <Class IRI="#UVO_00020"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00066"/>
-        <Class IRI="#UVO_00020"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00067"/>
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
@@ -823,10 +786,6 @@
         <Class IRI="#UVO_00036"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00111"/>
-        <Class IRI="#UVO_00036"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00112"/>
         <Class IRI="#UVO_00132"/>
     </SubClassOf>
@@ -979,14 +938,6 @@
         <Class IRI="#UVO_00139"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00146"/>
-        <Class IRI="#UVO_00139"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00147"/>
-        <Class IRI="#UVO_00139"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00148"/>
         <Class IRI="#UVO_00006"/>
     </SubClassOf>
@@ -1087,10 +1038,6 @@
         <Class IRI="#UVO_00033"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00035"/>
-        <Class IRI="#UVO_00036"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00042"/>
         <Class IRI="#UVO_00043"/>
     </DisjointClasses>
@@ -1110,7 +1057,6 @@
         <Class IRI="#UVO_00056"/>
         <Class IRI="#UVO_00057"/>
         <Class IRI="#UVO_00058"/>
-        <Class IRI="#UVO_00059"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00060"/>
@@ -1118,9 +1064,7 @@
         <Class IRI="#UVO_00062"/>
         <Class IRI="#UVO_00063"/>
         <Class IRI="#UVO_00064"/>
-        <Class IRI="#UVO_00065"/>
         <Class IRI="#UVO_00066"/>
-        <Class IRI="#UVO_00067"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00080"/>
@@ -1139,7 +1083,6 @@
         <Class IRI="#UVO_00108"/>
         <Class IRI="#UVO_00109"/>
         <Class IRI="#UVO_00110"/>
-        <Class IRI="#UVO_00111"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00113"/>
@@ -1185,8 +1128,6 @@
         <Class IRI="#UVO_00143"/>
         <Class IRI="#UVO_00144"/>
         <Class IRI="#UVO_00145"/>
-        <Class IRI="#UVO_00146"/>
-        <Class IRI="#UVO_00147"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00149"/>
@@ -1223,7 +1164,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00002</IRI>
-        <Literal xml:lang="en">CurrentStatus</Literal>
+        <Literal xml:lang="en">current status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1283,7 +1224,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00008</IRI>
-        <Literal xml:lang="en">Course</Literal>
+        <Literal xml:lang="en">course</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1333,7 +1274,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00013</IRI>
-        <Literal xml:lang="en">InflammationActivity</Literal>
+        <Literal xml:lang="en">inflammation activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1343,7 +1284,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00014</IRI>
-        <Literal xml:lang="en">Pressure</Literal>
+        <Literal xml:lang="en">pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1353,7 +1294,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00015</IRI>
-        <Literal xml:lang="en">VisualAcuity</Literal>
+        <Literal xml:lang="en">visual acuity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1383,7 +1324,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00019</IRI>
-        <Literal xml:lang="en">DrugAdverseAffects</Literal>
+        <Literal xml:lang="en">drug adverse affects</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1393,7 +1334,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00020</IRI>
-        <Literal xml:lang="en">MedicalTherapy</Literal>
+        <Literal xml:lang="en">medical therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1413,7 +1354,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00026</IRI>
-        <Literal xml:lang="en">Acute</Literal>
+        <Literal xml:lang="en">acute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1423,7 +1364,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00027</IRI>
-        <Literal xml:lang="en">Recurrent</Literal>
+        <Literal xml:lang="en">recurrent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1433,7 +1374,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00028</IRI>
-        <Literal xml:lang="en">Chronic</Literal>
+        <Literal xml:lang="en">chronic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1488,12 +1429,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00034</IRI>
-        <Literal xml:lang="en">nonInfectious</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00035</IRI>
-        <Literal xml:lang="en">NoSystemicDisease</Literal>
+        <Literal xml:lang="en">non infectious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1528,12 +1464,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00042</IRI>
-        <Literal xml:lang="en">Active</Literal>
+        <Literal xml:lang="en">active</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00043</IRI>
-        <Literal xml:lang="en">Quiescent</Literal>
+        <Literal xml:lang="en">quiescent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1593,7 +1529,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00051</IRI>
-        <Literal xml:lang="en">AqueousHumour</Literal>
+        <Literal xml:lang="en">aqueous humour</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1603,7 +1539,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00052</IRI>
-        <Literal xml:lang="en">CTThorax</Literal>
+        <Literal xml:lang="en">CT thorax</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1623,7 +1559,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00054</IRI>
-        <Literal xml:lang="en">InterferonGammaReleaseAssay</Literal>
+        <Literal xml:lang="en">interferon gamma release assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1633,7 +1569,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00055</IRI>
-        <Literal xml:lang="en">Mantoux</Literal>
+        <Literal xml:lang="en">mantoux</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1643,7 +1579,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00056</IRI>
-        <Literal xml:lang="en">MRIBrain</Literal>
+        <Literal xml:lang="en">MRI brain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1653,7 +1589,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00057</IRI>
-        <Literal xml:lang="en">SyphilisSerology</Literal>
+        <Literal xml:lang="en">syphilis serology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1663,17 +1599,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00058</IRI>
-        <Literal xml:lang="en">VitreousHumour</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00059</IRI>
-        <Literal xml:lang="en">OtherRelevantInvestiagtions</Literal>
+        <Literal xml:lang="en">vitreous humour</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00060</IRI>
-        <Literal xml:lang="en">LocalTherapy</Literal>
+        <Literal xml:lang="en">local therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1683,7 +1614,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00061</IRI>
-        <Literal xml:lang="en">IntramuscularCorticosteroid</Literal>
+        <Literal xml:lang="en">intramuscular corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1693,7 +1624,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00062</IRI>
-        <Literal xml:lang="en">IntravenousCorticosteroid</Literal>
+        <Literal xml:lang="en">intravenous corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1703,7 +1634,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00063</IRI>
-        <Literal xml:lang="en">OralCorticosteroid</Literal>
+        <Literal xml:lang="en">oral corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1713,12 +1644,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00064</IRI>
-        <Literal xml:lang="en">TopicalCorticosteroid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00065</IRI>
-        <Literal xml:lang="en">OtherTopical</Literal>
+        <Literal xml:lang="en">topical corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1728,12 +1654,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00066</IRI>
-        <Literal xml:lang="en">OtherImmunosuppressant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00067</IRI>
-        <Literal xml:lang="en">OtherRelevantTherapies</Literal>
+        <Literal xml:lang="en">other immunosuppressant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1823,17 +1744,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00079</IRI>
-        <Literal xml:lang="en">Onset</Literal>
+        <Literal xml:lang="en">onset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00080</IRI>
-        <Literal xml:lang="en">Sudden</Literal>
+        <Literal xml:lang="en">sudden</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00081</IRI>
-        <Literal xml:lang="en">Insidious</Literal>
+        <Literal xml:lang="en">insidious</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1843,7 +1764,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00082</IRI>
-        <Literal xml:lang="en">MycobacteriumTuberculosis</Literal>
+        <Literal xml:lang="en">mycobacterium tuberculosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1853,7 +1774,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00083</IRI>
-        <Literal xml:lang="en">TreponemaPallidum</Literal>
+        <Literal xml:lang="en">treponema pallidum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1863,7 +1784,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00084</IRI>
-        <Literal xml:lang="en">BartonellaHenselae</Literal>
+        <Literal xml:lang="en">bartonella henselae</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1873,17 +1794,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00085</IRI>
-        <Literal xml:lang="en">BorreliaBurgdorferi</Literal>
+        <Literal xml:lang="en">borrelia burgdorferi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00087</IRI>
-        <Literal xml:lang="en">OcularOnly</Literal>
+        <Literal xml:lang="en">ocular only</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00088</IRI>
-        <Literal xml:lang="en">WithExtraocularInvolvement</Literal>
+        <Literal xml:lang="en">with extraocular involvement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1933,7 +1854,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00095</IRI>
-        <Literal xml:lang="en">CandidaSp</Literal>
+        <Literal xml:lang="en">candida sp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1943,7 +1864,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00096</IRI>
-        <Literal xml:lang="en">AspergillusSp</Literal>
+        <Literal xml:lang="en">aspergillus sp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1953,7 +1874,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00098</IRI>
-        <Literal xml:lang="en">ToxoplasmaGondii</Literal>
+        <Literal xml:lang="en">toxoplasma gondii</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1963,7 +1884,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00099</IRI>
-        <Literal xml:lang="en">ToxocaraCanis</Literal>
+        <Literal xml:lang="en">toxocara canis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1973,7 +1894,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00100</IRI>
-        <Literal xml:lang="en">OnchocercaVolvus</Literal>
+        <Literal xml:lang="en">onchocerca volvus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1983,7 +1904,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00101</IRI>
-        <Literal xml:lang="en">DiffuseUnilateralSubacuteNecrosis</Literal>
+        <Literal xml:lang="en">diffuse unilateral subacute necrosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1993,7 +1914,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00103</IRI>
-        <Literal xml:lang="en">AnkylosingSpondylitis</Literal>
+        <Literal xml:lang="en">ankylosing spondylitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2003,7 +1924,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00104</IRI>
-        <Literal xml:lang="en">Sarcoidosis</Literal>
+        <Literal xml:lang="en">sarcoidosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2013,7 +1934,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00105</IRI>
-        <Literal xml:lang="en">MultipleSclerosis</Literal>
+        <Literal xml:lang="en">multiple sclerosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2023,7 +1944,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00106</IRI>
-        <Literal xml:lang="en">BehcetDisease</Literal>
+        <Literal xml:lang="en">behcet disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2033,7 +1954,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00107</IRI>
-        <Literal xml:lang="en">SympatheticOphthalmia</Literal>
+        <Literal xml:lang="en">sympathetic ophthalmia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2043,7 +1964,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00108</IRI>
-        <Literal xml:lang="en">VogtKoyanagiHaradaDisease</Literal>
+        <Literal xml:lang="en">vogt koyanagi harada disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2053,7 +1974,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00109</IRI>
-        <Literal xml:lang="en">TubulointerstitialNephritisANDUveitis</Literal>
+        <Literal xml:lang="en">tubulointerstitial nephritis and uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2063,12 +1984,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00110</IRI>
-        <Literal xml:lang="en">JuvenileIdiopathicArthritis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00111</IRI>
-        <Literal xml:lang="en">OtherNonInfectiousSystemic</Literal>
+        <Literal xml:lang="en">juvenileIdiopathic arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2088,7 +2004,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00113</IRI>
-        <Literal xml:lang="en">Worsening</Literal>
+        <Literal xml:lang="en">worsening</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2098,7 +2014,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00114</IRI>
-        <Literal xml:lang="en">NoChange</Literal>
+        <Literal xml:lang="en">no change</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2108,7 +2024,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00115</IRI>
-        <Literal xml:lang="en">Improving</Literal>
+        <Literal xml:lang="en">improving</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2118,7 +2034,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00116</IRI>
-        <Literal xml:lang="en">InactivityOfRecentOnset</Literal>
+        <Literal xml:lang="en">inactivity of recent onset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2128,7 +2044,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00117</IRI>
-        <Literal xml:lang="en">InRemissionONTreatment</Literal>
+        <Literal xml:lang="en">in remission on treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2138,7 +2054,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00118</IRI>
-        <Literal xml:lang="en">InRemissionOFFTreatment</Literal>
+        <Literal xml:lang="en">in remission off treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2148,7 +2064,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00119</IRI>
-        <Literal xml:lang="en">Grading</Literal>
+        <Literal xml:lang="en">grading</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2158,7 +2074,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00120</IRI>
-        <Literal xml:lang="en">AnteriorChamberCells</Literal>
+        <Literal xml:lang="en">anterior chamber cells</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2168,7 +2084,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00121</IRI>
-        <Literal xml:lang="en">AnteriorChamberFlare</Literal>
+        <Literal xml:lang="en">anterior chamber flare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2178,7 +2094,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00122</IRI>
-        <Literal xml:lang="en">VitreousHaze</Literal>
+        <Literal xml:lang="en">vitreous haze</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2188,7 +2104,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00123</IRI>
-        <Literal xml:lang="en">IntraocularPressure</Literal>
+        <Literal xml:lang="en">intraocular pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2208,57 +2124,57 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00125</IRI>
-        <Literal xml:lang="en">CorticosteroidInducedOcularHypertension</Literal>
+        <Literal xml:lang="en">corticosteroid induced ocular hypertension</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00126</IRI>
-        <Literal xml:lang="en">Present</Literal>
+        <Literal xml:lang="en">present</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00127</IRI>
-        <Literal xml:lang="en">Definite</Literal>
+        <Literal xml:lang="en">definite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00128</IRI>
-        <Literal xml:lang="en">Probable</Literal>
+        <Literal xml:lang="en">probable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00129</IRI>
-        <Literal xml:lang="en">Possible</Literal>
+        <Literal xml:lang="en">possible</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00130</IRI>
-        <Literal xml:lang="en">Absent</Literal>
+        <Literal xml:lang="en">absent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00131</IRI>
-        <Literal xml:lang="en">OtherDrugReactionRequiringCessationOrFutureAvoidance</Literal>
+        <Literal xml:lang="en">other drug reaction requiring cessation or future avoidance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00132</IRI>
-        <Literal xml:lang="en">Unaided</Literal>
+        <Literal xml:lang="en">unaided</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00133</IRI>
-        <Literal xml:lang="en">BestCorrected</Literal>
+        <Literal xml:lang="en">best corrected</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00134</IRI>
-        <Literal xml:lang="en">PinHole</Literal>
+        <Literal xml:lang="en">pin hole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00135</IRI>
-        <Literal xml:lang="en">ColourVision</Literal>
+        <Literal xml:lang="en">colour vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2273,7 +2189,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00137</IRI>
-        <Literal xml:lang="en">IshiharaPlates</Literal>
+        <Literal xml:lang="en">ishihara plates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2283,7 +2199,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00138</IRI>
-        <Literal xml:lang="en">Activity</Literal>
+        <Literal xml:lang="en">activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2293,7 +2209,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00139</IRI>
-        <Literal xml:lang="en">Symptoms</Literal>
+        <Literal xml:lang="en">symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2303,7 +2219,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00140</IRI>
-        <Literal xml:lang="en">Photophobia</Literal>
+        <Literal xml:lang="en">photophobia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2313,7 +2229,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00141</IRI>
-        <Literal xml:lang="en">BlurredVision</Literal>
+        <Literal xml:lang="en">blurred vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2323,7 +2239,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00142</IRI>
-        <Literal xml:lang="en">Floaters</Literal>
+        <Literal xml:lang="en">floaters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2333,7 +2249,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00143</IRI>
-        <Literal xml:lang="en">Photopsia</Literal>
+        <Literal xml:lang="en">photopsia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2343,7 +2259,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00144</IRI>
-        <Literal xml:lang="en">BlindSpots</Literal>
+        <Literal xml:lang="en">blind spots</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2353,17 +2269,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00145</IRI>
-        <Literal xml:lang="en">Distortion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00146</IRI>
-        <Literal xml:lang="en">OtherVisualSymptoms</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00147</IRI>
-        <Literal xml:lang="en">OtherEyePain</Literal>
+        <Literal xml:lang="en">distortion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
