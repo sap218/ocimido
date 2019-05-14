@@ -13,10 +13,10 @@ import pandas as pd
 import re
 import seaborn as sns
 
-#fig_size = plt.rcParams["figure.figsize"]
-#fig_size[0] = 30
-#fig_size[1] = 15
-#plt.rcParams["figure.figsize"] = fig_size
+fig_size = plt.rcParams["figure.figsize"]
+fig_size[0] = 30
+fig_size[1] = 15
+plt.rcParams["figure.figsize"] = fig_size
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -75,13 +75,13 @@ stemming = {k: v for k, v in stemming.items()} # if v > 1
 stemming = pd.DataFrame(list(stemming.items()), columns=['words', 'count'])
 stemming = stemming.sort_values('count')
 
-#plt.figure(1)
-#sns.barplot("words", "count", data=stemming).set_title(uid)
-#locs, labels = plt.xticks()
-#plt.setp(labels, rotation=90)
-#plt.savefig("plots/P:%s_UID:%s_top-words.png" % ((query+1), uid))
+plt.figure(1)
+sns.barplot("words", "count", data=stemming).set_title(uid)
+locs, labels = plt.xticks()
+plt.setp(labels, rotation=90)
+plt.savefig("plots/P:%s_UID:%s_top-words.png" % ((query+1), uid))
 
-'''
+
 #-------------------- NGRAMS
 string = ' '.join(map(str, string)) 
 n = int(input("NGRAM\t(2 / 3):\t\t"))
@@ -101,11 +101,11 @@ if len(ngrams) < 2:
 else:
     ngrams = pd.DataFrame(list(ngrams.items()), columns=['combinations', 'count'])
     ngrams = ngrams.sort_values('count')
-    #plt.figure(2)
-    #sns.barplot("combinations", "count", data=ngrams).set_title(uid)
-    #locs, labels = plt.xticks()
-    #plt.setp(labels, rotation=90)
-    #plt.savefig("plots/P:%s_UID:%s_ngrams_%s.png" % ((query+1), uid, n))
+    plt.figure(2)
+    sns.barplot("combinations", "count", data=ngrams).set_title(uid)
+    locs, labels = plt.xticks()
+    plt.setp(labels, rotation=90)
+    plt.savefig("plots/P:%s_UID:%s_ngrams_%s.png" % ((query+1), uid, n))
     
 
 #-------------------- type
@@ -118,5 +118,3 @@ if "posteri" in string:
     print("type known: posterior")
 if "panuveit" in string:
     print("type known: panuveitis")
-    
-'''

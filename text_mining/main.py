@@ -12,10 +12,12 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+'''
 fig_size = plt.rcParams["figure.figsize"]
 fig_size[0] = 30
 fig_size[1] = 15
 plt.rcParams["figure.figsize"] = fig_size
+'''
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -112,16 +114,15 @@ if __name__ == "__main__":
     #df['uid'].value_counts()
     list_strings = ' '.join(list_text)
     
-    
+    '''
     nonANONS = df
     nonANONS.uid.replace(["ANON"], ("0"), inplace=True)
     nonANONS = nonANONS[nonANONS['uid'] != "0"]
     newdf = nonANONS.groupby(['uid','type'])['text'].apply(', '.join).reset_index()
     newdf = newdf.groupby(['uid','type'])['text'].apply(', '.join).reset_index()
-    
-    
-    
     '''
+    
+    
     #-------------------- type plot 
     types = []
     for item in df.type:
@@ -175,7 +176,8 @@ if __name__ == "__main__":
     #sns.barplot("words", "count", data=popular).set_title("user_link")
     #locs, labels = plt.xticks()
     #plt.setp(labels, rotation=45)
-    '''
+    
+    
     '''
     df.type.replace(("1000", "0100", "0010", "0001",
                      "1100", "1010", "1001",
