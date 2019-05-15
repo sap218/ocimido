@@ -161,9 +161,6 @@
         <Class IRI="#UVO_00058"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00060"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00061"/>
     </Declaration>
     <Declaration>
@@ -434,6 +431,120 @@
         <Class IRI="#UVO_00173"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00212"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -642,12 +753,8 @@
         <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00060"/>
-        <Class IRI="#UVO_00020"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00061"/>
-        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00212"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00062"/>
@@ -655,11 +762,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00063"/>
-        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00175"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00064"/>
-        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00211"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00066"/>
@@ -905,6 +1012,10 @@
     <SubClassOf>
         <Class IRI="#UVO_00123"/>
         <Class IRI="#UVO_00014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00123"/>
+        <Class IRI="#UVO_00190"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00124"/>
@@ -1303,6 +1414,162 @@
             <Class IRI="#UVO_00077"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00176"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00177"/>
+        <Class IRI="#UVO_00176"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00178"/>
+        <Class IRI="#UVO_00176"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00179"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00180"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00180"/>
+        <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00181"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00182"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00183"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00184"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00185"/>
+        <Class IRI="#UVO_00212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00186"/>
+        <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00187"/>
+        <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00188"/>
+        <Class IRI="#UVO_00212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00189"/>
+        <Class IRI="#UVO_00188"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00190"/>
+        <Class IRI="#UVO_00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00191"/>
+        <Class IRI="#UVO_00190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00192"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00193"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00194"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00195"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00196"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00197"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00198"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00199"/>
+        <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00200"/>
+        <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00201"/>
+        <Class IRI="#UVO_00200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00202"/>
+        <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00203"/>
+        <Class IRI="#UVO_00202"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00204"/>
+        <Class IRI="#UVO_00202"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00205"/>
+        <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00206"/>
+        <Class IRI="#UVO_00205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00207"/>
+        <Class IRI="#UVO_00205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00208"/>
+        <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00209"/>
+        <Class IRI="#UVO_00208"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00210"/>
+        <Class IRI="#UVO_00208"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00211"/>
+        <Class IRI="#UVO_00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00212"/>
+        <Class IRI="#UVO_00020"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -1373,14 +1640,6 @@
         <Class IRI="#UVO_00058"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00060"/>
-        <Class IRI="#UVO_00061"/>
-        <Class IRI="#UVO_00062"/>
-        <Class IRI="#UVO_00063"/>
-        <Class IRI="#UVO_00064"/>
-        <Class IRI="#UVO_00066"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00080"/>
         <Class IRI="#UVO_00081"/>
     </DisjointClasses>
@@ -1412,6 +1671,10 @@
         <Class IRI="#UVO_00120"/>
         <Class IRI="#UVO_00121"/>
         <Class IRI="#UVO_00122"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00123"/>
+        <Class IRI="#UVO_00191"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00125"/>
@@ -1465,6 +1728,60 @@
         <Class IRI="#UVO_00171"/>
         <Class IRI="#UVO_00172"/>
         <Class IRI="#UVO_00173"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00185"/>
+        <Class IRI="#UVO_00188"/>
+        <Class IRI="#UVO_00190"/>
+        <Class IRI="#UVO_00211"/>
+        <Class IRI="#UVO_00212"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00176"/>
+        <Class IRI="#UVO_00179"/>
+        <Class IRI="#UVO_00180"/>
+        <Class IRI="#UVO_00181"/>
+        <Class IRI="#UVO_00182"/>
+        <Class IRI="#UVO_00183"/>
+        <Class IRI="#UVO_00184"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00177"/>
+        <Class IRI="#UVO_00178"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00180"/>
+        <Class IRI="#UVO_00186"/>
+        <Class IRI="#UVO_00187"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00192"/>
+        <Class IRI="#UVO_00193"/>
+        <Class IRI="#UVO_00194"/>
+        <Class IRI="#UVO_00195"/>
+        <Class IRI="#UVO_00196"/>
+        <Class IRI="#UVO_00197"/>
+        <Class IRI="#UVO_00198"/>
+        <Class IRI="#UVO_00199"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00200"/>
+        <Class IRI="#UVO_00202"/>
+        <Class IRI="#UVO_00205"/>
+        <Class IRI="#UVO_00208"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00203"/>
+        <Class IRI="#UVO_00204"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00206"/>
+        <Class IRI="#UVO_00207"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00209"/>
+        <Class IRI="#UVO_00210"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1920,11 +2237,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00058</IRI>
         <Literal xml:lang="en">vitreous humour</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00060</IRI>
-        <Literal xml:lang="en">local therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2695,6 +3007,196 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00174</IRI>
         <Literal xml:lang="en">isA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00175</IRI>
+        <Literal xml:lang="en">oral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00176</IRI>
+        <Literal xml:lang="en">tacrolimus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00177</IRI>
+        <Literal xml:lang="en">prograf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00178</IRI>
+        <Literal xml:lang="en">adoport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00179</IRI>
+        <Literal xml:lang="en">ciclosporin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00180</IRI>
+        <Literal xml:lang="en">cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00181</IRI>
+        <Literal xml:lang="en">methotrexate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00182</IRI>
+        <Literal xml:lang="en">azathioprine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00183</IRI>
+        <Literal xml:lang="en">prednisolone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00184</IRI>
+        <Literal xml:lang="en">mycophenolate mofetil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00185</IRI>
+        <Literal xml:lang="en">vein injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00186</IRI>
+        <Literal xml:lang="en">methylprednisolone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal xml:lang="en">rituximab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00188</IRI>
+        <Literal xml:lang="en">skin injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00189</IRI>
+        <Literal xml:lang="en">adalimumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00190</IRI>
+        <Literal xml:lang="en">topical eye drops</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00191</IRI>
+        <Literal xml:lang="en">steriod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00192</IRI>
+        <Literal xml:lang="en">maxidex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00193</IRI>
+        <Literal xml:lang="en">maxitrol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00194</IRI>
+        <Literal xml:lang="en">predsol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00195</IRI>
+        <Literal xml:lang="en">FML</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00196</IRI>
+        <Literal xml:lang="en">betnesol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00197</IRI>
+        <Literal xml:lang="en">lotemax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00198</IRI>
+        <Literal xml:lang="en">loteprednol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00199</IRI>
+        <Literal xml:lang="en">predforte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00200</IRI>
+        <Literal xml:lang="en">beta blockers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00201</IRI>
+        <Literal xml:lang="en">timolol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00202</IRI>
+        <Literal xml:lang="en">prostaglandin analogues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00203</IRI>
+        <Literal xml:lang="en">xalatan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00204</IRI>
+        <Literal xml:lang="en">lumigan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00205</IRI>
+        <Literal xml:lang="en">carbonic anhydrase inhibitors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00206</IRI>
+        <Literal xml:lang="en">dorzolamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00207</IRI>
+        <Literal xml:lang="en">brinzolamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00208</IRI>
+        <Literal xml:lang="en">sympathomimetics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00209</IRI>
+        <Literal xml:lang="en">iopidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00210</IRI>
+        <Literal xml:lang="en">brimonidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00211</IRI>
+        <Literal xml:lang="en">other</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00212</IRI>
+        <Literal xml:lang="en">injections</Literal>
     </AnnotationAssertion>
 </Ontology>
 
