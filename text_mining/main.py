@@ -29,7 +29,15 @@ from nltk import ngrams
 def json_get(filename):
    with open(filename) as f_in:
        return(json.load(f_in)) # importing JSON
-    
+       
+def get_all_id(posts):
+    uids = []
+    for post in posts:
+        for comment in post:
+            if "user_link" in comment:
+                uids.append(comment["user_link"])
+    return uids
+       
 def getting_uid(thread):
     user_link = thread[0].get('user_link')
     return user_link
@@ -90,7 +98,10 @@ def type_of_uv(string):
 #-------------------- code
 
 if __name__ == "__main__":    
-    posts = json_get('output.json')    
+    posts = json_get('output.json') 
+    
+    uids = get_all_id(posts)
+    uids = set(uids)
     
     df = pd.DataFrame()
     list_text = []
@@ -108,10 +119,10 @@ if __name__ == "__main__":
         list_text.append(user_post) # texts
         list_uids.append(user_link) # user_links
         list_type.append(type_of_uv(user_link)) # type of uveitis
-    df = list(zip(list_text, list_uids, list_type))
-    df = pd.DataFrame(df, columns = ['text' , 'uid', 'type']) 
-    df.uid.replace([None], ("ANON"), inplace=True)
-    #df['uid'].value_counts()
+    #df = list(zip(list_text, list_uids, list_type))
+    #df = pd.DataFrame(df, columns = ['text' , 'uid', 'type']) 
+    #df.uid.replace([None], ("ANON"), inplace=True)
+    ##df['uid'].value_counts()
     list_strings = ' '.join(list_text)
     
     '''
@@ -124,17 +135,18 @@ if __name__ == "__main__":
     
     
     #-------------------- type plot 
-    types = []
-    for item in df.type:
-        types.append(item)
-    types = dict(Counter(types))
-    types = pd.DataFrame(list(types.items()), columns=['type', 'count'])
-    types = types.sort_values('count', ascending=False)
+    #types = []
+    #for item in df.type:
+    #    types.append(item)
+    #types = dict(Counter(types))
+    #types = pd.DataFrame(list(types.items()), columns=['type', 'count'])
+    #types = types.sort_values('count', ascending=False)
     #plt.figure(1)
     #sns.barplot("type", "count", data=types).set_title("type")
     #locs, labels = plt.xticks()
     #plt.setp(labels, rotation=45)
 
+    '''
     people_with = []
     people = (df.loc[df['type'] != '0000'])
     for item in people.uid:
@@ -143,7 +155,9 @@ if __name__ == "__main__":
         people_with.remove("ANON")
     people_with = set(people_with)
     del people, item
+    '''
     
+    '''
     people_without = []
     people = (df.loc[df['type'] == '0000'])
     for item in people.uid:
@@ -152,26 +166,31 @@ if __name__ == "__main__":
     #    people_without.remove("ANON")
     people_without = set(people_without)
     del people, item
+    '''
     
     #-------------------- grams
     bigrams, trigrams = ngramming(list_strings)
-    popular_bigrams = dict(Counter(bigrams))
-    popular_trigrams = dict(Counter(trigrams))
+    #popular_bigrams = dict(Counter(bigrams))
+    #popular_trigrams = dict(Counter(trigrams))
     del bigrams, trigrams    
+    '''
     popular_bigrams = pd.DataFrame(list(popular_bigrams.items()), columns=['bigrams', 'count'])
     popular_bigrams = popular_bigrams.sort_values('count', ascending=False)
     popular_bigrams = popular_bigrams[popular_bigrams['count'] >= 20]
     popular_trigrams = pd.DataFrame(list(popular_trigrams.items()), columns=['trigrams', 'count'])
     popular_trigrams = popular_trigrams.sort_values('count', ascending=False)
     popular_trigrams = popular_trigrams[popular_trigrams['count'] >= 5]
+    '''
 
     #-------------------- popular
     list_strings = list_strings.split()
+    '''
     popular_words = dict(Counter(list_strings))
     
     popular = pd.DataFrame(list(popular_words.items()), columns=['words', 'count'])
     popular = popular.sort_values('count', ascending=False)
     popular = popular[popular['count'] >= 100]
+    '''
     #plt.figure(2)
     #sns.barplot("words", "count", data=popular).set_title("user_link")
     #locs, labels = plt.xticks()
