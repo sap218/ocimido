@@ -2721,7 +2721,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00082</IRI>
-        <Literal>TB</Literal>
+        <Literal>TB - spread through inhaling tiny droplets from the coughs or sneezes of an infected person. It is a serious condition, but can be cured with proper treatment. TB mainly affects the lungs. However, it can affect any part of the body, including the glands, bones and nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2731,7 +2731,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00083</IRI>
-        <Literal>Syphilis</Literal>
+        <Literal>Syphilis - a sexually transmitted infection, the signs and symptoms of syphilis vary depending in which of the four stages it presents (primary, secondary, latent, and tertiary)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2741,7 +2741,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00084</IRI>
-        <Literal>Cat-scratch disease</Literal>
+        <Literal>Cat-scratch disease - from a scratch or bite of a cat.Symptoms typically include a non-painful bump or blister at the site of injury and painful and swollen lymph nodes - people may feel tired, have a headache, or a fever. Cat-scratch disease is caused by the bacterium Bbrtonella henselae which is believed to be spread by the cat’s saliva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2751,7 +2751,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00085</IRI>
-        <Literal>Lyme disease</Literal>
+        <Literal>Lyme disease - known as Lyme borreliosis, caused/spread by ticks. The most common sign of infection is an expanding area of redness on the skin, known as erythema migrans, that appears at the site of the tick bite about a week after it occurred</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3081,7 +3081,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00125</IRI>
-        <Literal>Drug induced OHT</Literal>
+        <Literal>Steroid induced OHT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
