@@ -586,6 +586,9 @@
     <Declaration>
         <ObjectProperty IRI="#UVO_00174"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#UVO_00006"/>
         <Class IRI="#UVO_00001"/>
@@ -1003,45 +1006,37 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00075"/>
-        <Class IRI="#UVO_00150"/>
+        <Class IRI="#UVO_00155"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00075"/>
         <ObjectIntersectionOf>
-            <Class IRI="#UVO_00156"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#UVO_00169"/>
                 <Class IRI="#UVO_00155"/>
             </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00156"/>
+            </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00075"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#UVO_00169"/>
-            <Class IRI="#UVO_00150"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00076"/>
-        <Class IRI="#UVO_00150"/>
+        <Class IRI="#UVO_00156"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00076"/>
         <ObjectIntersectionOf>
-            <Class IRI="#UVO_00156"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#UVO_00169"/>
-                <Class IRI="#UVO_00155"/>
+                <Class IRI="#UVO_00156"/>
             </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00155"/>
+            </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00076"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#UVO_00169"/>
-            <Class IRI="#UVO_00150"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00077"/>
@@ -2624,6 +2619,11 @@
         <Literal>A procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00068</IRI>
+        <Literal>YAG posterior capsulotomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00068</IRI>
         <Literal xml:lang="en">cataract surgery</Literal>
@@ -2634,6 +2634,11 @@
         <Literal>In rare cases where treatment with eye drops or laser haven&apos;t been effective, surgery for glaucoma involves removing part of the eye-drainage tubes to allow fluid to drain more easily</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00069</IRI>
+        <Literal>aqueous shunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00069</IRI>
         <Literal xml:lang="en">glaucoma surgery</Literal>
@@ -2642,6 +2647,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00070</IRI>
         <Literal>Vitreoretinal eye surgery treats retinal detachments and other conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00070</IRI>
+        <Literal>peripheral iridotomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3587,6 +3597,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00214</IRI>
         <Literal>Inflammation of the iris and the ciliary body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>iritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
