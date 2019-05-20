@@ -572,6 +572,21 @@
         <Class IRI="#UVO_00221"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00227"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -1427,10 +1442,21 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00155"/>
-        <ObjectAllValuesFrom>
+        <Class IRI="#UVO_00223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00155"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00168"/>
             <Class IRI="#UVO_00150"/>
-        </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00155"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00223"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00156"/>
@@ -1879,6 +1905,71 @@
         <Class IRI="#UVO_00221"/>
         <Class IRI="#UVO_00218"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00223"/>
+        <Class IRI="#UVO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00223"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00149"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00224"/>
+        <Class IRI="#UVO_00223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00224"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00223"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00225"/>
+        <Class IRI="#UVO_00224"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00225"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00224"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00226"/>
+        <Class IRI="#UVO_00224"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00226"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00224"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00227"/>
+        <Class IRI="#UVO_00225"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00227"/>
+        <Class IRI="#UVO_00226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00227"/>
+        <ObjectIntersectionOf>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00225"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00226"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -2028,6 +2119,7 @@
     <DisjointClasses>
         <Class IRI="#UVO_00152"/>
         <Class IRI="#UVO_00154"/>
+        <Class IRI="#UVO_00223"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00155"/>
@@ -2107,6 +2199,10 @@
         <Class IRI="#UVO_00219"/>
         <Class IRI="#UVO_00220"/>
         <Class IRI="#UVO_00221"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00225"/>
+        <Class IRI="#UVO_00226"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3672,6 +3768,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00221</IRI>
         <Literal xml:lang="en">birdshot chorioretinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00223</IRI>
+        <Literal>The pigmented middle of the three concentric layers that make up an eye, consisting of the iris, ciliary body and choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00223</IRI>
+        <Literal>uveal tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00223</IRI>
+        <Literal xml:lang="en">uvea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00224</IRI>
+        <Literal>Front (ventral) portion of the vascular, pigmentary, or middle coat of the eye, including the ciliary body and the iris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00224</IRI>
+        <Literal xml:lang="en">anterior uvea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00225</IRI>
+        <Literal>The thickened portion of the vascular tunic, composed of ciliary muscle and ciliary processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00225</IRI>
+        <Literal xml:lang="en">cillary body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00226</IRI>
+        <Literal>The adjustable membrane, composed of the stroma and pigmented epithelium, located just in front of the crystalline lens within the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00226</IRI>
+        <Literal xml:lang="en">iris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00227</IRI>
+        <Literal xml:lang="en">iridocyclitis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
