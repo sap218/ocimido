@@ -1,6 +1,6 @@
 # Uveitis
 
-#### See :grey_exclamation: Issues for to-do list, assigning jobs, discussion, etc.
+#### See :grey_exclamation: [Issues](https://github.com/sap218/uveitis/issues)  for to-do list, assigning jobs, discussion, etc.
 
 **Components**
 * **`ontology`** directory with `OWL` file with appropriate IRIs/labels, comments, and relationships
