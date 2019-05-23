@@ -587,6 +587,21 @@
         <Class IRI="#UVO_00227"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00239"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -976,7 +991,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00062"/>
-        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00211"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00063"/>
@@ -988,7 +1003,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00066"/>
-        <Class IRI="#UVO_00020"/>
+        <Class IRI="#UVO_00211"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00068"/>
@@ -1492,6 +1507,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00153"/>
         <Class IRI="#UVO_00152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00153"/>
@@ -2108,6 +2130,75 @@
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00235"/>
+        <Class IRI="#UVO_00069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00235"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00235"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00236"/>
+        <Class IRI="#UVO_00069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00236"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00236"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00237"/>
+        <Class IRI="#UVO_00069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00237"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00238"/>
+        <Class IRI="#UVO_00068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00238"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00068"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00239"/>
+        <Class IRI="#UVO_00069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00239"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -2346,6 +2437,11 @@
     <DisjointClasses>
         <Class IRI="#UVO_00225"/>
         <Class IRI="#UVO_00226"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00235"/>
+        <Class IRI="#UVO_00236"/>
+        <Class IRI="#UVO_00237"/>
     </DisjointClasses>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2902,7 +2998,7 @@ DOID_1686</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00069</IRI>
-        <Literal>aqueous shunt</Literal>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4155,6 +4251,66 @@ DOID_12030</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00230</IRI>
         <Literal xml:lang="en">treatmentOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00235</IRI>
+        <Literal>device that reduces the intraocular pressure (IOP) in glaucoma by draining the fluid (aqueous humour) from inside the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00235</IRI>
+        <Literal xml:lang="en">aqueous shunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00236</IRI>
+        <Literal>a surgical operation which lowers the intraocular pressure (IOP) inside the eye in patients with glaucoma - by making a small hole in the eye wall (sclera)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00236</IRI>
+        <Literal xml:lang="en">trabeculectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00237</IRI>
+        <Literal>surgical removal of part of the iris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00237</IRI>
+        <Literal>corectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00237</IRI>
+        <Literal xml:lang="en">iridectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00238</IRI>
+        <Literal>laser surgery that might be needed after cataract surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00238</IRI>
+        <Literal xml:lang="en">posterior capsulotomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00239</IRI>
+        <Literal>a treatment used to treat angle-closure glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00239</IRI>
+        <Literal>LPI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00239</IRI>
+        <Literal xml:lang="en">peripheral iridotomy</Literal>
     </AnnotationAssertion>
 </Ontology>
 
