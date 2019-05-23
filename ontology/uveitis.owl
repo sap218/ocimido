@@ -602,6 +602,18 @@
         <ObjectProperty IRI="#UVO_00174"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#UVO_00228"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UVO_00229"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UVO_00230"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
     </Declaration>
     <SubClassOf>
@@ -658,6 +670,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00003"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00068"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -983,6 +1002,13 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00068"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00009"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00069"/>
         <Class IRI="#UVO_00021"/>
     </SubClassOf>
@@ -1016,6 +1042,13 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00072"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00228"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00074"/>
         <Class IRI="#UVO_00155"/>
     </SubClassOf>
@@ -1035,6 +1068,13 @@
                 <Class IRI="#UVO_00156"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00075"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00228"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00076"/>
@@ -1264,6 +1304,20 @@
         <Class IRI="#UVO_00190"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00123"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00123"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00124"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00124"/>
         <Class IRI="#UVO_00003"/>
     </SubClassOf>
@@ -1349,6 +1403,27 @@
     <SubClassOf>
         <Class IRI="#UVO_00141"/>
         <Class IRI="#UVO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00009"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00214"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00141"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00215"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00142"/>
@@ -1683,6 +1758,20 @@
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00175"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00215"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00175"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00176"/>
         <Class IRI="#UVO_00175"/>
     </SubClassOf>
@@ -1747,6 +1836,13 @@
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00190"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00214"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00191"/>
         <Class IRI="#UVO_00190"/>
     </SubClassOf>
@@ -1787,12 +1883,26 @@
         <Class IRI="#UVO_00123"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00200"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00201"/>
         <Class IRI="#UVO_00200"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00202"/>
         <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00202"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00203"/>
@@ -1807,6 +1917,13 @@
         <Class IRI="#UVO_00123"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00205"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00206"/>
         <Class IRI="#UVO_00205"/>
     </SubClassOf>
@@ -1817,6 +1934,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00208"/>
         <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00208"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00123"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00209"/>
@@ -1833,6 +1957,20 @@
     <SubClassOf>
         <Class IRI="#UVO_00212"/>
         <Class IRI="#UVO_00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00212"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00215"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00212"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00212"/>
@@ -2043,6 +2181,11 @@
         <Class IRI="#UVO_00056"/>
         <Class IRI="#UVO_00057"/>
         <Class IRI="#UVO_00058"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00068"/>
+        <Class IRI="#UVO_00069"/>
+        <Class IRI="#UVO_00070"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00080"/>
@@ -2290,6 +2433,12 @@
         <Literal>Clouding of the lens in the eye that affects vision - mostly related to aging</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00009</IRI>
+        <Literal>HP_0000518
+DOID_83</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00009</IRI>
         <Literal xml:lang="en">cataract</Literal>
@@ -2298,6 +2447,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00010</IRI>
         <Literal>Thin sheet of fibrous tissue that develops on the surface of the macula (a small spot near the center of the retina and the part of the eye needed for sharp, central vision, which lets us see objects that are straight ahead) and can cause problems with central vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00010</IRI>
+        <Literal>HP_0100014</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2310,6 +2464,12 @@
         <Literal>An eye condition where your optic nerve is damaged by the pressure of the fluid inside your eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00011</IRI>
+        <Literal>HP_0000501
+DOID_1686</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00011</IRI>
         <Literal xml:lang="en">glaucoma</Literal>
@@ -2318,6 +2478,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00012</IRI>
         <Literal>Macular edema is the build-up of fluid in the macula, an area in the center of the retina (light-sensitive tissue at the back of the eye). The macula is the part of the retina responsible for sharp, straight-ahead vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal>HP_0040049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal>macular edema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2760,6 +2930,16 @@
         <Literal>Disease of the eye characterized by inflammation of the narrowed area between the iris and the choroid.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>DOID_12731</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>posterior cyclitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00072</IRI>
         <Literal xml:lang="en">pars planitis</Literal>
@@ -2770,6 +2950,11 @@
         <Literal>Inflammation of the choroid (thin pigmented vascular coat of the eye)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00074</IRI>
+        <Literal>DOID_11406</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00074</IRI>
         <Literal xml:lang="en">choroiditis</Literal>
@@ -2778,6 +2963,12 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00075</IRI>
         <Literal>Inflammation of the choroid (thin pigmented vascular coat of the eye) and retina of the eye (light sensitive tissue that lines the back of the eye)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00075</IRI>
+        <Literal>HP_0012424
+DOID_8886</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2798,6 +2989,12 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00077</IRI>
         <Literal>A breakdown and loss of cells in the retina (light sensitive tissue that lines the back of the eye)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal>HP_0032118
+DOID_3612</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3170,6 +3367,11 @@
         <Literal>Numeric 0-100 (mmHg) - IOP is the fluid pressure inside the eye, evaluation of patients at risk of glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00123</IRI>
+        <Literal>IOP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00123</IRI>
         <Literal xml:lang="en">intraocular pressure</Literal>
@@ -3178,6 +3380,17 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00124</IRI>
         <Literal>OHT is generally defined as consistently elevated intraocular pressure (IOP) - greater than 21mmHg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>HP_0007906
+DOID_9282</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>high eye pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3295,6 +3508,11 @@
         <Literal>The loss of sharpness of vision and the inability to see fine details</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00141</IRI>
+        <Literal>cloudy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00141</IRI>
         <Literal xml:lang="en">blurred vision</Literal>
@@ -3345,6 +3563,11 @@
         <Literal>The core globe-shaped component of the camera-type eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00148</IRI>
+        <Literal>UBERON_0010230</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00148</IRI>
         <Literal xml:lang="en">eyeball of camera-type eye</Literal>
@@ -3353,6 +3576,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00149</IRI>
         <Literal>Parts of the eye that lie in front of the lens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00149</IRI>
+        <Literal>UBERON_0001801</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3365,6 +3593,11 @@
         <Literal>Part of the eye that consists of both the retina and the optic choroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00150</IRI>
+        <Literal>UBERON_0019207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00150</IRI>
         <Literal xml:lang="en">chorioretinal region</Literal>
@@ -3375,9 +3608,19 @@
         <Literal>Parts of the eye that lie in back of, or dorsal to, the lens (but not inclusive)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00151</IRI>
+        <Literal>UBERON_000180</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00151</IRI>
         <Literal xml:lang="en">posterior segment of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00152</IRI>
+        <Literal>UBERON_0001766</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3390,9 +3633,19 @@
         <Literal>A thick watery refractive medium that fills the space between the lens and the cornea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00153</IRI>
+        <Literal>UBERON_0001796</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00153</IRI>
         <Literal xml:lang="en">aqueous humor of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00154</IRI>
+        <Literal>UBERON_0001767</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3405,6 +3658,11 @@
         <Literal>Vascular layer containing connective tissue, of the eye lying between the retina and the sclera. The choroid provides oxygen and nourishment to the outer layers of the retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00155</IRI>
+        <Literal>UBERON_0001776</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00155</IRI>
         <Literal xml:lang="en">optic choroid</Literal>
@@ -3415,9 +3673,19 @@
         <Literal>The innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00156</IRI>
+        <Literal>UBERON_0000966</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00156</IRI>
         <Literal xml:lang="en">retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00157</IRI>
+        <Literal>UBERON_0001799</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3430,6 +3698,11 @@
         <Literal>Gelatinous mucoid tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00158</IRI>
+        <Literal>UBERON_0001798</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00158</IRI>
         <Literal xml:lang="en">vitreous body</Literal>
@@ -3438,6 +3711,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00159</IRI>
         <Literal>A transparent, semigelatinous substance that fills the cavity behind the crystalline lens of the eye and in front of the retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00159</IRI>
+        <Literal>UBERON_0001797</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3695,6 +3973,12 @@
         <Literal>Inflammation of the iris and the ciliary body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>HP_0012122
+DOID_1407</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00214</IRI>
         <Literal>iritis</Literal>
@@ -3702,7 +3986,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00214</IRI>
-        <Literal xml:lang="en">anterior</Literal>
+        <Literal xml:lang="en">anterior uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3710,9 +3994,15 @@
         <Literal>Inflammation localised to the vitreous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>HP_0012124
+DOID_12732</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00215</IRI>
-        <Literal xml:lang="en">intermediate</Literal>
+        <Literal xml:lang="en">intermediate uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3720,14 +4010,26 @@
         <Literal>Inflammation of the choroid, may affect the retina and/or the optic nerve, and may lead to permanent loss of vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00216</IRI>
+        <Literal>HP_0012123
+DOID_12574</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00216</IRI>
-        <Literal xml:lang="en">posterior</Literal>
+        <Literal xml:lang="en">posterior uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00217</IRI>
         <Literal>Inflammation of all layers of the uvea of the eye, which includes the iris, ciliary body, and choroid. These make up the middle layer of the eye. The condition can also affect the lens, retina, optic nerve, and vitreous, causing reduced vision or blindness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>HP_0012121
+DOID_12030</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3775,6 +4077,11 @@
         <Literal>The pigmented middle of the three concentric layers that make up an eye, consisting of the iris, ciliary body and choroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00223</IRI>
+        <Literal>UBERON_0001768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00223</IRI>
         <Literal>uveal tract</Literal>
@@ -3790,6 +4097,11 @@
         <Literal>Front (ventral) portion of the vascular, pigmentary, or middle coat of the eye, including the ciliary body and the iris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00224</IRI>
+        <Literal>UBERON_0011892</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00224</IRI>
         <Literal xml:lang="en">anterior uvea</Literal>
@@ -3798,6 +4110,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00225</IRI>
         <Literal>The thickened portion of the vascular tunic, composed of ciliary muscle and ciliary processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00225</IRI>
+        <Literal>UBERON_0001775</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3810,6 +4127,11 @@
         <Literal>The adjustable membrane, composed of the stroma and pigmented epithelium, located just in front of the crystalline lens within the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00226</IRI>
+        <Literal>UBERON_0001769</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00226</IRI>
         <Literal xml:lang="en">iris</Literal>
@@ -3818,6 +4140,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00227</IRI>
         <Literal xml:lang="en">iridocyclitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00228</IRI>
+        <Literal xml:lang="en">formOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00229</IRI>
+        <Literal xml:lang="en">symptomOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00230</IRI>
+        <Literal xml:lang="en">treatmentOf</Literal>
     </AnnotationAssertion>
 </Ontology>
 

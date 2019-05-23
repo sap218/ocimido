@@ -12,13 +12,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-'''
-fig_size = plt.rcParams["figure.figsize"]
-fig_size[0] = 30
-fig_size[1] = 15
-plt.rcParams["figure.figsize"] = fig_size
-'''
-
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -119,10 +112,10 @@ if __name__ == "__main__":
         list_text.append(user_post) # texts
         list_uids.append(user_link) # user_links
         list_type.append(type_of_uv(user_link)) # type of uveitis
-    #df = list(zip(list_text, list_uids, list_type))
-    #df = pd.DataFrame(df, columns = ['text' , 'uid', 'type']) 
-    #df.uid.replace([None], ("ANON"), inplace=True)
-    ##df['uid'].value_counts()
+    df = list(zip(list_text, list_uids, list_type))
+    df = pd.DataFrame(df, columns = ['text' , 'uid', 'type']) 
+    df.uid.replace([None], ("ANON"), inplace=True)
+    #df['uid'].value_counts()
     list_strings = ' '.join(list_text)
     
     '''
@@ -135,16 +128,16 @@ if __name__ == "__main__":
     
     
     #-------------------- type plot 
-    #types = []
-    #for item in df.type:
-    #    types.append(item)
-    #types = dict(Counter(types))
-    #types = pd.DataFrame(list(types.items()), columns=['type', 'count'])
-    #types = types.sort_values('count', ascending=False)
-    #plt.figure(1)
-    #sns.barplot("type", "count", data=types).set_title("type")
-    #locs, labels = plt.xticks()
-    #plt.setp(labels, rotation=45)
+    types = []
+    for item in df.type:
+        types.append(item)
+    types = dict(Counter(types))
+    types = pd.DataFrame(list(types.items()), columns=['type', 'count'])
+    types = types.sort_values('count', ascending=False)
+    plt.figure(1)
+    sns.barplot("type", "count", data=types).set_title("type of uveitis count")
+    locs, labels = plt.xticks()
+    plt.setp(labels, rotation=45)
 
     '''
     people_with = []
@@ -170,32 +163,36 @@ if __name__ == "__main__":
     
     #-------------------- grams
     bigrams, trigrams = ngramming(list_strings)
-    #popular_bigrams = dict(Counter(bigrams))
-    #popular_trigrams = dict(Counter(trigrams))
+    popular_bigrams = dict(Counter(bigrams))
+    popular_trigrams = dict(Counter(trigrams))
     del bigrams, trigrams    
-    '''
+
     popular_bigrams = pd.DataFrame(list(popular_bigrams.items()), columns=['bigrams', 'count'])
     popular_bigrams = popular_bigrams.sort_values('count', ascending=False)
     popular_bigrams = popular_bigrams[popular_bigrams['count'] >= 20]
     popular_trigrams = pd.DataFrame(list(popular_trigrams.items()), columns=['trigrams', 'count'])
     popular_trigrams = popular_trigrams.sort_values('count', ascending=False)
     popular_trigrams = popular_trigrams[popular_trigrams['count'] >= 5]
-    '''
+
 
     #-------------------- popular
+    fig_size = plt.rcParams["figure.figsize"]
+    fig_size[0] = 30
+    fig_size[1] = 15
+    plt.rcParams["figure.figsize"] = fig_size
+    
     list_strings = list_strings.split()
-    '''
+
     popular_words = dict(Counter(list_strings))
     
     popular = pd.DataFrame(list(popular_words.items()), columns=['words', 'count'])
     popular = popular.sort_values('count', ascending=False)
     popular = popular[popular['count'] >= 100]
-    '''
-    #plt.figure(2)
-    #sns.barplot("words", "count", data=popular).set_title("user_link")
-    #locs, labels = plt.xticks()
-    #plt.setp(labels, rotation=45)
-    
+
+    plt.figure(2)
+    sns.barplot("words", "count", data=popular).set_title("popular word count")
+    locs, labels = plt.xticks()
+    plt.setp(labels, rotation=45)
     
     '''
     df.type.replace(("1000", "0100", "0010", "0001",
