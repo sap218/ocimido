@@ -632,6 +632,9 @@
         <ObjectProperty IRI="#UVO_00242"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#UVO_00243"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
     </Declaration>
     <Declaration>
@@ -682,6 +685,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00243"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00010"/>
         <Class IRI="#UVO_00003"/>
     </SubClassOf>
@@ -717,7 +727,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00012"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
+            <ObjectProperty IRI="#UVO_00243"/>
             <Class IRI="#UVO_00068"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5059,6 +5069,11 @@ DOID_12030</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00242</IRI>
         <Literal xml:lang="en">characterisedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00243</IRI>
+        <Literal xml:lang="en">complicationOf</Literal>
     </AnnotationAssertion>
 </Ontology>
 
