@@ -3360,6 +3360,7 @@ DOID_1686</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00013</IRI>
         <Literal>inflamed
+swollen
 swelling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -3645,7 +3646,9 @@ swelling</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00053</IRI>
-        <Literal>chest x ray</Literal>
+        <Literal>chest x ray
+angiogram
+xray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3745,7 +3748,8 @@ swelling</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00064</IRI>
-        <Literal>steroids</Literal>
+        <Literal>steroids
+ointment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4816,6 +4820,11 @@ cyclosporin</Literal>
         <Literal>Used to suppress the immune system. As chemotherapy it is used to treat sarcoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00180</IRI>
+        <Literal>cyclopentolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00180</IRI>
         <Literal xml:lang="en">cyclophosphamide</Literal>
@@ -4871,7 +4880,8 @@ predsol</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00184</IRI>
         <Literal>mycophenolic acid
-cellcept</Literal>
+cellcept
+myfenax</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4917,6 +4927,11 @@ cellcept</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00189</IRI>
         <Literal xml:lang="en">adalimumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00190</IRI>
+        <Literal>eye drops</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
