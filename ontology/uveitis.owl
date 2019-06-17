@@ -1608,6 +1608,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00217"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#UVO_00228"/>
             <Class IRI="#UVO_00036"/>
@@ -1640,6 +1654,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00242"/>
             <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00217"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1693,6 +1714,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00108"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00217"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00108"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#UVO_00228"/>
             <Class IRI="#UVO_00036"/>
@@ -1719,6 +1747,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00110"/>
         <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00110"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00214"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00110"/>
@@ -2676,6 +2711,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00221"/>
         <Class IRI="#UVO_00218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00221"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00221"/>
@@ -3993,6 +4035,17 @@ DOID_3612</Literal>
         <Literal>A disease involving abnormal collections of inflammatory cells that form lumps known as granulomas. The disease usually begins in the lungs, skin, or lymph nodes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal>ORPHA:797</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal>besnier-boeck-schaumann disease
+boeck sarcoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00104</IRI>
         <Literal xml:lang="en">sarcoidosis</Literal>
@@ -4016,6 +4069,11 @@ DOID_3612</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00106</IRI>
         <Literal>A rare disorder that causes blood vessel inflammation throughout your body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal>ORPHA:117</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -4049,9 +4107,15 @@ sympathetic uveitis</Literal>
         <Literal>A rare disease that affects several parts of the body, including the eyes, ears, nervous system, and skin - caused by chronic inflammation of melanocytes (specialised cells that produce a pigment called melanin)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>ORPHA:3437</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00108</IRI>
-        <Literal>VKH</Literal>
+        <Literal>VKH
+uveomenigitic syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4062,6 +4126,16 @@ sympathetic uveitis</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00109</IRI>
         <Literal>A rare form of bilateral non-granulomatous anterior uveitis found in a sub-population of patients with tubulointerstitial nephritis (inflammation of the area of the kidney known as the interstitium, which consists of a collection of cells, extracellular matrix, and fluid surrounding the renal tubules)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00109</IRI>
+        <Literal>ORPHA:91500</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00109</IRI>
+        <Literal>dobrin syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4805,12 +4879,14 @@ punctum caecum</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00214</IRI>
         <Literal>HP_0012122
-DOID_1407</Literal>
+DOID_1407
+ORPHA:280886</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00214</IRI>
-        <Literal>iritis</Literal>
+        <Literal>iritis
+iridocyclitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4826,7 +4902,13 @@ DOID_1407</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00215</IRI>
         <Literal>HP_0012124
-DOID_12732</Literal>
+DOID_12732
+ORPHA:279914</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>IU</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4842,7 +4924,8 @@ DOID_12732</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00216</IRI>
         <Literal>HP_0012123
-DOID_12574</Literal>
+DOID_12574
+ORPHA:280892</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4858,7 +4941,13 @@ DOID_12574</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00217</IRI>
         <Literal>HP_0012121
-DOID_12030</Literal>
+DOID_12030
+ORPHA:280898</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>total uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4896,9 +4985,18 @@ DOID_12030</Literal>
         <Literal>BCR is a rare form of chronic, bilateral, posterior uveitis with a distinctive clinical phenotype, and a strong association with HLA-A29. It predominantly affects people in middle age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00221</IRI>
+        <Literal>ORPHA:179</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00221</IRI>
-        <Literal>BCR</Literal>
+        <Literal>BCR
+birdshot retinochoroidopathy
+birdshot chorioretinitis
+birdshot retinochoroiditis
+vitiliginous choroiditis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
