@@ -56,9 +56,6 @@
         <Class IRI="#UVO_00013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00014"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00015"/>
     </Declaration>
     <Declaration>
@@ -485,9 +482,6 @@
         <Class IRI="#UVO_00193"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00194"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00195"/>
     </Declaration>
     <Declaration>
@@ -495,12 +489,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00197"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00198"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00199"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00200"/>
@@ -600,6 +588,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00246"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
@@ -737,17 +734,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00013"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00002"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00014"/>
-        <Class IRI="#UVO_00002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00014"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00002"/>
@@ -1184,7 +1170,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00061"/>
-        <Class IRI="#UVO_00212"/>
+        <Class IRI="#UVO_00188"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00061"/>
@@ -1823,7 +1809,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00123"/>
-        <Class IRI="#UVO_00014"/>
+        <Class IRI="#UVO_00002"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00123"/>
@@ -2400,7 +2386,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00176"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00177"/>
@@ -2412,19 +2398,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00179"/>
-        <Class IRI="#UVO_00175"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00180"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00180"/>
         <Class IRI="#UVO_00185"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00180"/>
+        <Class IRI="#UVO_00245"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00181"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00181"/>
@@ -2435,15 +2421,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00182"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00183"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00183"/>
+        <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00184"/>
-        <Class IRI="#UVO_00175"/>
+        <Class IRI="#UVO_00245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00185"/>
@@ -2470,7 +2460,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00189"/>
-        <Class IRI="#UVO_00188"/>
+        <Class IRI="#UVO_00244"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00190"/>
@@ -2496,8 +2486,11 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00194"/>
-        <Class IRI="#UVO_00191"/>
+        <Class IRI="#UVO_00193"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00030"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00195"/>
@@ -2508,15 +2501,14 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00196"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00110"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00197"/>
-        <Class IRI="#UVO_00191"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00198"/>
-        <Class IRI="#UVO_00191"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00199"/>
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
@@ -2535,8 +2527,29 @@
         <Class IRI="#UVO_00200"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00201"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00201"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00124"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00202"/>
         <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00202"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00202"/>
@@ -2569,8 +2582,29 @@
         <Class IRI="#UVO_00205"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00206"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00207"/>
         <Class IRI="#UVO_00205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00207"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00207"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00124"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00208"/>
@@ -2588,8 +2622,36 @@
         <Class IRI="#UVO_00208"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00209"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00069"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00209"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00210"/>
         <Class IRI="#UVO_00208"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00210"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00210"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00124"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00211"/>
@@ -2885,6 +2947,25 @@
             <Class IRI="#UVO_00214"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00244"/>
+        <Class IRI="#UVO_00061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00245"/>
+        <Class IRI="#UVO_00175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00246"/>
+        <Class IRI="#UVO_00154"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00246"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00168"/>
+            <Class IRI="#UVO_00154"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -2905,12 +2986,6 @@
         <Class IRI="#UVO_00011"/>
         <Class IRI="#UVO_00012"/>
         <Class IRI="#UVO_00124"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00013"/>
-        <Class IRI="#UVO_00014"/>
-        <Class IRI="#UVO_00015"/>
-        <Class IRI="#UVO_00119"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00019"/>
@@ -2958,6 +3033,10 @@
         <Class IRI="#UVO_00056"/>
         <Class IRI="#UVO_00057"/>
         <Class IRI="#UVO_00058"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UVO_00063"/>
+        <Class IRI="#UVO_00245"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00068"/>
@@ -3081,16 +3160,6 @@
         <Class IRI="#UVO_00180"/>
         <Class IRI="#UVO_00186"/>
         <Class IRI="#UVO_00187"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#UVO_00192"/>
-        <Class IRI="#UVO_00193"/>
-        <Class IRI="#UVO_00194"/>
-        <Class IRI="#UVO_00195"/>
-        <Class IRI="#UVO_00196"/>
-        <Class IRI="#UVO_00197"/>
-        <Class IRI="#UVO_00198"/>
-        <Class IRI="#UVO_00199"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00200"/>
@@ -3288,19 +3357,15 @@ DOID_1686</Literal>
         <Literal>Active inflammation described including treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00013</IRI>
+        <Literal>inflamed
+swelling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00013</IRI>
         <Literal xml:lang="en">inflammation activity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00014</IRI>
-        <Literal>Other quantitative measure of ocular pressure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00014</IRI>
-        <Literal xml:lang="en">pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3348,6 +3413,11 @@ DOID_1686</Literal>
         <Literal>Current medical therapies for Uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00020</IRI>
+        <Literal>medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00020</IRI>
         <Literal xml:lang="en">medical therapy</Literal>
@@ -3356,6 +3426,11 @@ DOID_1686</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00021</IRI>
         <Literal>Relevant surgical therapy for each eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00021</IRI>
+        <Literal>surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3668,6 +3743,11 @@ DOID_1686</Literal>
         <Literal>Steroids applied directly to the skin to reduce inflammation and irritation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00064</IRI>
+        <Literal>steroids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00064</IRI>
         <Literal xml:lang="en">topical corticosteroid</Literal>
@@ -3690,7 +3770,8 @@ DOID_1686</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00068</IRI>
-        <Literal>YAG posterior capsulotomy</Literal>
+        <Literal>YAG posterior capsulotomy
+lens removal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3701,11 +3782,6 @@ DOID_1686</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00069</IRI>
         <Literal>In rare cases where treatment with eye drops or laser haven&apos;t been effective, surgery for glaucoma involves removing part of the eye-drainage tubes to allow fluid to drain more easily</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00069</IRI>
-        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4270,12 +4346,15 @@ uveomenigitic syndrome</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00123</IRI>
-        <Literal>Numeric 0-100 (mmHg) - IOP is the fluid pressure inside the eye, evaluation of patients at risk of glaucoma</Literal>
+        <Literal>Quantitative measure of ocular pressure - numeric 0-100 (mmHg) - IOP is the fluid pressure inside the eye, evaluation of patients at risk of glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00123</IRI>
-        <Literal>IOP</Literal>
+        <Literal>IOP
+low IOP
+high IOP
+pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4296,7 +4375,8 @@ DOID_9282</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00124</IRI>
-        <Literal>high eye pressure</Literal>
+        <Literal>high eye pressure
+pressure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4671,9 +4751,28 @@ punctum caecum</Literal>
         <Literal xml:lang="en">isA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00175</IRI>
+        <Literal>tablet
+tablets
+pill
+pills</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00175</IRI>
         <Literal xml:lang="en">oral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00176</IRI>
+        <Literal>An immunosuppressive drug used mainly after allogeneic organ transplant to lower the risk of organ rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00176</IRI>
+        <Literal>fujimycin
+FK506</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4686,9 +4785,25 @@ punctum caecum</Literal>
         <Literal xml:lang="en">prograf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00178</IRI>
+        <Literal>tacrolimus monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00178</IRI>
         <Literal xml:lang="en">adoport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00179</IRI>
+        <Literal>An immunosuppressant medication for rheumatoid arthritis, psoriasis, Crohn&apos;s disease, nephrotic syndrome, and in organ transplants to prevent rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00179</IRI>
+        <Literal>cyclosporine
+cyclosporin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4696,9 +4811,25 @@ punctum caecum</Literal>
         <Literal xml:lang="en">ciclosporin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00180</IRI>
+        <Literal>Used to suppress the immune system. As chemotherapy it is used to treat sarcoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00180</IRI>
         <Literal xml:lang="en">cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00181</IRI>
+        <Literal>An immune system suppressant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00181</IRI>
+        <Literal>amethopterin
+MTX</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4706,14 +4837,41 @@ punctum caecum</Literal>
         <Literal xml:lang="en">methotrexate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00182</IRI>
+        <Literal>An immunosuppressive medication. It is used in rheumatoid arthritis, granulomatosis with polyangiitis, Crohn&apos;s disease, ulcerative colitis, systemic lupus erythematosus, and in kidney transplants to prevent rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00182</IRI>
         <Literal xml:lang="en">azathioprine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00183</IRI>
+        <Literal>A steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00183</IRI>
+        <Literal>predforte
+predsol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00183</IRI>
         <Literal xml:lang="en">prednisolone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00184</IRI>
+        <Literal>An immunosuppressant drug used to prevent rejection in organ transplantation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00184</IRI>
+        <Literal>mycophenolic acid
+cellcept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4726,9 +4884,19 @@ punctum caecum</Literal>
         <Literal xml:lang="en">vein injection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00186</IRI>
+        <Literal>Used to suppress the immune system and decrease inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00186</IRI>
         <Literal xml:lang="en">methylprednisolone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal>A medication used to treat certain autoimmune diseases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4741,6 +4909,11 @@ punctum caecum</Literal>
         <Literal xml:lang="en">skin injection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00189</IRI>
+        <Literal>Used to treat rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, Crohn&apos;s disease, ulcerative colitis, psoriasis, hidradenitis suppurativa, uveitis, and juvenile idiopathic arthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00189</IRI>
         <Literal xml:lang="en">adalimumab</Literal>
@@ -4751,9 +4924,24 @@ punctum caecum</Literal>
         <Literal xml:lang="en">topical eye drops</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00191</IRI>
+        <Literal>Anti-inflammatory medicines used to treat a range of conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00191</IRI>
+        <Literal>steroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00191</IRI>
-        <Literal xml:lang="en">steriod</Literal>
+        <Literal xml:lang="en">corticosteroids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00192</IRI>
+        <Literal>For treatment of steroid responsive inflammatory conditions of the conjunctiva, cornea and anterior segment of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4761,19 +4949,39 @@ punctum caecum</Literal>
         <Literal xml:lang="en">maxidex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00193</IRI>
+        <Literal>Used to treat conditions involving swelling (inflammation) of the eyes and to treat or prevent bacterial eye infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00193</IRI>
         <Literal xml:lang="en">maxitrol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00194</IRI>
-        <Literal xml:lang="en">predsol</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00195</IRI>
+        <Literal>Used in the treatment of inflammatory eye diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00195</IRI>
+        <Literal>FML</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00195</IRI>
-        <Literal xml:lang="en">FML</Literal>
+        <Literal xml:lang="en">fluorometholone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00196</IRI>
+        <Literal>Used for a number of diseases including rheumatic disorders such as rheumatoid arthritis and systemic lupus erythematosus, skin diseases such as dermatitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00196</IRI>
+        <Literal>betamethasone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4781,19 +4989,29 @@ punctum caecum</Literal>
         <Literal xml:lang="en">betnesol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00197</IRI>
-        <Literal xml:lang="en">lotemax</Literal>
+        <Literal>Used to treat inflammations of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00197</IRI>
+        <Literal>lotemax</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00198</IRI>
+        <IRI>#UVO_00197</IRI>
         <Literal xml:lang="en">loteprednol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00199</IRI>
-        <Literal xml:lang="en">predforte</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00200</IRI>
+        <Literal>Drug that reduces blood pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00200</IRI>
+        <Literal>beta-adrenergic blocking agents</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4801,9 +5019,24 @@ punctum caecum</Literal>
         <Literal xml:lang="en">beta blockers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00201</IRI>
+        <Literal>Used to treat increased pressure inside the eye such as in ocular hypertension and glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00201</IRI>
         <Literal xml:lang="en">timolol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00202</IRI>
+        <Literal>Reduces the intraocular pressure (IOP) by a mechanism of action different from other drugs - namely by increasing the uveoscleral outflow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00202</IRI>
+        <Literal>PG</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4811,9 +5044,29 @@ punctum caecum</Literal>
         <Literal xml:lang="en">prostaglandin analogues</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00203</IRI>
+        <Literal>A medication used to treat increased pressure inside the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00203</IRI>
+        <Literal>latanoprost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00203</IRI>
         <Literal xml:lang="en">xalatan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00204</IRI>
+        <Literal>A medication used to treat high pressure inside the eye including glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00204</IRI>
+        <Literal>bimatoprost</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4821,9 +5074,19 @@ punctum caecum</Literal>
         <Literal xml:lang="en">lumigan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00205</IRI>
+        <Literal>Suppress activity of carbonic anhydrase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00205</IRI>
         <Literal xml:lang="en">carbonic anhydrase inhibitors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00206</IRI>
+        <Literal>Used to treat high pressure inside the eye including glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4831,9 +5094,19 @@ punctum caecum</Literal>
         <Literal xml:lang="en">dorzolamide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00207</IRI>
+        <Literal>Used to lower intraocular pressure in patients with open-angle glaucoma or ocular hypertension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00207</IRI>
         <Literal xml:lang="en">brinzolamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00208</IRI>
+        <Literal>Stimulant compounds which mimic the effects of endogenous agonists of the sympathetic nervous system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4841,9 +5114,24 @@ punctum caecum</Literal>
         <Literal xml:lang="en">sympathomimetics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00209</IRI>
+        <Literal>A sympathomimetic used in glaucoma therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00209</IRI>
+        <Literal>apraclonidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00209</IRI>
         <Literal xml:lang="en">iopidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00210</IRI>
+        <Literal>A medication used to treat open-angle glaucoma, ocular hypertension, and rosacea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4854,6 +5142,11 @@ punctum caecum</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00211</IRI>
         <Literal xml:lang="en">other medical therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00212</IRI>
+        <Literal>needle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4947,7 +5240,8 @@ ORPHA:280898</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00217</IRI>
-        <Literal>total uveitis</Literal>
+        <Literal>total uveitis
+bilateral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5091,7 +5385,7 @@ vitiliginous choroiditis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00235</IRI>
-        <Literal>device that reduces the intraocular pressure (IOP) in glaucoma by draining the fluid (aqueous humour) from inside the eye</Literal>
+        <Literal>Device that reduces the intraocular pressure (IOP) in glaucoma by draining the fluid (aqueous humour) from inside the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5101,7 +5395,7 @@ vitiliginous choroiditis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00236</IRI>
-        <Literal>a surgical operation which lowers the intraocular pressure (IOP) inside the eye in patients with glaucoma - by making a small hole in the eye wall (sclera)</Literal>
+        <Literal>A surgical operation which lowers the intraocular pressure (IOP) inside the eye in patients with glaucoma - by making a small hole in the eye wall (sclera)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5111,12 +5405,13 @@ vitiliginous choroiditis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00237</IRI>
-        <Literal>surgical removal of part of the iris</Literal>
+        <Literal>Surgical removal of part of the iris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00237</IRI>
-        <Literal>corectomy</Literal>
+        <Literal>corectomy
+iris removal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5136,7 +5431,7 @@ vitiliginous choroiditis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00239</IRI>
-        <Literal>a treatment used to treat angle-closure glaucoma</Literal>
+        <Literal>A treatment used to treat angle-closure glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5172,6 +5467,21 @@ vitiliginous choroiditis</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00243</IRI>
         <Literal xml:lang="en">complicationOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal xml:lang="en">humira</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00245</IRI>
+        <Literal xml:lang="en">oral immunosuppressant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00246</IRI>
+        <Literal xml:lang="en">lens</Literal>
     </AnnotationAssertion>
 </Ontology>
 
