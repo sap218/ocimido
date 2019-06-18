@@ -599,6 +599,9 @@
         <Class IRI="#UVO_00246"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00247"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -2966,6 +2969,17 @@
             <Class IRI="#UVO_00154"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00247"/>
+        <Class IRI="#UVO_00098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00247"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00243"/>
+            <Class IRI="#UVO_00098"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
         <Class IRI="#UVO_00002"/>
@@ -3372,6 +3386,11 @@ swelling</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00015</IRI>
         <Literal>VA - clarity of vision test dependent on optical and neural factors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00015</IRI>
+        <Literal>snellen chart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4123,7 +4142,8 @@ DOID_3612</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00104</IRI>
         <Literal>besnier-boeck-schaumann disease
-boeck sarcoid</Literal>
+boeck sarcoid
+sarcoid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4230,7 +4250,8 @@ uveomenigitic syndrome</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00110</IRI>
-        <Literal>JIA</Literal>
+        <Literal>JIA
+juvenile idiopathic arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4486,6 +4507,11 @@ pressure</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00140</IRI>
         <Literal>Discomfort or pain to the eyes due to light exposure or by presence of actual physical sensitivity of the eyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00140</IRI>
+        <Literal>overexposure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4822,7 +4848,9 @@ cyclosporin</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00180</IRI>
-        <Literal>cyclopentolate</Literal>
+        <Literal>cyclopentolate
+cyclopental
+cyclopentyl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4832,7 +4860,7 @@ cyclosporin</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00181</IRI>
-        <Literal>An immune system suppressant</Literal>
+        <Literal>An immune system suppressant for arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -4849,6 +4877,11 @@ MTX</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00182</IRI>
         <Literal>An immunosuppressive medication. It is used in rheumatoid arthritis, granulomatosis with polyangiitis, Crohn&apos;s disease, ulcerative colitis, systemic lupus erythematosus, and in kidney transplants to prevent rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00182</IRI>
+        <Literal>imuran</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4909,6 +4942,11 @@ myfenax</Literal>
         <Literal>A medication used to treat certain autoimmune diseases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal>rituximab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00187</IRI>
         <Literal xml:lang="en">rituximab</Literal>
@@ -4946,7 +4984,8 @@ myfenax</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00191</IRI>
-        <Literal>steroid</Literal>
+        <Literal>steroid
+corticoid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5037,6 +5076,13 @@ myfenax</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00201</IRI>
         <Literal>Used to treat increased pressure inside the eye such as in ocular hypertension and glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00201</IRI>
+        <Literal>timoptol
+dorzolamide
+cosopt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5161,7 +5207,8 @@ myfenax</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00212</IRI>
-        <Literal>needle</Literal>
+        <Literal>needle
+syringe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5255,8 +5302,7 @@ ORPHA:280898</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00217</IRI>
-        <Literal>total uveitis
-bilateral</Literal>
+        <Literal>total uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5497,6 +5543,16 @@ iris removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00246</IRI>
         <Literal xml:lang="en">lens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00247</IRI>
+        <Literal>Mild, flu-like illness such as muscle aches and tender lymph nodes. In a small number of people, eye problems may develop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00247</IRI>
+        <Literal xml:lang="en">toxoplasmosis</Literal>
     </AnnotationAssertion>
 </Ontology>
 
