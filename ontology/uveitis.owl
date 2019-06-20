@@ -590,9 +590,6 @@
         <Class IRI="#UVO_00240"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00244"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00245"/>
     </Declaration>
     <Declaration>
@@ -2491,6 +2488,13 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00183"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00184"/>
         <Class IRI="#UVO_00245"/>
     </SubClassOf>
@@ -2501,6 +2505,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00186"/>
         <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00186"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00013"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00187"/>
@@ -2519,7 +2530,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00189"/>
-        <Class IRI="#UVO_00244"/>
+        <Class IRI="#UVO_00061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00189"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00110"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00190"/>
@@ -2541,8 +2559,28 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00192"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00013"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00149"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00193"/>
         <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00193"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00013"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00193"/>
@@ -2554,6 +2592,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00195"/>
         <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00195"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00013"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00196"/>
@@ -2569,6 +2614,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00197"/>
         <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00197"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00013"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00200"/>
@@ -2587,6 +2639,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00201"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00248"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00249"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00201"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
             <Class IRI="#UVO_00011"/>
@@ -2602,6 +2667,19 @@
     <SubClassOf>
         <Class IRI="#UVO_00202"/>
         <Class IRI="#UVO_00123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00202"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00248"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00249"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00202"/>
@@ -2642,6 +2720,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00206"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00248"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00249"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00206"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
             <Class IRI="#UVO_00011"/>
@@ -2650,6 +2741,19 @@
     <SubClassOf>
         <Class IRI="#UVO_00207"/>
         <Class IRI="#UVO_00205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00207"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00248"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00249"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00207"/>
@@ -2915,16 +3019,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00235"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00069"/>
-        </ObjectSomeValuesFrom>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00230"/>
+                <Class IRI="#UVO_00123"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00235"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00123"/>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00069"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3004,10 +3114,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00244"/>
-        <Class IRI="#UVO_00061"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00245"/>
         <Class IRI="#UVO_00175"/>
     </SubClassOf>
@@ -3052,19 +3158,19 @@
         <Class IRI="#UVO_00249"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00229"/>
+            <Class IRI="#UVO_00011"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00249"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00229"/>
             <Class IRI="#UVO_00124"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00250"/>
         <Class IRI="#UVO_00248"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00250"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00011"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00001"/>
@@ -3571,6 +3677,11 @@ swelling</Literal>
         <Literal>Current medical therapies for Uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00020</IRI>
+        <Literal>SNOMEDCT:718891000000103</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00020</IRI>
         <Literal>medicine</Literal>
@@ -3584,6 +3695,11 @@ swelling</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00021</IRI>
         <Literal>Relevant surgical therapy for each eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00021</IRI>
+        <Literal>SNOMEDCT:257556004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -4016,6 +4132,11 @@ ointment</Literal>
         <Literal>A procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00068</IRI>
+        <Literal>SNOMEDCT:110473004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00068</IRI>
         <Literal>YAG posterior capsulotomy
@@ -4032,6 +4153,11 @@ lens removal</Literal>
         <Literal>In rare cases where treatment with eye drops or laser haven&apos;t been effective, surgery for glaucoma involves removing part of the eye-drainage tubes to allow fluid to drain more easily</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00069</IRI>
+        <Literal>SNOMEDCT:421885009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00069</IRI>
         <Literal xml:lang="en">glaucoma surgery</Literal>
@@ -4040,6 +4166,11 @@ lens removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00070</IRI>
         <Literal>Vitreoretinal eye surgery treats retinal detachments and other conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00070</IRI>
+        <Literal>SNOMEDCT:420985004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -4717,6 +4848,11 @@ juvenile rheumatoid arthritis</Literal>
         <Literal>Quantitative measure of ocular pressure - numeric 0-100 (mmHg) - IOP is the fluid pressure inside the eye, evaluation of patients at risk of glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00123</IRI>
+        <Literal>SNOMEDCT:41633001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00123</IRI>
         <Literal>IOP
@@ -5111,7 +5247,7 @@ SNOMEDCT:65643003</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00157</IRI>
         <Literal>UBERON:0001799
-SNOMEDCT:47538007</Literal>
+SNOMEDCT:312742006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5126,7 +5262,8 @@ SNOMEDCT:47538007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00158</IRI>
-        <Literal>UBERON:0001798</Literal>
+        <Literal>UBERON:0001798
+SNOMEDCT:47538007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5179,6 +5316,11 @@ SNOMEDCT:47538007</Literal>
         <Literal xml:lang="en">isA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00175</IRI>
+        <Literal>SNOMEDCT:828491000000105</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00175</IRI>
         <Literal>tablet
@@ -5195,6 +5337,11 @@ pills</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00176</IRI>
         <Literal>An immunosuppressive drug used mainly after allogeneic organ transplant to lower the risk of organ rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00176</IRI>
+        <Literal>SNOMEDCT:386975001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5228,6 +5375,11 @@ FK506</Literal>
         <Literal>An immunosuppressant medication for rheumatoid arthritis, psoriasis, Crohn&apos;s disease, nephrotic syndrome, and in organ transplants to prevent rejection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00179</IRI>
+        <Literal>SNOMEDCT:80906007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00179</IRI>
         <Literal>cyclosporine
@@ -5242,6 +5394,11 @@ cyclosporin</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00180</IRI>
         <Literal>Used to suppress the immune system. As chemotherapy it is used to treat sarcoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00180</IRI>
+        <Literal>SNOMEDCT:387420009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5261,6 +5418,11 @@ cyclopentyl</Literal>
         <Literal>An immune system suppressant for arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00181</IRI>
+        <Literal>SNOMEDCT:387381009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00181</IRI>
         <Literal>amethopterin
@@ -5275,6 +5437,11 @@ MTX</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00182</IRI>
         <Literal>An immunosuppressive medication. It is used in rheumatoid arthritis, granulomatosis with polyangiitis, Crohn&apos;s disease, ulcerative colitis, systemic lupus erythematosus, and in kidney transplants to prevent rejection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00182</IRI>
+        <Literal>SNOMEDCT:372574004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5292,6 +5459,11 @@ MTX</Literal>
         <Literal>A steroid medication used to treat certain types of allergies, inflammatory conditions, autoimmune disorders, and cancers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00183</IRI>
+        <Literal>SNOMEDCT:116601002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00183</IRI>
         <Literal>predforte
@@ -5306,6 +5478,11 @@ predsol</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00184</IRI>
         <Literal>An immunosuppressant drug used to prevent rejection in organ transplantation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00184</IRI>
+        <Literal>SNOMEDCT:109131004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5330,6 +5507,11 @@ myfenax</Literal>
         <Literal>Used to suppress the immune system and decrease inflammation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00186</IRI>
+        <Literal>SNOMEDCT:116593003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00186</IRI>
         <Literal xml:lang="en">methylprednisolone</Literal>
@@ -5338,6 +5520,11 @@ myfenax</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00187</IRI>
         <Literal>A medication used to treat certain autoimmune diseases</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal>SNOMEDCT:386919002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5360,9 +5547,24 @@ myfenax</Literal>
         <Literal>Used to treat rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, Crohn&apos;s disease, ulcerative colitis, psoriasis, hidradenitis suppurativa, uveitis, and juvenile idiopathic arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00189</IRI>
+        <Literal>SNOMEDCT:407317001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00189</IRI>
+        <Literal>humira</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00189</IRI>
         <Literal xml:lang="en">adalimumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00190</IRI>
+        <Literal>SNOMEDCT:385124005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5416,6 +5618,11 @@ corticoid</Literal>
         <Literal>Used in the treatment of inflammatory eye diseases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00195</IRI>
+        <Literal>SNOMEDCT:2925007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00195</IRI>
         <Literal>FML</Literal>
@@ -5431,6 +5638,11 @@ corticoid</Literal>
         <Literal>Used for a number of diseases including rheumatic disorders such as rheumatoid arthritis and systemic lupus erythematosus, skin diseases such as dermatitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00196</IRI>
+        <Literal>SNOMEDCT:116571008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00196</IRI>
         <Literal>betamethasone</Literal>
@@ -5444,6 +5656,11 @@ corticoid</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00197</IRI>
         <Literal>Used to treat inflammations of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00197</IRI>
+        <Literal>SNOMEDCT:419711001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5476,6 +5693,11 @@ corticoid</Literal>
         <Literal>Used to treat increased pressure inside the eye such as in ocular hypertension and glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00201</IRI>
+        <Literal>SNOMEDCT:372880004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00201</IRI>
         <Literal>timoptol
@@ -5491,6 +5713,11 @@ cosopt</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00202</IRI>
         <Literal>Reduces the intraocular pressure (IOP) by a mechanism of action different from other drugs - namely by increasing the uveoscleral outflow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00202</IRI>
+        <Literal>SNOMEDCT:765073001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5538,6 +5765,11 @@ cosopt</Literal>
         <Literal>Suppress activity of carbonic anhydrase</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00205</IRI>
+        <Literal>SNOMEDCT:372816000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00205</IRI>
         <Literal xml:lang="en">carbonic anhydrase inhibitors</Literal>
@@ -5546,6 +5778,11 @@ cosopt</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00206</IRI>
         <Literal>Used to treat high pressure inside the eye including glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00206</IRI>
+        <Literal>SNOMEDCT:373447009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5558,6 +5795,11 @@ cosopt</Literal>
         <Literal>Used to lower intraocular pressure in patients with open-angle glaucoma or ocular hypertension</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00207</IRI>
+        <Literal>SNOMEDCT:386925003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00207</IRI>
         <Literal xml:lang="en">brinzolamide</Literal>
@@ -5566,6 +5808,11 @@ cosopt</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00208</IRI>
         <Literal>Stimulant compounds which mimic the effects of endogenous agonists of the sympathetic nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00208</IRI>
+        <Literal>SNOMEDCT:86308005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5593,6 +5840,11 @@ cosopt</Literal>
         <Literal>A medication used to treat open-angle glaucoma, ocular hypertension, and rosacea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00210</IRI>
+        <Literal>SNOMEDCT:108827001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00210</IRI>
         <Literal xml:lang="en">brimonidine</Literal>
@@ -5601,6 +5853,11 @@ cosopt</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00211</IRI>
         <Literal xml:lang="en">other medical therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00212</IRI>
+        <Literal>SNOMEDCT:385218009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5898,6 +6155,11 @@ DOID:9383</Literal>
         <Literal>Surgical removal of part of the iris</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00237</IRI>
+        <Literal>SNOMEDCT:36812006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00237</IRI>
         <Literal>corectomy
@@ -5914,6 +6176,16 @@ iris removal</Literal>
         <Literal>laser surgery that might be needed after cataract surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00238</IRI>
+        <Literal>SNOMEDCT:172530003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00238</IRI>
+        <Literal>capsulotomy of posterior lens capsule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00238</IRI>
         <Literal xml:lang="en">posterior capsulotomy</Literal>
@@ -5922,6 +6194,11 @@ iris removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00239</IRI>
         <Literal>A treatment used to treat angle-closure glaucoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00239</IRI>
+        <Literal>SNOMEDCT:423552003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -5962,11 +6239,6 @@ iris removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00243</IRI>
         <Literal xml:lang="en">complicationOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00244</IRI>
-        <Literal xml:lang="en">humira</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
