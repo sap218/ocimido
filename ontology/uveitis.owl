@@ -6221,7 +6221,7 @@ iris removal</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00238</IRI>
-        <Literal>laser surgery that might be needed after cataract surgery</Literal>
+        <Literal>laser surgery to the introcular lens, might be needed after cataract surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
