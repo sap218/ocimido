@@ -404,12 +404,6 @@
         <Class IRI="#UVO_00176"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00177"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00178"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00179"/>
     </Declaration>
     <Declaration>
@@ -2590,28 +2584,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00245"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00177"/>
-        <Class IRI="#UVO_00176"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00177"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00176"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00178"/>
-        <Class IRI="#UVO_00176"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00178"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00176"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7057,7 +7029,12 @@ pills</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00176</IRI>
         <Literal>fujimycin
-FK506</Literal>
+FK506
+tacrolimus monohydrate
+astagraf
+envarsus
+prograf
+hecoria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7065,19 +7042,10 @@ FK506</Literal>
         <Literal xml:lang="en">tacrolimus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00177</IRI>
-        <Literal xml:lang="en">prograf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00178</IRI>
-        <Literal>tacrolimus monohydrate</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00178</IRI>
-        <Literal xml:lang="en">adoport</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00176</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7093,7 +7061,9 @@ FK506</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00179</IRI>
         <Literal>cyclosporine
-cyclosporin</Literal>
+cyclosporin
+gengraf
+neoral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7103,7 +7073,8 @@ cyclosporin</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00179</IRI>
-        <Literal>Olivia&apos;s Vision</Literal>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7120,12 +7091,20 @@ cyclosporin</Literal>
         <IRI>#UVO_00180</IRI>
         <Literal>cyclopentolate
 cyclopental
-cyclopentyl</Literal>
+cyclopentyl
+cytoxan
+neosar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00180</IRI>
         <Literal xml:lang="en">cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00180</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7141,7 +7120,12 @@ cyclopentyl</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00181</IRI>
         <Literal>amethopterin
-MTX</Literal>
+MTX
+otrexup
+rasuvo
+rheumatrex dose pack
+trexall
+xatmep</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7151,7 +7135,8 @@ MTX</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00181</IRI>
-        <Literal>Olivia&apos;s Vision</Literal>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7166,12 +7151,19 @@ MTX</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00182</IRI>
-        <Literal>imuran</Literal>
+        <Literal>imuran
+azasan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00182</IRI>
         <Literal xml:lang="en">azathioprine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00182</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7187,7 +7179,11 @@ MTX</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00183</IRI>
         <Literal>predforte
-predsol</Literal>
+predsol
+omnipred
+pred forte
+pred mild
+prednisol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7197,7 +7193,8 @@ predsol</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00183</IRI>
-        <Literal>Olivia&apos;s Vision</Literal>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7242,9 +7239,20 @@ myfenax</Literal>
         <Literal>SNOMEDCT:116593003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00186</IRI>
+        <Literal>medrol
+medrol dosepak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00186</IRI>
         <Literal xml:lang="en">methylprednisolone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00186</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7257,9 +7265,19 @@ myfenax</Literal>
         <Literal>SNOMEDCT:386919002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal>rituxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00187</IRI>
         <Literal xml:lang="en">rituximab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00187</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7323,9 +7341,19 @@ corticoid</Literal>
         <Literal>For treatment of steroid responsive inflammatory conditions of the conjunctiva, cornea and anterior segment of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00192</IRI>
+        <Literal>maxidex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00192</IRI>
-        <Literal xml:lang="en">maxidex</Literal>
+        <Literal xml:lang="en">dexamethasone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00192</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7333,9 +7361,21 @@ corticoid</Literal>
         <Literal>Used to treat conditions involving swelling (inflammation) of the eyes and to treat or prevent bacterial eye infections</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00193</IRI>
+        <Literal>maxitrol
+ocu-trol
+poly-dex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00193</IRI>
-        <Literal xml:lang="en">maxitrol</Literal>
+        <Literal xml:lang="en">dexamethasone neomycin and polymyxin B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00193</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7350,12 +7390,25 @@ corticoid</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00195</IRI>
-        <Literal>FML</Literal>
+        <Literal>FML
+fluorometholone ophthalmic
+flarex
+FML forte liquifilm
+FML liquifilm
+FML S.O.P.
+fluor-op
+eflone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00195</IRI>
         <Literal xml:lang="en">fluorometholone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00195</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7370,12 +7423,21 @@ corticoid</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00196</IRI>
-        <Literal>betamethasone</Literal>
+        <Literal>betamethasone
+diprosone
+diprolene
+celestamine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00196</IRI>
         <Literal xml:lang="en">betnesol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00196</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7390,12 +7452,20 @@ corticoid</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00197</IRI>
-        <Literal>lotemax</Literal>
+        <Literal>lotemax
+alrex
+inveltys</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00197</IRI>
         <Literal xml:lang="en">loteprednol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00197</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7427,12 +7497,19 @@ corticoid</Literal>
         <IRI>#UVO_00201</IRI>
         <Literal>timoptol
 dorzolamide
-cosopt</Literal>
+cosopt
+blocadren</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00201</IRI>
         <Literal xml:lang="en">timolol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00201</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7462,12 +7539,18 @@ cosopt</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00203</IRI>
-        <Literal>latanoprost</Literal>
+        <Literal>latanoprost
+xalatan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00203</IRI>
-        <Literal xml:lang="en">xalatan</Literal>
+        <Literal xml:lang="en">latanoprost ophthalmic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00203</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7475,14 +7558,25 @@ cosopt</Literal>
         <Literal>A medication used to treat high pressure inside the eye including glaucoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00204</IRI>
+        <Literal>SNOMED-CT:129492005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00204</IRI>
-        <Literal>bimatoprost</Literal>
+        <Literal>bimatoprost
+lumigan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00204</IRI>
-        <Literal xml:lang="en">lumigan</Literal>
+        <Literal xml:lang="en">bimatoprost ophthalmic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00204</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7510,9 +7604,20 @@ cosopt</Literal>
         <Literal>SNOMEDCT:373447009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00206</IRI>
+        <Literal>dorzolamide ophthalmic
+trusopt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00206</IRI>
         <Literal xml:lang="en">dorzolamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00206</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7525,9 +7630,21 @@ cosopt</Literal>
         <Literal>SNOMEDCT:386925003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00207</IRI>
+        <Literal>azopt
+brinzolamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00207</IRI>
-        <Literal xml:lang="en">brinzolamide</Literal>
+        <Literal xml:lang="en">brinzolamide ophthalmic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00207</IRI>
+        <Literal>Olivia&apos;s Vision
+www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7552,12 +7669,18 @@ cosopt</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00209</IRI>
-        <Literal>apraclonidine</Literal>
+        <Literal>apraclonidine
+iopidine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00209</IRI>
-        <Literal xml:lang="en">iopidine</Literal>
+        <Literal xml:lang="en">apraclonidine ophthalmic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00209</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7570,9 +7693,22 @@ cosopt</Literal>
         <Literal>SNOMEDCT:108827001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00210</IRI>
+        <Literal>brimonidine
+alphagan p
+lumify
+alphagan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00210</IRI>
-        <Literal xml:lang="en">brimonidine</Literal>
+        <Literal xml:lang="en">brimonidine ophthalmic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00210</IRI>
+        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
