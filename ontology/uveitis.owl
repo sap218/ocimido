@@ -665,6 +665,9 @@
         <Class IRI="#UVO_00285"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00287"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -3896,6 +3899,24 @@
             <Class IRI="#UVO_00016"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00287"/>
+        <Class IRI="#UVO_00021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00287"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00169"/>
+            <Class IRI="#UVO_00058"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00287"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
         <Class IRI="#UVO_00010"/>
@@ -3938,6 +3959,8 @@
         <Class IRI="#UVO_00068"/>
         <Class IRI="#UVO_00069"/>
         <Class IRI="#UVO_00070"/>
+        <Class IRI="#UVO_00251"/>
+        <Class IRI="#UVO_00287"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#UVO_00080"/>
@@ -4288,7 +4311,9 @@ ICD10:H358</Literal>
         <IRI>#UVO_00012</IRI>
         <Literal>macular edema
 macular retinal oedema
-macular retinal edema</Literal>
+macular retinal edema
+cystoid macular oedema
+cystoid macular edema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4299,7 +4324,8 @@ macular retinal edema</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00012</IRI>
         <Literal>HPO
-SNOMED-CT</Literal>
+SNOMED-CT
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4353,7 +4379,8 @@ SNOMEDCT:16830007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00015</IRI>
-        <Literal>snellen chart</Literal>
+        <Literal>snellen chart
+eye sight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4465,7 +4492,8 @@ Olivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00021</IRI>
-        <Literal>surgery</Literal>
+        <Literal>surgery
+OP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5117,9 +5145,19 @@ ICD10:R930</Literal>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00062</IRI>
+        <Literal>drip</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00062</IRI>
         <Literal xml:lang="en">intravenous corticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00062</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5145,12 +5183,18 @@ ICD10:R930</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00064</IRI>
         <Literal>steroids
-ointment</Literal>
+ointment
+cream</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00064</IRI>
         <Literal xml:lang="en">topical corticosteroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00064</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6553,7 +6597,8 @@ ICD10:H531</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00140</IRI>
         <Literal>light sensitivity
-overexposure</Literal>
+overexposure
+sensitive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6753,9 +6798,19 @@ SNOMEDCT:32259006</Literal>
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00149</IRI>
+        <Literal>front section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00149</IRI>
         <Literal xml:lang="en">anterior segment of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00149</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6795,9 +6850,19 @@ SNOMEDCT:77205005</Literal>
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00151</IRI>
+        <Literal>back section</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00151</IRI>
         <Literal xml:lang="en">posterior segment of eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00151</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8120,9 +8185,19 @@ DOID:9383</Literal>
         <Literal>Device that reduces the intraocular pressure (IOP) in glaucoma by draining the fluid (aqueous humour) from inside the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00235</IRI>
+        <Literal>implant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00235</IRI>
         <Literal xml:lang="en">aqueous shunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00235</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8585,7 +8660,8 @@ SNOMEDCT:361318005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>fibrous layer of eyeball</Literal>
+        <Literal>fibrous layer of eyeball
+surface of eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8595,7 +8671,8 @@ SNOMEDCT:361318005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>UBERON</Literal>
+        <Literal>UBERON
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9137,6 +9214,36 @@ SNOMED-CT</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00286</IRI>
         <Literal xml:lang="en">treatedWith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal>Surgery to remove some or all of the vitreous humor from the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal>SNOMEDCT:75732000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal>excision of vitreous opacity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal xml:lang="en">vitrectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00287</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
 </Ontology>
 
