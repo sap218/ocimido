@@ -698,6 +698,9 @@
         <ObjectProperty IRI="#UVO_00243"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#UVO_00286"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
     </Declaration>
     <Declaration>
@@ -4053,6 +4056,10 @@
         <Class IRI="#UVO_00282"/>
         <Class IRI="#UVO_00283"/>
     </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UVO_00230"/>
+        <ObjectProperty IRI="#UVO_00286"/>
+    </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00001</IRI>
@@ -5882,7 +5889,8 @@ insular sclerosis</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00105</IRI>
         <Literal>RCOphth
-DOID</Literal>
+DOID
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6054,7 +6062,8 @@ juvenile rheumatoid arthritis</Literal>
         <IRI>#UVO_00110</IRI>
         <Literal>RCOphth
 ORDO
-HPO</Literal>
+HPO
+OIivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9123,6 +9132,11 @@ SNOMED-CT</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00285</IRI>
         <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00286</IRI>
+        <Literal xml:lang="en">treatedWith</Literal>
     </AnnotationAssertion>
 </Ontology>
 
