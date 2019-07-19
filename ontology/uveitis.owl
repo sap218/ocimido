@@ -668,6 +668,9 @@
         <Class IRI="#UVO_00284"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00285"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -1047,13 +1050,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00044"/>
-        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00285"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00044"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00016"/>
+            <Class IRI="#UVO_00285"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1065,7 +1068,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00045"/>
-        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00285"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00045"/>
@@ -1084,7 +1087,7 @@
         <Class IRI="#UVO_00045"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00016"/>
+            <Class IRI="#UVO_00285"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1096,13 +1099,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00046"/>
-        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00285"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00046"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00016"/>
+            <Class IRI="#UVO_00285"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1114,13 +1117,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00047"/>
-        <Class IRI="#UVO_00016"/>
+        <Class IRI="#UVO_00285"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00047"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00016"/>
+            <Class IRI="#UVO_00285"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3907,6 +3910,17 @@
         <Class IRI="#UVO_00284"/>
         <Class IRI="#UVO_00139"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00285"/>
+        <Class IRI="#UVO_00016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00285"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
         <Class IRI="#UVO_00010"/>
@@ -4118,14 +4132,29 @@
         <Literal>Major therapeutic interventions descriptors</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00004</IRI>
+        <Literal>SNOMEDCT:262202000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00004</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00004</IRI>
+        <Literal>treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00004</IRI>
         <Literal xml:lang="en">therapeutic interventions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00004</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4425,12 +4454,19 @@ SNOMEDCT:16830007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00020</IRI>
-        <Literal>medicine</Literal>
+        <Literal>medicine
+medication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00020</IRI>
         <Literal xml:lang="en">medical therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00020</IRI>
+        <Literal>SNOMED-CT
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4456,6 +4492,12 @@ SNOMEDCT:16830007</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00021</IRI>
         <Literal xml:lang="en">surgical therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00021</IRI>
+        <Literal>Olivia&apos;s Vision
+SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4738,9 +4780,20 @@ ORDO</Literal>
         <Literal>Strong correlation between birdshot retinochoroidopathy and HLA-A29</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00044</IRI>
+        <Literal>SNOMEDCT:417622004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00044</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00044</IRI>
+        <Literal>HLA-A29 antigen
+human leucocyte antigen A29</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4748,14 +4801,30 @@ ORDO</Literal>
         <Literal xml:lang="en">HLA-A29</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00044</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00045</IRI>
         <Literal>Strongly associated with ankylosing spondylitis (chronic condition in which the spine and other areas of the body become inflamed)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00045</IRI>
+        <Literal>SNOMEDCT:417429003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00045</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00045</IRI>
+        <Literal>HLA-B27 antigen
+human leucocyte antigen B27</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4763,14 +4832,30 @@ ORDO</Literal>
         <Literal xml:lang="en">HLA-B27</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00045</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00046</IRI>
         <Literal>Associated with several diseases, including Behcets disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00046</IRI>
+        <Literal>SNOMEDCT:18501000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00046</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00046</IRI>
+        <Literal>HLA-B51 antigen
+human leucocyte antigen B51</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4778,9 +4863,19 @@ ORDO</Literal>
         <Literal xml:lang="en">HLA-B51</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00046</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00047</IRI>
         <Literal>Associated with sclerosis/rheumatoid arthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00047</IRI>
+        <Literal>SNOMEDCT:798161000000102</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4788,9 +4883,20 @@ ORDO</Literal>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00047</IRI>
+        <Literal>HLA-DR4 antigen
+human leucocyte antigen DR4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00047</IRI>
         <Literal xml:lang="en">HLA-DR4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00047</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4810,8 +4916,7 @@ ORDO</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00050</IRI>
-        <Literal>angiotensin converting enzyme
-angiotensin converting enzyme measurement (procedure)</Literal>
+        <Literal>angiotensin converting enzyme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4819,9 +4924,19 @@ angiotensin converting enzyme measurement (procedure)</Literal>
         <Literal xml:lang="en">ACE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00050</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00052</IRI>
         <Literal>CT scan of thorax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00052</IRI>
+        <Literal>SNOMEDCT:444708006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4829,9 +4944,19 @@ angiotensin converting enzyme measurement (procedure)</Literal>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00052</IRI>
+        <Literal>computed tomography scan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00052</IRI>
         <Literal xml:lang="en">CT thorax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00052</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4861,6 +4986,12 @@ xray</Literal>
         <Literal xml:lang="en">chest x ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00053</IRI>
+        <Literal>SNOMED-CT
+Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00054</IRI>
         <Literal>Diagnosis of some infectious diseases, especially tuberculosis (TB)</Literal>
@@ -4868,7 +4999,7 @@ xray</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00054</IRI>
-        <Literal>SNOMEDCT:998081000000104</Literal>
+        <Literal>SNOMEDCT:884131000000103</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4876,9 +5007,19 @@ xray</Literal>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00054</IRI>
+        <Literal>tuberculosis test using enzyme-linked immunosorbent assay interferon-gamma release assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00054</IRI>
         <Literal xml:lang="en">interferon gamma release assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00054</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4906,14 +5047,30 @@ xray</Literal>
         <Literal>MRI scan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00056</IRI>
+        <Literal>SNOMEDCT:407669000
+ICD10:R930</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00056</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00056</IRI>
+        <Literal>magnetic resonance imaging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00056</IRI>
         <Literal xml:lang="en">MRI brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00056</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5058,6 +5215,11 @@ lens removal</Literal>
         <Literal xml:lang="en">cataract surgery</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00068</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00069</IRI>
         <Literal>In rare cases where treatment with eye drops or laser haven&apos;t been effective, surgery for glaucoma involves removing part of the eye-drainage tubes to allow fluid to drain more easily</Literal>
@@ -5101,6 +5263,11 @@ lens removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00070</IRI>
         <Literal xml:lang="en">vitreo retinal surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00070</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6319,18 +6486,18 @@ HP:0200057</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00136</IRI>
-        <Literal>RAPD
+        <Literal>relative afferent pupillary defect
 marcus gunn pupil</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00136</IRI>
-        <Literal xml:lang="en">relative afferent pupillary defect</Literal>
+        <Literal xml:lang="en">RAPD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00136</IRI>
-        <Literal>RCOphth
+        <Literal>SNOMED-CT
 HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -7844,6 +8011,11 @@ iris removal</Literal>
         <Literal xml:lang="en">iridectomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00237</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00238</IRI>
         <Literal>laser surgery to the introcular lens, might be needed after cataract surgery</Literal>
@@ -7864,6 +8036,11 @@ iris removal</Literal>
         <Literal xml:lang="en">posterior capsulotomy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00238</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00239</IRI>
         <Literal>A treatment used to treat angle-closure glaucoma</Literal>
@@ -7882,6 +8059,11 @@ iris removal</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00239</IRI>
         <Literal xml:lang="en">peripheral iridotomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00239</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8780,6 +8962,31 @@ ICD10:H571</Literal>
         <IRI>#UVO_00284</IRI>
         <Literal>HPO
 SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00285</IRI>
+        <Literal>SNOMEDCT:47038001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00285</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00285</IRI>
+        <Literal>HLA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00285</IRI>
+        <Literal xml:lang="en">human leucocyte antigen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00285</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
 </Ontology>
 
