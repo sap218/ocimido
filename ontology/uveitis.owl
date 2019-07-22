@@ -4221,9 +4221,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00009</IRI>
-        <Literal>HP:0000518
-DOID:83
-SNOMEDCT:128306009</Literal>
+        <Literal>DOID:83</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00009</IRI>
+        <Literal>HP:0000518</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00009</IRI>
+        <Literal>SNOMEDCT:128306009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4243,8 +4251,12 @@ SNOMEDCT:128306009</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00010</IRI>
-        <Literal>HP:0100014
-SNOMEDCT:133853005</Literal>
+        <Literal>HP:0100014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00010</IRI>
+        <Literal>SNOMEDCT:133853005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4264,8 +4276,7 @@ SNOMEDCT:133853005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00010</IRI>
-        <Literal>HPO
-SNOMED-CT</Literal>
+        <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4275,9 +4286,17 @@ SNOMED-CT</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00011</IRI>
-        <Literal>HP:0000501
-DOID:1686
-SNOMEDCT:23986001</Literal>
+        <Literal>DOID:1686</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00011</IRI>
+        <Literal>HP:0000501</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00011</IRI>
+        <Literal>SNOMEDCT:23986001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4297,9 +4316,17 @@ SNOMEDCT:23986001</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00012</IRI>
-        <Literal>HP:0040049
-SNOMEDCT:37231002
-ICD10:H358</Literal>
+        <Literal>HP:0040049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal>ICD10:H358</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00012</IRI>
+        <Literal>SNOMEDCT:37231002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4368,8 +4395,12 @@ Olivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00015</IRI>
-        <Literal>HP:0030532
-SNOMEDCT:16830007</Literal>
+        <Literal>HP:0030532</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00015</IRI>
+        <Literal>SNOMEDCT:16830007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4589,8 +4620,12 @@ SNOMED-CT</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00030</IRI>
-        <Literal>DOID:104
-ORPHA:163582</Literal>
+        <Literal>DOID:104</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00030</IRI>
+        <Literal>ORPHA:163582</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4625,8 +4660,12 @@ ORPHA:163582</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00032</IRI>
-        <Literal>DOID:1398
-ORPHA:163588</Literal>
+        <Literal>DOID:1398</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00032</IRI>
+        <Literal>ORPHA:163588</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4646,8 +4685,12 @@ ORPHA:163588</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00033</IRI>
-        <Literal>DOID:934
-ORPHA:163585</Literal>
+        <Literal>DOID:934</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00033</IRI>
+        <Literal>ORPHA:163585</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4707,9 +4750,17 @@ ORPHA:163585</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00038</IRI>
-        <Literal>HP:0002664
-PATO:0002011
-ORPHA:98057</Literal>
+        <Literal>HP:0002664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00038</IRI>
+        <Literal>ORPHA:98057</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00038</IRI>
+        <Literal>PATO:0002011</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5056,8 +5107,12 @@ Olivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00056</IRI>
-        <Literal>SNOMEDCT:407669000
-ICD10:R930</Literal>
+        <Literal>ICD10:R930</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00056</IRI>
+        <Literal>SNOMEDCT:407669000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5125,9 +5180,19 @@ ICD10:R930</Literal>
         <Literal>Steroid injections are anti-inflammatory medicines used to treat a range of conditions - such as joint pain, arthritis, sciatica and inflammatory bowel disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00061</IRI>
+        <Literal>SNOMEDCT:307513002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00061</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00061</IRI>
+        <Literal>intramuscular steroid therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5135,9 +5200,19 @@ ICD10:R930</Literal>
         <Literal xml:lang="en">intramuscular corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00061</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00062</IRI>
         <Literal>Steroids may be used to treat relapses in multiple sclerosis - intravenous infusion (drip)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00062</IRI>
+        <Literal>SNOMEDCT:285435007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5147,7 +5222,8 @@ ICD10:R930</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00062</IRI>
-        <Literal>drip</Literal>
+        <Literal>drip
+intravenous steroid injection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5157,7 +5233,8 @@ ICD10:R930</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00062</IRI>
-        <Literal>Olivia&apos;s Vision</Literal>
+        <Literal>Olivia&apos;s Vision
+SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -5300,9 +5377,17 @@ lens removal</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00072</IRI>
-        <Literal>DOID:12731
-SNOMEDCT:45688009
-ICD10:H302</Literal>
+        <Literal>DOID:12731</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>ICD10:H302</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>SNOMEDCT:45688009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5320,6 +5405,11 @@ ICD10:H302</Literal>
         <Literal xml:lang="en">pars planitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00072</IRI>
+        <Literal>DOID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00074</IRI>
         <Literal>Inflammation of the choroid (thin pigmented vascular coat of the eye)</Literal>
@@ -5327,9 +5417,17 @@ ICD10:H302</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00074</IRI>
-        <Literal>DOID:11406
-SNOMEDCT:16553002
-ICD10:H309</Literal>
+        <Literal>DOID:11406</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00074</IRI>
+        <Literal>ICD10:H309</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00074</IRI>
+        <Literal>SNOMEDCT:16553002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5349,9 +5447,17 @@ ICD10:H309</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00075</IRI>
-        <Literal>HP:0012424
-DOID:8886
-SNOMEDCT:46627006</Literal>
+        <Literal>DOID:8886</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00075</IRI>
+        <Literal>HP:0012424</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00075</IRI>
+        <Literal>SNOMEDCT:46627006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5386,10 +5492,22 @@ SNOMEDCT:46627006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00077</IRI>
-        <Literal>HP:0032118
-DOID:3612
-SNOMEDCT:399463004
-ICD10:H309</Literal>
+        <Literal>DOID:3612</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal>HP:0032118</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal>ICD10:H309</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00077</IRI>
+        <Literal>SNOMEDCT:399463004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5454,9 +5572,17 @@ ICD10:H309</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00082</IRI>
-        <Literal>ORPHA:3389
-DOID:399
-SNOMEDCT:113861009</Literal>
+        <Literal>DOID:399</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00082</IRI>
+        <Literal>ORPHA:3389</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00082</IRI>
+        <Literal>SNOMEDCT:113861009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5486,8 +5612,12 @@ SNOMEDCT:113861009</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00083</IRI>
-        <Literal>SNOMEDCT:76272004
-DOID:4166</Literal>
+        <Literal>DOID:4166</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00083</IRI>
+        <Literal>SNOMEDCT:76272004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5518,10 +5648,22 @@ syphilitic chancre</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00084</IRI>
-        <Literal>ORPHA:50839
-DOID:11258
-SNOMEDCT:79974007
-ICD10:A281</Literal>
+        <Literal>DOID:11258</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal>ICD10:A281</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal>ORPHA:50839</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal>SNOMEDCT:79974007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5551,10 +5693,22 @@ ICD10:A281</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00085</IRI>
-        <Literal>ORPHA:91546
-DOID:11729
-SNOMEDCT:23502006
-ICD10:A692</Literal>
+        <Literal>DOID:11729</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>ICD10:A692</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>ORPHA:91546</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>SNOMEDCT:23502006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5615,8 +5769,12 @@ lyme borreliosis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00090</IRI>
-        <Literal>DOID:8704
-SNOMEDCT:407450002</Literal>
+        <Literal>DOID:8704</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00090</IRI>
+        <Literal>SNOMEDCT:407450002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5761,10 +5919,22 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00099</IRI>
-        <Literal>DOID:9790
-ORPHA:3343
-SNOMEDCT:49078004
-ICD10:B830</Literal>
+        <Literal>DOID:9790</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00099</IRI>
+        <Literal>ICD10:B830</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00099</IRI>
+        <Literal>ORPHA:3343</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00099</IRI>
+        <Literal>SNOMEDCT:49078004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5840,8 +6010,12 @@ toxocara infection</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00103</IRI>
-        <Literal>DOID:7147
-SNOMEDCT:9631008</Literal>
+        <Literal>DOID:7147</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00103</IRI>
+        <Literal>SNOMEDCT:9631008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5873,9 +6047,17 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00104</IRI>
-        <Literal>ORPHA:797
-DOID:11335
-SNOMEDCT:31541009</Literal>
+        <Literal>DOID:11335</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal>ORPHA:797</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00104</IRI>
+        <Literal>SNOMEDCT:31541009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5909,9 +6091,17 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00105</IRI>
-        <Literal>DOID:2377
-SNOMEDCT:24700007
-ICD10:G35X</Literal>
+        <Literal>DOID:2377</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00105</IRI>
+        <Literal>ICD10:G35X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00105</IRI>
+        <Literal>SNOMEDCT:24700007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5944,10 +6134,22 @@ Olivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00106</IRI>
-        <Literal>ORPHA:117
-DOID:13241
-SNOMEDCT:310701003
-ICD10:M352</Literal>
+        <Literal>DOID:13241</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal>ICD10:M352</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal>ORPHA:117</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00106</IRI>
+        <Literal>SNOMEDCT:310701003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -5979,8 +6181,12 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00107</IRI>
-        <Literal>DOID:12029
-ORPHA:79098</Literal>
+        <Literal>DOID:12029</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00107</IRI>
+        <Literal>ORPHA:79098</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6013,10 +6219,22 @@ ORDO</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00108</IRI>
-        <Literal>ORPHA:3437
-DOID:12297
-SNOMEDCT:193497004
-ICD10:H208</Literal>
+        <Literal>DOID:12297</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>ICD10:H208</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>ORPHA:3437</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>SNOMEDCT:193497004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6080,9 +6298,17 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00110</IRI>
-        <Literal>ORPHA:92
-HP:0005681
-SNOMEDCT:410502007</Literal>
+        <Literal>HP:0005681</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00110</IRI>
+        <Literal>ORPHA:92</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00110</IRI>
+        <Literal>SNOMEDCT:410502007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6272,9 +6498,17 @@ OIivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00120</IRI>
-        <Literal>HP:0025560
-SNOMEDCT:246993000
-ICD10:H200</Literal>
+        <Literal>HP:0025560</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00120</IRI>
+        <Literal>ICD10:H200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00120</IRI>
+        <Literal>SNOMEDCT:246993000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6294,9 +6528,17 @@ ICD10:H200</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00121</IRI>
-        <Literal>HP:0031616
-SNOMEDCT:246992005
-ICD10:H218</Literal>
+        <Literal>HP:0031616</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00121</IRI>
+        <Literal>ICD10:H218</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00121</IRI>
+        <Literal>SNOMEDCT:246992005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6359,10 +6601,22 @@ pressure</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00124</IRI>
-        <Literal>HP:0007906
-DOID:9282
-SNOMEDCT:4210003
-ICD10:H400</Literal>
+        <Literal>DOID:9282</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>HP:0007906</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>ICD10:H400</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00124</IRI>
+        <Literal>SNOMEDCT:4210003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6372,7 +6626,8 @@ ICD10:H400</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00124</IRI>
-        <Literal>high eye pressure</Literal>
+        <Literal>high eye pressure
+OHT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6382,7 +6637,8 @@ ICD10:H400</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00124</IRI>
-        <Literal>HPO</Literal>
+        <Literal>Olivia&apos;s Vision
+HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6432,8 +6688,12 @@ ICD10:H400</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00133</IRI>
-        <Literal>SNOMEDCT:419775003
-HP:0030534</Literal>
+        <Literal>HP:0030534</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00133</IRI>
+        <Literal>SNOMEDCT:419775003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6463,8 +6723,12 @@ HP:0030534</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00134</IRI>
-        <Literal>SNOMEDCT:419475002
-HP:0030535</Literal>
+        <Literal>HP:0030535</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00134</IRI>
+        <Literal>SNOMEDCT:419475002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6499,9 +6763,17 @@ HP:0030535</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00136</IRI>
-        <Literal>SNOMEDCT:232122003
-ICD10:H570
-HP:0200057</Literal>
+        <Literal>HP:0200057</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00136</IRI>
+        <Literal>ICD10:H570</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00136</IRI>
+        <Literal>SNOMEDCT:232122003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6583,10 +6855,22 @@ HPO</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00140</IRI>
-        <Literal>HP:0000613
-PATO:0000547
-SNOMEDCT:409668002
-ICD10:H531</Literal>
+        <Literal>HP:0000613</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00140</IRI>
+        <Literal>ICD10:H531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00140</IRI>
+        <Literal>PATO:0000547</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00140</IRI>
+        <Literal>SNOMEDCT:409668002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6618,8 +6902,12 @@ sensitive</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00141</IRI>
-        <Literal>HP:0000622
-PATO:0001518</Literal>
+        <Literal>HP:0000622</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00141</IRI>
+        <Literal>PATO:0001518</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6649,9 +6937,17 @@ PATO:0001518</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00142</IRI>
-        <Literal>HP:0100832
-ICD10:H433
-SNOMEDCT:162278001</Literal>
+        <Literal>HP:0100832</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00142</IRI>
+        <Literal>ICD10:H433</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00142</IRI>
+        <Literal>SNOMEDCT:162278001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6682,9 +6978,17 @@ myodesopsia</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00143</IRI>
-        <Literal>HP:0030786
-SNOMEDCT:56170001
-ICD10:H531</Literal>
+        <Literal>HP:0030786</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00143</IRI>
+        <Literal>ICD10:H531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00143</IRI>
+        <Literal>SNOMEDCT:56170001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6704,8 +7008,12 @@ ICD10:H531</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00144</IRI>
-        <Literal>SNOMEDCT:193670002
-ICD10:H534</Literal>
+        <Literal>ICD10:H534</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00144</IRI>
+        <Literal>SNOMEDCT:193670002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6737,8 +7045,12 @@ punctum caecum</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00145</IRI>
-        <Literal>SNOMEDCT:42134006
-ICD10:H539</Literal>
+        <Literal>ICD10:H539</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00145</IRI>
+        <Literal>SNOMEDCT:42134006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6768,8 +7080,12 @@ ICD10:H539</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00148</IRI>
-        <Literal>UBERON:0010230
-SNOMEDCT:302151004</Literal>
+        <Literal>SNOMEDCT:302151004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00148</IRI>
+        <Literal>UBERON:0010230</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6789,8 +7105,12 @@ SNOMEDCT:302151004</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00149</IRI>
-        <Literal>UBERON:0001801
-SNOMEDCT:32259006</Literal>
+        <Literal>SNOMEDCT:32259006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00149</IRI>
+        <Literal>UBERON:0001801</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6820,8 +7140,12 @@ SNOMEDCT:32259006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00150</IRI>
-        <Literal>UBERON:0019207
-SNOMEDCT:303295006</Literal>
+        <Literal>SNOMEDCT:303295006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00150</IRI>
+        <Literal>UBERON:0019207</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6841,8 +7165,12 @@ SNOMEDCT:303295006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00151</IRI>
-        <Literal>UBERON:000180
-SNOMEDCT:77205005</Literal>
+        <Literal>SNOMEDCT:77205005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00151</IRI>
+        <Literal>UBERON:000180</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6872,8 +7200,12 @@ SNOMEDCT:77205005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00152</IRI>
-        <Literal>UBERON:0001766
-SNOMEDCT:181160009</Literal>
+        <Literal>SNOMEDCT:181160009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00152</IRI>
+        <Literal>UBERON:0001766</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6893,8 +7225,12 @@ SNOMEDCT:181160009</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00153</IRI>
-        <Literal>UBERON:0001796
-SNOMEDCT:280587006</Literal>
+        <Literal>SNOMEDCT:280587006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00153</IRI>
+        <Literal>UBERON:0001796</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6914,8 +7250,12 @@ SNOMEDCT:280587006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00154</IRI>
-        <Literal>UBERON:0001767
-SNOMEDCT:65643003</Literal>
+        <Literal>SNOMEDCT:65643003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00154</IRI>
+        <Literal>UBERON:0001767</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6935,8 +7275,12 @@ SNOMEDCT:65643003</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00155</IRI>
-        <Literal>UBERON:0001776
-SNOMEDCT:181172003</Literal>
+        <Literal>SNOMEDCT:181172003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00155</IRI>
+        <Literal>UBERON:0001776</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6956,8 +7300,12 @@ SNOMEDCT:181172003</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00156</IRI>
-        <Literal>UBERON:0000966
-SNOMEDCT:181171005</Literal>
+        <Literal>SNOMEDCT:181171005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00156</IRI>
+        <Literal>UBERON:0000966</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6972,8 +7320,12 @@ SNOMEDCT:181171005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00157</IRI>
-        <Literal>UBERON:0001799
-SNOMEDCT:312742006</Literal>
+        <Literal>SNOMEDCT:312742006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00157</IRI>
+        <Literal>UBERON:0001799</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -6993,8 +7345,12 @@ SNOMEDCT:312742006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00158</IRI>
-        <Literal>UBERON:0001798
-SNOMEDCT:47538007</Literal>
+        <Literal>SNOMEDCT:47538007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00158</IRI>
+        <Literal>UBERON:0001798</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7082,12 +7438,18 @@ SNOMEDCT:47538007</Literal>
         <Literal>tablet
 tablets
 pill
-pills</Literal>
+pills
+capsule</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00175</IRI>
         <Literal xml:lang="en">oral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00175</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7394,6 +7756,11 @@ medrol dosepak</Literal>
         <Literal xml:lang="en">topical eye drops</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00190</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00191</IRI>
         <Literal>Anti-inflammatory medicines used to treat a range of conditions</Literal>
@@ -7417,17 +7784,20 @@ corticoid</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00192</IRI>
-        <Literal>maxidex</Literal>
+        <Literal>maxidex
+dexamethasone
+meth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00192</IRI>
-        <Literal xml:lang="en">dexamethasone</Literal>
+        <Literal xml:lang="en">dexamethasone ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00192</IRI>
-        <Literal>www.drugs.com</Literal>
+        <Literal>www.drugs.com
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7439,17 +7809,24 @@ corticoid</Literal>
         <IRI>#UVO_00193</IRI>
         <Literal>maxitrol
 ocu-trol
-poly-dex</Literal>
+poly-dex
+meth
+methadex
+dexacidin
+dexasporin
+ak-trol
+dexacine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00193</IRI>
-        <Literal xml:lang="en">dexamethasone neomycin and polymyxin B</Literal>
+        <Literal xml:lang="en">dexamethasone neomycin and polymyxin B ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00193</IRI>
-        <Literal>www.drugs.com</Literal>
+        <Literal>www.drugs.com
+Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7465,7 +7842,7 @@ poly-dex</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00195</IRI>
         <Literal>FML
-fluorometholone ophthalmic
+fluorometholone
 flarex
 FML forte liquifilm
 FML liquifilm
@@ -7476,7 +7853,7 @@ eflone</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00195</IRI>
-        <Literal xml:lang="en">fluorometholone</Literal>
+        <Literal xml:lang="en">fluorometholone ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -7526,14 +7903,15 @@ www.drugs.com</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00197</IRI>
-        <Literal>lotemax
+        <Literal>loteprednol
+lotemax
 alrex
 inveltys</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00197</IRI>
-        <Literal xml:lang="en">loteprednol</Literal>
+        <Literal xml:lang="en">loteprednol ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -7569,7 +7947,8 @@ www.drugs.com</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00201</IRI>
-        <Literal>timoptol
+        <Literal>timolol
+timoptol
 dorzolamide
 cosopt
 blocadren</Literal>
@@ -7577,7 +7956,7 @@ blocadren</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00201</IRI>
-        <Literal xml:lang="en">timolol</Literal>
+        <Literal xml:lang="en">timolol ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -7680,13 +8059,13 @@ lumigan</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00206</IRI>
-        <Literal>dorzolamide ophthalmic
+        <Literal>dorzolamide
 trusopt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00206</IRI>
-        <Literal xml:lang="en">dorzolamide</Literal>
+        <Literal xml:lang="en">dorzolamide ophthalmic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -7806,6 +8185,11 @@ syringe</Literal>
         <Literal xml:lang="en">injections</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00212</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00213</IRI>
         <Literal>Main types of uveitis</Literal>
@@ -7813,16 +8197,37 @@ syringe</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00213</IRI>
-        <Literal>SNOMEDCT:128473001
-ICD10:H209
-HP:0000554
-DOID:13141
-ORPHA:98715</Literal>
+        <Literal>DOID:13141</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00213</IRI>
+        <Literal>HP:0000554</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00213</IRI>
+        <Literal>ICD10:H209</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00213</IRI>
+        <Literal>ORPHA:98715</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00213</IRI>
+        <Literal>SNOMEDCT:128473001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00213</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00213</IRI>
+        <Literal>uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7837,10 +8242,22 @@ ORPHA:98715</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00214</IRI>
-        <Literal>HP:0012122
-DOID:1407
-ORPHA:280886
-SNOMEDCT:410692006</Literal>
+        <Literal>DOID:1407</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>HP:0012122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>ORPHA:280886</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>SNOMEDCT:410692006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7858,6 +8275,11 @@ SNOMEDCT:410692006</Literal>
         <Literal xml:lang="en">anterior uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00214</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00215</IRI>
         <Literal>Inflammation localised to the vitreous</Literal>
@@ -7865,11 +8287,27 @@ SNOMEDCT:410692006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00215</IRI>
-        <Literal>HP:0012124
-DOID:12732
-ORPHA:279914
-SNOMEDCT:314429009
-ICD10:H209</Literal>
+        <Literal>DOID:12732</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>HP:0012124</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>ICD10:H209</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>ORPHA:279914</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>SNOMEDCT:314429009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7887,6 +8325,11 @@ ICD10:H209</Literal>
         <Literal xml:lang="en">intermediate uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00215</IRI>
+        <Literal>ORDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00216</IRI>
         <Literal>Inflammation of the choroid, may affect the retina and/or the optic nerve, and may lead to permanent loss of vision</Literal>
@@ -7894,10 +8337,22 @@ ICD10:H209</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00216</IRI>
-        <Literal>HP:0012123
-DOID:12574
-ORPHA:280892
-SNOMEDCT:43363007</Literal>
+        <Literal>DOID:12574</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00216</IRI>
+        <Literal>HP:0012123</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00216</IRI>
+        <Literal>ORPHA:280892</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00216</IRI>
+        <Literal>SNOMEDCT:43363007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7917,11 +8372,27 @@ SNOMEDCT:43363007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00217</IRI>
-        <Literal>HP:0012121
-DOID:12030
-ORPHA:280898
-SNOMEDCT:75614007
-ICD10:H441</Literal>
+        <Literal>DOID:12030</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>HP:0012121</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>ICD10:H441</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>ORPHA:280898</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>SNOMEDCT:75614007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7937,6 +8408,11 @@ ICD10:H441</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00217</IRI>
         <Literal xml:lang="en">panuveitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00217</IRI>
+        <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7956,8 +8432,12 @@ ICD10:H441</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00219</IRI>
-        <Literal>SNOMEDCT:312951006
-ICD10:H309</Literal>
+        <Literal>ICD10:H309</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00219</IRI>
+        <Literal>SNOMEDCT:312951006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8018,10 +8498,22 @@ punctate inner choroiditis</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00221</IRI>
-        <Literal>ORPHA:179
-DOID:0111079
-SNOMEDCT:231981005
-ICD10:H308</Literal>
+        <Literal>DOID:0111079</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00221</IRI>
+        <Literal>ICD10:H308</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00221</IRI>
+        <Literal>ORPHA:179</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00221</IRI>
+        <Literal>SNOMEDCT:231981005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8057,8 +8549,12 @@ DOID</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00223</IRI>
-        <Literal>UBERON:0001768
-SNOMEDCT:310575006</Literal>
+        <Literal>SNOMEDCT:310575006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00223</IRI>
+        <Literal>UBERON:0001768</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8088,8 +8584,12 @@ SNOMEDCT:310575006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00224</IRI>
-        <Literal>UBERON:0011892
-SNOMEDCT:732081000</Literal>
+        <Literal>SNOMEDCT:732081000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00224</IRI>
+        <Literal>UBERON:0011892</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8129,8 +8629,12 @@ SNOMEDCT:732081000</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00226</IRI>
-        <Literal>UBERON:0001769
-SNOMEDCT:41296002</Literal>
+        <Literal>SNOMEDCT:41296002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00226</IRI>
+        <Literal>UBERON:0001769</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8150,9 +8654,17 @@ SNOMEDCT:41296002</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00227</IRI>
-        <Literal>SNOMEDCT:77971008
-HP:0001094
-DOID:9383</Literal>
+        <Literal>DOID:9383</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00227</IRI>
+        <Literal>HP:0001094</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00227</IRI>
+        <Literal>SNOMEDCT:77971008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8293,8 +8805,12 @@ iris removal</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00240</IRI>
-        <Literal>SNOMEDCT:81858005
-HP:0007759</Literal>
+        <Literal>HP:0007759</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00240</IRI>
+        <Literal>SNOMEDCT:81858005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8341,8 +8857,12 @@ lens opacity</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00246</IRI>
-        <Literal>UBERON:0000965
-SNOMEDCT:306719005</Literal>
+        <Literal>SNOMEDCT:306719005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00246</IRI>
+        <Literal>UBERON:0000965</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8352,8 +8872,7 @@ SNOMEDCT:306719005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00246</IRI>
-        <Literal>eye lens
-bilateral lens</Literal>
+        <Literal>eye lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8363,8 +8882,7 @@ bilateral lens</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00246</IRI>
-        <Literal>UBERON
-SNOMED-CT</Literal>
+        <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8374,8 +8892,12 @@ SNOMED-CT</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00247</IRI>
-        <Literal>DOID:9965
-SNOMEDCT:187192000</Literal>
+        <Literal>DOID:9965</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00247</IRI>
+        <Literal>SNOMEDCT:187192000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8405,8 +8927,12 @@ SNOMEDCT:187192000</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00248</IRI>
-        <Literal>PATO:0001025
-SNOMEDCT:13543005</Literal>
+        <Literal>PATO:0001025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00248</IRI>
+        <Literal>SNOMEDCT:13543005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8432,8 +8958,12 @@ intraocular pressure</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00249</IRI>
-        <Literal>PATO:0001576
-SNOMEDCT:51590001</Literal>
+        <Literal>PATO:0001576</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00249</IRI>
+        <Literal>SNOMEDCT:51590001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8459,8 +8989,12 @@ increased pressure</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00250</IRI>
-        <Literal>PATO:0001575
-SNOMEDCT:29165009</Literal>
+        <Literal>PATO:0001575</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00250</IRI>
+        <Literal>SNOMEDCT:29165009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8511,8 +9045,12 @@ descreased pressure</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00256</IRI>
-        <Literal>SNOMEDCT:410471004
-DOID:10176</Literal>
+        <Literal>DOID:10176</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00256</IRI>
+        <Literal>SNOMEDCT:410471004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8547,8 +9085,12 @@ DOID:10176</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00259</IRI>
-        <Literal>PATO:0000487
-SNOMEDCT:80074009</Literal>
+        <Literal>PATO:0000487</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00259</IRI>
+        <Literal>SNOMEDCT:80074009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8628,8 +9170,12 @@ SNOMEDCT:80074009</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00262</IRI>
-        <Literal>HP:0025337
-SNOMEDCT:703630003</Literal>
+        <Literal>HP:0025337</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00262</IRI>
+        <Literal>SNOMEDCT:703630003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8649,8 +9195,12 @@ SNOMEDCT:703630003</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>UBERON:0012430
-SNOMEDCT:361318005</Literal>
+        <Literal>SNOMEDCT:361318005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00263</IRI>
+        <Literal>UBERON:0012430</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8660,8 +9210,7 @@ SNOMEDCT:361318005</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>fibrous layer of eyeball
-surface of eye</Literal>
+        <Literal>surface of eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8671,8 +9220,7 @@ surface of eye</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>UBERON
-Olivia&apos;s Vision</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8682,8 +9230,12 @@ Olivia&apos;s Vision</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00264</IRI>
-        <Literal>UBERON:0001773
-SNOMEDCT:181163006</Literal>
+        <Literal>SNOMEDCT:181163006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00264</IRI>
+        <Literal>UBERON:0001773</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8703,8 +9255,12 @@ SNOMEDCT:181163006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00265</IRI>
-        <Literal>UBERON:0000964
-SNOMEDCT:181162001</Literal>
+        <Literal>SNOMEDCT:181162001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00265</IRI>
+        <Literal>UBERON:0000964</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8834,9 +9390,17 @@ SNOMEDCT:181162001</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00271</IRI>
-        <Literal>HP:0011531
-SNOMEDCT:95802009
-ICD10:H432</Literal>
+        <Literal>HP:0011531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00271</IRI>
+        <Literal>ICD10:H432</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00271</IRI>
+        <Literal>SNOMEDCT:95802009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8871,8 +9435,12 @@ ICD10:H432</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00273</IRI>
-        <Literal>HP:0012647
-SNOMEDCT:257552002</Literal>
+        <Literal>HP:0012647</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00273</IRI>
+        <Literal>SNOMEDCT:257552002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8927,9 +9495,17 @@ SNOMEDCT:257552002</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00276</IRI>
-        <Literal>PATO:0000261
-SNOMEDCT:272130008
-SNOMEDCT:410598002</Literal>
+        <Literal>PATO:0000261</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00276</IRI>
+        <Literal>SNOMEDCT:272130008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00276</IRI>
+        <Literal>SNOMEDCT:410598002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -8960,8 +9536,12 @@ person categorised by age</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00277</IRI>
-        <Literal>PATO:0001189
-SNOMEDCT:133937008</Literal>
+        <Literal>PATO:0001189</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00277</IRI>
+        <Literal>SNOMEDCT:133937008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -9011,8 +9591,12 @@ SNOMEDCT:133937008</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00279</IRI>
-        <Literal>PATO:0001190
-SNOMEDCT:410601007</Literal>
+        <Literal>PATO:0001190</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00279</IRI>
+        <Literal>SNOMEDCT:410601007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -9042,8 +9626,12 @@ SNOMEDCT:410601007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00280</IRI>
-        <Literal>PATO:0001701
-SNOMEDCT:133936004</Literal>
+        <Literal>PATO:0001701</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00280</IRI>
+        <Literal>SNOMEDCT:133936004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -9073,8 +9661,12 @@ SNOMEDCT:133936004</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00281</IRI>
-        <Literal>PATO:0002206
-SNOMEDCT:133933007</Literal>
+        <Literal>PATO:0002206</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00281</IRI>
+        <Literal>SNOMEDCT:133933007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -9104,8 +9696,12 @@ SNOMEDCT:133933007</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00282</IRI>
-        <Literal>PATO:0001186
-SNOMEDCT:410600008</Literal>
+        <Literal>PATO:0001186</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00282</IRI>
+        <Literal>SNOMEDCT:410600008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -9160,9 +9756,17 @@ SNOMEDCT:410600008</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00284</IRI>
-        <Literal>HP:0200026
-SNOMEDCT:41652007
-ICD10:H571</Literal>
+        <Literal>HP:0200026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00284</IRI>
+        <Literal>ICD10:H571</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00284</IRI>
+        <Literal>SNOMEDCT:41652007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
