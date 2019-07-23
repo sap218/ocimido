@@ -683,6 +683,12 @@
         <Class IRI="#UVO_00292"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00294"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -1920,6 +1926,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00110"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#UVO_00169"/>
+            <Class IRI="#UVO_00279"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00112"/>
         <Class IRI="#UVO_00132"/>
     </SubClassOf>
@@ -2616,6 +2629,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00245"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00179"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00110"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4060,6 +4080,49 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00293"/>
+        <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00293"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00185"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00293"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00293"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00110"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00294"/>
+        <Class IRI="#UVO_00185"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00294"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00185"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00294"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00110"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -10742,6 +10805,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00292</IRI>
         <Literal xml:lang="en">physical quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>Reduces the effects of a substance in the body that can cause inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>SNOMEDCT:386891004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>inflectra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>remicade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>renflexis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal xml:lang="en">infliximab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00293</IRI>
+        <Literal>www.drugs.com</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal>Used to treat juvenile idiopathic arthritis in children - sometimes given together with methotrexate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal>SNOMEDCT:724164001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal>actemra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal>actemra ACTpen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal xml:lang="en">tocilizumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00294</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
 </Ontology>
 
