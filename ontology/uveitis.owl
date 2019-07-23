@@ -668,6 +668,21 @@
         <Class IRI="#UVO_00287"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00288"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00290"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00291"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00292"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -3644,24 +3659,24 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00257"/>
-        <Class IRI="#UVO_00002"/>
+        <Class IRI="#UVO_00292"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00257"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00002"/>
+            <Class IRI="#UVO_00292"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00258"/>
-        <Class IRI="#UVO_00002"/>
+        <Class IRI="#UVO_00288"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00258"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00002"/>
+            <Class IRI="#UVO_00288"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3990,6 +4005,61 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00288"/>
+        <Class IRI="#UVO_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00288"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00289"/>
+        <Class IRI="#UVO_00288"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00289"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00288"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00290"/>
+        <Class IRI="#UVO_00289"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00290"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00289"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00291"/>
+        <Class IRI="#UVO_00290"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00291"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00290"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00292"/>
+        <Class IRI="#UVO_00288"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00292"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00288"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -6664,9 +6734,19 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00113</IRI>
+        <Literal>worse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00113</IRI>
         <Literal xml:lang="en">worsening</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00113</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10331,7 +10411,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00279</IRI>
-        <Literal>childhood age person</Literal>
+        <Literal>children</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10341,7 +10421,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00279</IRI>
-        <Literal>SNOMED-CT</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10572,6 +10652,96 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00287</IRI>
         <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00288</IRI>
+        <Literal>PATO:0001241</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00288</IRI>
+        <Literal>PATO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00288</IRI>
+        <Literal xml:lang="en">physical object quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00289</IRI>
+        <Literal>PATO:0002305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00289</IRI>
+        <Literal>PATO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00289</IRI>
+        <Literal xml:lang="en">increased object quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00290</IRI>
+        <Literal>PATO:0000586</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00290</IRI>
+        <Literal>PATO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00290</IRI>
+        <Literal xml:lang="en">increased size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal>PATO:0001571</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal>SNOMEDCT:37125009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal>dilated pupil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal xml:lang="en">dilated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00292</IRI>
+        <Literal>PATO:0002079</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00292</IRI>
+        <Literal>PATO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00292</IRI>
+        <Literal xml:lang="en">physical quality</Literal>
     </AnnotationAssertion>
 </Ontology>
 
