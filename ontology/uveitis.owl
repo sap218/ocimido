@@ -3279,6 +3279,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00214"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00169"/>
+            <Class IRI="#UVO_00149"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00214"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00213"/>
         </ObjectSomeValuesFrom>
@@ -3286,6 +3293,19 @@
     <SubClassOf>
         <Class IRI="#UVO_00215"/>
         <Class IRI="#UVO_00213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00215"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00151"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00157"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00215"/>
@@ -3327,6 +3347,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00216"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00169"/>
+            <Class IRI="#UVO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00216"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00213"/>
         </ObjectSomeValuesFrom>
@@ -3351,6 +3378,19 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#UVO_00228"/>
                 <Class IRI="#UVO_00218"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00217"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00149"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00151"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -3469,17 +3509,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00227"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00169"/>
-            <Class IRI="#UVO_00225"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00227"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00169"/>
-            <Class IRI="#UVO_00226"/>
-        </ObjectSomeValuesFrom>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00225"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00226"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00227"/>
@@ -4294,7 +4333,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00001</IRI>
-        <Literal>Type of Uveitis</Literal>
+        <Literal>Classifying Uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -4384,7 +4423,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00006</IRI>
-        <Literal>Category of located</Literal>
+        <Literal>Anatomy of eyeball: location of Uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5454,7 +5493,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00058</IRI>
-        <Literal>a transparent gelatinous, semigelatinous substance, tissue filling the cavity behind the lens of the eye and in front of the retina</Literal>
+        <Literal>A transparent gelatinous, semigelatinous substance, tissue filling the cavity behind the lens of the eye and in front of the retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -7802,6 +7841,11 @@
         <Literal xml:lang="en">retina</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00157</IRI>
+        <Literal>The chamber in the eyeball enclosing the vitreous humor, bounded anteriorly by the lens and ciliary body and posteriorly by the posterior wall of the eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00157</IRI>
         <Literal>SNOMEDCT:312742006</Literal>
@@ -9504,6 +9548,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00227</IRI>
+        <Literal>DOID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00227</IRI>
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9707,6 +9756,11 @@
         <Literal xml:lang="en">oral immunosuppressant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00246</IRI>
+        <Literal>Transparent part of camera-type eye that helps to refract light to be focused on the retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00246</IRI>
         <Literal>SNOMEDCT:306719005</Literal>
@@ -9724,12 +9778,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00246</IRI>
-        <Literal>eye lens</Literal>
+        <Literal>lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00246</IRI>
-        <Literal xml:lang="en">lens</Literal>
+        <Literal xml:lang="en">lens of camera-type eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
