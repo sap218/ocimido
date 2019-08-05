@@ -14,7 +14,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>Ontology for Inflammatory Eye Disease Classification</Literal>
+        <Literal>Ontology for Uveitis Classification</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#UVO_00001"/>
@@ -2385,13 +2385,24 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00148"/>
-        <Class IRI="#UVO_00295"/>
+        <Class IRI="#UVO_00296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00148"/>
+        <Class IRI="#UVO_00297"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00148"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00295"/>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00148"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00297"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -11005,12 +11016,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00295</IRI>
+        <Literal>both eyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00295</IRI>
         <Literal>eyeball</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00295</IRI>
         <Literal xml:lang="en">eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00295</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
