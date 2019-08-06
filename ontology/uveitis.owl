@@ -9301,7 +9301,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00204</IRI>
-        <Literal>SNOMED-CT:129492005</Literal>
+        <Literal>SNOMEDCT:129492005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -11164,6 +11164,11 @@
         <Literal>SNOMEDCT:133933007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00281</IRI>
+        <Literal>readcode:Ua0Wk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00281</IRI>
         <Literal>PATO</Literal>
@@ -11172,11 +11177,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00281</IRI>
         <Literal>newborn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00281</IRI>
-        <Literal>readcode:Ua0Wk</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
