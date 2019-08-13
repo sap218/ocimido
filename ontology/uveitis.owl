@@ -758,12 +758,6 @@
         <Class IRI="#UVO_00317"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#histoplasma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#human_immunodeficiency_virus"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -922,13 +916,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00015"/>
-        <Class IRI="#UVO_00257"/>
+        <Class IRI="#UVO_00320"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00015"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00257"/>
+            <Class IRI="#UVO_00320"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2299,13 +2293,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00135"/>
-        <Class IRI="#UVO_00015"/>
+        <Class IRI="#UVO_00320"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00135"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00015"/>
+            <Class IRI="#UVO_00320"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2332,7 +2326,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00139"/>
-        <Class IRI="#UVO_00002"/>
+        <Class IRI="#UVO_00324"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00139"/>
@@ -2375,7 +2369,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00141"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00141"/>
@@ -2400,7 +2394,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00142"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00142"/>
@@ -2439,7 +2433,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00143"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00143"/>
@@ -2450,7 +2444,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00144"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00144"/>
@@ -2461,7 +2455,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00145"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00145"/>
@@ -3607,6 +3601,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00226"/>
+        <Class IRI="#UVO_00325"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00226"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00168"/>
             <Class IRI="#UVO_00224"/>
@@ -3700,7 +3698,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00240"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00326"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00240"/>
@@ -3882,7 +3880,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00262"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00327"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00262"/>
@@ -3923,6 +3921,10 @@
     <SubClassOf>
         <Class IRI="#UVO_00265"/>
         <Class IRI="#UVO_00263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00265"/>
+        <Class IRI="#UVO_00325"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00265"/>
@@ -4151,7 +4153,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00284"/>
-        <Class IRI="#UVO_00139"/>
+        <Class IRI="#UVO_00327"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00284"/>
@@ -4678,14 +4680,6 @@
             <ObjectProperty IRI="#UVO_00230"/>
             <Class IRI="#UVO_00310"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#histoplasma"/>
-        <Class IRI="#UVO_00031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#human_immunodeficiency_virus"/>
-        <Class IRI="#UVO_00033"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
@@ -8191,17 +8185,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00139</IRI>
-        <Literal>eye symptom</Literal>
+        <Literal>flare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00139</IRI>
-        <Literal>flare</Literal>
+        <Literal>symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00139</IRI>
-        <Literal xml:lang="en">symptoms</Literal>
+        <Literal xml:lang="en">clinical symptoms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -8704,9 +8698,19 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00155</IRI>
+        <Literal>optic choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00155</IRI>
-        <Literal xml:lang="en">optic choroid</Literal>
+        <Literal xml:lang="en">choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00155</IRI>
+        <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12812,11 +12816,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00317</IRI>
         <Literal>www.drugs.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#human_immunodeficiency_virus</IRI>
-        <Literal>HIV</Literal>
     </AnnotationAssertion>
 </Ontology>
 
