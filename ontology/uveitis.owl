@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
-    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
+    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1002,6 +1002,27 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#certolizumab_pegol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#etanercept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#golimumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pan_retinal_photocoagulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sectoral_retinal_laser_photocoagulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ustekinumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anti-interleukin(IL)-12/23"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
@@ -4987,6 +5008,34 @@
         <Class IRI="#UVO_00420"/>
         <Class IRI="#UVO_00397"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#certolizumab_pegol"/>
+        <Class IRI="#UVO_00398"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#etanercept"/>
+        <Class IRI="#UVO_00398"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#golimumab"/>
+        <Class IRI="#UVO_00398"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pan_retinal_photocoagulation"/>
+        <Class IRI="#UVO_00404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sectoral_retinal_laser_photocoagulation"/>
+        <Class IRI="#UVO_00404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ustekinumab"/>
+        <Class IRI="#anti-interleukin(IL)-12/23"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anti-interleukin(IL)-12/23"/>
+        <Class IRI="#UVO_00393"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
         <Class IRI="#UVO_00010"/>
@@ -5288,7 +5337,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00007</IRI>
-        <Literal xml:lang="en">clinical syndrome</Literal>
+        <Literal xml:lang="en">clinical syndrome / cause</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9653,7 +9702,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00190</IRI>
-        <Literal xml:lang="en">topical</Literal>
+        <Literal xml:lang="en">topical to ocular surface</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -12838,7 +12887,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00322</IRI>
-        <Literal xml:lang="en">contrast</Literal>
+        <Literal xml:lang="en">contrast sensitivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13238,7 +13287,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00397</IRI>
-        <Literal xml:lang="en">root of administration</Literal>
+        <Literal xml:lang="en">route of administration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13288,7 +13337,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00407</IRI>
-        <Literal xml:lang="en">optiate-based analgesia</Literal>
+        <Literal xml:lang="en">opiate-based analgesia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13298,7 +13347,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00409</IRI>
-        <Literal xml:lang="en">codine</Literal>
+        <Literal xml:lang="en">codeine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13343,7 +13392,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00418</IRI>
-        <Literal xml:lang="en">local</Literal>
+        <Literal xml:lang="en">intravitreal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13353,11 +13402,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00420</IRI>
-        <Literal xml:lang="en">sub-junctival</Literal>
+        <Literal xml:lang="en">sub-conjunctival</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
