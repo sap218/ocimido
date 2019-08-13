@@ -995,6 +995,15 @@
         <Class IRI="#UVO_00417"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00419"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00420"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -4965,6 +4974,18 @@
     <SubClassOf>
         <Class IRI="#UVO_00417"/>
         <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00418"/>
+        <Class IRI="#UVO_00397"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00419"/>
+        <Class IRI="#UVO_00397"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00420"/>
+        <Class IRI="#UVO_00397"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
@@ -12820,9 +12841,34 @@
         <Literal xml:lang="en">contrast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>Transmitting impulses to the brain from the retina at the back of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>SNOMEDCT:18234004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>cranial nerve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00323</IRI>
         <Literal xml:lang="en">optic nerve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13293,6 +13339,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00417</IRI>
         <Literal xml:lang="en">HIV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00418</IRI>
+        <Literal xml:lang="en">local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00419</IRI>
+        <Literal xml:lang="en">subcutaneous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00420</IRI>
+        <Literal xml:lang="en">sub-junctival</Literal>
     </AnnotationAssertion>
 </Ontology>
 
