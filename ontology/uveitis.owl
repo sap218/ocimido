@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
-    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"/>
+    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -1286,6 +1286,27 @@
         <Class IRI="#UVO_00553"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00554"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00555"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00556"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00557"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00558"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00560"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#certolizumab_pegol"/>
     </Declaration>
     <Declaration>
@@ -1298,13 +1319,7 @@
         <Class IRI="#neurofen"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#pan_retinal_photocoagulation"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#presenting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#sectoral_retinal_laser_photocoagulation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
@@ -1416,6 +1431,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00010"/>
+        <Class IRI="#UVO_00380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00010"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00003"/>
@@ -1442,6 +1461,10 @@
     <SubClassOf>
         <Class IRI="#UVO_00012"/>
         <Class IRI="#UVO_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00012"/>
+        <Class IRI="#UVO_00379"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00012"/>
@@ -2931,13 +2954,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00017"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00153"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00249"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5348,6 +5364,34 @@
         <Class IRI="#UVO_00370"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00554"/>
+        <Class IRI="#UVO_00269"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00555"/>
+        <Class IRI="#UVO_00269"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00556"/>
+        <Class IRI="#UVO_00380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00557"/>
+        <Class IRI="#UVO_00380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00558"/>
+        <Class IRI="#UVO_00380"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00559"/>
+        <Class IRI="#UVO_00404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00560"/>
+        <Class IRI="#UVO_00404"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#certolizumab_pegol"/>
         <Class IRI="#UVO_00398"/>
     </SubClassOf>
@@ -5364,16 +5408,8 @@
         <Class IRI="#UVO_00405"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#pan_retinal_photocoagulation"/>
-        <Class IRI="#UVO_00404"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#presenting"/>
         <Class IRI="#UVO_00015"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#sectoral_retinal_laser_photocoagulation"/>
-        <Class IRI="#UVO_00404"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00009"/>
@@ -5691,6 +5727,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00007</IRI>
         <Literal xml:lang="en">cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00007</IRI>
+        <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -9553,6 +9594,11 @@
         <Literal>SNOMEDCT:828491000000105</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00175</IRI>
+        <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00175</IRI>
         <Literal>by mouth</Literal>
@@ -10071,6 +10117,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00190</IRI>
         <Literal>SNOMEDCT:385124005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00190</IRI>
+        <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -14328,23 +14379,58 @@
         <Literal xml:lang="en">NVD</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00554</IRI>
+        <Literal xml:lang="en">fibrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00555</IRI>
+        <Literal xml:lang="en">hyphaema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal xml:lang="en">CNV membrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00557</IRI>
+        <Literal xml:lang="en">scar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00558</IRI>
+        <Literal xml:lang="en">atrophy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#pan_retinal_photocoagulation</IRI>
+        <IRI>#UVO_00559</IRI>
         <Literal>PRP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00559</IRI>
+        <Literal xml:lang="en">pan retinal photocoagulaion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00560</IRI>
+        <Literal>sectoral laser</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00560</IRI>
+        <Literal xml:lang="en">sectoral retinal laser photocoagulation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#presenting</IRI>
         <Literal>habitual</Literal>
     </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#sectoral_retinal_laser_photocoagulation</IRI>
-        <Literal>sectoral laser</Literal>
-    </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
 
