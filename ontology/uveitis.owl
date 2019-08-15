@@ -13869,9 +13869,14 @@
         <Literal xml:lang="en">histoplasma sp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00417</IRI>
+        <Literal>HIV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00417</IRI>
-        <Literal xml:lang="en">HIV</Literal>
+        <Literal xml:lang="en">human immunodeficiency virus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
