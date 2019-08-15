@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl">
-    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl#"/>
+    <Prefix name="" IRI="https://github.com/sap218/uveitis/tree/master/ontology/uveitis.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,6 +16,75 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>Ontology for Uveitis Classification</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00023"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#LogMAR"/>
     </Declaration>
@@ -914,9 +983,6 @@
         <Class IRI="#UVO_00389"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00390"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00391"/>
     </Declaration>
     <Declaration>
@@ -1498,6 +1564,98 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00001"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00002"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00003"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00004"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00005"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00006"/>
+        <Class IRI="#UVO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00007"/>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00008"/>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00009"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00010"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00011"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00012"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00013"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00014"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00015"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00016"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00017"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00018"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00019"/>
+        <Class IRI="#UVO_00218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00020"/>
+        <Class IRI="#UVO_00218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00021"/>
+        <Class IRI="#UVO_00218"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00022"/>
+        <Class IRI="#UVO_00122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00023"/>
+        <Class IRI="#UVO_00122"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#LogMAR"/>
         <Class IRI="#presenting"/>
@@ -2490,6 +2648,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00101"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00101"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00228"/>
             <Class IRI="#UVO_00032"/>
         </ObjectSomeValuesFrom>
@@ -2787,20 +2952,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00169"/>
             <Class IRI="#UVO_00271"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00122"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00241"/>
-            <Class IRI="#UVO_00157"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00122"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00241"/>
-            <Class IRI="#UVO_00256"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3307,6 +3458,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
             <Class IRI="#UVO_00216"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00175"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00217"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4841,14 +4999,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00385"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00385"/>
-        <Class IRI="#UVO_00121"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00385"/>
         <Class IRI="#UVO_00122"/>
     </SubClassOf>
     <SubClassOf>
@@ -4860,14 +5010,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00386"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00386"/>
-        <Class IRI="#UVO_00121"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00386"/>
         <Class IRI="#UVO_00122"/>
     </SubClassOf>
     <SubClassOf>
@@ -4879,14 +5021,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00387"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00387"/>
-        <Class IRI="#UVO_00121"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00387"/>
         <Class IRI="#UVO_00122"/>
     </SubClassOf>
     <SubClassOf>
@@ -4895,14 +5029,6 @@
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00042"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00388"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00388"/>
-        <Class IRI="#UVO_00121"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00388"/>
@@ -4917,37 +5043,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00389"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00389"/>
-        <Class IRI="#UVO_00121"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00389"/>
         <Class IRI="#UVO_00122"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00389"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00042"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00390"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00390"/>
-        <Class IRI="#UVO_00121"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00390"/>
-        <Class IRI="#UVO_00122"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00390"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00042"/>
@@ -5408,13 +5507,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00506"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00512"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00243"/>
-            <Class IRI="#UVO_00105"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6045,13 +6137,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00611"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00243"/>
-            <Class IRI="#UVO_00217"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00612"/>
         <Class IRI="#UVO_00365"/>
     </SubClassOf>
@@ -6251,14 +6336,6 @@
         <Class IRI="#UVO_00382"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#UVO_00385"/>
-        <Class IRI="#UVO_00386"/>
-        <Class IRI="#UVO_00387"/>
-        <Class IRI="#UVO_00388"/>
-        <Class IRI="#UVO_00389"/>
-        <Class IRI="#UVO_00390"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#UVO_00525"/>
         <Class IRI="#UVO_00526"/>
     </DisjointClasses>
@@ -6276,9 +6353,154 @@
         <Class IRI="#UVO_00553"/>
     </DisjointClasses>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00001</IRI>
+        <Literal xml:lang="en">primary intraocular lymphoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00002</IRI>
+        <Literal xml:lang="en">leukaemia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00003</IRI>
+        <Literal xml:lang="en">uveal melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00004</IRI>
+        <Literal xml:lang="en">retinoblastoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00005</IRI>
+        <Literal xml:lang="en">metastatic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00006</IRI>
+        <Literal xml:lang="en">paraneoplastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00007</IRI>
+        <Literal>MAR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00007</IRI>
+        <Literal xml:lang="en">melanoma associated retinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00008</IRI>
+        <Literal>CAR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00008</IRI>
+        <Literal xml:lang="en">cancer associated retinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00009</IRI>
+        <Literal xml:lang="en">rheumatoid arthritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00010</IRI>
+        <Literal xml:lang="en">Blau syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00011</IRI>
+        <Literal xml:lang="en">Kawasaki</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00012</IRI>
+        <Literal xml:lang="en">Granulomatosis with polyangiitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00013</IRI>
+        <Literal xml:lang="en">polyarteritis nodosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00014</IRI>
+        <Literal xml:lang="en">polymyositis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00015</IRI>
+        <Literal xml:lang="en">dermatomyositis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00016</IRI>
+        <Literal xml:lang="en">churg-strauss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00017</IRI>
+        <Literal xml:lang="en">Takayasu&apos;s arteritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00018</IRI>
+        <Literal xml:lang="en">neuromyelitis optica spectrum disorders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00019</IRI>
+        <Literal xml:lang="en">Fuch&apos;s heterochromic iridocyclitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00020</IRI>
+        <Literal>APMPPE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00020</IRI>
+        <Literal xml:lang="en">acute posterior multifocal placoid pigment epitheliopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00021</IRI>
+        <Literal>AZOOR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00021</IRI>
+        <Literal xml:lang="en">acute zonal occult outer retinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00022</IRI>
+        <Literal>trace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00022</IRI>
+        <Literal xml:lang="en">Grade 0.5+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00023</IRI>
+        <Literal>severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://github.com/sap218/Quality-Of-Life-Ontology/tree/master/ontology/QoL.owl#QOL_00023</IRI>
+        <Literal xml:lang="en">Grade 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00001</IRI>
-        <Literal>Classifying uveitis</Literal>
+        <Literal>Classifying uveitis and uveitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -7184,6 +7406,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00038</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00038</IRI>
+        <Literal>mitotic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -8453,12 +8680,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00095</IRI>
-        <Literal>candida</Literal>
+        <Literal>candidiasis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00095</IRI>
-        <Literal xml:lang="en">candidiasis</Literal>
+        <Literal xml:lang="en">candidia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -8488,12 +8715,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00096</IRI>
-        <Literal>aspergillus</Literal>
+        <Literal>aspergillosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00096</IRI>
-        <Literal xml:lang="en">aspergillosis</Literal>
+        <Literal xml:lang="en">aspergillus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -8573,12 +8800,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00100</IRI>
+        <Literal>onchocerciasis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00100</IRI>
         <Literal>river blindness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00100</IRI>
-        <Literal xml:lang="en">onchocerciasis</Literal>
+        <Literal xml:lang="en">onchocerca</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -9191,6 +9423,11 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00116</IRI>
+        <Literal>quiet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00116</IRI>
         <Literal xml:lang="en">inactivity of recent onset</Literal>
@@ -9211,6 +9448,16 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00117</IRI>
+        <Literal>inactive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00117</IRI>
+        <Literal>quiet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00117</IRI>
         <Literal xml:lang="en">in remission on treatment</Literal>
@@ -9229,6 +9476,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00118</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00118</IRI>
+        <Literal>inactive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00118</IRI>
+        <Literal>quiet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12208,12 +12465,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00247</IRI>
-        <Literal>toxoplasma gondii</Literal>
+        <Literal>toxoplasmosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00247</IRI>
-        <Literal xml:lang="en">toxoplasmosis</Literal>
+        <Literal xml:lang="en">toxoplasma gondii</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -13936,6 +14193,11 @@
         <Literal>cranial nerve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00323</IRI>
+        <Literal>optic disc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00323</IRI>
         <Literal xml:lang="en">optic nerve</Literal>
@@ -14588,32 +14850,47 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00385</IRI>
-        <Literal xml:lang="en">SUN grade 0</Literal>
+        <Literal xml:lang="en">Grade 0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00386</IRI>
+        <Literal>minimal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00386</IRI>
-        <Literal xml:lang="en">SUN grade 0.5</Literal>
+        <Literal xml:lang="en">Grade 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00387</IRI>
+        <Literal>mild</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00387</IRI>
-        <Literal xml:lang="en">SUN grade 1</Literal>
+        <Literal xml:lang="en">Grade 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00388</IRI>
+        <Literal>moderate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00388</IRI>
-        <Literal xml:lang="en">SUN grade 2</Literal>
+        <Literal xml:lang="en">Grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00389</IRI>
+        <Literal>marked</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00389</IRI>
-        <Literal xml:lang="en">SUN grade 3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00390</IRI>
-        <Literal xml:lang="en">SUN grade 4</Literal>
+        <Literal xml:lang="en">Grade 4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14828,12 +15105,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00416</IRI>
-        <Literal>histoplasma</Literal>
+        <Literal>histoplasmosis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00416</IRI>
-        <Literal xml:lang="en">histoplasmosis</Literal>
+        <Literal xml:lang="en">histoplasma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -15756,6 +16033,11 @@
         <Literal>scleritis with corneal involvement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00534</IRI>
+        <Literal>sclerokeratitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00534</IRI>
         <Literal xml:lang="en">scleroperikeratitis</Literal>
@@ -16624,5 +16906,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
