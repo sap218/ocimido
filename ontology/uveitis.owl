@@ -1604,9 +1604,6 @@
         <ObjectProperty IRI="#UVO_00178"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#UVO_00228"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#UVO_00229"/>
     </Declaration>
     <Declaration>
@@ -15489,11 +15486,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00227</IRI>
         <Literal xml:lang="en">iridocyclitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00228</IRI>
-        <Literal xml:lang="en">formOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
