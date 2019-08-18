@@ -1115,9 +1115,6 @@
         <Class IRI="#UVO_00411"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00412"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00413"/>
     </Declaration>
     <Declaration>
@@ -3834,6 +3831,26 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00183"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00175"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00190"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00183"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00184"/>
         <Class IRI="#UVO_00392"/>
     </SubClassOf>
@@ -3854,9 +3871,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00186"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00175"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00185"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00186"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00185"/>
+            <Class IRI="#UVO_00191"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3922,18 +3952,21 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00192"/>
-        <Class IRI="#UVO_00191"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00193"/>
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00193"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00030"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00193"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3952,16 +3985,65 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00195"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00195"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00196"/>
         <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00196"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00197"/>
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00197"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00197"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00198"/>
         <Class IRI="#UVO_00396"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00198"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00198"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00396"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00199"/>
@@ -3981,8 +4063,8 @@
     <SubClassOf>
         <Class IRI="#UVO_00200"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00249"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00394"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3996,8 +4078,8 @@
     <SubClassOf>
         <Class IRI="#UVO_00202"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00249"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00394"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4015,8 +4097,8 @@
     <SubClassOf>
         <Class IRI="#UVO_00205"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00249"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00394"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4030,6 +4112,13 @@
     <SubClassOf>
         <Class IRI="#UVO_00208"/>
         <Class IRI="#UVO_00394"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00208"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00394"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00209"/>
@@ -4973,6 +5062,20 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00312"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00312"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00313"/>
         <Class IRI="#UVO_00205"/>
     </SubClassOf>
@@ -4999,12 +5102,66 @@
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00315"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00175"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00418"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00315"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00316"/>
         <Class IRI="#UVO_00191"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00316"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00317"/>
         <Class IRI="#UVO_00191"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00317"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00175"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00174"/>
+                <Class IRI="#UVO_00190"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00317"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00320"/>
@@ -5450,6 +5607,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00394"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00249"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00395"/>
         <Class IRI="#UVO_00020"/>
     </SubClassOf>
@@ -5644,20 +5808,58 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00412"/>
+        <Class IRI="#UVO_00413"/>
         <Class IRI="#UVO_00396"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00413"/>
-        <Class IRI="#UVO_00396"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00396"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00413"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00566"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00414"/>
         <Class IRI="#UVO_00396"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00414"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00414"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00396"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00415"/>
         <Class IRI="#UVO_00396"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00415"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00190"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00415"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00396"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00416"/>
@@ -6401,6 +6603,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00571"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00572"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00191"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7699,7 +7908,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00020</IRI>
-        <Literal>Current medical therapies for Uveitis</Literal>
+        <Literal>Current medical therapies for Uveitis - many brand names retrieved from www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -12504,7 +12713,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00183</IRI>
+        <Literal>millipred</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00183</IRI>
         <Literal>omnipred</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00183</IRI>
+        <Literal>orapred</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -12540,11 +12759,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00183</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00183</IRI>
-        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12655,11 +12869,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00186</IRI>
         <Literal xml:lang="en">methylprednisolone</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00186</IRI>
-        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12814,17 +13023,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00192</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00192</IRI>
         <Literal>dexamethasone</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00192</IRI>
-        <Literal>maxidex</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00192</IRI>
-        <Literal>ozurdex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12897,11 +13101,6 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00193</IRI>
-        <Literal>www.drugs.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00194</IRI>
         <Literal>habitual</Literal>
@@ -12929,21 +13128,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00195</IRI>
-        <Literal>FML S.O.P.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00195</IRI>
-        <Literal>FML forte liquifilm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00195</IRI>
-        <Literal>FML liquifilm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00195</IRI>
         <Literal>eflone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -12957,24 +13141,14 @@
         <Literal>fluor-op</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00195</IRI>
-        <Literal>fluorometholone</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00195</IRI>
-        <Literal xml:lang="en">fluorometholone ophthalmic</Literal>
+        <Literal xml:lang="en">fluorometholone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00195</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00195</IRI>
-        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13017,11 +13191,6 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00196</IRI>
-        <Literal>www.drugs.com</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00197</IRI>
         <Literal>Used to treat inflammations of the eye</Literal>
@@ -13047,14 +13216,9 @@
         <Literal>lotemax</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00197</IRI>
-        <Literal>loteprednol</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00197</IRI>
-        <Literal xml:lang="en">loteprednol ophthalmic</Literal>
+        <Literal xml:lang="en">loteprednol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -13062,9 +13226,24 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00197</IRI>
-        <Literal>www.drugs.com</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00198</IRI>
+        <Literal>mydral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00198</IRI>
+        <Literal>mydriacyl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00198</IRI>
+        <Literal>opticyl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00198</IRI>
+        <Literal>tropicacyl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15752,6 +15931,11 @@
         <Literal>triesence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00315</IRI>
+        <Literal>trivaris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00315</IRI>
         <Literal xml:lang="en">triamcinolone</Literal>
@@ -15760,11 +15944,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00315</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00315</IRI>
-        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -15784,17 +15963,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00316</IRI>
-        <Literal>difluprednate</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00316</IRI>
         <Literal>durezol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00316</IRI>
-        <Literal xml:lang="en">difluprednate ophthalmic</Literal>
+        <Literal xml:lang="en">difluprednate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -15804,7 +15978,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00317</IRI>
-        <Literal>A corticosteroid that prevents the release of substances in the body that cause inflammation</Literal>
+        <Literal>A corticosteroid that prevents the release of substances in the body that cause inflammation - for treatment of steroid responsive inflammatory conditions of the conjunctiva, cornea and anterior segment of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -15827,6 +16001,16 @@
         <Literal>decadron</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00317</IRI>
+        <Literal>maxidex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00317</IRI>
+        <Literal>ozurdex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00317</IRI>
         <Literal xml:lang="en">dexamethasone</Literal>
@@ -15835,11 +16019,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00317</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00317</IRI>
-        <Literal>www.drugs.com</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16827,11 +17006,6 @@
         <Literal xml:lang="en">paracetamol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00412</IRI>
-        <Literal xml:lang="en">tropicamide</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00413</IRI>
         <Literal>atreza</Literal>
@@ -16852,9 +17026,34 @@
         <Literal xml:lang="en">atropine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00414</IRI>
+        <Literal>cyclogyl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00414</IRI>
+        <Literal>cylate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00414</IRI>
         <Literal xml:lang="en">cyclopentolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00415</IRI>
+        <Literal>altafrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00415</IRI>
+        <Literal>mydfrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00415</IRI>
+        <Literal>neofrin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
