@@ -18287,6 +18287,21 @@
         <Literal xml:lang="en">retinovascular pathology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00357</IRI>
+        <Literal>A disorder of the eye in which bleeding occurs in the retina, the light sensitive tissue, located on the back wall of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00357</IRI>
+        <Literal>ICD10:H356</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00357</IRI>
+        <Literal>SNOMEDCT:28998008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00357</IRI>
         <Literal>RCOphth</Literal>
@@ -18295,6 +18310,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00357</IRI>
         <Literal xml:lang="en">retinal haemorrhages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00358</IRI>
+        <Literal>Fluffy white patch on the retina, representing localized areas of dense white swelling of the retinal nerve fibre layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00358</IRI>
+        <Literal>HP:0031606</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00358</IRI>
+        <Literal>ICD10:H342</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00358</IRI>
+        <Literal>SNOMEDCT:39832008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18307,6 +18342,21 @@
         <Literal xml:lang="en">cotton wool spots</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00359</IRI>
+        <Literal>A white centered retinal hemorrhage and are associated with multiple systemic illnesses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00359</IRI>
+        <Literal>ICD10:H358</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00359</IRI>
+        <Literal>SNOMEDCT:95688008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00359</IRI>
         <Literal>RCOphth</Literal>
@@ -18315,6 +18365,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00359</IRI>
         <Literal xml:lang="en">roth spots</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00360</IRI>
+        <Literal>Inflammation of blood vessel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00360</IRI>
+        <Literal>DOID:865</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00360</IRI>
+        <Literal>HP:0002633</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00360</IRI>
+        <Literal>ORPHA:52759</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00360</IRI>
+        <Literal>SNOMEDCT:31996006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18327,14 +18402,64 @@
         <Literal xml:lang="en">vasculitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>Blockage of the retinal vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>DOID:1727</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>HP:0012636</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>ICD10:H348</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>SNOMEDCT:68478007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>readcode:XE15w</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00361</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>CRVO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00361</IRI>
         <Literal xml:lang="en">retinal vein occlusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00361</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00362</IRI>
+        <Literal>Blockage of retinal arteriole, generally associated with interruption of blood flow and oxygen delivery to affected regions of the retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00362</IRI>
+        <Literal>HP:0007985</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18345,6 +18470,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00362</IRI>
         <Literal xml:lang="en">retinal arteriole occlusion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00363</IRI>
+        <Literal>Involves the sprouting of new vessels from pre-existent vessels to repair or replace damaged vessels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00363</IRI>
+        <Literal>HP:0030666</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18365,6 +18500,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00364</IRI>
         <Literal xml:lang="en">optic disc signs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00365</IRI>
+        <Literal>The cup-to-disc ratio compares the diameter of the cup portion of the optic disc with the total diameter of the optic disc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00365</IRI>
+        <Literal>SNOMEDCT:247225001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00365</IRI>
+        <Literal>readcode:X75oS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18395,6 +18545,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00367</IRI>
         <Literal xml:lang="en">disc colour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00368</IRI>
+        <Literal>The margin of the optic disc is a clinical construct that the retinal ganglion cell axons pass through to enter the optic nerve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18467,6 +18622,21 @@
         <Literal xml:lang="en">vitreous signs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00375</IRI>
+        <Literal>Yellow-white inflammatory aggregates in the vitreous that are found in the midvitreous and inferior periphery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00375</IRI>
+        <Literal>HP:0030661</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00375</IRI>
+        <Literal>SNOMEDCT:417393008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00375</IRI>
         <Literal>RCOphth</Literal>
@@ -18487,6 +18657,16 @@
         <Literal xml:lang="en">pars plana exudates</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00377</IRI>
+        <Literal>Bleeding within the vitreous compartment of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00377</IRI>
+        <Literal>HP:0007902</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00377</IRI>
         <Literal>RCOphth</Literal>
@@ -18497,14 +18677,59 @@
         <Literal xml:lang="en">vitreous haemorrhage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>Separation of the vitreous humor from the retina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>HP:0001489</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>ICD10:H438</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>SNOMEDCT:247081001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>readcode:X75l7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00378</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>PVD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>vitreous detachment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00378</IRI>
-        <Literal xml:lang="en">posterior vitreous detatchment</Literal>
+        <Literal xml:lang="en">posterior vitreous detachment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00378</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -20392,14 +20617,59 @@
         <Literal xml:lang="en">central</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>Partial dislocation of the lens of the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>DOID:11364</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>HP:0001132</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>ICD10:H271</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>SNOMEDCT:65814009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>readcode:F4K31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00537</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>dislocating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00537</IRI>
         <Literal xml:lang="en">subluxed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00537</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00538</IRI>
+        <Literal>SNOMEDCT:363959004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -20412,14 +20682,39 @@
         <Literal xml:lang="en">clear crystalline lens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00539</IRI>
+        <Literal>Pseudophakia means “fake lens.” It&apos;s a term that&apos;s used after you&apos;ve had an artificial lens implanted in your eye to replace your own natural lens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00539</IRI>
+        <Literal>SNOMEDCT:313236002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00539</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00539</IRI>
+        <Literal>IOL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00539</IRI>
+        <Literal>intraocular lens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00539</IRI>
         <Literal xml:lang="en">pseudophakic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00539</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -20502,14 +20797,39 @@
         <Literal xml:lang="en">pallor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00551</IRI>
+        <Literal>Swelling of the optic disc with a concurrent increase in fluid within or surrounding the axons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00551</IRI>
+        <Literal>ICD10:H471</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00551</IRI>
+        <Literal>SNOMEDCT:423341008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00551</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00551</IRI>
+        <Literal>disc edema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00551</IRI>
         <Literal xml:lang="en">disc oedema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00551</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -20562,14 +20882,59 @@
         <Literal xml:lang="en">hyphaema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal>The creation of new blood vessels in the choroid layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal>ICD10:H350</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal>SNOMEDCT:75971007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00556</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal>choroidal retinal neovascularisation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00556</IRI>
         <Literal xml:lang="en">CNV membrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00556</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00557</IRI>
+        <Literal>Scar tissue in the macula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00557</IRI>
+        <Literal>HP:0200056</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00557</IRI>
+        <Literal>ICD10:H310</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00557</IRI>
+        <Literal>SNOMEDCT:18410006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
