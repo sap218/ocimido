@@ -668,6 +668,15 @@
         <Class IRI="#UVO_00227"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00232"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00235"/>
     </Declaration>
     <Declaration>
@@ -3579,24 +3588,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00148"/>
-        <Class IRI="#UVO_00296"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00148"/>
-        <Class IRI="#UVO_00297"/>
+        <Class IRI="#UVO_00228"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00148"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
-            <Class IRI="#UVO_00296"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00148"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00166"/>
-            <Class IRI="#UVO_00297"/>
+            <Class IRI="#UVO_00228"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4715,6 +4713,64 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00228"/>
+        <Class IRI="#UVO_00296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00228"/>
+        <Class IRI="#UVO_00297"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00228"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00296"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00228"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00297"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00231"/>
+        <Class IRI="#UVO_00228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00178"/>
+            <Class IRI="#UVO_00149"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00232"/>
+        <Class IRI="#UVO_00231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00231"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00232"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00178"/>
+            <Class IRI="#UVO_00264"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00235"/>
         <Class IRI="#UVO_00069"/>
     </SubClassOf>
@@ -5632,10 +5688,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00328"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00169"/>
-            <Class IRI="#UVO_00264"/>
-        </ObjectSomeValuesFrom>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00232"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00169"/>
+                <Class IRI="#UVO_00264"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00328"/>
@@ -5869,6 +5931,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00226"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00348"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00243"/>
+            <Class IRI="#UVO_00021"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -15543,6 +15612,21 @@
         <Literal xml:lang="en">iridocyclitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00228</IRI>
+        <Literal>UBERON:0000019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00228</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00228</IRI>
+        <Literal xml:lang="en">camera-type eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00229</IRI>
         <Literal xml:lang="en">symptomOf</Literal>
@@ -15551,6 +15635,41 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00230</IRI>
         <Literal xml:lang="en">treatmentOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal>UBERON:0005908</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal xml:lang="en">conjunctival sac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00232</IRI>
+        <Literal>The mucous membrane that lines the inner surface of the eyelids and the front of the eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00232</IRI>
+        <Literal>UBERON:0001811</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00232</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00232</IRI>
+        <Literal xml:lang="en">conjunctiva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17638,9 +17757,29 @@
         <Literal xml:lang="en">circumlimbal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00332</IRI>
+        <Literal>Inflammation of the episclera, a thin layer of tissue covering the sclera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00332</IRI>
         <Literal>HP:0100534</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00332</IRI>
+        <Literal>ICD10:H151</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00332</IRI>
+        <Literal>SNOMEDCT:815008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00332</IRI>
+        <Literal>readcode:X00aA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -17655,12 +17794,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00333</IRI>
+        <Literal>DOID:728</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00333</IRI>
+        <Literal>ICD10:H151</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00333</IRI>
+        <Literal>SNOMEDCT:70558001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00333</IRI>
+        <Literal>readcode:F4K02</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00333</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00333</IRI>
-        <Literal xml:lang="en">nodular</Literal>
+        <Literal xml:lang="en">nodular episcleritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -17670,7 +17829,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00334</IRI>
-        <Literal xml:lang="en">non-nodular</Literal>
+        <Literal xml:lang="en">non-nodular episcleritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17728,6 +17887,11 @@
         <Literal xml:lang="en">necrotising</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00338</IRI>
+        <Literal>An inflammatory cellular deposit seen on corneal endothelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00338</IRI>
         <Literal>HP:0025341</Literal>
@@ -17778,6 +17942,11 @@
         <Literal xml:lang="en">non-granulomatous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00340</IRI>
+        <Literal>A collection of immune cells known as macrophages. Granulomas form when the immune system attempts to wall off substances it perceives as foreign but is unable to eliminate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00340</IRI>
         <Literal>RCOphth</Literal>
@@ -17803,6 +17972,16 @@
         <Literal xml:lang="en">stellate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00342</IRI>
+        <Literal>An abnormality of the cornea characterized by the deposition of calcium in a band across the central cornea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00342</IRI>
+        <Literal>DOID:11164</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00342</IRI>
         <Literal>HP:0000585</Literal>
@@ -17813,9 +17992,19 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00342</IRI>
+        <Literal>BK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00342</IRI>
         <Literal xml:lang="en">band keratopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00342</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -17826,6 +18015,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00343</IRI>
         <Literal xml:lang="en">involving visual axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00344</IRI>
+        <Literal>The swelling of the cornea following ocular surgery, trauma, infection, inflammation as well as a secondary result of various ocular diseases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -17858,6 +18052,16 @@
         <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00345</IRI>
+        <Literal>An abnormal anteroposterior thickness of the cornea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00345</IRI>
+        <Literal>HP:0011486</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00345</IRI>
         <Literal>SNOMEDCT:251691009</Literal>
@@ -17878,6 +18082,21 @@
         <Literal xml:lang="en">corneal thickness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00346</IRI>
+        <Literal>ICD10:H218</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00346</IRI>
+        <Literal>SNOMEDCT:248510004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00346</IRI>
+        <Literal>readcode:X76Fq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00346</IRI>
         <Literal>RCOphth</Literal>
@@ -17886,6 +18105,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00346</IRI>
         <Literal xml:lang="en">nodules</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00347</IRI>
+        <Literal>Transmission of light through the iris as visualized upon slit lamp examination or infrared iris transillumination videography. The light passes through defects in the pigmentation of the iris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00347</IRI>
+        <Literal>HP:0012805</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00347</IRI>
+        <Literal>SNOMEDCT:400964006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -17918,14 +18152,49 @@
         <Literal xml:lang="en">traumatic iris defect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>New growth of vessels on the surface of the iris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>HP:0011497</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>SNOMEDCT:312909004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>readcode:XaE5Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00350</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>PDR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>proliferative diabetic retinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00350</IRI>
-        <Literal xml:lang="en">neovascularisaion</Literal>
+        <Literal xml:lang="en">neovascularisation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00350</IRI>
+        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19248,14 +19517,44 @@
         <Literal xml:lang="en">scleritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00468</IRI>
+        <Literal>Inflammation of the conjunctiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00468</IRI>
+        <Literal>HP:0000509</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00468</IRI>
+        <Literal>SNOMEDCT:9826008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00468</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00468</IRI>
+        <Literal>pink eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00468</IRI>
         <Literal xml:lang="en">conjunctivitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00468</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00469</IRI>
+        <Literal>Inflammation of the cornea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -19278,6 +19577,11 @@
         <Literal xml:lang="en">keratitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00470</IRI>
+        <Literal>Inflammation of the cornea and conjunctiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00470</IRI>
         <Literal>HP:0001096</Literal>
@@ -19293,9 +19597,19 @@
         <Literal xml:lang="en">keratoconjunctivitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00471</IRI>
+        <Literal>A type of keratitis characterized by inflammation in pinpoint areas of the corneal epithelium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00471</IRI>
         <Literal>HP:0011859</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00471</IRI>
+        <Literal>SNOMEDCT:42513006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19303,9 +19617,24 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00471</IRI>
+        <Literal>PK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00471</IRI>
         <Literal xml:lang="en">punctate keratitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00471</IRI>
+        <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00472</IRI>
+        <Literal>Allergic Conjunctivitis is an allergic inflammation of the conjunctiva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -19321,6 +19650,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00472</IRI>
         <Literal xml:lang="en">allergic conjunctivitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00473</IRI>
+        <Literal>Commonly presents with general irritation and redness of the eyes, with a burning, dry, or foreign-body sensation of the eyes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
