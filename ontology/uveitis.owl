@@ -677,6 +677,12 @@
         <Class IRI="#UVO_00232"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00234"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00235"/>
     </Declaration>
     <Declaration>
@@ -693,6 +699,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00244"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00246"/>
@@ -2824,24 +2833,24 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00089"/>
-        <Class IRI="#UVO_00033"/>
+        <Class IRI="#UVO_00244"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00089"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00033"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00244"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00090"/>
-        <Class IRI="#UVO_00033"/>
+        <Class IRI="#UVO_00244"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00090"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00033"/>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00244"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4714,24 +4723,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00228"/>
-        <Class IRI="#UVO_00296"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00228"/>
-        <Class IRI="#UVO_00297"/>
+        <Class IRI="#UVO_00233"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00228"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
-            <Class IRI="#UVO_00296"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00228"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00166"/>
-            <Class IRI="#UVO_00297"/>
+            <Class IRI="#UVO_00233"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4769,6 +4767,21 @@
             <ObjectProperty IRI="#UVO_00178"/>
             <Class IRI="#UVO_00264"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00233"/>
+        <Class IRI="#UVO_00295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00233"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00295"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00234"/>
+        <Class IRI="#UVO_00006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00235"/>
@@ -4855,6 +4868,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00229"/>
             <Class IRI="#UVO_00009"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00244"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00244"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00033"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5283,13 +5307,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00295"/>
-        <Class IRI="#UVO_00006"/>
+        <Class IRI="#UVO_00234"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00295"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00006"/>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00234"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9697,6 +9721,11 @@
         <Literal>readcode:XaDcj</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00031</IRI>
+        <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00031</IRI>
         <Literal xml:lang="en">fungal</Literal>
@@ -11389,6 +11418,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00084</IRI>
+        <Literal>cat scratch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00084</IRI>
         <Literal>cat scratch disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -11400,6 +11434,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00084</IRI>
         <Literal>ORDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00084</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11447,6 +11486,11 @@
         <Literal>lyme disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>lymes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00085</IRI>
         <Literal xml:lang="en">borrelia burgdorferi</Literal>
@@ -11455,6 +11499,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00085</IRI>
         <Literal>ORDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00085</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11569,12 +11618,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00088</IRI>
+        <Literal>Fuchs syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00088</IRI>
         <Literal>Fuchs uveitis syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00088</IRI>
         <Literal xml:lang="en">Fuch&apos;s heterochromic iridocyclitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00088</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -11607,9 +11666,19 @@
         <Literal>HSV1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00089</IRI>
+        <Literal>cold sore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00089</IRI>
         <Literal xml:lang="en">herpes simplex virus 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00089</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -11787,11 +11856,6 @@
         <Literal xml:lang="en">candidia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00095</IRI>
-        <Literal>RCOphth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00096</IRI>
         <Literal>Genus of mold - disease of humans and animals caused by members of the genus Aspergillus sp. Infecting lungs, brain, kidney, heart, bone, eyes, sinuses, skin and gastrointestinal tract. It is a serious illnesses in people with a weakened immune system</Literal>
@@ -11820,11 +11884,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00096</IRI>
         <Literal xml:lang="en">aspergillus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00096</IRI>
-        <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -12159,6 +12218,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00106</IRI>
+        <Literal>behcet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00106</IRI>
         <Literal>behcet syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -12282,14 +12346,14 @@
         <Literal>haradas disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00108</IRI>
-        <Literal>uveomenigitic syndrome</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00108</IRI>
         <Literal xml:lang="en">vogt koyanagi harada disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00108</IRI>
+        <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -13454,7 +13518,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00149</IRI>
-        <Literal>front section</Literal>
+        <Literal>the front of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13524,7 +13588,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00151</IRI>
-        <Literal>back section</Literal>
+        <Literal>the back of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15439,6 +15503,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00221</IRI>
+        <Literal>birdshot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00221</IRI>
         <Literal>birdshot chorioretinitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -15470,6 +15539,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00221</IRI>
         <Literal>ORDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00221</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -15612,6 +15686,11 @@
         <Literal xml:lang="en">iridocyclitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00228</IRI>
+        <Literal>An organ of sight that includes the camera-type eyeball and supporting structures such as the lacrimal apparatus, the conjunctiva, the eyelid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00228</IRI>
         <Literal>UBERON:0000019</Literal>
@@ -15637,9 +15716,24 @@
         <Literal xml:lang="en">treatmentOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal>A serous sac which is the aggregate of the conjunctiva plus the conjunctival space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal>SNOMEDCT:10737006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00231</IRI>
         <Literal>UBERON:0005908</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00231</IRI>
+        <Literal>readcode:Xa1Ut</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -15659,6 +15753,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00232</IRI>
+        <Literal>SNOMEDCT:181161008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00232</IRI>
         <Literal>UBERON:0001811</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -15670,6 +15769,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00232</IRI>
         <Literal xml:lang="en">conjunctiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00233</IRI>
+        <Literal>An eye with one concave chamber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00233</IRI>
+        <Literal>UBERON:0000047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00233</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00233</IRI>
+        <Literal xml:lang="en">simple eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal>The sensory system subserving the sense of vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal>SNOMEDCT:281831001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal>UBERON:0002104</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal>readcode:Xa1tb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00234</IRI>
+        <Literal xml:lang="en">visual system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -15860,6 +16009,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00243</IRI>
         <Literal xml:lang="en">complicationOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal>A viral infectious disease that results in the formation of lesions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal>DOID:8566</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal>SNOMEDCT:88594005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal>herpes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal xml:lang="en">herpes simplex virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00244</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16182,11 +16361,6 @@
         <Literal>readcode:X75cR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00262</IRI>
-        <Literal>HPO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00262</IRI>
         <Literal xml:lang="en">red eye</Literal>
@@ -16214,7 +16388,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00263</IRI>
-        <Literal>surface of eye</Literal>
+        <Literal>surface of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16482,19 +16656,9 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00278</IRI>
-        <Literal>underdeveloped</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00278</IRI>
         <Literal xml:lang="en">immature</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00278</IRI>
-        <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16707,6 +16871,11 @@
         <Literal>ocular pain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00284</IRI>
+        <Literal>painful</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00284</IRI>
         <Literal xml:lang="en">eye pain</Literal>
@@ -16715,6 +16884,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00284</IRI>
         <Literal>HPO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00284</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -19184,11 +19358,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00417</IRI>
-        <Literal>AIDS virus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00417</IRI>
         <Literal>HIV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -19732,11 +19901,6 @@
         <Literal>SNOMEDCT:78370002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00466</IRI>
-        <Literal>HPO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00466</IRI>
         <Literal xml:lang="en">scleritis</Literal>
@@ -20059,7 +20223,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00506</IRI>
-        <Literal>HPO</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -20292,19 +20456,9 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00516</IRI>
-        <Literal>poor vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00516</IRI>
         <Literal xml:lang="en">reduced visual acuity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00516</IRI>
-        <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21122,11 +21276,6 @@
         <Literal>SNOMEDCT:67224007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00565</IRI>
-        <Literal>DOID</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00565</IRI>
         <Literal>reactive arthritis</Literal>
@@ -21632,19 +21781,19 @@
         <Literal>Mild reduction of the ability to see defined as visual acuity less than 6/12 but at least 6/18</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00608</IRI>
-        <Literal>SNOMEDCT:397543001</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00608</IRI>
-        <Literal>readcode:XaYiO</Literal>
+        <Literal>HP:0032037</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00608</IRI>
-        <Literal>HP:0032037</Literal>
+        <Literal>SNOMEDCT:397543001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00608</IRI>
+        <Literal>readcode:XaYiO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -21717,29 +21866,14 @@
         <Literal>SNOMEDCT:105597003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00611</IRI>
-        <Literal>HPO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00611</IRI>
         <Literal>blindness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00611</IRI>
-        <Literal>total vision loss</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00611</IRI>
         <Literal xml:lang="en">blind</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00611</IRI>
-        <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -21790,11 +21924,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00617</IRI>
         <Literal>SNOMEDCT:66760008</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00617</IRI>
-        <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
