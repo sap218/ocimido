@@ -1,4 +1,4 @@
-# Uveitis Ontology
+# Uveitis Ontology UVO
 
 #### See :grey_exclamation: [Issues](https://github.com/sap218/uveitis/issues)  for to-do list, assigning jobs, discussion, etc.
 
