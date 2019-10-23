@@ -11996,7 +11996,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00102</IRI>
-        <Literal xml:lang="en">viral syndrome (undifferentiated)</Literal>
+        <Literal xml:lang="en">undifferentiated viral syndrome undifferentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12811,7 +12811,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00123</IRI>
-        <Literal xml:lang="en">other non-infectious (no systemic disease)</Literal>
+        <Literal xml:lang="en">other non infectious non systemic disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12896,7 +12896,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00126</IRI>
-        <Literal xml:lang="en">other non-infectious (systemtic disease)</Literal>
+        <Literal xml:lang="en">other non infectious systemtic disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -19339,9 +19339,14 @@
         <Literal xml:lang="en">sub-conjunctival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00421</IRI>
+        <Literal>anti-IL-12/23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00421</IRI>
-        <Literal xml:lang="en">anti-interleukin(IL)-12/23</Literal>
+        <Literal xml:lang="en">anti-interleukin-12/23</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
