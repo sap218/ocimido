@@ -68,6 +68,9 @@
         <Class IRI="#UVO_00017"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00018"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00019"/>
     </Declaration>
     <Declaration>
@@ -1610,9 +1613,6 @@
         <ObjectProperty IRI="#UVO_00166"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#UVO_00168"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#UVO_00169"/>
     </Declaration>
     <Declaration>
@@ -1854,6 +1854,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00005"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00018"/>
+        <Class IRI="#UVO_00014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00018"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00014"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2425,7 +2436,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00058"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00168"/>
+            <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00158"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3764,7 +3775,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00156"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00168"/>
+            <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00150"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3807,7 +3818,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00158"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00168"/>
+            <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00157"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4741,7 +4752,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00224"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00168"/>
+            <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00223"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -4965,7 +4976,7 @@
     <SubClassOf>
         <Class IRI="#UVO_00246"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00168"/>
+            <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00154"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9520,6 +9531,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00018</IRI>
+        <Literal>A blood vessel that is part of a cornea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00018</IRI>
+        <Literal>UBERON:0003500</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00018</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00018</IRI>
+        <Literal xml:lang="en">corneal blood vessel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00019</IRI>
         <Literal>Significant drug-related adverse events affecting future treatment</Literal>
     </AnnotationAssertion>
@@ -14017,11 +14048,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00167</IRI>
         <Literal xml:lang="en">cillary muscle</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00168</IRI>
-        <Literal xml:lang="en">locatedIn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
