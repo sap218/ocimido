@@ -293,6 +293,9 @@
         <Class IRI="#UVO_00093"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00094"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00095"/>
     </Declaration>
     <Declaration>
@@ -1607,6 +1610,9 @@
         <Class IRI="#UVO_00617"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#UVO_00067"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00165"/>
     </Declaration>
     <Declaration>
@@ -2896,6 +2902,17 @@
     <SubClassOf>
         <Class IRI="#UVO_00093"/>
         <Class IRI="#UVO_00122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00094"/>
+        <Class IRI="#UVO_00155"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00094"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00155"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00095"/>
@@ -4593,6 +4610,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00465"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00213"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00169"/>
+            <Class IRI="#UVO_00223"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9044,6 +9068,10 @@
         <Class IRI="#UVO_00536"/>
         <Class IRI="#UVO_00537"/>
     </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UVO_00067"/>
+        <ObjectProperty IRI="#UVO_00166"/>
+    </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00001</IRI>
@@ -11020,6 +11048,11 @@
         <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00067</IRI>
+        <Literal xml:lang="en">hasPart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00068</IRI>
         <Literal>A procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens</Literal>
@@ -11973,6 +12006,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00093</IRI>
         <Literal xml:lang="en">SUN vitreous haze 0.5+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00094</IRI>
+        <Literal>A blood vessel that is part of a choroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00094</IRI>
+        <Literal>UBERON:0002443</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00094</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00094</IRI>
+        <Literal xml:lang="en">choroidal blood vessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
