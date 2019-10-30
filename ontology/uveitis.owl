@@ -1619,6 +1619,9 @@
         <ObjectProperty IRI="#UVO_00166"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#UVO_00168"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00169"/>
     </Declaration>
     <Declaration>
@@ -9072,6 +9075,14 @@
         <ObjectProperty IRI="#UVO_00067"/>
         <ObjectProperty IRI="#UVO_00166"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UVO_00165"/>
+        <ObjectProperty IRI="#UVO_00168"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UVO_00178"/>
+        <ObjectProperty IRI="#UVO_00178"/>
+    </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00001</IRI>
@@ -14101,6 +14112,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00167</IRI>
         <Literal xml:lang="en">cillary muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00168</IRI>
+        <Literal xml:lang="en">hasType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
