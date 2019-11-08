@@ -3656,13 +3656,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00149"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00231"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00150"/>
         <Class IRI="#UVO_00151"/>
     </SubClassOf>
@@ -3693,34 +3686,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00149"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00152"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00014"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00152"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00246"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00152"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00264"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00152"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00607"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3771,13 +3736,6 @@
         <Class IRI="#UVO_00155"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00156"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00155"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
             <Class IRI="#UVO_00264"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3804,13 +3762,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00178"/>
             <Class IRI="#UVO_00155"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00156"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00158"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5164,20 +5115,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00264"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00232"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00264"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00323"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00265"/>
         <Class IRI="#UVO_00325"/>
     </SubClassOf>
@@ -5814,27 +5751,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00151"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00323"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00155"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00323"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00156"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00323"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00158"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8877,7 +8793,14 @@
         <Class IRI="#UVO_00607"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00178"/>
-            <Class IRI="#UVO_00152"/>
+            <Class IRI="#UVO_00153"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00607"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00178"/>
+            <Class IRI="#UVO_00246"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
