@@ -1328,6 +1328,9 @@
         <Class IRI="#UVO_00451"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00452"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00455"/>
     </Declaration>
     <Declaration>
@@ -3703,36 +3706,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00128"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00128"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00129"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00129"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00130"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00130"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00131"/>
@@ -3813,14 +3795,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00138"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00138"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00139"/>
@@ -3908,25 +3883,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00146"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00146"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00147"/>
-        <Class IRI="#UVO_00120"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00147"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00120"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00452"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00148"/>
@@ -7698,6 +7659,10 @@
             <ObjectProperty IRI="#UVO_00169"/>
             <Class IRI="#UVO_00177"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00452"/>
+        <Class IRI="#UVO_00120"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00455"/>
@@ -20615,6 +20580,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00451</IRI>
         <Literal xml:lang="en">abnormal pupil morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00452</IRI>
+        <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00452</IRI>
+        <Literal>grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00452</IRI>
+        <Literal xml:lang="en">grade system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00452</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
