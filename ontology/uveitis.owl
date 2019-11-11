@@ -710,10 +710,16 @@
         <Class IRI="#UVO_00244"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00245"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00246"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00248"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00249"/>
@@ -725,7 +731,25 @@
         <Class IRI="#UVO_00251"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00255"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00258"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00259"/>
@@ -755,13 +779,25 @@
         <Class IRI="#UVO_00267"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00268"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00270"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00271"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00274"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00276"/>
@@ -794,7 +830,25 @@
         <Class IRI="#UVO_00285"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00286"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00288"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00290"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00291"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00292"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00293"/>
@@ -831,6 +885,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00305"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00306"/>
@@ -870,6 +927,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00318"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00319"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00320"/>
@@ -1082,6 +1142,9 @@
         <Class IRI="#UVO_00389"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00390"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00391"/>
     </Declaration>
     <Declaration>
@@ -1143,6 +1206,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00411"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00412"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00413"/>
@@ -1223,10 +1289,31 @@
         <Class IRI="#UVO_00438"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00439"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00440"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00441"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00442"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00444"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00446"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00447"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00448"/>
@@ -1629,6 +1716,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UVO_00178"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#UVO_00192"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#UVO_00229"/>
@@ -2295,8 +2385,15 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00049"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00273"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00050"/>
-        <Class IRI="#UVO_00017"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00050"/>
@@ -2375,7 +2472,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00054"/>
-        <Class IRI="#UVO_00017"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00054"/>
@@ -2422,7 +2519,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00057"/>
-        <Class IRI="#UVO_00017"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00057"/>
@@ -2472,6 +2569,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00047"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00060"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00444"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00061"/>
         <Class IRI="#UVO_00566"/>
     </SubClassOf>
@@ -2494,6 +2605,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00062"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00319"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00063"/>
         <Class IRI="#UVO_00036"/>
     </SubClassOf>
@@ -2502,6 +2620,27 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00053"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00390"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00063"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00340"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2516,6 +2655,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00064"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00445"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00065"/>
         <Class IRI="#UVO_00036"/>
     </SubClassOf>
@@ -2524,6 +2670,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00065"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00412"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2542,6 +2695,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00169"/>
             <Class IRI="#UVO_00279"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00066"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00443"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00066"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00445"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2589,6 +2756,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00021"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00070"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00354"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2793,6 +2967,34 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00053"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00054"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00082"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00055"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00083"/>
         <Class IRI="#UVO_00030"/>
     </SubClassOf>
@@ -2801,6 +3003,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00030"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00083"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00057"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2815,6 +3024,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00084"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00289"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00085"/>
         <Class IRI="#UVO_00030"/>
     </SubClassOf>
@@ -2823,6 +3039,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00030"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00085"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00288"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2892,6 +3115,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00091"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00274"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00092"/>
         <Class IRI="#UVO_00033"/>
     </SubClassOf>
@@ -2900,6 +3130,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00092"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00274"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2929,6 +3166,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00095"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00273"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00096"/>
         <Class IRI="#UVO_00031"/>
     </SubClassOf>
@@ -2937,6 +3181,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00031"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00096"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00273"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2970,6 +3221,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00032"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00099"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00292"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3019,8 +3277,8 @@
     <SubClassOf>
         <Class IRI="#UVO_00103"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00028"/>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00045"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3032,6 +3290,27 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00050"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00052"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00104"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00053"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3053,14 +3332,48 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00047"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00105"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00106"/>
         <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00106"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00242"/>
+                <Class IRI="#UVO_00446"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00242"/>
+                <Class IRI="#UVO_00447"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00106"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00106"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00046"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3073,6 +3386,10 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#UVO_00242"/>
                 <Class IRI="#UVO_00173"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00242"/>
+                <Class IRI="#UVO_00309"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#UVO_00242"/>
@@ -3093,16 +3410,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00108"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00165"/>
-            <Class IRI="#UVO_00036"/>
-        </ObjectSomeValuesFrom>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00242"/>
+                <Class IRI="#UVO_00309"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#UVO_00242"/>
+                <Class IRI="#UVO_00340"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00108"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00028"/>
+            <ObjectProperty IRI="#UVO_00165"/>
+            <Class IRI="#UVO_00036"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3155,7 +3478,7 @@
         <Class IRI="#UVO_00110"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00214"/>
+            <Class IRI="#UVO_00444"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3533,13 +3856,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00141"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00215"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00142"/>
         <Class IRI="#UVO_00326"/>
     </SubClassOf>
@@ -3558,13 +3874,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00142"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00106"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00143"/>
         <Class IRI="#UVO_00326"/>
     </SubClassOf>
@@ -3573,13 +3882,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00326"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00143"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00048"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3602,13 +3904,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00326"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00145"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00011"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4702,6 +4997,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00221"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00044"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00222"/>
         <Class IRI="#UVO_00211"/>
     </SubClassOf>
@@ -4864,7 +5166,7 @@
         <Class IRI="#UVO_00235"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00249"/>
+            <Class IRI="#UVO_00011"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4882,7 +5184,7 @@
         <Class IRI="#UVO_00236"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00249"/>
+            <Class IRI="#UVO_00011"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4908,6 +5210,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00238"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00570"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00239"/>
         <Class IRI="#UVO_00069"/>
     </SubClassOf>
@@ -4930,13 +5239,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00240"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00009"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00244"/>
         <Class IRI="#UVO_00033"/>
     </SubClassOf>
@@ -4945,6 +5247,24 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00244"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00274"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00245"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00245"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00047"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4975,6 +5295,24 @@
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00032"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00247"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00274"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00247"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00290"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00248"/>
+        <Class IRI="#UVO_00253"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00249"/>
@@ -5010,6 +5348,22 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00252"/>
+        <Class IRI="#UVO_00253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00253"/>
+        <Class IRI="#UVO_00057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00254"/>
+        <Class IRI="#UVO_00057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00255"/>
+        <Class IRI="#UVO_00254"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00256"/>
         <Class IRI="#UVO_00216"/>
     </SubClassOf>
@@ -5021,11 +5375,12 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00256"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00364"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UVO_00257"/>
+        <Class IRI="#UVO_00254"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00258"/>
+        <Class IRI="#UVO_00253"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00259"/>
@@ -5076,13 +5431,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00327"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00262"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00229"/>
-            <Class IRI="#UVO_00335"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5162,6 +5510,24 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00268"/>
+        <Class IRI="#UVO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00268"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00268"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00305"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00269"/>
         <Class IRI="#UVO_00267"/>
     </SubClassOf>
@@ -5178,6 +5544,10 @@
             <ObjectProperty IRI="#UVO_00169"/>
             <Class IRI="#UVO_00152"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00270"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00271"/>
@@ -5220,6 +5590,18 @@
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00215"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00273"/>
+        <Class IRI="#UVO_00017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00274"/>
+        <Class IRI="#UVO_00270"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00274"/>
+        <Class IRI="#UVO_00273"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00276"/>
@@ -5332,6 +5714,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00286"/>
+        <Class IRI="#UVO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00286"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00274"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00287"/>
         <Class IRI="#UVO_00070"/>
     </SubClassOf>
@@ -5348,6 +5741,26 @@
             <ObjectProperty IRI="#UVO_00169"/>
             <Class IRI="#UVO_00058"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00288"/>
+        <Class IRI="#UVO_00291"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00289"/>
+        <Class IRI="#UVO_00291"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00290"/>
+        <Class IRI="#UVO_00291"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00291"/>
+        <Class IRI="#UVO_00017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00292"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00293"/>
@@ -5477,13 +5890,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00301"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00262"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00302"/>
         <Class IRI="#UVO_00235"/>
     </SubClassOf>
@@ -5515,6 +5921,10 @@
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00235"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00305"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00306"/>
@@ -5569,6 +5979,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00310"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00310"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00445"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5708,6 +6132,10 @@
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00191"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00319"/>
+        <Class IRI="#UVO_00017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00320"/>
@@ -6514,6 +6942,10 @@
         <Class IRI="#UVO_00122"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00390"/>
+        <Class IRI="#UVO_00291"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00391"/>
         <Class IRI="#UVO_00004"/>
     </SubClassOf>
@@ -6584,6 +7016,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00020"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00396"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00230"/>
+            <Class IRI="#UVO_00300"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6692,7 +7131,7 @@
         <Class IRI="#UVO_00404"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00230"/>
-            <Class IRI="#UVO_00570"/>
+            <Class IRI="#UVO_00363"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6806,6 +7245,10 @@
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00395"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00412"/>
+        <Class IRI="#UVO_00291"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00413"/>
@@ -7149,6 +7592,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00439"/>
+        <Class IRI="#UVO_00017"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00440"/>
         <Class IRI="#UVO_00424"/>
     </SubClassOf>
@@ -7169,6 +7616,30 @@
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00424"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00442"/>
+        <Class IRI="#UVO_00324"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00443"/>
+        <Class IRI="#UVO_00442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00444"/>
+        <Class IRI="#UVO_00442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00445"/>
+        <Class IRI="#UVO_00442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00446"/>
+        <Class IRI="#UVO_00442"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00447"/>
+        <Class IRI="#UVO_00442"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00448"/>
@@ -7709,6 +8180,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00524"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00270"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00524"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00273"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00525"/>
         <Class IRI="#UVO_00524"/>
     </SubClassOf>
@@ -8057,8 +8542,15 @@
     <SubClassOf>
         <Class IRI="#UVO_00562"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00028"/>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00562"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00439"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8070,13 +8562,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00562"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00563"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00242"/>
-            <Class IRI="#UVO_00340"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8099,6 +8584,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00165"/>
             <Class IRI="#UVO_00036"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00565"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00045"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00565"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00444"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8885,6 +9384,13 @@
             <Class IRI="#UVO_00323"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00617"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00192"/>
+            <Class IRI="#UVO_00056"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="#UVO_00026"/>
         <Class IRI="#UVO_00027"/>
@@ -9005,6 +9511,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#UVO_00178"/>
         <ObjectProperty IRI="#UVO_00178"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#UVO_00192"/>
+        <ObjectProperty IRI="#UVO_00241"/>
     </InverseObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10589,6 +11099,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00054</IRI>
+        <Literal>QuantiFERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00054</IRI>
         <Literal>T spot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10690,16 +11205,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00057</IRI>
         <Literal>RCOphth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00057</IRI>
-        <Literal>VDRL</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00057</IRI>
-        <Literal>treponema pallidum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -14042,6 +14547,11 @@
         <Literal xml:lang="en">hasType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00169</IRI>
+        <Literal>uni-directional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00169</IRI>
         <Literal xml:lang="en">occursIn</Literal>
@@ -14695,6 +15205,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00191</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00192</IRI>
+        <Literal xml:lang="en">investigatedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -15742,6 +16257,11 @@
         <Literal xml:lang="en">symptomOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00230</IRI>
+        <Literal>uni-directional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00230</IRI>
         <Literal xml:lang="en">treatmentOf</Literal>
@@ -16042,9 +16562,19 @@
         <Literal xml:lang="en">investigationFor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00242</IRI>
+        <Literal>uni-directional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00242</IRI>
         <Literal xml:lang="en">characterisedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00243</IRI>
+        <Literal>uni-directional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -16080,6 +16610,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00244</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00245</IRI>
+        <Literal xml:lang="en">systemic lupus erythematosus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16165,6 +16700,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00247</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00248</IRI>
+        <Literal>TPHA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00248</IRI>
+        <Literal xml:lang="en">treponema pallidum haemagglutination assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16277,6 +16822,36 @@
         <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00252</IRI>
+        <Literal>FTA-ABS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00252</IRI>
+        <Literal xml:lang="en">fluorescent treponemal anitbody absorption test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00253</IRI>
+        <Literal xml:lang="en">treponemal tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00254</IRI>
+        <Literal xml:lang="en">non treponemal tests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00255</IRI>
+        <Literal>RPR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00255</IRI>
+        <Literal xml:lang="en">rapid plasma reagin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00256</IRI>
         <Literal>An inflammatory optic neuropathy characterized by optic disc edema and lipid within the fovea in a macular star pattern - often associated with cells in the vitreous</Literal>
@@ -16300,6 +16875,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00256</IRI>
         <Literal xml:lang="en">neuroretinitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00257</IRI>
+        <Literal>VDRL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00257</IRI>
+        <Literal xml:lang="en">venereal disease reference laboratory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00258</IRI>
+        <Literal xml:lang="en">immunoassay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16527,6 +17117,26 @@
         <Literal xml:lang="en">abnormal anterior eye segment morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00268</IRI>
+        <Literal>Devic&apos;s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00268</IRI>
+        <Literal>NMO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00268</IRI>
+        <Literal>NMOSD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00268</IRI>
+        <Literal xml:lang="en">neuromyelitis optica spectrum disorders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00269</IRI>
         <Literal>Abnormality of the anterior chamber</Literal>
@@ -16545,6 +17155,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00269</IRI>
         <Literal xml:lang="en">abnormal anterior chamber morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00270</IRI>
+        <Literal>aqueous biopsy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00270</IRI>
+        <Literal xml:lang="en">aqueous tap</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16595,6 +17215,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00272</IRI>
         <Literal xml:lang="en">cyclitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00273</IRI>
+        <Literal>vitreous biopsy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00273</IRI>
+        <Literal xml:lang="en">vitreous tap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00274</IRI>
+        <Literal>PCR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00274</IRI>
+        <Literal xml:lang="en">polymerase chain reaction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16962,6 +17602,16 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00286</IRI>
+        <Literal>EBV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00286</IRI>
+        <Literal xml:lang="en">epstein-barr virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00287</IRI>
         <Literal>Surgery to remove some or all of the vitreous humor from the eye</Literal>
@@ -17000,6 +17650,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00287</IRI>
         <Literal>SNOMED-CT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00288</IRI>
+        <Literal>borrelia serology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00288</IRI>
+        <Literal xml:lang="en">lyme serology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00289</IRI>
+        <Literal xml:lang="en">bartonella serology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00290</IRI>
+        <Literal xml:lang="en">toxoplasma serology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00291</IRI>
+        <Literal xml:lang="en">serology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00292</IRI>
+        <Literal xml:lang="en">toxocara serology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -17397,6 +18077,16 @@
         <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00305</IRI>
+        <Literal>NMO-IgG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00305</IRI>
+        <Literal xml:lang="en">anti-aquaporin-4 anitbody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00306</IRI>
         <Literal>PATO:0000965</Literal>
@@ -17763,6 +18453,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00319</IRI>
+        <Literal xml:lang="en">NOD2 gene mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00320</IRI>
         <Literal xml:lang="en">no abnormality of vision</Literal>
     </AnnotationAssertion>
@@ -17869,7 +18564,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00325</IRI>
-        <Literal xml:lang="en">clinical signs</Literal>
+        <Literal xml:lang="en">ocular clinical signs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -18134,7 +18829,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00340</IRI>
-        <Literal xml:lang="en">gramulomatous</Literal>
+        <Literal xml:lang="en">granulomatous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19003,6 +19698,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00390</IRI>
+        <Literal xml:lang="en">eosinophilia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00391</IRI>
         <Literal xml:lang="en">types of therapy</Literal>
     </AnnotationAssertion>
@@ -19280,6 +19980,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00411</IRI>
         <Literal xml:lang="en">paracetamol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00412</IRI>
+        <Literal>antineutrophil cytoplasmic antibody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00412</IRI>
+        <Literal xml:lang="en">ANCA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -19777,6 +20487,11 @@
         <Literal xml:lang="en">subfoveal choroidal neovascularization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00439</IRI>
+        <Literal xml:lang="en">colonoscopy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00440</IRI>
         <Literal>HP:0007376</Literal>
@@ -19805,6 +20520,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00441</IRI>
         <Literal xml:lang="en">birdshot choroidal lesions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00442</IRI>
+        <Literal xml:lang="en">systemic clinical signs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00443</IRI>
+        <Literal xml:lang="en">fever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00444</IRI>
+        <Literal xml:lang="en">joint inflammation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00445</IRI>
+        <Literal xml:lang="en">skin rash</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00446</IRI>
+        <Literal xml:lang="en">oral ulcers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00447</IRI>
+        <Literal xml:lang="en">genital ulcers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
