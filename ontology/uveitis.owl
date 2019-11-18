@@ -1334,6 +1334,9 @@
         <Class IRI="#UVO_00453"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00454"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00455"/>
     </Declaration>
     <Declaration>
@@ -1434,9 +1437,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00522"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#UVO_00523"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00524"/>
@@ -6511,9 +6511,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00332"/>
+        <Class IRI="#UVO_00465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00332"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00328"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00332"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00465"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8019,6 +8030,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00454"/>
+        <Class IRI="#UVO_00465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00454"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00465"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00455"/>
         <Class IRI="#UVO_00448"/>
     </SubClassOf>
@@ -8104,9 +8126,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00468"/>
+        <Class IRI="#UVO_00465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00468"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00328"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00468"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00465"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8464,19 +8497,8 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UVO_00523"/>
-        <Class IRI="#UVO_00465"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00523"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00465"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#UVO_00524"/>
-        <Class IRI="#UVO_00523"/>
+        <Class IRI="#UVO_00465"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00524"/>
@@ -8495,7 +8517,7 @@
         <Class IRI="#UVO_00524"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00523"/>
+            <Class IRI="#UVO_00465"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8536,13 +8558,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00527"/>
-        <Class IRI="#UVO_00523"/>
+        <Class IRI="#UVO_00465"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00527"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00523"/>
+            <Class IRI="#UVO_00465"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -20178,7 +20200,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00384</IRI>
-        <Literal xml:lang="en">abnormal eye morphology</Literal>
+        <Literal xml:lang="en">abnormal inflammation eye morphology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21201,6 +21223,41 @@
         <Literal xml:lang="en">episclera</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>A rare, clinically heterogeneous, autoimmune disorder of the neuromuscular junction characterized by fatigable weakness of voluntary muscles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>DOID:437</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>ICD10:G700</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>ORPHA:589</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>SNOMEDCT:91637004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal>ORDO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00454</IRI>
+        <Literal xml:lang="en">myasthenia gravis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00455</IRI>
         <Literal>HP:0100693</Literal>
@@ -21263,7 +21320,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00465</IRI>
-        <Literal xml:lang="en">inflammation category</Literal>
+        <Literal xml:lang="en">inflammatory disorder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -21468,7 +21525,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00477</IRI>
-        <Literal xml:lang="en">abnormal eye physiology</Literal>
+        <Literal xml:lang="en">abnormal inflammation eye physiology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21939,21 +21996,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00522</IRI>
         <Literal xml:lang="en">vitreous hemorrhage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#UVO_00523</IRI>
-        <Literal>ORPHA:519329</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00523</IRI>
-        <Literal>ORDO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00523</IRI>
-        <Literal xml:lang="en">rare disorder involving multiple structures of the eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
