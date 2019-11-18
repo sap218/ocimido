@@ -23946,7 +23946,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00616</IRI>
-        <Literal xml:lang="en">CRD 1.0</Literal>
+        <Literal xml:lang="en">CDR 1.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
