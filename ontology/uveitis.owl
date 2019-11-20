@@ -1349,6 +1349,9 @@
         <Class IRI="#UVO_00458"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00459"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00463"/>
     </Declaration>
     <Declaration>
@@ -6507,13 +6510,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00325"/>
-        <Class IRI="#UVO_00324"/>
+        <Class IRI="#UVO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00325"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00324"/>
+            <Class IRI="#UVO_00459"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7998,13 +8001,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00442"/>
-        <Class IRI="#UVO_00324"/>
+        <Class IRI="#UVO_00459"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00442"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00324"/>
+            <Class IRI="#UVO_00459"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8224,6 +8227,10 @@
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00006"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00459"/>
+        <Class IRI="#UVO_00324"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00463"/>
@@ -21697,6 +21704,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00458</IRI>
         <Literal xml:lang="en">entire sense organ system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00459</IRI>
+        <Literal xml:lang="en">clinical signs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
