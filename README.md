@@ -4,9 +4,11 @@
 
 **Details**
 
-* **`ontology`** directory with `uveitis.owl` - ontology has appropriate IRI (UVO), labels, comments, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, DOID, & SNOMED-CT).
+* Ontology has appropriate IRI (UVO), labels, comments, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, DOID, & SNOMED-CT)
 
-* **Ontology Built with `Protégé`**
+* Ontology is located in `ontology` directory: `uveitis.owl`
+
+* Ontology Built with `Protégé`
 
 **License**
 
