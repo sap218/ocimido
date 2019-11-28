@@ -773,9 +773,6 @@
         <Class IRI="#UVO_00265"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UVO_00266"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#UVO_00267"/>
     </Declaration>
     <Declaration>
@@ -1984,9 +1981,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00018"/>
+        <Class IRI="#UVO_00265"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00018"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00014"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00018"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00265"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5686,17 +5694,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00325"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00266"/>
-        <Class IRI="#UVO_00265"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UVO_00266"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00265"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -10640,7 +10637,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00018</IRI>
-        <Literal>UBERON</Literal>
+        <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17806,36 +17803,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00265</IRI>
         <Literal xml:lang="en">cornea signs</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal>Blood vessels that a a part of the cornea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal>UBERON:0003500</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal>RCOphth</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal>blood vessel of cornea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal xml:lang="en">corneal blood vessel</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00266</IRI>
-        <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
