@@ -8165,13 +8165,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00454"/>
-        <Class IRI="#UVO_00465"/>
+        <Class IRI="#UVO_00036"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00454"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00465"/>
+            <Class IRI="#UVO_00036"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8737,13 +8737,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00527"/>
-        <Class IRI="#UVO_00465"/>
+        <Class IRI="#UVO_00036"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00527"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00465"/>
+            <Class IRI="#UVO_00036"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
