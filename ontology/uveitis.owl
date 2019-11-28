@@ -8233,6 +8233,13 @@
         <Class IRI="#UVO_00324"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00459"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00324"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00463"/>
         <Class IRI="#UVO_00448"/>
     </SubClassOf>
