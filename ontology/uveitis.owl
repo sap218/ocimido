@@ -19882,7 +19882,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00350</IRI>
-        <Literal xml:lang="en">neovascularisation</Literal>
+        <Literal xml:lang="en">iris neovascularisation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -20182,7 +20182,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00363</IRI>
-        <Literal xml:lang="en">neovascularisation</Literal>
+        <Literal xml:lang="en">retinal neovascularisation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
