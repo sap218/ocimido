@@ -11129,49 +11129,9 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>mitotic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>neoplasia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>tumor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>tumorous</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00038</IRI>
         <Literal xml:lang="en">neoplastic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>HPO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>ORDO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00038</IRI>
-        <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11209,19 +11169,9 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00040</IRI>
-        <Literal>undifferentiated illness</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00040</IRI>
         <Literal xml:lang="en">undifferentiated</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00040</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11576,7 +11526,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00053</IRI>
-        <Literal>Chest x-ray</Literal>
+        <Literal>Chest x ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -11596,12 +11546,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00053</IRI>
-        <Literal>CXR</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00053</IRI>
-        <Literal>x-ray</Literal>
+        <Literal>x ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11612,11 +11557,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00053</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00053</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11899,19 +11839,9 @@
         <Literal>SNOMEDCT:396230008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00064</IRI>
-        <Literal>DM</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00064</IRI>
         <Literal xml:lang="en">dermatomyositis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00064</IRI>
-        <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11954,19 +11884,9 @@
         <Literal>ORPHA:2331</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00066</IRI>
-        <Literal>KD</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00066</IRI>
         <Literal xml:lang="en">kawasaki</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00066</IRI>
-        <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12774,24 +12694,9 @@
         <Literal>CMV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00092</IRI>
-        <Literal>CMV retinitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00092</IRI>
-        <Literal>cytomegalovirus retinitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00092</IRI>
         <Literal xml:lang="en">cytomegalovirus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00092</IRI>
-        <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -12954,29 +12859,9 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00100</IRI>
-        <Literal>onchocerca volvus</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00100</IRI>
-        <Literal>onchocerciasis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00100</IRI>
-        <Literal>river blindness</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00100</IRI>
         <Literal xml:lang="en">onchocerca</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00100</IRI>
-        <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13056,37 +12941,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00104</IRI>
-        <Literal>besnier-boeck-schaumann disease</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00104</IRI>
-        <Literal>boeck sarcoid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00104</IRI>
-        <Literal>lymphogranulomatosis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00104</IRI>
         <Literal>sarcoid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00104</IRI>
         <Literal xml:lang="en">sarcoidosis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00104</IRI>
-        <Literal>DOID</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00104</IRI>
-        <Literal>ORDO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -13391,12 +13251,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00113</IRI>
-        <Literal>high inflammation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00113</IRI>
-        <Literal>increased inflammatory response</Literal>
+        <Literal>increased</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -13407,11 +13262,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00113</IRI>
         <Literal xml:lang="en">worsening</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00113</IRI>
-        <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -13476,12 +13326,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00115</IRI>
-        <Literal>decreased inflammatory response</Literal>
+        <Literal>better</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00115</IRI>
-        <Literal>low inflammation</Literal>
+        <Literal>decreased</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13491,7 +13341,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00115</IRI>
-        <Literal>HPO</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -14249,19 +14099,9 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00145</IRI>
-        <Literal>metamorphopsia</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00145</IRI>
         <Literal xml:lang="en">distortion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00145</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -14529,19 +14369,9 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00155</IRI>
-        <Literal>optic choroid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00155</IRI>
         <Literal xml:lang="en">choroid</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00155</IRI>
-        <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -15896,7 +15726,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00215</IRI>
-        <Literal>ORDO</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16144,19 +15974,9 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00223</IRI>
-        <Literal>uveal tract</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00223</IRI>
         <Literal xml:lang="en">uvea</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00223</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16459,24 +16279,9 @@
         <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00237</IRI>
-        <Literal>corectomy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00237</IRI>
-        <Literal>iris removal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00237</IRI>
         <Literal xml:lang="en">iridectomy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00237</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16829,19 +16634,9 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00251</IRI>
-        <Literal>pars plana lensectomy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00251</IRI>
         <Literal xml:lang="en">lensectomy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00251</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16959,19 +16754,9 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00260</IRI>
-        <Literal>increased responsivity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00260</IRI>
         <Literal xml:lang="en">hyperresponsive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00260</IRI>
-        <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16984,19 +16769,9 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00261</IRI>
-        <Literal>decreased responsivity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00261</IRI>
         <Literal xml:lang="en">hyporesponsive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00261</IRI>
-        <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17286,7 +17061,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00276</IRI>
-        <Literal>age values</Literal>
+        <Literal>age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17296,7 +17071,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00276</IRI>
-        <Literal>SNOMED-CT</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17466,7 +17241,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00281</IRI>
-        <Literal>newborn</Literal>
+        <Literal>baby</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17476,7 +17251,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00281</IRI>
-        <Literal>SNOMED-CT</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17501,7 +17276,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00282</IRI>
-        <Literal>pre-teen</Literal>
+        <Literal>pre teen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17511,7 +17286,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00282</IRI>
-        <Literal>SNOMED-CT</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17654,24 +17429,9 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00287</IRI>
-        <Literal>PPV</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00287</IRI>
-        <Literal>excision of vitreous opacity</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00287</IRI>
         <Literal xml:lang="en">vitrectomy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00287</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -20054,19 +19814,9 @@
         <Literal>SNOMEDCT:32282008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00419</IRI>
-        <Literal>SC</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00419</IRI>
         <Literal xml:lang="en">subcutaneous</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00419</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -21589,24 +21339,9 @@
         <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00534</IRI>
-        <Literal>scleritis with corneal involvement</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00534</IRI>
-        <Literal>sclerokeratitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00534</IRI>
         <Literal xml:lang="en">scleroperikeratitis</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00534</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -21834,11 +21569,6 @@
         <Literal xml:lang="en">disc oedema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00551</IRI>
-        <Literal>SNOMED-CT</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#UVO_00552</IRI>
         <Literal>RCOphth</Literal>
@@ -22034,19 +21764,9 @@
         <Literal>DOID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00563</IRI>
-        <Literal>CD</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00563</IRI>
         <Literal xml:lang="en">crohn&apos;s</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
-        <IRI>#UVO_00563</IRI>
-        <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -22114,11 +21834,6 @@
         <Literal>reactive arthritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
-        <IRI>#UVO_00565</IRI>
-        <Literal>reiter&apos;s</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00565</IRI>
         <Literal xml:lang="en">reiters</Literal>
@@ -22126,7 +21841,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#UVO_00565</IRI>
-        <Literal>DOID</Literal>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
