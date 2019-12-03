@@ -1352,13 +1352,22 @@
         <Class IRI="#UVO_00460"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00462"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00464"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00465"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00466"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00467"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00468"/>
@@ -1379,7 +1388,16 @@
         <Class IRI="#UVO_00473"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00474"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00476"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00477"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00478"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00481"/>
@@ -1398,6 +1416,48 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00486"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00489"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00490"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00491"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00492"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00493"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00494"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00495"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00496"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00497"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00498"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00499"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00502"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00506"/>
@@ -1760,15 +1820,19 @@
         <Class IRI="#UVO_00124"/>
         <Class IRI="#UVO_00249"/>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UVO_00323"/>
+        <Class IRI="#UVO_00502"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#UVO_00006"/>
-        <Class IRI="#UVO_00001"/>
+        <Class IRI="#UVO_00467"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00006"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#UVO_00174"/>
-            <Class IRI="#UVO_00001"/>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00467"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5185,9 +5249,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00231"/>
+        <Class IRI="#UVO_00489"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00231"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00231"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00489"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6475,9 +6550,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UVO_00323"/>
+        <Class IRI="#UVO_00501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00323"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00166"/>
             <Class IRI="#UVO_00151"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00323"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00501"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8251,6 +8337,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00462"/>
+        <Class IRI="#UVO_00001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00462"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00463"/>
         <Class IRI="#UVO_00448"/>
     </SubClassOf>
@@ -8259,6 +8356,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00448"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00464"/>
+        <Class IRI="#UVO_00462"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00464"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00462"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8299,6 +8407,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00465"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00467"/>
+        <Class IRI="#UVO_00464"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00467"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00464"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8401,6 +8520,28 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00474"/>
+        <Class IRI="#UVO_00467"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00474"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00467"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00476"/>
+        <Class IRI="#UVO_00474"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00476"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00474"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00477"/>
         <Class IRI="#UVO_00325"/>
     </SubClassOf>
@@ -8416,6 +8557,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00325"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00478"/>
+        <Class IRI="#UVO_00476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00478"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00476"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8489,6 +8641,174 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00482"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00489"/>
+        <Class IRI="#UVO_00478"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00489"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00478"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00490"/>
+        <Class IRI="#UVO_00489"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00490"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00489"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00491"/>
+        <Class IRI="#UVO_00489"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00492"/>
+        <Class IRI="#UVO_00491"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00492"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00492"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00491"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00493"/>
+        <Class IRI="#UVO_00491"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00493"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00498"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00493"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00491"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00494"/>
+        <Class IRI="#UVO_00491"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00494"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00491"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00495"/>
+        <Class IRI="#UVO_00494"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00495"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00494"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00496"/>
+        <Class IRI="#UVO_00491"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00496"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00491"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00497"/>
+        <Class IRI="#UVO_00496"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00497"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00497"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00496"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00498"/>
+        <Class IRI="#UVO_00228"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00498"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00228"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00499"/>
+        <Class IRI="#UVO_00474"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00499"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00474"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00500"/>
+        <Class IRI="#UVO_00499"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00500"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00499"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00501"/>
+        <Class IRI="#UVO_00500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00501"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00500"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00502"/>
+        <Class IRI="#UVO_00234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00502"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00234"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -20229,6 +20549,26 @@
         <Literal xml:lang="en">biopsy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00462</IRI>
+        <Literal>Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00462</IRI>
+        <Literal>UBERON:0000061</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00462</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00462</IRI>
+        <Literal xml:lang="en">anatomical structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00463</IRI>
         <Literal>HP:0025358</Literal>
@@ -20242,6 +20582,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00463</IRI>
         <Literal xml:lang="en">uveal ectropion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00464</IRI>
+        <Literal>An anatomical structure that has more than one cell as a part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00464</IRI>
+        <Literal>UBERON:0010000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00464</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00464</IRI>
+        <Literal xml:lang="en">multicellular anatomical structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -20287,6 +20647,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00466</IRI>
         <Literal xml:lang="en">scleritis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00467</IRI>
+        <Literal>Anatomical structure that is an individual member of a species and consists of more than one cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00467</IRI>
+        <Literal>UBERON:0000468</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00467</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00467</IRI>
+        <Literal xml:lang="en">multicellular organism</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -20434,6 +20814,41 @@
         <Literal xml:lang="en">chronic irrative conjunctivitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00474</IRI>
+        <Literal>Anatomical structure which is a subdivision of a whole organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00474</IRI>
+        <Literal>UBERON:0000475</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00474</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00474</IRI>
+        <Literal xml:lang="en">organism subdivison</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00476</IRI>
+        <Literal>UBERON:0001444</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00476</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00476</IRI>
+        <Literal xml:lang="en">subdivision of head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00477</IRI>
         <Literal>HP:0012373</Literal>
@@ -20447,6 +20862,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00477</IRI>
         <Literal xml:lang="en">abnormal inflammation eye physiology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00478</IRI>
+        <Literal>The subdivision of the face that includes the eyeball and adnexa, such as eyelids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00478</IRI>
+        <Literal>SNOMEDCT:371398005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00478</IRI>
+        <Literal>UBERON:0004088</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00478</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00478</IRI>
+        <Literal xml:lang="en">orbital region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -20572,6 +21012,306 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00486</IRI>
         <Literal xml:lang="en">tonic pupil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00489</IRI>
+        <Literal>The parts of the orbital region that are outside of the the eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00489</IRI>
+        <Literal>SNOMEDCT:44888004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00489</IRI>
+        <Literal>UBERON:0035639</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00489</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00489</IRI>
+        <Literal xml:lang="en">ocular adnexa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00490</IRI>
+        <Literal>The eyebrow is an area of thick, delicate hairs above the eye that follows the shape of the lower margin of the brow ridges - their main function is to protect the eye, but they are also important to human communication and facial expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00490</IRI>
+        <Literal>SNOMEDCT:392262008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00490</IRI>
+        <Literal>UBERON:0010163</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00490</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00490</IRI>
+        <Literal xml:lang="en">eyebrow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00491</IRI>
+        <Literal>A gland that is typically found in or near the orbital region and is typically associated with secretions onto the eyeball or associated ducts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00491</IRI>
+        <Literal>UBERON:0015152</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00491</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00491</IRI>
+        <Literal xml:lang="en">gland of ocular region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00492</IRI>
+        <Literal>UBERON:0003605</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00492</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00492</IRI>
+        <Literal xml:lang="en">eye skin gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00493</IRI>
+        <Literal>SNOMEDCT:280574000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00493</IRI>
+        <Literal>UBERON:0013229</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00493</IRI>
+        <Literal>readcode:Xa1TA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00493</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00493</IRI>
+        <Literal xml:lang="en">eyelid gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00494</IRI>
+        <Literal>SNOMEDCT:314802006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00494</IRI>
+        <Literal>UBERON:0015154</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00494</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00494</IRI>
+        <Literal xml:lang="en">lateral gland of orbital region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00495</IRI>
+        <Literal>The lacrimal glands are paired almond-shaped glands, located in or near the orbital region, that secrete the aqueous layer of the tear film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00495</IRI>
+        <Literal>SNOMEDCT:13561001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00495</IRI>
+        <Literal>UBERON:0001817</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00495</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00495</IRI>
+        <Literal xml:lang="en">lacrimal gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00496</IRI>
+        <Literal>UBERON:0015153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00496</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00496</IRI>
+        <Literal xml:lang="en">medial gland of ocular region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00497</IRI>
+        <Literal>The Harderian gland is an anterior orbital gland usually associated with the nictitating membrane, and produces and secretes a variety of substances to the eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00497</IRI>
+        <Literal>UBERON:0004187</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00497</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00497</IRI>
+        <Literal xml:lang="en">harderian gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00498</IRI>
+        <Literal>A fold of skin that covers and protects part of the eyeball</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00498</IRI>
+        <Literal>SNOMEDCT:80243003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00498</IRI>
+        <Literal>UBERON:0001711</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00498</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00498</IRI>
+        <Literal xml:lang="en">eyelid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00499</IRI>
+        <Literal>A major subdivision of an organism that divides an organism along its main body axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00499</IRI>
+        <Literal>UBERON:0011676</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00499</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00499</IRI>
+        <Literal xml:lang="en">subdivision of organism along main body axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00500</IRI>
+        <Literal>The head is the anterior-most division of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00500</IRI>
+        <Literal>SNOMEDCT:69536005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00500</IRI>
+        <Literal>UBERON:0000033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00500</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00500</IRI>
+        <Literal xml:lang="en">head</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00501</IRI>
+        <Literal>Any of the cranial nerves, or their central nervous system analogs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00501</IRI>
+        <Literal>UBERON:0034713</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00501</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00501</IRI>
+        <Literal xml:lang="en">cranial neuron projection bundle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00502</IRI>
+        <Literal>A neuron projection bundle that connects the retina or its analog in the eye with the brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00502</IRI>
+        <Literal>UBERON:0004904</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00502</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00502</IRI>
+        <Literal xml:lang="en">neuron projection bundle connecting eye with brain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
