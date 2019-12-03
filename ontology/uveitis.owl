@@ -1460,6 +1460,15 @@
         <Class IRI="#UVO_00502"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00503"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00504"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00505"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00506"/>
     </Declaration>
     <Declaration>
@@ -1493,6 +1502,9 @@
         <Class IRI="#UVO_00516"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00517"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UVO_00518"/>
     </Declaration>
     <Declaration>
@@ -1506,6 +1518,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00522"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UVO_00523"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UVO_00524"/>
@@ -8812,6 +8827,39 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00503"/>
+        <Class IRI="#UVO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00503"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00504"/>
+        <Class IRI="#UVO_00503"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00504"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00503"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00505"/>
+        <Class IRI="#UVO_00504"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00505"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00504"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00506"/>
         <Class IRI="#UVO_00318"/>
     </SubClassOf>
@@ -8933,6 +8981,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UVO_00517"/>
+        <Class IRI="#UVO_00505"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00517"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00505"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UVO_00518"/>
         <Class IRI="#UVO_00477"/>
     </SubClassOf>
@@ -9006,6 +9065,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00518"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00523"/>
+        <Class IRI="#UVO_00517"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00523"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00166"/>
+            <Class IRI="#UVO_00517"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -21314,6 +21384,61 @@
         <Literal xml:lang="en">neuron projection bundle connecting eye with brain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00503</IRI>
+        <Literal>The nervous system is an organ system - it is arranged in a network of tree-like structures connected to a central body with the main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00503</IRI>
+        <Literal>SNOMEDCT:25087005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00503</IRI>
+        <Literal>UBERON:0001016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00503</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00503</IRI>
+        <Literal xml:lang="en">nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00504</IRI>
+        <Literal>UBERON:0000122</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00504</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00504</IRI>
+        <Literal xml:lang="en">neuron projection bundle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00505</IRI>
+        <Literal>UBERON:0007418</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00505</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00505</IRI>
+        <Literal xml:lang="en">neural decussation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00506</IRI>
         <Literal>HP:0000504</Literal>
@@ -21564,6 +21689,26 @@
         <Literal xml:lang="en">reduced visual acuity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00517</IRI>
+        <Literal>A neural decussation that is part of a diencephalon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00517</IRI>
+        <Literal>UBERON:0007425</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00517</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00517</IRI>
+        <Literal xml:lang="en">decussation of diencephalon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#UVO_00518</IRI>
         <Literal>HP:0011885</Literal>
@@ -21647,6 +21792,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00522</IRI>
         <Literal xml:lang="en">vitreous hemorrhage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal>A decussation of the diencephalon where the fibers of the optic nerve cross</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal>ICD10:H474</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal>SNOMEDCT:70476006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal>UBERON:0000959</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal>UBERON</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00523</IRI>
+        <Literal xml:lang="en">optic chiasma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
