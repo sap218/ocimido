@@ -1,10 +1,10 @@
-# Uveitis Ontology UVO
+# UVeitis Ontology
 
-#### See :grey_exclamation: [Issues](https://github.com/sap218/uveitis-ontology/issues)  for term-tracker, to-do list, assigning jobs, discussion, etc.
+#### See :grey_exclamation: [Issues](https://github.com/sap218/uveitis-ontology/issues)  for the term-tracker.
 
 **Details**
 
-* Ontology has appropriate IRI (UVO), labels, comments, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, DOID, & SNOMED-CT)
+* Ontology has appropriate concept IRIs (`UVO`), class labels, comments/definitions, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, DOID, & SNOMED-CT)
 
 * Ontology is located in `ontology` directory: `uveitis.owl`
 
