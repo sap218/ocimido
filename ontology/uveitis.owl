@@ -1850,6 +1850,9 @@
         <Class IRI="#UVO_00632"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UVO_00633"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#UVO_00067"/>
     </Declaration>
     <Declaration>
@@ -1897,6 +1900,10 @@
     <EquivalentClasses>
         <Class IRI="#UVO_00124"/>
         <Class IRI="#UVO_00249"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UVO_00250"/>
+        <Class IRI="#UVO_00633"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UVO_00323"/>
@@ -10746,6 +10753,24 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#UVO_00174"/>
             <Class IRI="#UVO_00327"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00633"/>
+        <Class IRI="#UVO_00003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00633"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00174"/>
+            <Class IRI="#UVO_00003"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UVO_00633"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#UVO_00242"/>
+            <Class IRI="#UVO_00250"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -23819,6 +23844,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00632</IRI>
         <Literal xml:lang="en">dry eyes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal>DOID:790</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal>ICD10:H444</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal>SNOMEDCT:19721008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal>low pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal xml:lang="en">ocular hypotension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#UVO_00633</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
 </Ontology>
 
