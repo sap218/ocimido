@@ -11211,7 +11211,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00019</IRI>
-        <Literal xml:lang="en">therapeutic interventions - adverse affects</Literal>
+        <Literal xml:lang="en">therapeutic intervention adverse affect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
