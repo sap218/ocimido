@@ -10908,7 +10908,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00003</IRI>
-        <Literal xml:lang="en">complications</Literal>
+        <Literal xml:lang="en">complication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10938,7 +10938,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00004</IRI>
-        <Literal xml:lang="en">therapeutic interventions</Literal>
+        <Literal xml:lang="en">therapeutic intervention</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -11313,7 +11313,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00017</IRI>
-        <Literal xml:lang="en">other investigations</Literal>
+        <Literal xml:lang="en">other investigation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12123,7 +12123,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00049</IRI>
-        <Literal xml:lang="en">primary intraocular lymphomas</Literal>
+        <Literal xml:lang="en">primary intraocular lymphoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13198,17 +13198,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00088</IRI>
-        <Literal>Fuchs</Literal>
+        <Literal>fuchs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#UVO_00088</IRI>
-        <Literal>Fuchs uveitis syndrome</Literal>
+        <Literal>fuchs uveitis syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00088</IRI>
-        <Literal xml:lang="en">Fuch&apos;s heterochromic iridocyclitis</Literal>
+        <Literal xml:lang="en">fuch&apos;s heterochromic iridocyclitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -14143,7 +14143,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00120</IRI>
-        <Literal xml:lang="en">anterior chamber cells</Literal>
+        <Literal xml:lang="en">anterior chamber cell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -14493,7 +14493,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00137</IRI>
-        <Literal xml:lang="en">ishihara plates</Literal>
+        <Literal xml:lang="en">ishihara plate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -14533,7 +14533,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00139</IRI>
-        <Literal xml:lang="en">clinical symptoms</Literal>
+        <Literal xml:lang="en">clinical symptom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -14668,7 +14668,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00142</IRI>
-        <Literal xml:lang="en">vitreous floaters</Literal>
+        <Literal xml:lang="en">vitreous floater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -15743,7 +15743,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00191</IRI>
-        <Literal xml:lang="en">corticosteroids</Literal>
+        <Literal xml:lang="en">corticosteroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -15863,7 +15863,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00200</IRI>
-        <Literal xml:lang="en">beta blockers</Literal>
+        <Literal xml:lang="en">beta-blocker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -15903,7 +15903,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00202</IRI>
-        <Literal xml:lang="en">prostaglandin analogues</Literal>
+        <Literal xml:lang="en">prostaglandin analogue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -15953,7 +15953,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00205</IRI>
-        <Literal xml:lang="en">carbonic anhydrase inhibitors</Literal>
+        <Literal xml:lang="en">carbonic anhydrase inhibitor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16008,7 +16008,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00208</IRI>
-        <Literal xml:lang="en">sympathomimetics</Literal>
+        <Literal xml:lang="en">sympathomimetic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16133,7 +16133,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00214</IRI>
-        <Literal>Inflammation of the iris and the ciliary body</Literal>
+        <Literal>Inflammation of the uveal tract in the anterior chamber</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16538,7 +16538,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UVO_00227</IRI>
-        <Literal>An inflammation of the iris and of the ciliary body</Literal>
+        <Literal>A type of anterior uveitis occuring in the iris and of the ciliary body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -17148,12 +17148,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00253</IRI>
-        <Literal xml:lang="en">treponemal tests</Literal>
+        <Literal xml:lang="en">treponemal test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00254</IRI>
-        <Literal xml:lang="en">non treponemal tests</Literal>
+        <Literal xml:lang="en">non treponemal test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -18748,22 +18748,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00324</IRI>
-        <Literal xml:lang="en">clinical features</Literal>
+        <Literal xml:lang="en">clinical feature</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00325</IRI>
-        <Literal xml:lang="en">ocular clinical signs</Literal>
+        <Literal xml:lang="en">ocular clinical sign</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00326</IRI>
-        <Literal xml:lang="en">vision related symptoms</Literal>
+        <Literal xml:lang="en">vision related symptom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00327</IRI>
-        <Literal xml:lang="en">ocular symptoms</Literal>
+        <Literal xml:lang="en">ocular symptom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -18978,7 +18978,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00338</IRI>
-        <Literal xml:lang="en">keratic precipitates</Literal>
+        <Literal xml:lang="en">keratic precipitate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19323,7 +19323,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00357</IRI>
-        <Literal xml:lang="en">retinal haemorrhages</Literal>
+        <Literal xml:lang="en">retinal haemorrhage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -19353,7 +19353,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00358</IRI>
-        <Literal xml:lang="en">cotton wool spots</Literal>
+        <Literal xml:lang="en">cotton wool spot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -19378,7 +19378,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00359</IRI>
-        <Literal xml:lang="en">roth spots</Literal>
+        <Literal xml:lang="en">roth spot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -19573,7 +19573,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00369</IRI>
-        <Literal xml:lang="en">disc haemorrhages</Literal>
+        <Literal xml:lang="en">disc haemorrhage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19583,7 +19583,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00370</IRI>
-        <Literal xml:lang="en">disc vessels</Literal>
+        <Literal xml:lang="en">disc vessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19648,7 +19648,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00375</IRI>
-        <Literal xml:lang="en">vitreous snowballs</Literal>
+        <Literal xml:lang="en">vitreous snowball</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -19658,7 +19658,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00376</IRI>
-        <Literal xml:lang="en">pars plana exudates</Literal>
+        <Literal xml:lang="en">pars plana exudate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -19863,7 +19863,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00394</IRI>
-        <Literal xml:lang="en">intraocular pressure lowering agents</Literal>
+        <Literal xml:lang="en">intraocular pressure lowering agent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
@@ -20583,7 +20583,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00442</IRI>
-        <Literal xml:lang="en">systemic clinical signs</Literal>
+        <Literal xml:lang="en">systemic clinical sign</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -20648,7 +20648,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00446</IRI>
-        <Literal xml:lang="en">oral ulcers</Literal>
+        <Literal xml:lang="en">oral ulcer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -20658,7 +20658,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00447</IRI>
-        <Literal xml:lang="en">genital ulcers</Literal>
+        <Literal xml:lang="en">genital ulcer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -20888,7 +20888,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00459</IRI>
-        <Literal xml:lang="en">clinical signs</Literal>
+        <Literal xml:lang="en">clinical sign</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22603,7 +22603,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00552</IRI>
-        <Literal xml:lang="en">disc collaterals</Literal>
+        <Literal xml:lang="en">disc collateral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -23178,7 +23178,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00591</IRI>
-        <Literal xml:lang="en">fluroquinolones</Literal>
+        <Literal xml:lang="en">fluroquinolone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23263,7 +23263,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00598</IRI>
-        <Literal xml:lang="en">macrolides</Literal>
+        <Literal xml:lang="en">macrolide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23273,7 +23273,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00599</IRI>
-        <Literal xml:lang="en">beta-lactams</Literal>
+        <Literal xml:lang="en">beta-lactam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23318,7 +23318,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00603</IRI>
-        <Literal xml:lang="en">sulfa anitbiotics</Literal>
+        <Literal xml:lang="en">sulfa anitbiotic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23813,7 +23813,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UVO_00632</IRI>
-        <Literal xml:lang="en">dry eyes</Literal>
+        <Literal xml:lang="en">dry eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
