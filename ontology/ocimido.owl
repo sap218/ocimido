@@ -18884,7 +18884,7 @@
         <Literal xml:lang="en">nodular episcleritis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#OCIMIDO_00334</IRI>
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
