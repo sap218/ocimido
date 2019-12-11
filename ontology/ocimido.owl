@@ -1877,9 +1877,6 @@
         <ObjectProperty IRI="#OCIMIDO_00192"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OCIMIDO_00229"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OCIMIDO_00230"/>
     </Declaration>
     <Declaration>
@@ -1887,9 +1884,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OCIMIDO_00242"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OCIMIDO_00243"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16594,11 +16588,6 @@
         <Literal xml:lang="en">camera-type eye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OCIMIDO_00229</IRI>
-        <Literal xml:lang="en">symptomOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00230</IRI>
         <Literal>c is a substance that treats d if c is a material entity</Literal>
@@ -16892,16 +16881,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00242</IRI>
         <Literal xml:lang="en">is characterised by</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OCIMIDO_00243</IRI>
-        <Literal>uni-directional</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OCIMIDO_00243</IRI>
-        <Literal xml:lang="en">complicationOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
