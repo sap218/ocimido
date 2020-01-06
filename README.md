@@ -12,7 +12,7 @@
 
 **License**
 
->> details here
+[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/) - please see [LICENSE](https://github.com/sap218/ocimido/blob/master/LICENSE) for further information.
 
 **Contact**
 
