@@ -16,6 +16,90 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>Ocular Immune-Mediated Inflammatory Disease Ontology</Literal>
     </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Alastair Denniston</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Andreas Karwath</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Georgios Gkoutos</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Konrad Pesudovs</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Luke Slater</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Nicki Davis</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Rosie Gilbert</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+        <Literal>Xiaoxuan Liu</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
+        <Literal>Samantha C Pendleton</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
+        <Literal>Tasanee Braithwaite</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>DOID</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>HPO</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>ORDO</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>Olivia&apos;s Vision</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>PATO</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>SNOMED-CT</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>The Royal College of Ophthalmologists Uveitis Dataset 2018</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
+        <Literal>UBERON</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:github"/>
+        <Literal>https://github.com/sap218/ocimido</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:license"/>
+        <Literal>na</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:version"/>
+        <Literal>version 1.0</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#OCIMIDO_00001"/>
     </Declaration>
@@ -1886,16 +1970,34 @@
         <ObjectProperty IRI="#OCIMIDO_00242"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:derived-from-resource"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:github"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:license"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:version"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#OCIMIDO_00124"/>
