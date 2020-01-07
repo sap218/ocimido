@@ -22,31 +22,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Andreas Karwath</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
         <Literal>Georgios Gkoutos</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Konrad Pesudovs</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
         <Literal>Luke Slater</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Nicki Davis</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Rosie Gilbert</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Xiaoxuan Liu</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
