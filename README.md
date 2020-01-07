@@ -22,11 +22,6 @@
 **Contributors**
 
 * Luke Slater
-* Andreas Karwath
-* Rosie Gilbert
-* Nicki Davis
-* Konrad Pesudovs
-* Xiaoxuan Liu
 * Alastair Denniston
 * Georgios Gkoutos
 
