@@ -4,15 +4,31 @@
 
 **Details**
 
-* Ontology has appropriate concept IRI (`OCIMIDO`), class labels, comments/definitions, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, DOID, & SNOMED-CT)
+* Ontology has appropriate concept IRI (`OCIMIDO`), class labels, comments/definitions, relationships/axioms, synonyms and cross references to other ontologies (e.g HPO, SNOMED-CT, & more)
 
 * Ontology is located in `ontology` directory: `ocimido.owl`
 
-* Ontology Built with `Protégé`
+* Ontology was built with `Protégé`
 
 **License**
 
 [https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/) - please see [LICENSE](https://github.com/sap218/ocimido/blob/master/LICENSE) for further information.
+
+**Creators**
+
+* Samantha C Pendleton
+* Tasanee Braithwaite
+
+**Contributors**
+
+* Luke Slater
+* Andreas Karwath
+* Rosie Gilbert
+* Nicki Davis
+* Konrad Pesudovs
+* Xiaoxuan Liu
+* Alastair Denniston
+* Georgios Gkoutos
 
 **Contact**
 
