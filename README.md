@@ -1,4 +1,4 @@
-# Ocular Immune-Mediated Inflammatory Disease Ontology **ocIMIDo**
+# Ocular Immune-Mediated Inflammatory Disease Ontology (**OcIMIDo**)
 
 #### See :grey_exclamation: [Issues](https://github.com/sap218/ocular-immune-mediated-inflammatory-disease-ontology/issues)  for the term-tracker.
 
