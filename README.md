@@ -1,4 +1,4 @@
-# Ocular Immune-Mediated Inflammatory Disease Ontology (**OcIMIDo**)
+# Ocular Immune-Mediated Inflammatory Diseases Ontology (**OcIMIDo**)
 
 #### See :grey_exclamation: [Issues](https://github.com/sap218/ocular-immune-mediated-inflammatory-disease-ontology/issues)  for the term-tracker
 
@@ -7,7 +7,7 @@
 **Creators**
 
 * Samantha C Pendleton (University of Birmingham, UK ) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
-* Tasanee Braithwaite (NHS Foundation Trust)  | [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com) | [Twitter](https://twitter.com/tasbraithwaite) | [GitHub](https://github.com/tasbraithwaite)  
+* Tasanee Braithwaite (NHS Foundation Trust, UK)  | [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com) | [Twitter](https://twitter.com/tasbraithwaite) | [GitHub](https://github.com/tasbraithwaite)  
 
 ---
 
@@ -17,7 +17,8 @@
 
 ---
 
-* Ontology is located in `ontology` directory: `ocimido.owl` | https://github.com/sap218/ocimido/tree/master/ontology
+* Ontology is located in :file_folder: [`ontology`](https://github.com/sap218/ocimido/tree/master/ontology) directory
+* Ontology named appropriately :page_facing_up: [`ocimido.owl`](https://github.com/sap218/ocimido/blob/master/ontology/ocimido.owl) 
 
 **Development**
 
