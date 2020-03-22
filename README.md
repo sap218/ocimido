@@ -7,7 +7,7 @@
 **Creators**
 
 * Samantha C Pendleton (University of Birmingham, UK ) | [samanfapc@gmail.com](mailto:samanfapc@gmail.com) | [Twitter](https://twitter.com/sap218) | [GitHub](https://github.com/sap218)
-* Tasanee Braithwaite (NHS Foundation Trust, UK)  | [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com) | [Twitter](https://twitter.com/tasbraithwaite) | [GitHub](https://github.com/tasbraithwaite)  
+* Tasanee Braithwaite (NHS Foundation Trust, UK)  | [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com) | [Twitter](https://twitter.com/tasbraithwaite) | [GitHub](https://github.com/tasbraithwaite)
 
 ---
 
