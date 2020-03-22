@@ -11029,7 +11029,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00004</IRI>
         <Literal>treat</Literal>
     </AnnotationAssertion>
@@ -11089,7 +11089,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00007</IRI>
         <Literal>condition</Literal>
     </AnnotationAssertion>
@@ -11234,7 +11234,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00012</IRI>
         <Literal>macular edema</Literal>
     </AnnotationAssertion>
@@ -11279,17 +11279,17 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00013</IRI>
         <Literal>inflamed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00013</IRI>
         <Literal>swelling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00013</IRI>
         <Literal>swollen</Literal>
     </AnnotationAssertion>
@@ -11354,12 +11354,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00015</IRI>
         <Literal>eye sight</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00015</IRI>
         <Literal>snellen chart</Literal>
     </AnnotationAssertion>
@@ -11454,17 +11454,17 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00020</IRI>
         <Literal>medication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00020</IRI>
         <Literal>medicine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00020</IRI>
         <Literal>meds</Literal>
     </AnnotationAssertion>
@@ -11499,12 +11499,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00021</IRI>
         <Literal>OP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00021</IRI>
         <Literal>surgery</Literal>
     </AnnotationAssertion>
@@ -11524,7 +11524,7 @@
         <Literal>SNOMEDCT:430306004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00022</IRI>
         <Literal>cimzia</Literal>
     </AnnotationAssertion>
@@ -11539,7 +11539,7 @@
         <Literal>SNOMEDCT:387045004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00023</IRI>
         <Literal>enbrel</Literal>
     </AnnotationAssertion>
@@ -11599,7 +11599,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00026</IRI>
         <Literal>flare</Literal>
     </AnnotationAssertion>
@@ -11634,7 +11634,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00027</IRI>
         <Literal>relapse</Literal>
     </AnnotationAssertion>
@@ -12004,7 +12004,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00042</IRI>
         <Literal>flare</Literal>
     </AnnotationAssertion>
@@ -12034,12 +12034,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00043</IRI>
         <Literal>inactive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00043</IRI>
         <Literal>quiet</Literal>
     </AnnotationAssertion>
@@ -12069,7 +12069,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00044</IRI>
         <Literal>A29</Literal>
     </AnnotationAssertion>
@@ -12099,7 +12099,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00045</IRI>
         <Literal>B27</Literal>
     </AnnotationAssertion>
@@ -12129,7 +12129,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00046</IRI>
         <Literal>B51</Literal>
     </AnnotationAssertion>
@@ -12229,7 +12229,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00050</IRI>
         <Literal>ACE</Literal>
     </AnnotationAssertion>
@@ -12314,12 +12314,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00053</IRI>
         <Literal>chest x ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00053</IRI>
         <Literal>chest xray</Literal>
     </AnnotationAssertion>
@@ -12494,7 +12494,7 @@
         <Literal>SNOMEDCT:69896004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00060</IRI>
         <Literal>RA</Literal>
     </AnnotationAssertion>
@@ -12964,7 +12964,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00080</IRI>
         <Literal>acute</Literal>
     </AnnotationAssertion>
@@ -12989,7 +12989,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00081</IRI>
         <Literal>gradual</Literal>
     </AnnotationAssertion>
@@ -13029,12 +13029,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00082</IRI>
         <Literal>TB</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00082</IRI>
         <Literal>tuberculosis</Literal>
     </AnnotationAssertion>
@@ -13069,7 +13069,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00083</IRI>
         <Literal>syphilis</Literal>
     </AnnotationAssertion>
@@ -13119,7 +13119,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00084</IRI>
         <Literal>cat scratch</Literal>
     </AnnotationAssertion>
@@ -13169,7 +13169,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00085</IRI>
         <Literal>lyme</Literal>
     </AnnotationAssertion>
@@ -13279,7 +13279,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00088</IRI>
         <Literal>fuchs</Literal>
     </AnnotationAssertion>
@@ -13319,14 +13319,14 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00089</IRI>
-        <Literal>HSV1</Literal>
+        <Literal>cold sore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#OCIMIDO_00089</IRI>
-        <Literal>cold sore</Literal>
+        <Literal>HSV1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13399,14 +13399,14 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00091</IRI>
-        <Literal>VZV</Literal>
+        <Literal>shingles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
         <IRI>#OCIMIDO_00091</IRI>
-        <Literal>shingles</Literal>
+        <Literal>VZV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -13679,7 +13679,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00104</IRI>
         <Literal>sarcoid</Literal>
     </AnnotationAssertion>
@@ -13719,7 +13719,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00105</IRI>
         <Literal>MS</Literal>
     </AnnotationAssertion>
@@ -13849,7 +13849,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00108</IRI>
         <Literal>VKH</Literal>
     </AnnotationAssertion>
@@ -13909,17 +13909,17 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00110</IRI>
         <Literal>JIA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00110</IRI>
         <Literal>JRA</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00110</IRI>
         <Literal>juvenile arthritis</Literal>
     </AnnotationAssertion>
@@ -13989,12 +13989,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00113</IRI>
         <Literal>increased</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00113</IRI>
         <Literal>worse</Literal>
     </AnnotationAssertion>
@@ -14024,7 +14024,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00114</IRI>
         <Literal>stable</Literal>
     </AnnotationAssertion>
@@ -14064,12 +14064,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00115</IRI>
         <Literal>better</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00115</IRI>
         <Literal>decreased</Literal>
     </AnnotationAssertion>
@@ -14114,7 +14114,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00117</IRI>
         <Literal>remission</Literal>
     </AnnotationAssertion>
@@ -14144,7 +14144,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00118</IRI>
         <Literal>remission</Literal>
     </AnnotationAssertion>
@@ -14344,7 +14344,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00124</IRI>
         <Literal>high pressure</Literal>
     </AnnotationAssertion>
@@ -14604,12 +14604,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00139</IRI>
         <Literal>flare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00139</IRI>
         <Literal>symptom</Literal>
     </AnnotationAssertion>
@@ -14659,12 +14659,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00140</IRI>
         <Literal>light sensitive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00140</IRI>
         <Literal>overexposure</Literal>
     </AnnotationAssertion>
@@ -14699,7 +14699,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00141</IRI>
         <Literal>blurry</Literal>
     </AnnotationAssertion>
@@ -14744,7 +14744,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00142</IRI>
         <Literal>floater</Literal>
     </AnnotationAssertion>
@@ -14919,7 +14919,7 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00149</IRI>
         <Literal>the front of</Literal>
     </AnnotationAssertion>
@@ -14989,7 +14989,7 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00151</IRI>
         <Literal>the back of</Literal>
     </AnnotationAssertion>
@@ -15424,22 +15424,22 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00175</IRI>
         <Literal>by mouth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00175</IRI>
         <Literal>capsule</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00175</IRI>
         <Literal>pill</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00175</IRI>
         <Literal>tablet</Literal>
     </AnnotationAssertion>
@@ -15514,12 +15514,12 @@
         <Literal>SNOMEDCT:80906007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00179</IRI>
         <Literal>cyclosporin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00179</IRI>
         <Literal>neoral</Literal>
     </AnnotationAssertion>
@@ -15549,17 +15549,17 @@
         <Literal>SNOMEDCT:387381009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00181</IRI>
         <Literal>MTX</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00181</IRI>
         <Literal>MXT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00181</IRI>
         <Literal>amethopterin</Literal>
     </AnnotationAssertion>
@@ -15589,22 +15589,22 @@
         <Literal>SNOMEDCT:116601002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00183</IRI>
         <Literal>pred forte</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00183</IRI>
         <Literal>predforte</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00183</IRI>
         <Literal>prednisol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00183</IRI>
         <Literal>predsol</Literal>
     </AnnotationAssertion>
@@ -15629,12 +15629,12 @@
         <Literal>SNOMEDCT:109131004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00184</IRI>
         <Literal>cellcept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00184</IRI>
         <Literal>myfenax</Literal>
     </AnnotationAssertion>
@@ -15664,22 +15664,22 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00185</IRI>
         <Literal>IV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00185</IRI>
         <Literal>drip</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00185</IRI>
         <Literal>infusion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00185</IRI>
         <Literal>vein</Literal>
     </AnnotationAssertion>
@@ -15699,7 +15699,7 @@
         <Literal>SNOMEDCT:116593003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00186</IRI>
         <Literal>medrol</Literal>
     </AnnotationAssertion>
@@ -15719,7 +15719,7 @@
         <Literal>SNOMEDCT:386919002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00187</IRI>
         <Literal>rituxan</Literal>
     </AnnotationAssertion>
@@ -15769,7 +15769,7 @@
         <Literal>SNOMEDCT:407317001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00189</IRI>
         <Literal>humira</Literal>
     </AnnotationAssertion>
@@ -15794,7 +15794,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00190</IRI>
         <Literal>drop</Literal>
     </AnnotationAssertion>
@@ -15814,12 +15814,12 @@
         <Literal>Anti-inflammatory medicines used to treat a range of conditions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00191</IRI>
         <Literal>corticoid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00191</IRI>
         <Literal>steroid</Literal>
     </AnnotationAssertion>
@@ -15844,7 +15844,7 @@
         <Literal xml:lang="en">investigated by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00193</IRI>
         <Literal>maxitrol</Literal>
     </AnnotationAssertion>
@@ -15879,7 +15879,7 @@
         <Literal>SNOMEDCT:116571008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00196</IRI>
         <Literal>betamethasone</Literal>
     </AnnotationAssertion>
@@ -15899,7 +15899,7 @@
         <Literal>SNOMEDCT:419711001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00197</IRI>
         <Literal>lotemax</Literal>
     </AnnotationAssertion>
@@ -15919,7 +15919,7 @@
         <Literal>SNOMEDCT:387526001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00198</IRI>
         <Literal>mydriacyl</Literal>
     </AnnotationAssertion>
@@ -15959,12 +15959,12 @@
         <Literal>SNOMEDCT:372880004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00201</IRI>
         <Literal>cosopt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00201</IRI>
         <Literal>timoptol</Literal>
     </AnnotationAssertion>
@@ -15994,7 +15994,7 @@
         <Literal xml:lang="en">prostaglandin analogue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00203</IRI>
         <Literal>xalatan</Literal>
     </AnnotationAssertion>
@@ -16014,7 +16014,7 @@
         <Literal>SNOMEDCT:129492005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00204</IRI>
         <Literal>lumigan</Literal>
     </AnnotationAssertion>
@@ -16049,7 +16049,7 @@
         <Literal>SNOMEDCT:373447009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00206</IRI>
         <Literal>trusopt</Literal>
     </AnnotationAssertion>
@@ -16069,7 +16069,7 @@
         <Literal>SNOMEDCT:386925003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00207</IRI>
         <Literal>azopt</Literal>
     </AnnotationAssertion>
@@ -16109,7 +16109,7 @@
         <Literal>readcode:x05LJ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00209</IRI>
         <Literal>iopidine</Literal>
     </AnnotationAssertion>
@@ -16129,7 +16129,7 @@
         <Literal>SNOMEDCT:108827001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00210</IRI>
         <Literal>alphagan</Literal>
     </AnnotationAssertion>
@@ -16254,7 +16254,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00214</IRI>
         <Literal>iritis</Literal>
     </AnnotationAssertion>
@@ -16304,7 +16304,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00215</IRI>
         <Literal>IU</Literal>
     </AnnotationAssertion>
@@ -16399,7 +16399,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00217</IRI>
         <Literal>pan uveitis</Literal>
     </AnnotationAssertion>
@@ -16514,7 +16514,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00221</IRI>
         <Literal>birdshot</Literal>
     </AnnotationAssertion>
@@ -16824,7 +16824,7 @@
         <Literal>readcode:Xa9R5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00235</IRI>
         <Literal>shunt implant</Literal>
     </AnnotationAssertion>
@@ -16929,12 +16929,12 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00240</IRI>
         <Literal>cloudy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00240</IRI>
         <Literal>lens opacity</Literal>
     </AnnotationAssertion>
@@ -16989,7 +16989,7 @@
         <Literal>SNOMEDCT:88594005</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00244</IRI>
         <Literal>herpes</Literal>
     </AnnotationAssertion>
@@ -17059,7 +17059,7 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00246</IRI>
         <Literal>lens</Literal>
     </AnnotationAssertion>
@@ -17094,7 +17094,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00247</IRI>
         <Literal>toxoplasmosis</Literal>
     </AnnotationAssertion>
@@ -17129,12 +17129,12 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00249</IRI>
         <Literal>high IOP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00249</IRI>
         <Literal>increased pressure</Literal>
     </AnnotationAssertion>
@@ -17169,7 +17169,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00250</IRI>
         <Literal>low IOP</Literal>
     </AnnotationAssertion>
@@ -17294,7 +17294,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00259</IRI>
         <Literal>responsive</Literal>
     </AnnotationAssertion>
@@ -17384,7 +17384,7 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00263</IRI>
         <Literal>surface of</Literal>
     </AnnotationAssertion>
@@ -17624,7 +17624,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00276</IRI>
         <Literal>age</Literal>
     </AnnotationAssertion>
@@ -17664,7 +17664,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00277</IRI>
         <Literal>teenager</Literal>
     </AnnotationAssertion>
@@ -17719,7 +17719,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00279</IRI>
         <Literal>child</Literal>
     </AnnotationAssertion>
@@ -17759,7 +17759,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00280</IRI>
         <Literal>adult</Literal>
     </AnnotationAssertion>
@@ -17799,7 +17799,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00281</IRI>
         <Literal>baby</Literal>
     </AnnotationAssertion>
@@ -17834,7 +17834,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00282</IRI>
         <Literal>pre teen</Literal>
     </AnnotationAssertion>
@@ -17864,7 +17864,7 @@
         <Literal>PATO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00283</IRI>
         <Literal>puberty</Literal>
     </AnnotationAssertion>
@@ -17904,12 +17904,12 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00284</IRI>
         <Literal>pain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00284</IRI>
         <Literal>sore</Literal>
     </AnnotationAssertion>
@@ -17939,7 +17939,7 @@
         <Literal>SNOMED-CT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00285</IRI>
         <Literal>HLA</Literal>
     </AnnotationAssertion>
@@ -18069,7 +18069,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00293</IRI>
         <Literal>remicade</Literal>
     </AnnotationAssertion>
@@ -18094,7 +18094,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00294</IRI>
         <Literal>actemra</Literal>
     </AnnotationAssertion>
@@ -18129,7 +18129,7 @@
         <Literal>UBERON</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00295</IRI>
         <Literal>eyeball</Literal>
     </AnnotationAssertion>
@@ -18224,7 +18224,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00298</IRI>
         <Literal>synechiae</Literal>
     </AnnotationAssertion>
@@ -18269,7 +18269,7 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00299</IRI>
         <Literal>anterior synechiae</Literal>
     </AnnotationAssertion>
@@ -18314,7 +18314,7 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00300</IRI>
         <Literal>posterior synechiae</Literal>
     </AnnotationAssertion>
@@ -18379,7 +18379,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00302</IRI>
         <Literal>baerveldt</Literal>
     </AnnotationAssertion>
@@ -18464,7 +18464,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00307</IRI>
         <Literal>symetric</Literal>
     </AnnotationAssertion>
@@ -18514,7 +18514,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00309</IRI>
         <Literal>both eye</Literal>
     </AnnotationAssertion>
@@ -18594,7 +18594,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00312</IRI>
         <Literal>vexol</Literal>
     </AnnotationAssertion>
@@ -18619,7 +18619,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00313</IRI>
         <Literal>diamox</Literal>
     </AnnotationAssertion>
@@ -18644,7 +18644,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00314</IRI>
         <Literal>avastin</Literal>
     </AnnotationAssertion>
@@ -18669,7 +18669,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00315</IRI>
         <Literal>kenalog</Literal>
     </AnnotationAssertion>
@@ -18694,7 +18694,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00316</IRI>
         <Literal>durezol</Literal>
     </AnnotationAssertion>
@@ -18719,12 +18719,12 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00317</IRI>
         <Literal>maxidex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00317</IRI>
         <Literal>ozurdex</Literal>
     </AnnotationAssertion>
@@ -18754,7 +18754,7 @@
         <Literal xml:lang="en">no abnormality of vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00321</IRI>
         <Literal>visual field</Literal>
     </AnnotationAssertion>
@@ -19144,7 +19144,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00344</IRI>
         <Literal>corneal edema</Literal>
     </AnnotationAssertion>
@@ -19339,7 +19339,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00354</IRI>
         <Literal>RD</Literal>
     </AnnotationAssertion>
@@ -19784,7 +19784,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00378</IRI>
         <Literal>PVD</Literal>
     </AnnotationAssertion>
@@ -19839,7 +19839,7 @@
         <Literal xml:lang="en">tractional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00383</IRI>
         <Literal>effective</Literal>
     </AnnotationAssertion>
@@ -19904,7 +19904,7 @@
         <Literal xml:lang="en">types of therapy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00392</IRI>
         <Literal>second line</Literal>
     </AnnotationAssertion>
@@ -19919,7 +19919,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00393</IRI>
         <Literal>biologic</Literal>
     </AnnotationAssertion>
@@ -19939,12 +19939,12 @@
         <Literal xml:lang="en">intraocular pressure lowering agent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00395</IRI>
         <Literal>pain killers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00395</IRI>
         <Literal>pain relief</Literal>
     </AnnotationAssertion>
@@ -19969,12 +19969,12 @@
         <Literal>SNOMEDCT:71388002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00397</IRI>
         <Literal>dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00397</IRI>
         <Literal>procedure</Literal>
     </AnnotationAssertion>
@@ -20014,7 +20014,7 @@
         <Literal>SNOMEDCT:422456007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00402</IRI>
         <Literal>lucentis</Literal>
     </AnnotationAssertion>
@@ -20054,7 +20054,7 @@
         <Literal>readcode:5B42</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00404</IRI>
         <Literal>laser</Literal>
     </AnnotationAssertion>
@@ -20069,7 +20069,7 @@
         <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00405</IRI>
         <Literal>NSAID</Literal>
     </AnnotationAssertion>
@@ -20089,12 +20089,12 @@
         <Literal>SNOMEDCT:387207008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00406</IRI>
         <Literal>advil</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00406</IRI>
         <Literal>motrin</Literal>
     </AnnotationAssertion>
@@ -20184,17 +20184,17 @@
         <Literal>SNOMEDCT:372869004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00414</IRI>
         <Literal>cyclopental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00414</IRI>
         <Literal>cyclopentol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00414</IRI>
         <Literal>mydrilate</Literal>
     </AnnotationAssertion>
@@ -20284,7 +20284,7 @@
         <Literal>SNOMEDCT:800481000000101</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00418</IRI>
         <Literal>eye injection</Literal>
     </AnnotationAssertion>
@@ -20804,7 +20804,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00452</IRI>
         <Literal>grade</Literal>
     </AnnotationAssertion>
@@ -21029,7 +21029,7 @@
         <Literal xml:lang="en">multicellular anatomical structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00465</IRI>
         <Literal>pathology</Literal>
     </AnnotationAssertion>
@@ -21114,7 +21114,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00468</IRI>
         <Literal>pink eye</Literal>
     </AnnotationAssertion>
@@ -21319,12 +21319,12 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00481</IRI>
         <Literal>IOP</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00481</IRI>
         <Literal>pressure</Literal>
     </AnnotationAssertion>
@@ -21404,7 +21404,7 @@
         <Literal>readcode:Xa88T</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00485</IRI>
         <Literal>dilated</Literal>
     </AnnotationAssertion>
@@ -21799,7 +21799,7 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00506</IRI>
         <Literal>vision</Literal>
     </AnnotationAssertion>
@@ -21924,7 +21924,7 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00512</IRI>
         <Literal>visual difficulty</Literal>
     </AnnotationAssertion>
@@ -22069,7 +22069,7 @@
         <Literal>HPO</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00518</IRI>
         <Literal>bleeding</Literal>
     </AnnotationAssertion>
@@ -22499,7 +22499,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00537</IRI>
         <Literal>dislocating</Literal>
     </AnnotationAssertion>
@@ -22544,7 +22544,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00539</IRI>
         <Literal>IOL</Literal>
     </AnnotationAssertion>
@@ -22659,7 +22659,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00551</IRI>
         <Literal>disc edema</Literal>
     </AnnotationAssertion>
@@ -22794,7 +22794,7 @@
         <Literal xml:lang="en">pan retinal photocoagulaion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00560</IRI>
         <Literal>sectoral laser</Literal>
     </AnnotationAssertion>
@@ -22834,7 +22834,7 @@
         <Literal>SNOMEDCT:24526004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00562</IRI>
         <Literal>IBD</Literal>
     </AnnotationAssertion>
@@ -22894,7 +22894,7 @@
         <Literal>SNOMEDCT:64766004</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00564</IRI>
         <Literal>UC</Literal>
     </AnnotationAssertion>
@@ -22929,7 +22929,7 @@
         <Literal>SNOMEDCT:67224007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00565</IRI>
         <Literal>reactive arthritis</Literal>
     </AnnotationAssertion>
@@ -22949,7 +22949,7 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00566</IRI>
         <Literal>needle</Literal>
     </AnnotationAssertion>
@@ -23019,12 +23019,12 @@
         <Literal xml:lang="en">implant into vitreous cavity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00572</IRI>
         <Literal>iluvien</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00572</IRI>
         <Literal>retisert</Literal>
     </AnnotationAssertion>
@@ -23084,7 +23084,7 @@
         <Literal>readcode:x05K1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00576</IRI>
         <Literal>acyclovir</Literal>
     </AnnotationAssertion>
@@ -23114,7 +23114,7 @@
         <Literal>SNOMEDCT:129476000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00578</IRI>
         <Literal>valcyte</Literal>
     </AnnotationAssertion>
@@ -23319,7 +23319,7 @@
         <Literal>SNOMEDCT:372735009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00597</IRI>
         <Literal>vancocin</Literal>
     </AnnotationAssertion>
@@ -23414,7 +23414,7 @@
         <Literal>SNOMEDCT:385469007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00606</IRI>
         <Literal>VFEND</Literal>
     </AnnotationAssertion>
@@ -23904,7 +23904,7 @@
         <Literal>SNOMEDCT:19721008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00633</IRI>
         <Literal>low pressure</Literal>
     </AnnotationAssertion>
@@ -23929,12 +23929,12 @@
         <Literal>SNOMEDCT:303927002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00634</IRI>
         <Literal>x ray</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00634</IRI>
         <Literal>xray</Literal>
     </AnnotationAssertion>
