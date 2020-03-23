@@ -12751,7 +12751,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00072</IRI>
-        <Literal>ICD10:H302</Literal>
+        <Literal>ICD10:H30.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -12806,7 +12806,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00074</IRI>
-        <Literal>ICD10:H309</Literal>
+        <Literal>ICD10:H30.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -12846,6 +12846,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00075</IRI>
+        <Literal>ICD10:H30.9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00075</IRI>
         <Literal>SNOMEDCT:46627006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -12862,6 +12867,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00076</IRI>
         <Literal>A manifestation of T gondii infection. Ocular toxoplasmosis occurs when cysts deposited in or near the retina become active, producing tachyzoites. Focal necrotizing retinitis is the characteristic lesion, but retinal scars from prior reactivation are typically present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00076</IRI>
+        <Literal>ICD10:H30.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -12891,7 +12901,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00077</IRI>
-        <Literal>ICD10:H309</Literal>
+        <Literal>ICD10:H30.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16196,11 +16206,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00213</IRI>
-        <Literal>ICD10:H209</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00213</IRI>
         <Literal>ORPHA:98715</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -16286,11 +16291,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00215</IRI>
-        <Literal>ICD10:H209</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00215</IRI>
         <Literal>ORPHA:279914</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -16372,11 +16372,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00217</IRI>
         <Literal>HP:0012121</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00217</IRI>
-        <Literal>ICD10:H441</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16637,6 +16632,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00227</IRI>
         <Literal>HP:0001094</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00227</IRI>
+        <Literal>ICD10:H20</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -17522,11 +17522,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00271</IRI>
         <Literal>HP:0011531</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00271</IRI>
-        <Literal>ICD10:H432</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -18561,11 +18556,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00311</IRI>
-        <Literal>ICD10:H441</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00311</IRI>
         <Literal>ORPHA:280921</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -18901,7 +18891,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00332</IRI>
-        <Literal>ICD10:H151</Literal>
+        <Literal>ICD10:H15.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -18927,11 +18917,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00333</IRI>
         <Literal>DOID:728</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00333</IRI>
-        <Literal>ICD10:H151</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -18972,11 +18957,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00335</IRI>
         <Literal>DOID:13794</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00335</IRI>
-        <Literal>ICD10:H150</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21061,7 +21041,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00466</IRI>
-        <Literal>ICD10:H150</Literal>
+        <Literal>ICD10:H15.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21106,6 +21086,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00468</IRI>
+        <Literal>ICD10:H10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00468</IRI>
         <Literal>SNOMEDCT:9826008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -21141,6 +21126,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00469</IRI>
+        <Literal>ICD10:H16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00469</IRI>
         <Literal>SNOMEDCT:5888003</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -21157,6 +21147,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00470</IRI>
         <Literal>HP:0001096</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00470</IRI>
+        <Literal>ICD10:H16.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -21177,6 +21172,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00471</IRI>
         <Literal>HP:0011859</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00471</IRI>
+        <Literal>ICD10:H16.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21222,6 +21222,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00473</IRI>
         <Literal>HP:0007717</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00473</IRI>
+        <Literal>ICD10:H10.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -22181,6 +22186,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00524</IRI>
+        <Literal>ICD10:H45.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00524</IRI>
         <Literal>ORPHA:199323</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -22201,7 +22211,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00525</IRI>
-        <Literal>ICD10:H440</Literal>
+        <Literal>ICD10:H44.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -22236,7 +22246,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00526</IRI>
-        <Literal>ICD10:H440</Literal>
+        <Literal>ICD10:H44.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -22376,6 +22386,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00532</IRI>
+        <Literal>ICD10:H01.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00532</IRI>
         <Literal>SNOMEDCT:41446000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -22392,11 +22407,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00533</IRI>
         <Literal>DOID:13676</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00533</IRI>
-        <Literal>ICD10:H150</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -22427,11 +22437,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00534</IRI>
         <Literal>DOID:13861</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
-        <IRI>#OCIMIDO_00534</IRI>
-        <Literal>ICD10:H150</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23596,6 +23601,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00617</IRI>
+        <Literal>ICD10:H46</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00617</IRI>
         <Literal>SNOMEDCT:66760008</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -23636,7 +23646,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00619</IRI>
-        <Literal>ICD10:H051</Literal>
+        <Literal>ICD10:H05.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -23656,7 +23666,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00620</IRI>
-        <Literal>ICD10:H050</Literal>
+        <Literal>ICD10:H05.0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
