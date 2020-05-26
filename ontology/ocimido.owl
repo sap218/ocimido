@@ -78,7 +78,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:version"/>
-        <Literal>version 1.0.2.0</Literal>
+        <Literal>version 1.1.0.0</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#OCIMIDO_00001"/>
@@ -1488,6 +1488,9 @@
         <Class IRI="#OCIMIDO_00478"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00479"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00480"/>
     </Declaration>
     <Declaration>
@@ -2026,6 +2029,39 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00659"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00660"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00661"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00662"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00663"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00664"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00665"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00666"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00667"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00668"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00669"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00670"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OCIMIDO_00067"/>
@@ -8947,6 +8983,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00479"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00479"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00480"/>
         <Class IRI="#OCIMIDO_00268"/>
     </SubClassOf>
@@ -11374,6 +11421,127 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
             <Class IRI="#OCIMIDO_00030"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00660"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00660"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00661"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00661"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00662"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00662"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00663"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00663"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00664"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00664"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00665"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00665"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00666"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00666"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00667"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00667"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00668"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00668"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00669"/>
+        <Class IRI="#OCIMIDO_00033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00669"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00033"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00670"/>
+        <Class IRI="#OCIMIDO_00032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00670"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00032"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -14096,7 +14264,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00098</IRI>
-        <Literal xml:lang="en">other parasitic</Literal>
+        <Literal xml:lang="en">other parasites</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -14152,6 +14320,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
         <IRI>#OCIMIDO_00100</IRI>
         <Literal>RCOphth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00100</IRI>
+        <Literal>river blindness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -22074,6 +22247,26 @@
         <Literal xml:lang="en">orbital region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00479</IRI>
+        <Literal>ORPHA:324625</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00479</IRI>
+        <Literal>SNOMEDCT:2423009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00479</IRI>
+        <Literal>readcode:X73kl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00479</IRI>
+        <Literal xml:lang="en">chikungunya</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00480</IRI>
         <Literal xml:lang="en">with aquaporin-4 antibodies</Literal>
@@ -25277,6 +25470,206 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00659</IRI>
         <Literal xml:lang="en">tropheryma whippelii</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00660</IRI>
+        <Literal>DOID:0080599</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00660</IRI>
+        <Literal>SNOMEDCT:186747009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00660</IRI>
+        <Literal xml:lang="en">coronavirus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00661</IRI>
+        <Literal>DOID:12205</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00661</IRI>
+        <Literal>ORPHA:99828</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00661</IRI>
+        <Literal>SNOMEDCT:34348001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00661</IRI>
+        <Literal>readcode:X73l4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00661</IRI>
+        <Literal xml:lang="en">dengue virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00662</IRI>
+        <Literal>DOID:2043</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00662</IRI>
+        <Literal>SNOMEDCT:81665004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00662</IRI>
+        <Literal>readcode:X73k1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00662</IRI>
+        <Literal xml:lang="en">hepatitis B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00663</IRI>
+        <Literal>DOID:1883</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00663</IRI>
+        <Literal>SNOMEDCT:62944002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00663</IRI>
+        <Literal>readcode:X73lC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00663</IRI>
+        <Literal xml:lang="en">hepatitis C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00664</IRI>
+        <Literal>DOID:8622</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00664</IRI>
+        <Literal>SNOMEDCT:14189004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00664</IRI>
+        <Literal>measles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00664</IRI>
+        <Literal xml:lang="en">rubeola virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00665</IRI>
+        <Literal>DOID:10264</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00665</IRI>
+        <Literal>SNOMEDCT:50384007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00665</IRI>
+        <Literal>readcode:X73lO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00665</IRI>
+        <Literal xml:lang="en">mumps virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00666</IRI>
+        <Literal>DOID:8781</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00666</IRI>
+        <Literal>SNOMEDCT:5210005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00666</IRI>
+        <Literal>readcode:X73ku</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00666</IRI>
+        <Literal>german measles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00666</IRI>
+        <Literal xml:lang="en">rubella virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00667</IRI>
+        <Literal>DOID:2366</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00667</IRI>
+        <Literal>SNOMEDCT:57311007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00667</IRI>
+        <Literal>readcode:X73l2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00667</IRI>
+        <Literal xml:lang="en">west nile virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00668</IRI>
+        <Literal>DOID:0060478</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00668</IRI>
+        <Literal>ORPHA:448237</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00668</IRI>
+        <Literal>SNOMEDCT:50471002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00668</IRI>
+        <Literal>readcode:XaDr9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00668</IRI>
+        <Literal xml:lang="en">zika virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00669</IRI>
+        <Literal xml:lang="en">coxiella virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00670</IRI>
+        <Literal xml:lang="en">larva of various species</Literal>
     </AnnotationAssertion>
 </Ontology>
 
