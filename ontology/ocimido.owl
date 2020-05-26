@@ -570,7 +570,13 @@
         <Class IRI="#OCIMIDO_00164"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00165"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00168"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00170"/>
@@ -741,6 +747,9 @@
         <Class IRI="#OCIMIDO_00228"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00229"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00231"/>
     </Declaration>
     <Declaration>
@@ -769,6 +778,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00243"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00244"/>
@@ -837,6 +849,9 @@
         <Class IRI="#OCIMIDO_00265"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00266"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00267"/>
     </Declaration>
     <Declaration>
@@ -859,6 +874,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00275"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00276"/>
@@ -1416,6 +1434,9 @@
         <Class IRI="#OCIMIDO_00460"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00461"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00462"/>
     </Declaration>
     <Declaration>
@@ -1455,6 +1476,9 @@
         <Class IRI="#OCIMIDO_00474"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OCIMIDO_00475"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OCIMIDO_00476"/>
     </Declaration>
     <Declaration>
@@ -1462,6 +1486,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00478"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00480"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00481"/>
@@ -1480,6 +1507,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00486"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00487"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OCIMIDO_00488"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OCIMIDO_00489"/>
@@ -2699,13 +2732,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCIMIDO_00059"/>
-        <Class IRI="#OCIMIDO_00127"/>
+        <Class IRI="#OCIMIDO_00266"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCIMIDO_00059"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
-            <Class IRI="#OCIMIDO_00127"/>
+            <Class IRI="#OCIMIDO_00266"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4423,6 +4456,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00165"/>
+        <Class IRI="#OCIMIDO_00127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00165"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00167"/>
         <Class IRI="#OCIMIDO_00225"/>
     </SubClassOf>
@@ -4431,6 +4475,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00166"/>
             <Class IRI="#OCIMIDO_00225"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00168"/>
+        <Class IRI="#OCIMIDO_00127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00168"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00127"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5420,6 +5475,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00229"/>
+        <Class IRI="#OCIMIDO_00127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00229"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00127"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00231"/>
         <Class IRI="#OCIMIDO_00228"/>
     </SubClassOf>
@@ -5587,6 +5653,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
             <Class IRI="#OCIMIDO_00326"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00243"/>
+        <Class IRI="#OCIMIDO_00127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00243"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00127"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5951,6 +6028,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00266"/>
+        <Class IRI="#OCIMIDO_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00266"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00038"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00267"/>
         <Class IRI="#OCIMIDO_00384"/>
     </SubClassOf>
@@ -6096,6 +6184,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
             <Class IRI="#OCIMIDO_00273"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00275"/>
+        <Class IRI="#OCIMIDO_00059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00275"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00059"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8513,6 +8612,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00461"/>
+        <Class IRI="#OCIMIDO_00059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00461"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00462"/>
         <Class IRI="#OCIMIDO_00001"/>
     </SubClassOf>
@@ -8714,6 +8824,17 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OCIMIDO_00475"/>
+        <Class IRI="#OCIMIDO_00059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00475"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00059"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OCIMIDO_00476"/>
         <Class IRI="#OCIMIDO_00474"/>
     </SubClassOf>
@@ -8751,6 +8872,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
             <Class IRI="#OCIMIDO_00476"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00480"/>
+        <Class IRI="#OCIMIDO_00268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00480"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00268"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8824,6 +8956,28 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
             <Class IRI="#OCIMIDO_00482"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00487"/>
+        <Class IRI="#OCIMIDO_00268"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00487"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00268"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00488"/>
+        <Class IRI="#OCIMIDO_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OCIMIDO_00488"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OCIMIDO_00174"/>
+            <Class IRI="#OCIMIDO_00036"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -9346,13 +9500,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCIMIDO_00530"/>
-        <Class IRI="#OCIMIDO_00036"/>
+        <Class IRI="#OCIMIDO_00488"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCIMIDO_00530"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OCIMIDO_00174"/>
-            <Class IRI="#OCIMIDO_00036"/>
+            <Class IRI="#OCIMIDO_00488"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -11091,12 +11245,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
         <IRI>#OCIMIDO_00007</IRI>
+        <Literal>cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
+        <IRI>#OCIMIDO_00007</IRI>
         <Literal>condition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00007</IRI>
-        <Literal xml:lang="en">cause</Literal>
+        <Literal xml:lang="en">associations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
@@ -11714,9 +11873,19 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
+        <IRI>#OCIMIDO_00030</IRI>
+        <Literal>bacterial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00030</IRI>
-        <Literal xml:lang="en">bacterial</Literal>
+        <Literal xml:lang="en">bacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#OCIMIDO_00030</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11744,9 +11913,19 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
+        <IRI>#OCIMIDO_00031</IRI>
+        <Literal>fungal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00031</IRI>
-        <Literal xml:lang="en">fungal</Literal>
+        <Literal xml:lang="en">fungus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#OCIMIDO_00031</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11771,7 +11950,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00032</IRI>
-        <Literal xml:lang="en">parasitic</Literal>
+        <Literal xml:lang="en">parasite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11799,9 +11978,19 @@
         <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasBroadSynonym"/>
+        <IRI>#OCIMIDO_00033</IRI>
+        <Literal>viral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00033</IRI>
-        <Literal xml:lang="en">viral</Literal>
+        <Literal xml:lang="en">virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#OCIMIDO_00033</IRI>
+        <Literal>Olivia&apos;s Vision</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -13561,7 +13750,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00097</IRI>
-        <Literal xml:lang="en">other fungal</Literal>
+        <Literal xml:lang="en">other fungi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -13646,7 +13835,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00101</IRI>
-        <Literal xml:lang="en">diffuse unilateral subacute necrosis</Literal>
+        <Literal xml:lang="en">diffuse unilateral subacute neuroretinitis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:extractedFrom"/>
@@ -13656,7 +13845,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00102</IRI>
-        <Literal xml:lang="en">undifferentiated viral syndrome undifferentiated</Literal>
+        <Literal xml:lang="en">undifferentiated viral syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -14421,12 +14610,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00127</IRI>
-        <Literal>SNOMEDCT:371986009</Literal>
+        <Literal>DOID:0060058</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00127</IRI>
+        <Literal>HP:0002665</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00127</IRI>
+        <Literal>ORPHA:223735</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00127</IRI>
+        <Literal>SNOMEDCT:399600009</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00127</IRI>
-        <Literal xml:lang="en">primary ocular neoplasia</Literal>
+        <Literal xml:lang="en">lymphoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -15299,6 +15503,11 @@
         <Literal xml:lang="en">pars plana of cillary body</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00165</IRI>
+        <Literal xml:lang="en">choroidal lymphoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00166</IRI>
         <Literal>a core relation that holds between a part and its whole</Literal>
@@ -15342,6 +15551,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00167</IRI>
         <Literal xml:lang="en">cillary muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00168</IRI>
+        <Literal xml:lang="en">iris lymphoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16534,14 +16748,24 @@
         <Literal>birdshot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00221</IRI>
+        <Literal>birdshot chorioretinopathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00221</IRI>
-        <Literal xml:lang="en">birdshot chorioretinopathy</Literal>
+        <Literal xml:lang="en">birdshot retinochoroidopathy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
         <IRI>#OCIMIDO_00221</IRI>
         <Literal>Olivia&apos;s Vision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
+        <IRI>#OCIMIDO_00221</IRI>
+        <Literal>RCOphth</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -16697,6 +16921,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00228</IRI>
         <Literal xml:lang="en">camera-type eye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00229</IRI>
+        <Literal xml:lang="en">ciliary body lymphoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -16994,6 +17223,21 @@
         <Literal xml:lang="en">is characterised by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00243</IRI>
+        <Literal>DOID:3234</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00243</IRI>
+        <Literal>ORPHA:46135</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00243</IRI>
+        <Literal xml:lang="en">central nervous system lymphoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00244</IRI>
         <Literal>A viral infectious disease that results in the formation of lesions</Literal>
@@ -17057,6 +17301,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00245</IRI>
         <Literal>SNOMEDCT:55464009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00245</IRI>
+        <Literal>SLE</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -17469,6 +17718,36 @@
         <Literal xml:lang="en">cornea signs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal>DOID:1909</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal>HP:0002861</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal>ICD10:C699</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal>SNOMEDCT:274087000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal>readcode:XM0ps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00266</IRI>
+        <Literal xml:lang="en">malignant melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00267</IRI>
         <Literal>An abnormality of the anterior segment of the eyeball</Literal>
@@ -17519,9 +17798,24 @@
         <Literal>readcode:F210</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00268</IRI>
+        <Literal>NMOSD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00268</IRI>
+        <Literal>devic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00268</IRI>
+        <Literal>optic neuromyelitis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00268</IRI>
-        <Literal xml:lang="en">neuromyelitis optica spectrum disorders</Literal>
+        <Literal xml:lang="en">neuromyelitis optica spectrum disorder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -17627,6 +17921,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00274</IRI>
         <Literal xml:lang="en">polymerase chain reaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00275</IRI>
+        <Literal>HP:0011524</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00275</IRI>
+        <Literal>ICD10:C694</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00275</IRI>
+        <Literal>SNOMEDCT:255012009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00275</IRI>
+        <Literal>readcode:X78bc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00275</IRI>
+        <Literal xml:lang="en">iris melanoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -18002,6 +18321,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00286</IRI>
         <Literal>SNOMEDCT:240530001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:hasExactSynonym"/>
+        <IRI>#OCIMIDO_00286</IRI>
+        <Literal>EBV</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -20989,6 +21313,36 @@
         <Literal xml:lang="en">biopsy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal>DOID:7807</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal>HP:0012054</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal>ICD10:C693</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal>SNOMEDCT:255021005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal>readcode:X78bw</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00461</IRI>
+        <Literal xml:lang="en">choroidal melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OCIMIDO_00462</IRI>
         <Literal>Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome</Literal>
@@ -21300,6 +21654,36 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal>DOID:6523</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal>HP:0012055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal>ICD10:C694</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal>SNOMEDCT:255015006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal>readcode:X78bk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00475</IRI>
+        <Literal xml:lang="en">ciliary body melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
         <IRI>#OCIMIDO_00476</IRI>
         <Literal>UBERON:0001444</Literal>
     </AnnotationAssertion>
@@ -21352,6 +21736,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00478</IRI>
         <Literal xml:lang="en">orbital region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00480</IRI>
+        <Literal xml:lang="en">with aquaporin-4 antibodies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:databaseCrossReference"/>
@@ -21477,6 +21866,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00486</IRI>
         <Literal xml:lang="en">tonic pupil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00487</IRI>
+        <Literal xml:lang="en">without aquaporin-4 antibodies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OCIMIDO_00488</IRI>
+        <Literal xml:lang="en">thyroid disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -22996,7 +23395,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OCIMIDO_00565</IRI>
-        <Literal xml:lang="en">reiters</Literal>
+        <Literal xml:lang="en">reiter&apos;s syndrome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:synonymExtraction"/>
