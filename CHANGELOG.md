@@ -1,6 +1,6 @@
 ## Change Log
 
-* 07-01-2020 **version 1.0.0** - release v1.0.0
+* 09-01-2020 **version 1.0.0** - release v1.0.0
 
 * 22-03-2020 **version 1.0.1** - all Layman terms (Olivia's Vision) are Broad Synonyms, the additional clinical terms (Royal College Clinical Dataset 2018) are Exact Synonyms to separate
 
