@@ -19,15 +19,15 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Alastair Denniston</Literal>
+        <Literal>Alastair K Denniston</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Georgios Gkoutos</Literal>
+        <Literal>Georgios V Gkoutos</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:contributor"/>
-        <Literal>Luke Slater</Literal>
+        <Literal>Luke T Slater</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:creator"/>
@@ -79,7 +79,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:version"/>
-        <Literal>version 1.2.0.0</Literal>
+        <Literal>version 1.2.0</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#OCIMIDO_00001"/>
