@@ -43,9 +43,9 @@
 
 *Contributors*
 
-* Luke Slater
-* Alastair Denniston
-* Georgios Gkoutos
+* Luke T Slater
+* Alastair K Denniston
+* Georgios V Gkoutos
 
 * See :grey_exclamation: [Issues](https://github.com/sap218/ocular-immune-mediated-inflammatory-disease-ontology/issues)  for the term-tracker if user wants to submit a request (new term/change/suggestion) - if frequent issues when an additional main contributor will be added
 
