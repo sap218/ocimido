@@ -3,13 +3,13 @@
 #### See :grey_exclamation: [Issues](https://github.com/sap218/ocular-immune-mediated-inflammatory-disease-ontology/issues)  for the term-tracker to submit a request (new term/change/suggestion) 
 
 
-Following the MIRO guidelines for reporting on an ontology [1]
+Following the MIRO guidelines for reporting on an ontology [1].
 
 ---
 
 **A. The basics**
   * A.1 Ocular Immune-Mediated Inflammatory Diseases Ontology (OcIMIDo) v1.2.0.
-  * A.2 Ontology owner: Samantha C Pendleton (Institute of Cancer and Genomic Sciences, University of Birmingham, UK) [samanfapc@gmail.com](mailto:samanfapc@gmail.com). Tasanee Braithwaite (The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London, UK) [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com).
+  * A.2 Ontology owner: [Samantha C Pendleton](mailto:samanfapc@gmail.com) MSc (Institute of Cancer and Genomic Sciences, University of Birmingham, UK) & [Tasanee Braithwaite](mailto:tasaneebraithwaite@gmail.com) DM (The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London, UK).
   * A.3 [Licence](https://github.com/sap218/ocimido/blob/master/LICENSE), which governs the permissions surrounding the ontology, https://creativecommons.org/licenses/by/3.0/.
   * A.4 Located in `ontology` directory: https://github.com/sap218/ocimido/blob/master/ontology/ocimido.owl.
   * A.5 GitHub repository: https://github.com/sap218/ocimido.
@@ -22,15 +22,15 @@ Following the MIRO guidelines for reporting on an ontology [1]
 
 **C. Scope, requirements, development community**
   * C.1 The requirements of the ontology is to be an extensive vocabulary for ocular-related disorders and their associated diseases. The ontology includes therapeutic interventions, investigations, symptoms, complications, genotypic data, and more.
-  * C.2 Development community: Samantha C Pendleton (Institute of Cancer and Genomic Sciences, University of Birmingham, UK) [samanfapc@gmail.com](mailto:samanfapc@gmail.com). Tasanee Braithwaite (The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London, UK) [tasaneebraithwaite@gmail.com](mailto:tasaneebraithwaite@gmail.com). In addition to Luke T Slater (PhD), Alastair K Denniston (PhD), and Georgios V Gkoutos (PhD).
+  * C.2 Development community: [Samantha C Pendleton](mailto:samanfapc@gmail.com) MSc (Institute of Cancer and Genomic Sciences, University of Birmingham, UK) & [Tasanee Braithwaite](mailto:tasaneebraithwaite@gmail.com) DM (The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London, UK). In addition to Luke T Slater PhD, Alastair K Denniston PhD, and Georgios V Gkoutos PhD.
   * C.3 Issue tracking system used for future developements/requests/bugs: https://github.com/sap218/ocimido/issues 
 
-**D Knowledge acquisition**
+**D. Knowledge acquisition**
   * D.1 Foundation built from medical document, Royal College of Ophthalmology Consensus document for Uveitis [3], and experts derived list of terms to be included – and then an extensive review of current biomedical ontologies
   * D.2 Medical document source https://www.rcophth.ac.uk/wp-content/uploads/2014/12/Uveitis-Data-Set-Oct-2018.pdf [3], biomedical ontologies were accessed via the ontology lookup service: https://www.ebi.ac.uk/ols/index [4].
   * D.3 Experts decided on the contents of OcIMIDo from the biomedical ontologies by searching through and extracting most relevant terms, for example, from UBERON we extracted eye-related anatomy concepts, e.g. `uvea` [UBERON:0001768]. However we avoided `iris nevus` [HP:0011525] from HPO.
 
-**E Ontology content**
+**E. Ontology content**
   * E.1 Ontology is `OWL/XML xmlns= "http://www.w3.org/2002/07/owl#”` - ask creator if you wish for an alternative ontology format.
   * E.2 Specifically used [Protégé](https://protege.stanford.edu/) to develop the ontology with Git version control.
   * E.3 Ontology metrics, as of 14-06-2020 version 1.2.0 (see [`CHANGELOG.md`](https://github.com/sap218/ocimido/blob/master/CHANGELOG.md)) there are a total of 661 classes, 1661 relationships and axioms, 2851 annotations, including 1131 database cross-references, and 187 patient-preferred synonyms.
@@ -42,12 +42,12 @@ Following the MIRO guidelines for reporting on an ontology [1]
   * E.9 Currently, relationships in OcIMIDo are cross-referenced, such as `adjacent to` and `treatment of` from RO. We defined our own, `investigated by` (inverse `investigation for`) based on the investgations from the medical document [3].
   * E.10 Axiom patterns are inferred from the ontology structure itself (`subclass`) and by defined relationships, `is a` - currently only 100% true cases.
 
-**F Managing change**
+**F. Managing change**
   * F.1 Sustainability plan: OcIMIDo is freely available on GitHub and the creator, Samantha C Pendleton, will constantly update/change based on expert opinion or via Issue notifications. Anyone from the community can suggest new terms, but with sufficient evidence/justification. Potentially users can `fork` the ontology and make their own changes, which then allows the creator to merge these changes. If often particular individuals are making positive/appropriate changes they can be given direct access to co-maintain the ontology with the creator.
   * F.2 There is the change log ([CHANGELOG.md](https://github.com/sap218/ocimido/blob/master/CHANGELOG.md)) for entitles which need to be removed/split/redefined, additionally we can annotate these entities as obsolete. 
   * F.3 Ontology will follow “semantic versioning” guidelines and that it will maintain as version 1 unless a major foundation change is made then it will become version 2. Otherwise additional terms/fixes will increment to version 1.1 or 1.0.1 over time.
 
-**G Quality Assurance**
+**G. Quality Assurance**
   * G.1 Successful testing on the Olivia’s Vision public forum for the `broad` synonyms plus annotations. Also used Protégé’s Pellet reasoner to ensure a coherent and consistent ontology. Experts in the opthamology background deemed/judged the ontology achieves the claims. 
   * G.2 Ontology is novel and first in ophthalmology. Additionally this method of building (tf-idf) is validated and proven a fast approach to synonym curation. OcIMIDo meets the stated requirements as an ontology suitable for the opthamology domain in additon to capturing the "patient voice.
   * G.3 An example of application is using the broad synonyms/Layman terms for sentiment analysis on the Olivia's Vision forum. Additionally future applications include GWAS/phenotype analysis on the UK Biobank cohort and other electronic health databases - OcIMIDo provides an implicit axiomatic structure for data annotated with SNOMED-CT, ICD-10, ICD-9, or Read codes as these are included as cross-references in the ontology, enhancing the potential value of OcIMIDo for searching and curating unstructured clinical data.
