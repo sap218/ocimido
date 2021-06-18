@@ -2,8 +2,10 @@
 
 ## Creators
 
-* [Samantha C Pendleton](https://twitter.com/sap218) (Institute of Cancer and Genomic Sciences, University of Birmingham, UK)
-* [Tasanee Braithwaite](https://twitter.com/tasbraithwaite) (The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London, UK)
+* [Samantha C Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
+* [Tasanee Braithwaite](https://twitter.com/tasbraithwaite) The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London UK
+
+>> see [MIRO guidelines](MIRO.md) which we follow for reporting OcIMIDo
 
 ## About
 
@@ -23,7 +25,11 @@ Using both clinical & patient-preferred terms, our text mining efforts were incr
 
 The increase in text mining efforts facilitates sentiment analysis for capturing the patient's voice, we used pretrained models TextBlob and VADER. Sentiment analysis revealed that first posts were significantly more negative than replies, providing insight into the supportive role that online fora play for patients and their carers.
 
-OcIMIDo is available on [**BioPortal**](https://bioportal.bioontology.org/ontologies/OCIMIDO). 
+## Ontology access
+
+* OcIMIDo is available on [**GitHub**](https://github.com/sap218/ocimido)
+* OcIMIDo is available on [**BioPortal**](https://bioportal.bioontology.org/ontologies/OCIMIDO)
+* See [license](https://github.com/sap218/ocimido/blob/master/LICENSE) before use 
 
 ## Citing
 
@@ -41,4 +47,3 @@ author = {Samantha C. Pendleton and Luke T. Slater and Andreas Karwath and Rose 
 }
 ```
 
-See [license](https://github.com/sap218/ocimido/blob/master/LICENSE) before use 
