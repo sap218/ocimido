@@ -1,6 +1,6 @@
 # MIRO Guidelines
 
-Below we follow the MIRO guidelines for reporting on an ontology [1].
+Below we follow the MIRO guidelines for reporting on an ontology [1]. 
 
 ---
 
@@ -49,8 +49,7 @@ Below we follow the MIRO guidelines for reporting on an ontology [1].
   * G.2 Ontology is novel and first in ophthalmology. Additionally this method of building (tf-idf) is validated and proven a fast approach to synonym curation. OcIMIDo meets the stated requirements as an ontology suitable for the opthamology domain in additon to capturing the "patient voice.
   * G.3 An example of application is using the broad synonyms/Layman terms for sentiment analysis on the Olivia's Vision forum. Additionally future applications include GWAS/phenotype analysis on the UK Biobank cohort and other electronic health databases - OcIMIDo provides an implicit axiomatic structure for data annotated with SNOMED-CT, ICD-10, ICD-9, or Read codes as these are included as cross-references in the ontology, enhancing the potential value of OcIMIDo for searching and curating unstructured clinical data.
   * G.4 Ontology not yet available on OBO Foundry or other public repositories. However freely available on GitHub - ask creator if you wish for an alternative ontology format.
-    5) G.5 Evidence of use* (MUST): An illustration of active projects and applications that use the ontology.
-        ◦ Current evidence of OcIMIDo application is sentiment analysis on the Olivia’s Vision forum using the terms and synonyms for annotations, **note**: as soon as the manuscript is accepted the creator will include a reference/link here.
+  * G.5 Current evidence of OcIMIDo application is sentiment analysis on the Olivia’s Vision and Uveitis.org forum using the terms and synonyms for annotations, **note**: as soon as the manuscript is accepted the creator will include a reference/link here.
 
 ---
 
@@ -75,4 +74,3 @@ Below we follow the MIRO guidelines for reporting on an ontology [1].
 [10] Smith, B., Kumar, A., & Bittner, T. (2005). Basic Formal Ontology for Bioinformatics. IFOMIS Reports.
 
 [11] Smith, B., Ceusters, W., Klagges, B., Köhler, J., Kumar, A., Lomax, J., Mungall, C., Neuhaus, F., Rector, A. L., & Rosse, C. (2005). Relations in biomedical ontologies. Genome Biology, 6(5), R46.
-
