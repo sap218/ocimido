@@ -7,6 +7,8 @@
 
 ## About
 
+![graphical abstract](OCIMIDO_Graphical-Abstract_colour_2021.png)
+
 The patient voice is a valuable resource for advancing patient care, however text mining efforts for patient unstructured text is difficult as they contain patient-preferred terms, rather than formal clinical terms. To overcome these text mining efforts, we proposed development of an ontology to address the challenge presented by unstructured text data. 
 
 We started by looking at uveitis, inflammatory eye disorder of the uvea, and noticed current biomedical ontologies are not fully representing our domain of interest. We initially designed an ontology for uveitis and then expanded for the other inflammatory eye disorders and included associated diseases, complications, and medical therapies.
