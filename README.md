@@ -1,9 +1,45 @@
 # Ocular Immune-Mediated Inflammatory Diseases Ontology (**OcIMIDo**)
 
+[Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) available online, check [MIRO](https://sap218.github.io/ocimido/MIRO.html) for reporting of OcIMIDo.
+
 #### See :grey_exclamation: [Issues](https://github.com/sap218/ocular-immune-mediated-inflammatory-disease-ontology/issues)  for the term-tracker to submit a request (new term/change/suggestion) 
 
 
-Following the MIRO guidelines for reporting on an ontology [1].
+![graphical abstract](/docs/OCIMIDO_Graphical-Abstract_colour_2021.png)
+
+### Creators
+
+* [Samantha Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
+* [Tasanee Braithwaite](https://twitter.com/tasbraithwaite) The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London UK
+
+**Note**: see [MIRO guidelines](MIRO.md) which we follow for reporting OcIMIDo
+
+### Ontology access
+
+* OcIMIDo is available on [**GitHub**](https://github.com/sap218/ocimido)
+* OcIMIDo is available on [**BioPortal**](https://bioportal.bioontology.org/ontologies/OCIMIDO)
+* See [license](https://github.com/sap218/ocimido/blob/master/LICENSE) before use 
+
+## Citing
+
+```
+@article{PENDLETON2021104542,
+title = {Development and application of the ocular immune-mediated inflammatory diseases ontology enhanced with synonyms from online patient support forum conversation},
+journal = {Computers in Biology and Medicine},
+volume = {135},
+pages = {104542},
+year = {2021},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2021.104542},
+url = {https://www.sciencedirect.com/science/article/pii/S001048252100336X},
+author = {Samantha C. Pendleton and Luke T. Slater and Andreas Karwath and Rose M. Gilbert and Nicola Davis and Konrad Pesudovs and Xiaoxuan Liu and Alastair K. Denniston and Georgios V. Gkoutos and Tasanee Braithwaite},
+}
+```
+
+---
+---
+
+Below we follow the MIRO guidelines for reporting on an ontology [1]. 
 
 ---
 

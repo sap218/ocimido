@@ -1,8 +1,10 @@
 # OcIMIDo Main Page
 
+[Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) available online.
+
 ## Creators
 
-* [Samantha C Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
+* [Samantha Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
 * [Tasanee Braithwaite](https://twitter.com/tasbraithwaite) The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London UK
 
 **Note**: see [MIRO guidelines](MIRO.md) which we follow for reporting OcIMIDo
