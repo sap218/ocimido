@@ -1,4 +1,8 @@
-# MIRO Guidelines
+# Ocular Immune-mediated Inflammatory Diseases Ontology
+
+[Home](README.md) | [Documentation](MIRO.md) | [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) | [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO) | [License](LICENSE.md) | [Changelog](CHANGELOG.md)
+
+## MIRO Guidelines
 
 Below we follow the MIRO guidelines for reporting on an ontology [1]. 
 

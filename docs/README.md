@@ -1,6 +1,8 @@
-# Home
+# Ocular Immune-mediated Inflammatory Diseases Ontology
 
 [Home](README.md) | [Documentation](MIRO.md) | [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) | [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO) | [License](LICENSE.md) | [Changelog](CHANGELOG.md)
+
+## Home
 
 ## Creators
 
@@ -25,7 +27,7 @@ Using both clinical & patient-preferred terms, our text mining efforts were incr
 
 The increase in text mining efforts facilitates sentiment analysis for capturing the patient's voice, we used pretrained models TextBlob and VADER. Sentiment analysis revealed that first posts were significantly more negative than replies, providing insight into the supportive role that online fora play for patients and their carers.
 
-## Citing
+### Citing
 
 ```
 @article{PENDLETON2021104542,
