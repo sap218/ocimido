@@ -1,6 +1,6 @@
 # OcIMIDo Documentation
 
-[Home](README.md) | [Documentation](MIRO.md) | [License](LICENSE.md) | [Changelog](CHANGELOG.md) | [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) | [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO)
+[Home](README.md) | [Documentation](MIRO.html) | [License](LICENSE.html) | [Changelog](CHANGELOG.html) | [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) | [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO)
 
 ## Changelog
 

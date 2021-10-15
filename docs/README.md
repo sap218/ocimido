@@ -2,14 +2,12 @@
 
 [Home](README.md) | [Documentation](MIRO.html) | [License](LICENSE.html) | [Changelog](CHANGELOG.html) | [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542) | [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO)
 
-## Home
-
-## Creators
+### Creators
 
 * [Samantha Pendleton](https://twitter.com/sap218) Institute of Cancer and Genomic Sciences, University of Birmingham, UK
 * [Tasanee Braithwaite](https://twitter.com/tasbraithwaite) The Medical Eye Unit, St Thomas’ Hospital NHS Foundation Trust, London UK
 
-## About
+### About
 
 ![graphical abstract](OCIMIDO_Graphical-Abstract_colour_2021.png)
 
@@ -26,6 +24,12 @@ For validation, we annotated term frequency in the forum test set to ensure we d
 Using both clinical & patient-preferred terms, our text mining efforts were increased: e.g. using “methotrexate” with patient-preferred terms: “mtx”, “mxt” (a common misspelling based on ranking), and “amethopterin” increased the post count by 80%, from 185 to 333. Futhermore, we extracted another forum, USA-based [Uveitis Foundation](https://uveitis.org) and observed terms in this forum were location-specific, e.g. US-based medications.
 
 The increase in text mining efforts facilitates sentiment analysis for capturing the patient's voice, we used pretrained models TextBlob and VADER. Sentiment analysis revealed that first posts were significantly more negative than replies, providing insight into the supportive role that online fora play for patients and their carers.
+
+### Important information before use
+
+* [Issues](https://github.com/sap218/ocimido/issues) - see for ontology suggestions, bug reporting, and future development information.
+* [License](LICENSE.html) - see before use (you can use/edit OcIMIDo as long as you give appropriate credit).
+* [Changelog](CHANGELOG.html) - see major changes of OcIMIDo throughout development.
 
 ### Citing
 
