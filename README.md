@@ -3,15 +3,15 @@
 ## Ocular Immune-Mediated Inflammatory Diseases Ontology
 
 * [Documentation](https://sap218.github.io/ocimido/)
-* [Wiki](https://sap218.github.io/ocimido/MIRO.md)
+* [Wiki](https://sap218.github.io/ocimido/MIRO.html)
 * [Bioportal](https://bioportal.bioontology.org/ontologies/OCIMIDO)
 * [Manuscript](https://doi.org/10.1016/j.compbiomed.2021.104542)
 
 ## Important information
 
 * [Issues](https://github.com/sap218/ocimido/issues) - see for ontology suggestions, bug reporting, and future development information.
-* [License](https://sap218.github.io/ocimido/LICENSE.md) - see before use (you can use/edit OcIMIDo as long as you give appropriate credit).
-* [Changelog](https://sap218.github.io/ocimido/CHANGELOG.md) - see major changes of OcIMIDo throughout development.
+* [License](https://sap218.github.io/ocimido/LICENSE.html) - see before use (you can use/edit OcIMIDo as long as you give appropriate credit).
+* [Changelog](https://sap218.github.io/ocimido/CHANGELOG.html) - see major changes of OcIMIDo throughout development.
 
 
 ## Creators
